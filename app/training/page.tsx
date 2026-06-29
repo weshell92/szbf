@@ -1,0 +1,4 @@
+import Link from 'next/link';
+import { trainingScenarios } from '@/lib/data';
+import SectionHeader from '@/components/ui/SectionHeader';
+export default function TrainingPage() { return <div><SectionHeader eyebrow="决策训练系统" title="多步骤战略推演" description="每道题都需要先判断局势、识别资源、分析对手，再选择策略并写复盘。" /><div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">{trainingScenarios.map((item) => <Link key={item.id} href={`/training/${item.id}`} className="card block p-5 hover:border-bronze/60"><div className="text-xs text-bronze">{item.category} · {item.difficulty}</div><h3 className="mt-2 font-serifcn text-xl font-bold text-paper">{item.title}</h3><p className="mt-2 line-clamp-3 text-sm leading-6 text-paper/65">{item.conflict}</p><div className="mt-4 text-xs text-paper/45">8 步训练 · {item.options.length} 个策略选项</div></Link>)}</div></div>; }

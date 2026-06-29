@@ -1,0 +1,4 @@
+import Link from 'next/link';
+import { cases } from '@/lib/data';
+import SectionHeader from '@/components/ui/SectionHeader';
+export default function CasesPage() { return <div><SectionHeader eyebrow="案例库" title="真实案例分析" description="每个案例包含人物/组织、资源对比、关键约束、决策节点、兵法依据和现实迁移。" /><div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">{cases.map((item) => <Link key={item.id} href={`/cases/${item.slug}`} className="card block p-5 hover:border-bronze/60"><div className="text-xs text-bronze">{item.category}</div><h3 className="mt-2 font-serifcn text-xl font-bold text-paper">{item.title}</h3><p className="mt-2 line-clamp-3 text-sm leading-6 text-paper/65">{item.summary}</p><div className="mt-4 text-xs text-paper/45">{item.actors.length} 个角色 · {item.decisionNodes.length} 个决策节点</div></Link>)}</div></div>; }

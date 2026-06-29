@@ -1,0 +1,3 @@
+import { learningPaths } from '@/lib/data';
+import SectionHeader from '@/components/ui/SectionHeader';
+export default function LearningPathsPage() { return <div><SectionHeader eyebrow="学习路线" title="按目标选择路线" /><div className="grid gap-4 md:grid-cols-2">{learningPaths.map((path) => <article key={path.id} className="card p-5"><div className="text-sm text-bronze">{path.audience}</div><h2 className="mt-2 font-serifcn text-2xl font-bold text-paper">{path.title}</h2><ol className="mt-4 list-decimal space-y-2 pl-5 text-paper/70">{path.steps.map((step) => <li key={step}>{step}</li>)}</ol></article>)}</div></div>; }
