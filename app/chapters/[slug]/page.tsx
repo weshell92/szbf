@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { cases, concepts, getChapter, trainingScenarios } from '@/lib/data';
+import { cases, chapters, concepts, getChapter, trainingScenarios } from '@/lib/data';
 import VersionBadge from '@/components/VersionBadge';
 import ChapterStructureMap from '@/components/ChapterStructureMap';
 import SentenceStudyBlock from '@/components/SentenceStudyBlock';
@@ -8,9 +8,10 @@ import ReflectionEditor from '@/components/ReflectionEditor';
 import SectionHeader from '@/components/ui/SectionHeader';
 import Tag from '@/components/ui/Tag';
 
-export function generateStaticParams() { return [] as { slug: string }[]; }
-export default function ChapterDetailPage({ params }: { params: { slug: string } }) {
-  const chapter = getChapter(params.slug);
+export function generateStaticParams() { return chapters.map((chapter) => ({ slug: chapter.slug })); }
+export default async function ChapterDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const chapter = getChapter(slug);
   if (!chapter) notFound();
   const relatedConcepts = concepts.filter((c) => chapter.relatedConceptIds.includes(c.id));
   const relatedCases = cases.filter((c) => chapter.relatedCaseIds.includes(c.id));

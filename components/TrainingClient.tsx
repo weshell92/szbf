@@ -1,10 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import type { TrainingScenario } from '@/lib/types';
+import type { DeepTrainingScenario } from '@/lib/types';
 import { addLocalValue, STORAGE_KEYS } from '@/lib/progress';
 
-export function TrainingClient({ scenario }: { scenario: TrainingScenario }) {
+export function TrainingClient({ scenario }: { scenario: DeepTrainingScenario }) {
   const [selected, setSelected] = useState<string | null>(null);
   const selectedOption = scenario.options.find((option) => option.id === selected);
 
@@ -34,13 +34,13 @@ export function TrainingClient({ scenario }: { scenario: TrainingScenario }) {
             </div>
             <p className="text-4xl font-bold text-bronze">{selectedOption.score}</p>
             <p className="mt-4 leading-7 text-paper/70">{selectedOption.feedback}</p>
-            <div className="mt-6 rounded-2xl bg-ink/60 p-4 text-sm leading-7 text-paper/65">{scenario.explanation}</div>
+            <div className="mt-6 rounded-2xl bg-ink/60 p-4 text-sm leading-7 text-paper/65">{scenario.bestAnswerCondition}</div>
           </div>
         ) : (
           <p className="mt-5 text-paper/60">选择一个策略后，会看到评分、反馈与复盘建议。</p>
         )}
         <div className="mt-6 grid grid-cols-2 gap-2 text-xs text-paper/50">
-          {scenario.scoringDimensions.map((dimension) => <span key={dimension} className="rounded-full border border-white/10 px-3 py-2 text-center">{dimension}</span>)}
+          {scenario.scoringRules.map((rule) => <span key={rule.dimension} className="rounded-full border border-white/10 px-3 py-2 text-center">{rule.dimension}</span>)}
         </div>
       </aside>
     </div>

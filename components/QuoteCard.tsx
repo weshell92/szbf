@@ -1,11 +1,11 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import type { Quote } from '@/lib/types';
+import type { DeepQuote } from '@/lib/types';
 import { hasLocalValue, STORAGE_KEYS, toggleLocalSet } from '@/lib/progress';
 import { Bookmark, Copy } from 'lucide-react';
 
-export function QuoteCard({ quote }: { quote: Quote }) {
+export function QuoteCard({ quote }: { quote: DeepQuote }) {
   const [fav, setFav] = useState(false);
 
   useEffect(() => {
@@ -16,7 +16,7 @@ export function QuoteCard({ quote }: { quote: Quote }) {
     <article id={quote.id} className="rounded-3xl border border-white/10 bg-white/[0.04] p-6">
       <p className="font-serif text-2xl leading-10 text-paper">“{quote.text}”</p>
       <p className="mt-4 text-sm leading-7 text-paper/70">{quote.translation}</p>
-      <p className="mt-2 text-sm leading-7 text-paper/55">{quote.explanation}</p>
+      <p className="mt-2 text-sm leading-7 text-paper/55">{quote.strategicMeaning}</p>
       <div className="mt-5 flex flex-wrap gap-2">
         {quote.tags.map((tag) => <span key={tag} className="rounded-full bg-bronze/10 px-3 py-1 text-xs text-bronze">{tag}</span>)}
       </div>

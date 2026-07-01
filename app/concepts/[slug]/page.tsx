@@ -1,10 +1,12 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { cases, getConcept, trainingScenarios } from '@/lib/data';
+import { cases, concepts, getConcept, trainingScenarios } from '@/lib/data';
 import ReflectionEditor from '@/components/ReflectionEditor';
 import SectionHeader from '@/components/ui/SectionHeader';
-export default function ConceptDetailPage({ params }: { params: { slug: string } }) {
-  const concept = getConcept(params.slug); if (!concept) notFound();
+export function generateStaticParams() { return concepts.map((concept) => ({ slug: concept.slug })); }
+export default async function ConceptDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const concept = getConcept(slug); if (!concept) notFound();
   const relatedCases = cases.filter((c) => concept.relatedCaseIds.includes(c.id));
   const relatedTraining = trainingScenarios.filter((t) => concept.relatedTrainingIds.includes(t.id));
   return <div className="space-y-8"><div><div className="text-sm text-bronze">概念手册</div><h1 className="mt-2 font-serifcn text-4xl font-bold text-paper">{concept.name}</h1><p className="mt-3 text-lg text-paper/70">{concept.oneLineExplanation}</p></div>

@@ -23,6 +23,21 @@ export function toggleId(key: string, id: string): boolean {
   return !has;
 }
 export function hasId(key: string, id: string): boolean { return readArray<string>(key).includes(id); }
+export const STORAGE_KEYS = {
+  readChapters: keys.read,
+  favoriteChapters: keys.favorites,
+  favoriteQuotes: keys.favorites,
+  completedTraining: keys.training,
+  training: keys.training,
+  reflections: keys.reflections
+};
+export function hasLocalValue(key: string, id: string): boolean { return hasId(key, id); }
+export function toggleLocalSet(key: string, id: string): boolean { return toggleId(key, id); }
+export function addLocalValue(key: string, id: string): boolean {
+  if (hasId(key, id)) return true;
+  toggleId(key, id);
+  return true;
+}
 export function getReflections(): UserReflection[] { return readArray<UserReflection>(keys.reflections); }
 export function saveReflection(reflection: UserReflection) {
   const list = getReflections();
