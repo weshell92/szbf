@@ -1,23 +1,19 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import { Header } from '@/components/layout/Header';
-import { Footer } from '@/components/layout/Footer';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
-  title: {
-    default: '孙子兵法 · 战略决策系统',
-    template: '%s | 孙子兵法 · 战略决策系统'
-  },
-  description: '从古代兵法到现代决策，学习如何判断胜算、控制成本、寻找时机、避免硬拼。',
-  keywords: ['孙子兵法', '孙子兵法原文', '孙子兵法翻译', '战略思维', '知己知彼', '不战而屈人之兵']
+  title: '孙子兵法 · 战略决策系统 Pro',
+  description: '完整原文、逐句译注、深度案例、多步骤决策训练与个人复盘系统。'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="zh-CN">
-      <body className="min-h-screen font-sans antialiased">
+      <body>
         <Header />
-        <main>{children}</main>
+        <main className="mx-auto min-h-screen max-w-7xl px-4 py-8 sm:px-6 lg:px-8">{children}</main>
         <Footer />
       </body>
     </html>

@@ -1,36 +1,14 @@
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { SectionHeader } from '@/components/ui/SectionHeader';
-import { concepts, getCaseBySlug, relatedChapters } from '@/lib/data';
-
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const item = getCaseBySlug(slug);
-  return { title: item ? `案例：${item.title}` : '案例' };
-}
-
-export default async function CaseDetailPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const item = getCaseBySlug(slug);
-  if (!item) notFound();
-  const chapterItems = relatedChapters(item.relatedChapterIds);
-  const conceptItems = concepts.filter((concept) => item.relatedConceptIds.includes(concept.id));
-  return (
-    <section className="mx-auto max-w-5xl px-4 py-16">
-      <SectionHeader eyebrow="案例详情" title={item.title} description={item.summary} />
-      <article className="rounded-[2rem] border border-white/10 bg-white/[0.03] p-6 prose-szbf">
-        <h2>1. 背景</h2><p>{item.background}</p>
-        <h2>2. 关键矛盾</h2><p>{item.conflict}</p>
-        <h2>3. 资源对比</h2><p>{item.resourceComparison}</p>
-        <h2>4. 战略选择</h2><p>{item.strategyChoice}</p>
-        <h2>5. 结果</h2><p>{item.result}</p>
-        <h2>6. 现实启发</h2><p>{item.lesson}</p>
-        <h2>7. 反思问题</h2><ul className="mt-4 list-disc space-y-2 pl-5 text-paper/70">{item.reflectionQuestions.map((q) => <li key={q}>{q}</li>)}</ul>
-      </article>
-      <div className="mt-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-5"><h3 className="font-serif text-xl text-paper">对应篇章</h3>{chapterItems.map((chapter) => <Link key={chapter.id} href={`/chapters/${chapter.slug}`} className="mt-3 block text-bronze">{chapter.title}</Link>)}</div>
-        <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-5"><h3 className="font-serif text-xl text-paper">对应概念</h3>{conceptItems.map((concept) => <Link key={concept.id} href={`/concepts/${concept.slug}`} className="mt-3 block text-bronze">{concept.name}</Link>)}</div>
-      </div>
-    </section>
-  );
-}
+import { getCase } from '@/lib/data';
+import ReflectionEditor from '@/components/ReflectionEditor';
+import SectionHeader from '@/components/ui/SectionHeader';
+export default function CaseDetailPage({ params }: { params: { slug: string } }) { const item = getCase(params.slug); if (!item) notFound(); return <div className="space-y-8"><div><div className="text-sm text-bronze">{item.category} 案例</div><h1 className="mt-2 font-serifcn text-4xl font-bold text-paper">{item.title}</h1><p className="mt-3 max-w-4xl leading-8 text-paper/70">{item.background}</p></div>
+  <section><SectionHeader title="关键人物 / 组织" /><div className="grid gap-4 md:grid-cols-2">{item.actors.map((actor) => <div key={actor.name} className="card p-5"><h3 className="font-serifcn text-xl font-bold text-paper">{actor.name}</h3><p className="mt-1 text-sm text-bronze">{actor.role}</p><div className="mt-4 grid gap-3 sm:grid-cols-2"><List title="优势" items={actor.advantages} /><List title="劣势" items={actor.disadvantages} /></div></div>)}</div></section>
+  <section><SectionHeader title="双方资源对比" /><div className="overflow-hidden rounded-2xl border border-bronze/25"><table className="w-full text-left text-sm"><thead className="bg-bronze/10 text-bronze"><tr><th className="p-3">一方</th><th className="p-3">人力</th><th className="p-3">资源</th><th className="p-3">士气</th><th className="p-3">信息</th><th className="p-3">位置</th></tr></thead><tbody>{item.resourceComparison.map((r) => <tr className="border-t border-bronze/10 text-paper/70" key={r.side}><td className="p-3 text-paper">{r.side}</td><td className="p-3">{r.manpower}</td><td className="p-3">{r.resource}</td><td className="p-3">{r.morale}</td><td className="p-3">{r.information}</td><td className="p-3">{r.position}</td></tr>)}</tbody></table></div></section>
+  <section className="grid gap-4 lg:grid-cols-3"><Box title="关键约束" items={item.constraints} /><Box title="如果硬拼会怎样" items={[item.hardFightConsequence]} /><Box title="关键转折" items={[item.keyTurningPoint]} /></section>
+  <section><SectionHeader title="时间线与决策节点" /><div className="grid gap-4 lg:grid-cols-2"><div className="card p-5"><h3 className="font-serifcn text-xl font-bold text-paper">时间线</h3>{item.timeline.map((t) => <div key={t.time} className="mt-4 border-l border-bronze/40 pl-4"><div className="text-sm text-bronze">{t.time}</div><div className="text-paper">{t.event}</div><p className="text-sm text-paper/55">{t.strategicMeaning}</p></div>)}</div><div className="card p-5"><h3 className="font-serifcn text-xl font-bold text-paper">决策节点</h3>{item.decisionNodes.map((node) => <div key={node.title} className="mt-4 soft-card p-4"><div className="font-semibold text-paper">{node.title}</div><p className="mt-2 text-sm text-paper/65">选择：{node.chosen}</p><p className="mt-1 text-sm text-paper/65">原因：{node.why}</p><p className="mt-1 text-sm text-bronze">风险：{node.risk}</p></div>)}</div></div></section>
+  <section className="grid gap-4 lg:grid-cols-2"><div className="card p-5"><h2 className="font-serifcn text-2xl font-bold text-paper">兵法依据</h2><ul className="mt-3 list-disc space-y-2 pl-5 text-paper/70">{item.relatedOriginalSentences.map((s) => <li key={s}>{s}</li>)}</ul></div><div className="card p-5"><h2 className="font-serifcn text-2xl font-bold text-paper">现实迁移</h2><p className="mt-3 leading-8 text-paper/70">{item.modernTransfer}</p></div></section>
+  <ReflectionEditor targetType="case" targetId={item.id} title={item.title} questions={item.practiceQuestions} />
+</div>; }
+function List({ title, items }: { title: string; items: string[] }) { return <div><div className="text-sm text-bronze">{title}</div><ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-paper/65">{items.map((i) => <li key={i}>{i}</li>)}</ul></div>; }
+function Box({ title, items }: { title: string; items: string[] }) { return <div className="card p-5"><h3 className="font-serifcn text-xl font-bold text-paper">{title}</h3><ul className="mt-3 list-disc space-y-2 pl-5 text-paper/70">{items.map((i) => <li key={i}>{i}</li>)}</ul></div>; }

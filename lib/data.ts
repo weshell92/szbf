@@ -1,4 +1,4 @@
-import type { CaseItem, Chapter, Concept, LearningPath, Quote, TrainingScenario } from './types';
+import type { Chapter, DeepCaseItem, DeepConcept, DeepQuote, DeepTrainingScenario, LearningPath } from './types';
 
 export const chapters: Chapter[] = [
   {
@@ -8,66 +8,246 @@ export const chapters: Chapter[] = [
     "slug": "shi-ji",
     "theme": "胜算判断",
     "summary": "行动之前，先计算能不能赢。",
-    "modernMeaning": "始计篇可以转化为现代决策中的“胜算判断”能力：在行动前识别局势、资源、成本、风险与执行条件，避免凭情绪和冲动做决定。",
+    "modernMeaning": "始计篇对应现代能力：胜算判断。它要求用户把古文转成判断流程，先明确局势，再判断资源、成本、风险、时机与执行路径。",
     "keywords": [
-      "道",
-      "天",
-      "地",
-      "将",
-      "法",
       "七计",
+      "道天地将法",
       "庙算"
     ],
     "applicableScenes": [
-      "项目启动",
+      "项目立项",
       "竞争分析",
-      "组织管理",
+      "团队管理",
       "创业决策",
-      "产品定位",
       "技术项目",
       "个人选择"
     ],
-    "sections": [
+    "versionInfo": {
+      "sourceName": "《孙子兵法》通行本学习版",
+      "edition": "通行本",
+      "completeness": "待复校",
+      "proofreadingStatus": "初校",
+      "variantNotes": [],
+      "note": "本项目已按逐句学习结构组织原文与译注；古籍全文与异文仍建议在正式上线前由人工复校。"
+    },
+    "structure": [
+      "说明战争与重大行动的风险",
+      "提出五事：道天地将法",
+      "提出七计比较法",
+      "强调庙算与胜算"
+    ],
+    "fullOriginal": "兵者，国之大事，死生之地，存亡之道，不可不察也。故经之以五事，校之以计，而索其情：一曰道，二曰天，三曰地，四曰将，五曰法。道者，令民与上同意也，故可以与之死，可以与之生，而不危也。天者，阴阳、寒暑、时制也。地者，远近、险易、广狭、死生也。将者，智、信、仁、勇、严也。法者，曲制、官道、主用也。夫未战而庙算胜者，得算多也；未战而庙算不胜者，得算少也。",
+    "sentences": [
       {
-        "id": "shi-ji-s1",
+        "id": "shi-ji-1",
         "chapterId": "shi-ji",
-        "original": "孙子曰：兵者，国之大事，死生之地，存亡之道，不可不察也。故经之以五事，校之以计，而索其情：一曰道，二曰天，三曰地，四曰将，五曰法。道者，令民与上同意也，故可以与之死，可以与之生，而不危也。天者，阴阳、寒暑、时制也。地者，远近、险易、广狭、死生也。将者，智、信、仁、勇、严也。法者，曲制、官道、主用也。凡此五者，将莫不闻，知之者胜，不知者不胜。故校之以计，而索其情，曰：主孰有道？将孰有能？天地孰得？法令孰行？兵众孰强？士卒孰练？赏罚孰明？吾以此知胜负矣。夫未战而庙算胜者，得算多也；未战而庙算不胜者，得算少也。多算胜，少算不胜，而况于无算乎。",
-        "translation": "本篇强调“胜算判断”。用现代话说，就是不要只问如何行动，而要先判断目标是否一致、资源是否支持、成本是否可控、风险是否可承受、时机是否成熟。",
-        "annotations": [
+        "order": 1,
+        "original": "兵者，国之大事，死生之地，存亡之道，不可不察也。",
+        "words": [
           {
-            "word": "道",
-            "explanation": "始计篇的核心关键词之一。",
+            "word": "兵者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
             "modernMapping": "胜算判断"
           },
           {
             "word": "胜",
-            "explanation": "不是单纯击败对方，而是以可承受代价达成目标。",
-            "modernMapping": "目标达成与成本收益"
-          },
-          {
-            "word": "势",
-            "explanation": "由结构、资源、位置、节奏共同形成的趋势力量。",
-            "modernMapping": "组织势能与系统优势"
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
           }
         ],
-        "strategyInterpretation": "始计篇提醒我们：战略不是口号，而是对条件的清醒计算。本篇在网站中对应“胜算判断”模块，用户可以通过案例、概念和训练题把古文转化为现实判断。"
+        "translation": "这句话强调：行动之前，先计算能不能赢。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于胜算判断：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "qi-ji"
+        ],
+        "relatedCaseIds": [
+          "guan-du"
+        ],
+        "relatedTrainingIds": [
+          "t01"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "shi-ji-2",
+        "chapterId": "shi-ji",
+        "order": 2,
+        "original": "故经之以五事，校之以计，而索其情：一曰道，二曰天，三曰地，四曰将，五曰法。",
+        "words": [
+          {
+            "word": "故经之以",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "胜算判断"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：行动之前，先计算能不能赢。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于胜算判断：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "qi-ji"
+        ],
+        "relatedCaseIds": [
+          "guan-du"
+        ],
+        "relatedTrainingIds": [
+          "t01"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "shi-ji-3",
+        "chapterId": "shi-ji",
+        "order": 3,
+        "original": "道者，令民与上同意也，故可以与之死，可以与之生，而不危也。",
+        "words": [
+          {
+            "word": "道者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "胜算判断"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：行动之前，先计算能不能赢。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于胜算判断：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "qi-ji"
+        ],
+        "relatedCaseIds": [
+          "guan-du"
+        ],
+        "relatedTrainingIds": [
+          "t01"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "shi-ji-4",
+        "chapterId": "shi-ji",
+        "order": 4,
+        "original": "天者，阴阳、寒暑、时制也。地者，远近、险易、广狭、死生也。",
+        "words": [
+          {
+            "word": "天者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "胜算判断"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：行动之前，先计算能不能赢。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于胜算判断：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "qi-ji"
+        ],
+        "relatedCaseIds": [
+          "guan-du"
+        ],
+        "relatedTrainingIds": [
+          "t01"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "shi-ji-5",
+        "chapterId": "shi-ji",
+        "order": 5,
+        "original": "将者，智、信、仁、勇、严也。法者，曲制、官道、主用也。",
+        "words": [
+          {
+            "word": "将者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "胜算判断"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：行动之前，先计算能不能赢。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于胜算判断：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "qi-ji"
+        ],
+        "relatedCaseIds": [
+          "guan-du"
+        ],
+        "relatedTrainingIds": [
+          "t01"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "shi-ji-6",
+        "chapterId": "shi-ji",
+        "order": 6,
+        "original": "夫未战而庙算胜者，得算多也；未战而庙算不胜者，得算少也。",
+        "words": [
+          {
+            "word": "夫未战而",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "胜算判断"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：行动之前，先计算能不能赢。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于胜算判断：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "qi-ji"
+        ],
+        "relatedCaseIds": [
+          "guan-du"
+        ],
+        "relatedTrainingIds": [
+          "t01"
+        ],
+        "quoteLevel": "classic"
       }
+    ],
+    "coreSummary": "始计篇的核心不是记住名句，而是形成“胜算判断”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
+    "modernApplications": [
+      "用于胜算判断的项目复盘",
+      "用于判断是否该继续投入资源",
+      "用于识别对手强弱与己方边界",
+      "用于把抽象原则转成行动前检查清单"
+    ],
+    "reflectionTemplate": [
+      "这篇解决的核心问题是什么？",
+      "我现实中遇到过类似局势吗？",
+      "如果重来一次，我会先检查哪些条件？",
+      "有哪些风险是我过去忽略的？"
     ],
     "relatedConceptIds": [
       "dao-tian-di-jiang-fa",
-      "qi-ji",
-      "miao-suan"
+      "qi-ji"
     ],
     "relatedCaseIds": [
       "guan-du",
-      "chu-han",
-      "team-alignment",
-      "review-platform"
+      "startup-giant"
     ],
     "relatedQuoteIds": [
-      "q1",
-      "q2",
-      "q3"
+      "q01"
     ]
   },
   {
@@ -77,59 +257,244 @@ export const chapters: Chapter[] = [
     "slug": "zuo-zhan",
     "theme": "成本控制",
     "summary": "久战会消耗资源，胜利也要计算代价。",
-    "modernMeaning": "作战篇可以转化为现代决策中的“成本控制”能力：在行动前识别局势、资源、成本、风险与执行条件，避免凭情绪和冲动做决定。",
+    "modernMeaning": "作战篇对应现代能力：成本控制。它要求用户把古文转成判断流程，先明确局势，再判断资源、成本、风险、时机与执行路径。",
     "keywords": [
-      "兵贵胜",
-      "不贵久",
-      "因粮于敌",
-      "速胜"
+      "兵贵胜不贵久"
     ],
     "applicableScenes": [
-      "项目启动",
+      "项目立项",
       "竞争分析",
-      "组织管理",
+      "团队管理",
       "创业决策",
-      "产品定位",
       "技术项目",
       "个人选择"
     ],
-    "sections": [
+    "versionInfo": {
+      "sourceName": "《孙子兵法》通行本学习版",
+      "edition": "通行本",
+      "completeness": "待复校",
+      "proofreadingStatus": "初校",
+      "variantNotes": [],
+      "note": "本项目已按逐句学习结构组织原文与译注；古籍全文与异文仍建议在正式上线前由人工复校。"
+    },
+    "structure": [
+      "列出战争成本",
+      "说明久战伤害",
+      "强调拙速胜过巧久",
+      "总结兵贵胜不贵久"
+    ],
+    "fullOriginal": "凡用兵之法，驰车千驷，革车千乘，带甲十万，千里馈粮。其用战也胜，久则钝兵挫锐，攻城则力屈，久暴师则国用不足。兵闻拙速，未睹巧之久也。夫兵久而国利者，未之有也。故不尽知用兵之害者，则不能尽知用兵之利也。故兵贵胜，不贵久。",
+    "sentences": [
       {
-        "id": "zuo-zhan-s1",
+        "id": "zuo-zhan-1",
         "chapterId": "zuo-zhan",
-        "original": "孙子曰：凡用兵之法，驰车千驷，革车千乘，带甲十万，千里馈粮，则内外之费、宾客之用、胶漆之材、车甲之奉，日费千金，然后十万之师举矣。其用战也胜，久则钝兵挫锐，攻城则力屈，久暴师则国用不足。故兵闻拙速，未睹巧之久也。夫兵久而国利者，未之有也。故不尽知用兵之害者，则不能尽知用兵之利也。故兵贵胜，不贵久。",
-        "translation": "本篇强调“成本控制”。用现代话说，就是不要只问如何行动，而要先判断目标是否一致、资源是否支持、成本是否可控、风险是否可承受、时机是否成熟。",
-        "annotations": [
+        "order": 1,
+        "original": "凡用兵之法，驰车千驷，革车千乘，带甲十万，千里馈粮。",
+        "words": [
           {
-            "word": "兵贵胜",
-            "explanation": "作战篇的核心关键词之一。",
+            "word": "凡用兵之",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
             "modernMapping": "成本控制"
           },
           {
             "word": "胜",
-            "explanation": "不是单纯击败对方，而是以可承受代价达成目标。",
-            "modernMapping": "目标达成与成本收益"
-          },
-          {
-            "word": "势",
-            "explanation": "由结构、资源、位置、节奏共同形成的趋势力量。",
-            "modernMapping": "组织势能与系统优势"
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
           }
         ],
-        "strategyInterpretation": "作战篇提醒我们：战略不是口号，而是对条件的清醒计算。本篇在网站中对应“成本控制”模块，用户可以通过案例、概念和训练题把古文转化为现实判断。"
+        "translation": "这句话强调：久战会消耗资源，胜利也要计算代价。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于成本控制：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "qi-ji",
+          "miao-suan"
+        ],
+        "relatedCaseIds": [
+          "chi-bi"
+        ],
+        "relatedTrainingIds": [
+          "t02"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "zuo-zhan-2",
+        "chapterId": "zuo-zhan",
+        "order": 2,
+        "original": "其用战也胜，久则钝兵挫锐，攻城则力屈，久暴师则国用不足。",
+        "words": [
+          {
+            "word": "其用战也",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "成本控制"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：久战会消耗资源，胜利也要计算代价。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于成本控制：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "qi-ji",
+          "miao-suan"
+        ],
+        "relatedCaseIds": [
+          "chi-bi"
+        ],
+        "relatedTrainingIds": [
+          "t02"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "zuo-zhan-3",
+        "chapterId": "zuo-zhan",
+        "order": 3,
+        "original": "兵闻拙速，未睹巧之久也。",
+        "words": [
+          {
+            "word": "兵闻拙速",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "成本控制"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：久战会消耗资源，胜利也要计算代价。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于成本控制：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "qi-ji",
+          "miao-suan"
+        ],
+        "relatedCaseIds": [
+          "chi-bi"
+        ],
+        "relatedTrainingIds": [
+          "t02"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "zuo-zhan-4",
+        "chapterId": "zuo-zhan",
+        "order": 4,
+        "original": "夫兵久而国利者，未之有也。",
+        "words": [
+          {
+            "word": "夫兵久而",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "成本控制"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：久战会消耗资源，胜利也要计算代价。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于成本控制：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "qi-ji",
+          "miao-suan"
+        ],
+        "relatedCaseIds": [
+          "chi-bi"
+        ],
+        "relatedTrainingIds": [
+          "t02"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "zuo-zhan-5",
+        "chapterId": "zuo-zhan",
+        "order": 5,
+        "original": "故不尽知用兵之害者，则不能尽知用兵之利也。",
+        "words": [
+          {
+            "word": "故不尽知",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "成本控制"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：久战会消耗资源，胜利也要计算代价。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于成本控制：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "qi-ji",
+          "miao-suan"
+        ],
+        "relatedCaseIds": [
+          "chi-bi"
+        ],
+        "relatedTrainingIds": [
+          "t02"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "zuo-zhan-6",
+        "chapterId": "zuo-zhan",
+        "order": 6,
+        "original": "故兵贵胜，不贵久。",
+        "words": [
+          {
+            "word": "故兵贵胜",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "成本控制"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：久战会消耗资源，胜利也要计算代价。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于成本控制：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "qi-ji",
+          "miao-suan"
+        ],
+        "relatedCaseIds": [
+          "chi-bi"
+        ],
+        "relatedTrainingIds": [
+          "t02"
+        ],
+        "quoteLevel": "classic"
       }
     ],
+    "coreSummary": "作战篇的核心不是记住名句，而是形成“成本控制”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
+    "modernApplications": [
+      "用于成本控制的项目复盘",
+      "用于判断是否该继续投入资源",
+      "用于识别对手强弱与己方边界",
+      "用于把抽象原则转成行动前检查清单"
+    ],
+    "reflectionTemplate": [
+      "这篇解决的核心问题是什么？",
+      "我现实中遇到过类似局势吗？",
+      "如果重来一次，我会先检查哪些条件？",
+      "有哪些风险是我过去忽略的？"
+    ],
     "relatedConceptIds": [
-      "bing-gui-sheng"
+      "qi-ji",
+      "miao-suan"
     ],
     "relatedCaseIds": [
-      "chang-ping",
-      "price-war",
-      "tech-debt"
+      "chi-bi",
+      "price-war"
     ],
     "relatedQuoteIds": [
-      "q4",
-      "q5"
+      "q02"
     ]
   },
   {
@@ -139,64 +504,246 @@ export const chapters: Chapter[] = [
     "slug": "mou-gong",
     "theme": "不战而胜",
     "summary": "最高级的竞争是破坏对方战略，而不是硬拼。",
-    "modernMeaning": "谋攻篇可以转化为现代决策中的“不战而胜”能力：在行动前识别局势、资源、成本、风险与执行条件，避免凭情绪和冲动做决定。",
+    "modernMeaning": "谋攻篇对应现代能力：不战而胜。它要求用户把古文转成判断流程，先明确局势，再判断资源、成本、风险、时机与执行路径。",
     "keywords": [
-      "伐谋",
-      "伐交",
-      "伐兵",
-      "攻城",
-      "知己知彼"
+      "上兵伐谋",
+      "知己知彼",
+      "不战而屈人之兵"
     ],
     "applicableScenes": [
-      "项目启动",
+      "项目立项",
       "竞争分析",
-      "组织管理",
+      "团队管理",
       "创业决策",
-      "产品定位",
       "技术项目",
       "个人选择"
     ],
-    "sections": [
+    "versionInfo": {
+      "sourceName": "《孙子兵法》通行本学习版",
+      "edition": "通行本",
+      "completeness": "待复校",
+      "proofreadingStatus": "初校",
+      "variantNotes": [],
+      "note": "本项目已按逐句学习结构组织原文与译注；古籍全文与异文仍建议在正式上线前由人工复校。"
+    },
+    "structure": [
+      "比较全胜与破胜",
+      "提出不战而屈人之兵",
+      "提出伐谋伐交伐兵攻城层级",
+      "强调知己知彼"
+    ],
+    "fullOriginal": "凡用兵之法，全国为上，破国次之；全军为上，破军次之。百战百胜，非善之善者也；不战而屈人之兵，善之善者也。故上兵伐谋，其次伐交，其次伐兵，其下攻城。攻城之法，为不得已。知彼知己，百战不殆；不知彼而知己，一胜一负；不知彼不知己，每战必殆。小敌之坚，大敌之擒也。",
+    "sentences": [
       {
-        "id": "mou-gong-s1",
+        "id": "mou-gong-1",
         "chapterId": "mou-gong",
-        "original": "孙子曰：凡用兵之法，全国为上，破国次之；全军为上，破军次之；全旅为上，破旅次之。是故百战百胜，非善之善者也；不战而屈人之兵，善之善者也。故上兵伐谋，其次伐交，其次伐兵，其下攻城。知彼知己者，百战不殆；不知彼而知己，一胜一负；不知彼不知己，每战必殆。",
-        "translation": "本篇强调“不战而胜”。用现代话说，就是不要只问如何行动，而要先判断目标是否一致、资源是否支持、成本是否可控、风险是否可承受、时机是否成熟。",
-        "annotations": [
+        "order": 1,
+        "original": "凡用兵之法，全国为上，破国次之；全军为上，破军次之。",
+        "words": [
           {
-            "word": "伐谋",
-            "explanation": "谋攻篇的核心关键词之一。",
+            "word": "凡用兵之",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
             "modernMapping": "不战而胜"
           },
           {
             "word": "胜",
-            "explanation": "不是单纯击败对方，而是以可承受代价达成目标。",
-            "modernMapping": "目标达成与成本收益"
-          },
-          {
-            "word": "势",
-            "explanation": "由结构、资源、位置、节奏共同形成的趋势力量。",
-            "modernMapping": "组织势能与系统优势"
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
           }
         ],
-        "strategyInterpretation": "谋攻篇提醒我们：战略不是口号，而是对条件的清醒计算。本篇在网站中对应“不战而胜”模块，用户可以通过案例、概念和训练题把古文转化为现实判断。"
+        "translation": "这句话强调：最高级的竞争是破坏对方战略，而不是硬拼。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于不战而胜：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "miao-suan",
+          "bing-gui-sheng"
+        ],
+        "relatedCaseIds": [
+          "fei-shui"
+        ],
+        "relatedTrainingIds": [
+          "t03"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "mou-gong-2",
+        "chapterId": "mou-gong",
+        "order": 2,
+        "original": "百战百胜，非善之善者也；不战而屈人之兵，善之善者也。",
+        "words": [
+          {
+            "word": "百战百胜",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "不战而胜"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：最高级的竞争是破坏对方战略，而不是硬拼。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于不战而胜：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "miao-suan",
+          "bing-gui-sheng"
+        ],
+        "relatedCaseIds": [
+          "fei-shui"
+        ],
+        "relatedTrainingIds": [
+          "t03"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "mou-gong-3",
+        "chapterId": "mou-gong",
+        "order": 3,
+        "original": "故上兵伐谋，其次伐交，其次伐兵，其下攻城。",
+        "words": [
+          {
+            "word": "故上兵伐",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "不战而胜"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：最高级的竞争是破坏对方战略，而不是硬拼。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于不战而胜：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "miao-suan",
+          "bing-gui-sheng"
+        ],
+        "relatedCaseIds": [
+          "fei-shui"
+        ],
+        "relatedTrainingIds": [
+          "t03"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "mou-gong-4",
+        "chapterId": "mou-gong",
+        "order": 4,
+        "original": "攻城之法，为不得已。",
+        "words": [
+          {
+            "word": "攻城之法",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "不战而胜"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：最高级的竞争是破坏对方战略，而不是硬拼。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于不战而胜：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "miao-suan",
+          "bing-gui-sheng"
+        ],
+        "relatedCaseIds": [
+          "fei-shui"
+        ],
+        "relatedTrainingIds": [
+          "t03"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "mou-gong-5",
+        "chapterId": "mou-gong",
+        "order": 5,
+        "original": "知彼知己，百战不殆；不知彼而知己，一胜一负；不知彼不知己，每战必殆。",
+        "words": [
+          {
+            "word": "知彼知己",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "不战而胜"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：最高级的竞争是破坏对方战略，而不是硬拼。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于不战而胜：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "miao-suan",
+          "bing-gui-sheng"
+        ],
+        "relatedCaseIds": [
+          "fei-shui"
+        ],
+        "relatedTrainingIds": [
+          "t03"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "mou-gong-6",
+        "chapterId": "mou-gong",
+        "order": 6,
+        "original": "小敌之坚，大敌之擒也。",
+        "words": [
+          {
+            "word": "小敌之坚",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "不战而胜"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：最高级的竞争是破坏对方战略，而不是硬拼。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于不战而胜：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "miao-suan",
+          "bing-gui-sheng"
+        ],
+        "relatedCaseIds": [
+          "fei-shui"
+        ],
+        "relatedTrainingIds": [
+          "t03"
+        ],
+        "quoteLevel": "normal"
       }
     ],
+    "coreSummary": "谋攻篇的核心不是记住名句，而是形成“不战而胜”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
+    "modernApplications": [
+      "用于不战而胜的项目复盘",
+      "用于判断是否该继续投入资源",
+      "用于识别对手强弱与己方边界",
+      "用于把抽象原则转成行动前检查清单"
+    ],
+    "reflectionTemplate": [
+      "这篇解决的核心问题是什么？",
+      "我现实中遇到过类似局势吗？",
+      "如果重来一次，我会先检查哪些条件？",
+      "有哪些风险是我过去忽略的？"
+    ],
     "relatedConceptIds": [
-      "fa-mou",
-      "bu-zhan-er-sheng",
-      "zhi-ji-zhi-bi"
+      "miao-suan",
+      "bing-gui-sheng"
     ],
     "relatedCaseIds": [
-      "brand-position",
-      "channel-alliance",
-      "conflict-cost"
+      "fei-shui",
+      "niche-product"
     ],
     "relatedQuoteIds": [
-      "q6",
-      "q7",
-      "q8",
-      "q9"
+      "q03"
     ]
   },
   {
@@ -205,61 +752,246 @@ export const chapters: Chapter[] = [
     "title": "军形篇",
     "slug": "jun-xing",
     "theme": "先胜后战",
-    "summary": "先让自己不可被击败，再等待机会。",
-    "modernMeaning": "军形篇可以转化为现代决策中的“先胜后战”能力：在行动前识别局势、资源、成本、风险与执行条件，避免凭情绪和冲动做决定。",
+    "summary": "先让自己不可败，再等待机会。",
+    "modernMeaning": "军形篇对应现代能力：先胜后战。它要求用户把古文转成判断流程，先明确局势，再判断资源、成本、风险、时机与执行路径。",
     "keywords": [
-      "不可胜在己",
-      "可胜在敌",
-      "先胜后战"
+      "先胜后战",
+      "不可胜在己"
     ],
     "applicableScenes": [
-      "项目启动",
+      "项目立项",
       "竞争分析",
-      "组织管理",
+      "团队管理",
       "创业决策",
-      "产品定位",
       "技术项目",
       "个人选择"
     ],
-    "sections": [
+    "versionInfo": {
+      "sourceName": "《孙子兵法》通行本学习版",
+      "edition": "通行本",
+      "completeness": "待复校",
+      "proofreadingStatus": "初校",
+      "variantNotes": [],
+      "note": "本项目已按逐句学习结构组织原文与译注；古籍全文与异文仍建议在正式上线前由人工复校。"
+    },
+    "structure": [
+      "先建立不败条件",
+      "区分己方可控与敌方漏洞",
+      "强调胜兵先胜后战",
+      "以制度保障胜利"
+    ],
+    "fullOriginal": "昔之善战者，先为不可胜，以待敌之可胜。不可胜在己，可胜在敌。胜可知，而不可为。善战者，立于不败之地，而不失敌之败也。胜兵先胜而后求战，败兵先战而后求胜。善用兵者，修道而保法，故能为胜败之政。",
+    "sentences": [
       {
-        "id": "jun-xing-s1",
+        "id": "jun-xing-1",
         "chapterId": "jun-xing",
-        "original": "孙子曰：昔之善战者，先为不可胜，以待敌之可胜。不可胜在己，可胜在敌。故善战者，能为不可胜，不能使敌之必可胜。胜兵先胜而后求战，败兵先战而后求胜。善用兵者，修道而保法，故能为胜败之政。",
-        "translation": "本篇强调“先胜后战”。用现代话说，就是不要只问如何行动，而要先判断目标是否一致、资源是否支持、成本是否可控、风险是否可承受、时机是否成熟。",
-        "annotations": [
+        "order": 1,
+        "original": "昔之善战者，先为不可胜，以待敌之可胜。",
+        "words": [
           {
-            "word": "不可胜在己",
-            "explanation": "军形篇的核心关键词之一。",
+            "word": "昔之善战",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "胜",
-            "explanation": "不是单纯击败对方，而是以可承受代价达成目标。",
-            "modernMapping": "目标达成与成本收益"
-          },
-          {
-            "word": "势",
-            "explanation": "由结构、资源、位置、节奏共同形成的趋势力量。",
-            "modernMapping": "组织势能与系统优势"
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
           }
         ],
-        "strategyInterpretation": "军形篇提醒我们：战略不是口号，而是对条件的清醒计算。本篇在网站中对应“先胜后战”模块，用户可以通过案例、概念和训练题把古文转化为现实判断。"
+        "translation": "这句话强调：先让自己不可败，再等待机会。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于先胜后战：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bing-gui-sheng",
+          "shang-bing-fa-mou"
+        ],
+        "relatedCaseIds": [
+          "chu-han"
+        ],
+        "relatedTrainingIds": [
+          "t04"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "jun-xing-2",
+        "chapterId": "jun-xing",
+        "order": 2,
+        "original": "不可胜在己，可胜在敌。",
+        "words": [
+          {
+            "word": "不可胜在",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "先胜后战"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：先让自己不可败，再等待机会。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于先胜后战：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bing-gui-sheng",
+          "shang-bing-fa-mou"
+        ],
+        "relatedCaseIds": [
+          "chu-han"
+        ],
+        "relatedTrainingIds": [
+          "t04"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "jun-xing-3",
+        "chapterId": "jun-xing",
+        "order": 3,
+        "original": "胜可知，而不可为。",
+        "words": [
+          {
+            "word": "胜可知",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "先胜后战"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：先让自己不可败，再等待机会。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于先胜后战：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bing-gui-sheng",
+          "shang-bing-fa-mou"
+        ],
+        "relatedCaseIds": [
+          "chu-han"
+        ],
+        "relatedTrainingIds": [
+          "t04"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "jun-xing-4",
+        "chapterId": "jun-xing",
+        "order": 4,
+        "original": "善战者，立于不败之地，而不失敌之败也。",
+        "words": [
+          {
+            "word": "善战者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "先胜后战"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：先让自己不可败，再等待机会。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于先胜后战：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bing-gui-sheng",
+          "shang-bing-fa-mou"
+        ],
+        "relatedCaseIds": [
+          "chu-han"
+        ],
+        "relatedTrainingIds": [
+          "t04"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jun-xing-5",
+        "chapterId": "jun-xing",
+        "order": 5,
+        "original": "胜兵先胜而后求战，败兵先战而后求胜。",
+        "words": [
+          {
+            "word": "胜兵先胜",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "先胜后战"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：先让自己不可败，再等待机会。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于先胜后战：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bing-gui-sheng",
+          "shang-bing-fa-mou"
+        ],
+        "relatedCaseIds": [
+          "chu-han"
+        ],
+        "relatedTrainingIds": [
+          "t04"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "jun-xing-6",
+        "chapterId": "jun-xing",
+        "order": 6,
+        "original": "善用兵者，修道而保法，故能为胜败之政。",
+        "words": [
+          {
+            "word": "善用兵者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "先胜后战"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：先让自己不可败，再等待机会。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于先胜后战：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bing-gui-sheng",
+          "shang-bing-fa-mou"
+        ],
+        "relatedCaseIds": [
+          "chu-han"
+        ],
+        "relatedTrainingIds": [
+          "t04"
+        ],
+        "quoteLevel": "classic"
       }
     ],
+    "coreSummary": "军形篇的核心不是记住名句，而是形成“先胜后战”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
+    "modernApplications": [
+      "用于先胜后战的项目复盘",
+      "用于判断是否该继续投入资源",
+      "用于识别对手强弱与己方边界",
+      "用于把抽象原则转成行动前检查清单"
+    ],
+    "reflectionTemplate": [
+      "这篇解决的核心问题是什么？",
+      "我现实中遇到过类似局势吗？",
+      "如果重来一次，我会先检查哪些条件？",
+      "有哪些风险是我过去忽略的？"
+    ],
     "relatedConceptIds": [
-      "xian-sheng-hou-zhan",
-      "bu-ke-sheng"
+      "bing-gui-sheng",
+      "shang-bing-fa-mou"
     ],
     "relatedCaseIds": [
-      "fei-shui",
-      "legacy-refactor",
-      "migration-risk"
+      "chu-han",
+      "network-effect"
     ],
     "relatedQuoteIds": [
-      "q10",
-      "q11",
-      "q12"
+      "q04"
     ]
   },
   {
@@ -268,59 +1000,246 @@ export const chapters: Chapter[] = [
     "title": "兵势篇",
     "slug": "bing-shi",
     "theme": "借势造势",
-    "summary": "用结构、节奏和势能放大力量。",
-    "modernMeaning": "兵势篇可以转化为现代决策中的“借势造势”能力：在行动前识别局势、资源、成本、风险与执行条件，避免凭情绪和冲动做决定。",
+    "summary": "用结构和势能放大力量。",
+    "modernMeaning": "兵势篇对应现代能力：借势造势。它要求用户把古文转成判断流程，先明确局势，再判断资源、成本、风险、时机与执行路径。",
     "keywords": [
-      "正奇",
-      "任势",
-      "势如转圆石"
+      "势能",
+      "正合奇胜"
     ],
     "applicableScenes": [
-      "项目启动",
+      "项目立项",
       "竞争分析",
-      "组织管理",
+      "团队管理",
       "创业决策",
-      "产品定位",
       "技术项目",
       "个人选择"
     ],
-    "sections": [
+    "versionInfo": {
+      "sourceName": "《孙子兵法》通行本学习版",
+      "edition": "通行本",
+      "completeness": "待复校",
+      "proofreadingStatus": "初校",
+      "variantNotes": [],
+      "note": "本项目已按逐句学习结构组织原文与译注；古籍全文与异文仍建议在正式上线前由人工复校。"
+    },
+    "structure": [
+      "用组织分工治理大规模行动",
+      "以奇正形成变化",
+      "强调势能不是蛮力",
+      "通过结构制造顺势"
+    ],
+    "fullOriginal": "凡治众如治寡，分数是也；斗众如斗寡，形名是也。三军之众，可使必受敌而无败者，奇正是也。战势不过奇正，奇正之变，不可胜穷也。善出奇者，无穷如天地，不竭如江河。任势者，其战人也，如转木石。故善战人之势，如转圆石于千仞之山者，势也。",
+    "sentences": [
       {
-        "id": "bing-shi-s1",
+        "id": "bing-shi-1",
         "chapterId": "bing-shi",
-        "original": "孙子曰：凡治众如治寡，分数是也；斗众如斗寡，形名是也。三军之众，可使必受敌而无败者，奇正是也。战势不过奇正，奇正之变，不可胜穷也。善战者，求之于势，不责于人，故能择人而任势。任势者，其战人也，如转木石。",
-        "translation": "本篇强调“借势造势”。用现代话说，就是不要只问如何行动，而要先判断目标是否一致、资源是否支持、成本是否可控、风险是否可承受、时机是否成熟。",
-        "annotations": [
+        "order": 1,
+        "original": "凡治众如治寡，分数是也；斗众如斗寡，形名是也。",
+        "words": [
           {
-            "word": "正奇",
-            "explanation": "兵势篇的核心关键词之一。",
+            "word": "凡治众如",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
             "modernMapping": "借势造势"
           },
           {
             "word": "胜",
-            "explanation": "不是单纯击败对方，而是以可承受代价达成目标。",
-            "modernMapping": "目标达成与成本收益"
-          },
-          {
-            "word": "势",
-            "explanation": "由结构、资源、位置、节奏共同形成的趋势力量。",
-            "modernMapping": "组织势能与系统优势"
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
           }
         ],
-        "strategyInterpretation": "兵势篇提醒我们：战略不是口号，而是对条件的清醒计算。本篇在网站中对应“借势造势”模块，用户可以通过案例、概念和训练题把古文转化为现实判断。"
+        "translation": "这句话强调：用结构和势能放大力量。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于借势造势：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping"
+        ],
+        "relatedTrainingIds": [
+          "t05"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "bing-shi-2",
+        "chapterId": "bing-shi",
+        "order": 2,
+        "original": "三军之众，可使必受敌而无败者，奇正是也。",
+        "words": [
+          {
+            "word": "三军之众",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：用结构和势能放大力量。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于借势造势：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping"
+        ],
+        "relatedTrainingIds": [
+          "t05"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "bing-shi-3",
+        "chapterId": "bing-shi",
+        "order": 3,
+        "original": "战势不过奇正，奇正之变，不可胜穷也。",
+        "words": [
+          {
+            "word": "战势不过",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：用结构和势能放大力量。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于借势造势：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping"
+        ],
+        "relatedTrainingIds": [
+          "t05"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "bing-shi-4",
+        "chapterId": "bing-shi",
+        "order": 4,
+        "original": "善出奇者，无穷如天地，不竭如江河。",
+        "words": [
+          {
+            "word": "善出奇者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：用结构和势能放大力量。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于借势造势：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping"
+        ],
+        "relatedTrainingIds": [
+          "t05"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "bing-shi-5",
+        "chapterId": "bing-shi",
+        "order": 5,
+        "original": "任势者，其战人也，如转木石。",
+        "words": [
+          {
+            "word": "任势者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：用结构和势能放大力量。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于借势造势：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping"
+        ],
+        "relatedTrainingIds": [
+          "t05"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "bing-shi-6",
+        "chapterId": "bing-shi",
+        "order": 6,
+        "original": "故善战人之势，如转圆石于千仞之山者，势也。",
+        "words": [
+          {
+            "word": "故善战人",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：用结构和势能放大力量。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于借势造势：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping"
+        ],
+        "relatedTrainingIds": [
+          "t05"
+        ],
+        "quoteLevel": "normal"
       }
     ],
+    "coreSummary": "兵势篇的核心不是记住名句，而是形成“借势造势”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
+    "modernApplications": [
+      "用于借势造势的项目复盘",
+      "用于判断是否该继续投入资源",
+      "用于识别对手强弱与己方边界",
+      "用于把抽象原则转成行动前检查清单"
+    ],
+    "reflectionTemplate": [
+      "这篇解决的核心问题是什么？",
+      "我现实中遇到过类似局势吗？",
+      "如果重来一次，我会先检查哪些条件？",
+      "有哪些风险是我过去忽略的？"
+    ],
     "relatedConceptIds": [
-      "zheng-qi",
-      "ren-shi"
+      "shang-bing-fa-mou",
+      "bu-zhan-er-qu-ren"
     ],
     "relatedCaseIds": [
-      "platform-network",
-      "new-arch"
+      "chang-ping",
+      "brand-position"
     ],
     "relatedQuoteIds": [
-      "q13",
-      "q14"
+      "q05"
     ]
   },
   {
@@ -328,61 +1247,248 @@ export const chapters: Chapter[] = [
     "order": 6,
     "title": "虚实篇",
     "slug": "xu-shi",
-    "theme": "避实击虚",
-    "summary": "不在对方强处硬拼，攻击薄弱处。",
-    "modernMeaning": "虚实篇可以转化为现代决策中的“避实击虚”能力：在行动前识别局势、资源、成本、风险与执行条件，避免凭情绪和冲动做决定。",
+    "theme": "虚实变化",
+    "summary": "不硬碰硬，攻击薄弱处。",
+    "modernMeaning": "虚实篇对应现代能力：虚实变化。它要求用户把古文转成判断流程，先明确局势，再判断资源、成本、风险、时机与执行路径。",
     "keywords": [
-      "致人",
-      "不致于人",
+      "致人而不致于人",
+      "攻其所必救",
       "避实击虚"
     ],
     "applicableScenes": [
-      "项目启动",
+      "项目立项",
       "竞争分析",
-      "组织管理",
+      "团队管理",
       "创业决策",
-      "产品定位",
       "技术项目",
       "个人选择"
     ],
-    "sections": [
+    "versionInfo": {
+      "sourceName": "《孙子兵法》通行本学习版",
+      "edition": "通行本",
+      "completeness": "待复校",
+      "proofreadingStatus": "初校",
+      "variantNotes": [],
+      "note": "本项目已按逐句学习结构组织原文与译注；古籍全文与异文仍建议在正式上线前由人工复校。"
+    },
+    "structure": [
+      "抢占主动位置",
+      "控制节奏而不被牵引",
+      "攻击不防守处",
+      "避实击虚"
+    ],
+    "fullOriginal": "凡先处战地而待敌者佚，后处战地而趋战者劳。善战者，致人而不致于人。出其所不趋，趋其所不意。攻而必取者，攻其所不守也；守而必固者，守其所不攻也。避实而击虚。因形而错胜于众，众不能知。",
+    "sentences": [
       {
-        "id": "xu-shi-s1",
+        "id": "xu-shi-1",
         "chapterId": "xu-shi",
-        "original": "孙子曰：凡先处战地而待敌者佚，后处战地而趋战者劳。故善战者，致人而不致于人。出其所不趋，趋其所不意。攻其所必救，行千里而不劳者，行于无人之地也。故形人而我无形，则我专而敌分。兵之形，避实而击虚。",
-        "translation": "本篇强调“避实击虚”。用现代话说，就是不要只问如何行动，而要先判断目标是否一致、资源是否支持、成本是否可控、风险是否可承受、时机是否成熟。",
-        "annotations": [
+        "order": 1,
+        "original": "凡先处战地而待敌者佚，后处战地而趋战者劳。",
+        "words": [
           {
-            "word": "致人",
-            "explanation": "虚实篇的核心关键词之一。",
-            "modernMapping": "避实击虚"
+            "word": "凡先处战",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "虚实变化"
           },
           {
             "word": "胜",
-            "explanation": "不是单纯击败对方，而是以可承受代价达成目标。",
-            "modernMapping": "目标达成与成本收益"
-          },
-          {
-            "word": "势",
-            "explanation": "由结构、资源、位置、节奏共同形成的趋势力量。",
-            "modernMapping": "组织势能与系统优势"
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
           }
         ],
-        "strategyInterpretation": "虚实篇提醒我们：战略不是口号，而是对条件的清醒计算。本篇在网站中对应“避实击虚”模块，用户可以通过案例、概念和训练题把古文转化为现实判断。"
+        "translation": "这句话强调：不硬碰硬，攻击薄弱处。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于虚实变化：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bu-zhan-er-qu-ren",
+          "zhi-ji-zhi-bi"
+        ],
+        "relatedCaseIds": [
+          "jing-xing"
+        ],
+        "relatedTrainingIds": [
+          "t06"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "xu-shi-2",
+        "chapterId": "xu-shi",
+        "order": 2,
+        "original": "善战者，致人而不致于人。",
+        "words": [
+          {
+            "word": "善战者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不硬碰硬，攻击薄弱处。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于虚实变化：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bu-zhan-er-qu-ren",
+          "zhi-ji-zhi-bi"
+        ],
+        "relatedCaseIds": [
+          "jing-xing"
+        ],
+        "relatedTrainingIds": [
+          "t06"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "xu-shi-3",
+        "chapterId": "xu-shi",
+        "order": 3,
+        "original": "出其所不趋，趋其所不意。",
+        "words": [
+          {
+            "word": "出其所不",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不硬碰硬，攻击薄弱处。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于虚实变化：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bu-zhan-er-qu-ren",
+          "zhi-ji-zhi-bi"
+        ],
+        "relatedCaseIds": [
+          "jing-xing"
+        ],
+        "relatedTrainingIds": [
+          "t06"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "xu-shi-4",
+        "chapterId": "xu-shi",
+        "order": 4,
+        "original": "攻而必取者，攻其所不守也；守而必固者，守其所不攻也。",
+        "words": [
+          {
+            "word": "攻而必取",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不硬碰硬，攻击薄弱处。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于虚实变化：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bu-zhan-er-qu-ren",
+          "zhi-ji-zhi-bi"
+        ],
+        "relatedCaseIds": [
+          "jing-xing"
+        ],
+        "relatedTrainingIds": [
+          "t06"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xu-shi-5",
+        "chapterId": "xu-shi",
+        "order": 5,
+        "original": "避实而击虚。",
+        "words": [
+          {
+            "word": "避实而击",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不硬碰硬，攻击薄弱处。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于虚实变化：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bu-zhan-er-qu-ren",
+          "zhi-ji-zhi-bi"
+        ],
+        "relatedCaseIds": [
+          "jing-xing"
+        ],
+        "relatedTrainingIds": [
+          "t06"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xu-shi-6",
+        "chapterId": "xu-shi",
+        "order": 6,
+        "original": "因形而错胜于众，众不能知。",
+        "words": [
+          {
+            "word": "因形而错",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不硬碰硬，攻击薄弱处。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于虚实变化：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bu-zhan-er-qu-ren",
+          "zhi-ji-zhi-bi"
+        ],
+        "relatedCaseIds": [
+          "jing-xing"
+        ],
+        "relatedTrainingIds": [
+          "t06"
+        ],
+        "quoteLevel": "classic"
       }
     ],
+    "coreSummary": "虚实篇的核心不是记住名句，而是形成“虚实变化”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
+    "modernApplications": [
+      "用于虚实变化的项目复盘",
+      "用于判断是否该继续投入资源",
+      "用于识别对手强弱与己方边界",
+      "用于把抽象原则转成行动前检查清单"
+    ],
+    "reflectionTemplate": [
+      "这篇解决的核心问题是什么？",
+      "我现实中遇到过类似局势吗？",
+      "如果重来一次，我会先检查哪些条件？",
+      "有哪些风险是我过去忽略的？"
+    ],
     "relatedConceptIds": [
-      "bi-shi-ji-xu",
-      "zhi-ren"
+      "bu-zhan-er-qu-ren",
+      "zhi-ji-zhi-bi"
     ],
     "relatedCaseIds": [
-      "niche-startup",
-      "meeting-rhythm"
+      "jing-xing",
+      "project-kickoff"
     ],
     "relatedQuoteIds": [
-      "q15",
-      "q16",
-      "q17"
+      "q06"
     ]
   },
   {
@@ -392,52 +1498,244 @@ export const chapters: Chapter[] = [
     "slug": "jun-zheng",
     "theme": "争夺主动权",
     "summary": "在复杂行动中抢占关键位置。",
-    "modernMeaning": "军争篇可以转化为现代决策中的“争夺主动权”能力：在行动前识别局势、资源、成本、风险与执行条件，避免凭情绪和冲动做决定。",
+    "modernMeaning": "军争篇对应现代能力：争夺主动权。它要求用户把古文转成判断流程，先明确局势，再判断资源、成本、风险、时机与执行路径。",
     "keywords": [
-      "以迂为直",
-      "以患为利",
-      "军争"
+      "以迂为直"
     ],
     "applicableScenes": [
-      "组织管理",
-      "项目推进",
-      "风险控制",
+      "项目立项",
       "竞争分析",
-      "学习复盘"
+      "团队管理",
+      "创业决策",
+      "技术项目",
+      "个人选择"
     ],
-    "sections": [
+    "versionInfo": {
+      "sourceName": "《孙子兵法》通行本学习版",
+      "edition": "通行本",
+      "completeness": "待复校",
+      "proofreadingStatus": "初校",
+      "variantNotes": [],
+      "note": "本项目已按逐句学习结构组织原文与译注；古籍全文与异文仍建议在正式上线前由人工复校。"
+    },
+    "structure": [
+      "说明军争最难",
+      "以迂为直以患为利",
+      "强调外部关系与情报",
+      "管理气势与心理"
+    ],
+    "fullOriginal": "凡用兵之法，将受命于君，合军聚众，交和而舍，莫难于军争。军争之难者，以迂为直，以患为利。故不知诸侯之谋者，不能豫交。故兵以诈立，以利动，以分合为变者也。故三军可夺气，将军可夺心。是故朝气锐，昼气惰，暮气归。",
+    "sentences": [
       {
-        "id": "jun-zheng-s1",
+        "id": "jun-zheng-1",
         "chapterId": "jun-zheng",
-        "original": "孙子曰：凡用兵之法，将受命于君，合军聚众，交和而舍，莫难于军争。军争之难者，以迂为直，以患为利。故迂其途而诱之以利，后人发，先人至，此知迂直之计者也。故兵以诈立，以利动，以分合为变者也。",
-        "translation": "本篇强调“争夺主动权”。用现代话说，就是不要只问如何行动，而要先判断目标是否一致、资源是否支持、成本是否可控、风险是否可承受、时机是否成熟。",
-        "annotations": [
+        "order": 1,
+        "original": "凡用兵之法，将受命于君，合军聚众，交和而舍，莫难于军争。",
+        "words": [
           {
-            "word": "以迂为直",
-            "explanation": "军争篇的核心关键词之一。",
+            "word": "凡用兵之",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
             "modernMapping": "争夺主动权"
           },
           {
             "word": "胜",
-            "explanation": "不是单纯击败对方，而是以可承受代价达成目标。",
-            "modernMapping": "目标达成与成本收益"
-          },
-          {
-            "word": "势",
-            "explanation": "由结构、资源、位置、节奏共同形成的趋势力量。",
-            "modernMapping": "组织势能与系统优势"
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
           }
         ],
-        "strategyInterpretation": "军争篇提醒我们：战略不是口号，而是对条件的清醒计算。本篇在网站中对应“争夺主动权”模块，用户可以通过案例、概念和训练题把古文转化为现实判断。"
+        "translation": "这句话强调：在复杂行动中抢占关键位置。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于争夺主动权：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant"
+        ],
+        "relatedTrainingIds": [
+          "t07"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "jun-zheng-2",
+        "chapterId": "jun-zheng",
+        "order": 2,
+        "original": "军争之难者，以迂为直，以患为利。",
+        "words": [
+          {
+            "word": "军争之难",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：在复杂行动中抢占关键位置。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于争夺主动权：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant"
+        ],
+        "relatedTrainingIds": [
+          "t07"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "jun-zheng-3",
+        "chapterId": "jun-zheng",
+        "order": 3,
+        "original": "故不知诸侯之谋者，不能豫交。",
+        "words": [
+          {
+            "word": "故不知诸",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：在复杂行动中抢占关键位置。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于争夺主动权：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant"
+        ],
+        "relatedTrainingIds": [
+          "t07"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "jun-zheng-4",
+        "chapterId": "jun-zheng",
+        "order": 4,
+        "original": "故兵以诈立，以利动，以分合为变者也。",
+        "words": [
+          {
+            "word": "故兵以诈",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：在复杂行动中抢占关键位置。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于争夺主动权：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant"
+        ],
+        "relatedTrainingIds": [
+          "t07"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jun-zheng-5",
+        "chapterId": "jun-zheng",
+        "order": 5,
+        "original": "故三军可夺气，将军可夺心。",
+        "words": [
+          {
+            "word": "故三军可",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：在复杂行动中抢占关键位置。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于争夺主动权：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant"
+        ],
+        "relatedTrainingIds": [
+          "t07"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jun-zheng-6",
+        "chapterId": "jun-zheng",
+        "order": 6,
+        "original": "是故朝气锐，昼气惰，暮气归。",
+        "words": [
+          {
+            "word": "是故朝气",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：在复杂行动中抢占关键位置。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于争夺主动权：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant"
+        ],
+        "relatedTrainingIds": [
+          "t07"
+        ],
+        "quoteLevel": "normal"
       }
     ],
-    "relatedConceptIds": [
-      "jun-zheng"
+    "coreSummary": "军争篇的核心不是记住名句，而是形成“争夺主动权”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
+    "modernApplications": [
+      "用于争夺主动权的项目复盘",
+      "用于判断是否该继续投入资源",
+      "用于识别对手强弱与己方边界",
+      "用于把抽象原则转成行动前检查清单"
     ],
-    "relatedCaseIds": [],
+    "reflectionTemplate": [
+      "这篇解决的核心问题是什么？",
+      "我现实中遇到过类似局势吗？",
+      "如果重来一次，我会先检查哪些条件？",
+      "有哪些风险是我过去忽略的？"
+    ],
+    "relatedConceptIds": [
+      "zhi-ji-zhi-bi",
+      "xian-sheng-hou-zhan"
+    ],
+    "relatedCaseIds": [
+      "startup-giant",
+      "team-alignment"
+    ],
     "relatedQuoteIds": [
-      "q18",
-      "q19"
+      "q07"
     ]
   },
   {
@@ -447,52 +1745,245 @@ export const chapters: Chapter[] = [
     "slug": "jiu-bian",
     "theme": "灵活应变",
     "summary": "不拘泥固定规则，因势变化。",
-    "modernMeaning": "九变篇可以转化为现代决策中的“灵活应变”能力：在行动前识别局势、资源、成本、风险与执行条件，避免凭情绪和冲动做决定。",
+    "modernMeaning": "九变篇对应现代能力：灵活应变。它要求用户把古文转成判断流程，先明确局势，再判断资源、成本、风险、时机与执行路径。",
     "keywords": [
-      "九变",
-      "利害",
-      "君命有所不受"
+      "将有五危",
+      "利害并观"
     ],
     "applicableScenes": [
-      "组织管理",
-      "项目推进",
-      "风险控制",
+      "项目立项",
       "竞争分析",
-      "学习复盘"
+      "团队管理",
+      "创业决策",
+      "技术项目",
+      "个人选择"
     ],
-    "sections": [
+    "versionInfo": {
+      "sourceName": "《孙子兵法》通行本学习版",
+      "edition": "通行本",
+      "completeness": "待复校",
+      "proofreadingStatus": "初校",
+      "variantNotes": [],
+      "note": "本项目已按逐句学习结构组织原文与译注；古籍全文与异文仍建议在正式上线前由人工复校。"
+    },
+    "structure": [
+      "说明因地因势选择",
+      "提出有所不为",
+      "利害并观",
+      "识别领导者五种危险偏向"
+    ],
+    "fullOriginal": "凡用兵之法，将受命于君，合军聚众，圮地无舍，衢地交合。途有所不由，军有所不击，城有所不攻，地有所不争，君命有所不受。是故智者之虑，必杂于利害。杂于利而务可信也，杂于害而患可解也。故将有五危：必死，可杀也；必生，可虏也；忿速，可侮也；廉洁，可辱也；爱民，可烦也。凡此五者，将之过也，用兵之灾也。",
+    "sentences": [
       {
-        "id": "jiu-bian-s1",
+        "id": "jiu-bian-1",
         "chapterId": "jiu-bian",
-        "original": "孙子曰：凡用兵之法，将受命于君，合军聚众，圮地无舍，衢地交合，绝地无留，围地则谋，死地则战。途有所不由，军有所不击，城有所不攻，地有所不争，君命有所不受。故将通于九变之利者，知用兵矣。",
-        "translation": "本篇强调“灵活应变”。用现代话说，就是不要只问如何行动，而要先判断目标是否一致、资源是否支持、成本是否可控、风险是否可承受、时机是否成熟。",
-        "annotations": [
+        "order": 1,
+        "original": "凡用兵之法，将受命于君，合军聚众，圮地无舍，衢地交合。",
+        "words": [
           {
-            "word": "九变",
-            "explanation": "九变篇的核心关键词之一。",
+            "word": "凡用兵之",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
             "modernMapping": "灵活应变"
           },
           {
             "word": "胜",
-            "explanation": "不是单纯击败对方，而是以可承受代价达成目标。",
-            "modernMapping": "目标达成与成本收益"
-          },
-          {
-            "word": "势",
-            "explanation": "由结构、资源、位置、节奏共同形成的趋势力量。",
-            "modernMapping": "组织势能与系统优势"
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
           }
         ],
-        "strategyInterpretation": "九变篇提醒我们：战略不是口号，而是对条件的清醒计算。本篇在网站中对应“灵活应变”模块，用户可以通过案例、概念和训练题把古文转化为现实判断。"
+        "translation": "这句话强调：不拘泥固定规则，因势变化。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于灵活应变：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "bu-ke-sheng-zai-ji"
+        ],
+        "relatedCaseIds": [
+          "price-war"
+        ],
+        "relatedTrainingIds": [
+          "t08"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "jiu-bian-2",
+        "chapterId": "jiu-bian",
+        "order": 2,
+        "original": "途有所不由，军有所不击，城有所不攻，地有所不争，君命有所不受。",
+        "words": [
+          {
+            "word": "途有所不",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "灵活应变"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不拘泥固定规则，因势变化。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于灵活应变：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "bu-ke-sheng-zai-ji"
+        ],
+        "relatedCaseIds": [
+          "price-war"
+        ],
+        "relatedTrainingIds": [
+          "t08"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "jiu-bian-3",
+        "chapterId": "jiu-bian",
+        "order": 3,
+        "original": "是故智者之虑，必杂于利害。",
+        "words": [
+          {
+            "word": "是故智者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "灵活应变"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不拘泥固定规则，因势变化。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于灵活应变：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "bu-ke-sheng-zai-ji"
+        ],
+        "relatedCaseIds": [
+          "price-war"
+        ],
+        "relatedTrainingIds": [
+          "t08"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "jiu-bian-4",
+        "chapterId": "jiu-bian",
+        "order": 4,
+        "original": "杂于利而务可信也，杂于害而患可解也。",
+        "words": [
+          {
+            "word": "杂于利而",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "灵活应变"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不拘泥固定规则，因势变化。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于灵活应变：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "bu-ke-sheng-zai-ji"
+        ],
+        "relatedCaseIds": [
+          "price-war"
+        ],
+        "relatedTrainingIds": [
+          "t08"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jiu-bian-5",
+        "chapterId": "jiu-bian",
+        "order": 5,
+        "original": "故将有五危：必死，可杀也；必生，可虏也；忿速，可侮也；廉洁，可辱也；爱民，可烦也。",
+        "words": [
+          {
+            "word": "故将有五",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "灵活应变"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不拘泥固定规则，因势变化。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于灵活应变：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "bu-ke-sheng-zai-ji"
+        ],
+        "relatedCaseIds": [
+          "price-war"
+        ],
+        "relatedTrainingIds": [
+          "t08"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jiu-bian-6",
+        "chapterId": "jiu-bian",
+        "order": 6,
+        "original": "凡此五者，将之过也，用兵之灾也。",
+        "words": [
+          {
+            "word": "凡此五者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "灵活应变"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不拘泥固定规则，因势变化。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于灵活应变：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "bu-ke-sheng-zai-ji"
+        ],
+        "relatedCaseIds": [
+          "price-war"
+        ],
+        "relatedTrainingIds": [
+          "t08"
+        ],
+        "quoteLevel": "normal"
       }
     ],
-    "relatedConceptIds": [
-      "jiu-bian"
+    "coreSummary": "九变篇的核心不是记住名句，而是形成“灵活应变”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
+    "modernApplications": [
+      "用于灵活应变的项目复盘",
+      "用于判断是否该继续投入资源",
+      "用于识别对手强弱与己方边界",
+      "用于把抽象原则转成行动前检查清单"
     ],
-    "relatedCaseIds": [],
+    "reflectionTemplate": [
+      "这篇解决的核心问题是什么？",
+      "我现实中遇到过类似局势吗？",
+      "如果重来一次，我会先检查哪些条件？",
+      "有哪些风险是我过去忽略的？"
+    ],
+    "relatedConceptIds": [
+      "xian-sheng-hou-zhan",
+      "bu-ke-sheng-zai-ji"
+    ],
+    "relatedCaseIds": [
+      "price-war",
+      "resource-fight"
+    ],
     "relatedQuoteIds": [
-      "q20",
-      "q21"
+      "q08"
     ]
   },
   {
@@ -500,53 +1991,248 @@ export const chapters: Chapter[] = [
     "order": 9,
     "title": "行军篇",
     "slug": "xing-jun",
-    "theme": "判断环境",
-    "summary": "从环境、细节和迹象中识别风险。",
-    "modernMeaning": "行军篇可以转化为现代决策中的“判断环境”能力：在行动前识别局势、资源、成本、风险与执行条件，避免凭情绪和冲动做决定。",
+    "theme": "环境判断",
+    "summary": "从环境、迹象、行为中识别风险。",
+    "modernMeaning": "行军篇对应现代能力：环境判断。它要求用户把古文转成判断流程，先明确局势，再判断资源、成本、风险、时机与执行路径。",
     "keywords": [
-      "处军",
-      "相敌",
-      "环境判断"
+      "环境判断",
+      "战略",
+      "判断"
     ],
     "applicableScenes": [
-      "组织管理",
-      "项目推进",
-      "风险控制",
+      "项目立项",
       "竞争分析",
-      "学习复盘"
+      "团队管理",
+      "创业决策",
+      "技术项目",
+      "个人选择"
     ],
-    "sections": [
+    "versionInfo": {
+      "sourceName": "《孙子兵法》通行本学习版",
+      "edition": "通行本",
+      "completeness": "待复校",
+      "proofreadingStatus": "初校",
+      "variantNotes": [],
+      "note": "本项目已按逐句学习结构组织原文与译注；古籍全文与异文仍建议在正式上线前由人工复校。"
+    },
+    "structure": [
+      "说明行军处置原则",
+      "观察环境与敌情迹象",
+      "从言辞动作判断意图",
+      "反对盲目增兵"
+    ],
+    "fullOriginal": "凡处军相敌，绝山依谷，视生处高，战隆无登。凡军好高而恶下，贵阳而贱阴。敌近而静者，恃其险也；远而挑战者，欲人之进也。众树动者，来也；众草多障者，疑也。辞卑而益备者，进也；辞强而进驱者，退也。兵非贵益多也，惟无武进，足以并力、料敌、取人而已。",
+    "sentences": [
       {
-        "id": "xing-jun-s1",
+        "id": "xing-jun-1",
         "chapterId": "xing-jun",
-        "original": "孙子曰：凡处军、相敌，绝山依谷，视生处高，战隆无登，此处山之军也。凡军好高而恶下，贵阳而贱阴，养生而处实。敌近而静者，恃其险也；远而挑战者，欲人之进也。众树动者，来也；众草多障者，疑也。",
-        "translation": "本篇强调“判断环境”。用现代话说，就是不要只问如何行动，而要先判断目标是否一致、资源是否支持、成本是否可控、风险是否可承受、时机是否成熟。",
-        "annotations": [
+        "order": 1,
+        "original": "凡处军相敌，绝山依谷，视生处高，战隆无登。",
+        "words": [
           {
-            "word": "处军",
-            "explanation": "行军篇的核心关键词之一。",
-            "modernMapping": "判断环境"
+            "word": "凡处军相",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "环境判断"
           },
           {
             "word": "胜",
-            "explanation": "不是单纯击败对方，而是以可承受代价达成目标。",
-            "modernMapping": "目标达成与成本收益"
-          },
-          {
-            "word": "势",
-            "explanation": "由结构、资源、位置、节奏共同形成的趋势力量。",
-            "modernMapping": "组织势能与系统优势"
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
           }
         ],
-        "strategyInterpretation": "行军篇提醒我们：战略不是口号，而是对条件的清醒计算。本篇在网站中对应“判断环境”模块，用户可以通过案例、概念和训练题把古文转化为现实判断。"
+        "translation": "这句话强调：从环境、迹象、行为中识别风险。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于环境判断：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product"
+        ],
+        "relatedTrainingIds": [
+          "t09"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "xing-jun-2",
+        "chapterId": "xing-jun",
+        "order": 2,
+        "original": "凡军好高而恶下，贵阳而贱阴。",
+        "words": [
+          {
+            "word": "凡军好高",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：从环境、迹象、行为中识别风险。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于环境判断：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product"
+        ],
+        "relatedTrainingIds": [
+          "t09"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "xing-jun-3",
+        "chapterId": "xing-jun",
+        "order": 3,
+        "original": "敌近而静者，恃其险也；远而挑战者，欲人之进也。",
+        "words": [
+          {
+            "word": "敌近而静",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：从环境、迹象、行为中识别风险。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于环境判断：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product"
+        ],
+        "relatedTrainingIds": [
+          "t09"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "xing-jun-4",
+        "chapterId": "xing-jun",
+        "order": 4,
+        "original": "众树动者，来也；众草多障者，疑也。",
+        "words": [
+          {
+            "word": "众树动者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：从环境、迹象、行为中识别风险。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于环境判断：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product"
+        ],
+        "relatedTrainingIds": [
+          "t09"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-5",
+        "chapterId": "xing-jun",
+        "order": 5,
+        "original": "辞卑而益备者，进也；辞强而进驱者，退也。",
+        "words": [
+          {
+            "word": "辞卑而益",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：从环境、迹象、行为中识别风险。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于环境判断：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product"
+        ],
+        "relatedTrainingIds": [
+          "t09"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-6",
+        "chapterId": "xing-jun",
+        "order": 6,
+        "original": "兵非贵益多也，惟无武进，足以并力、料敌、取人而已。",
+        "words": [
+          {
+            "word": "兵非贵益",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：从环境、迹象、行为中识别风险。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于环境判断：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product"
+        ],
+        "relatedTrainingIds": [
+          "t09"
+        ],
+        "quoteLevel": "normal"
       }
     ],
-    "relatedConceptIds": [
-      "xiang-di"
+    "coreSummary": "行军篇的核心不是记住名句，而是形成“环境判断”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
+    "modernApplications": [
+      "用于环境判断的项目复盘",
+      "用于判断是否该继续投入资源",
+      "用于识别对手强弱与己方边界",
+      "用于把抽象原则转成行动前检查清单"
     ],
-    "relatedCaseIds": [],
+    "reflectionTemplate": [
+      "这篇解决的核心问题是什么？",
+      "我现实中遇到过类似局势吗？",
+      "如果重来一次，我会先检查哪些条件？",
+      "有哪些风险是我过去忽略的？"
+    ],
+    "relatedConceptIds": [
+      "bu-ke-sheng-zai-ji",
+      "zheng-qi"
+    ],
+    "relatedCaseIds": [
+      "niche-product",
+      "real-decision-maker"
+    ],
     "relatedQuoteIds": [
-      "q22"
+      "q09"
     ]
   },
   {
@@ -556,51 +2242,244 @@ export const chapters: Chapter[] = [
     "slug": "di-xing",
     "theme": "地形与组织",
     "summary": "不同条件下使用不同策略。",
-    "modernMeaning": "地形篇可以转化为现代决策中的“地形与组织”能力：在行动前识别局势、资源、成本、风险与执行条件，避免凭情绪和冲动做决定。",
+    "modernMeaning": "地形篇对应现代能力：地形与组织。它要求用户把古文转成判断流程，先明确局势，再判断资源、成本、风险、时机与执行路径。",
     "keywords": [
-      "六地",
-      "六败",
-      "知彼知己"
+      "知天知地"
     ],
     "applicableScenes": [
-      "组织管理",
-      "项目推进",
-      "风险控制",
+      "项目立项",
       "竞争分析",
-      "学习复盘"
+      "团队管理",
+      "创业决策",
+      "技术项目",
+      "个人选择"
     ],
-    "sections": [
+    "versionInfo": {
+      "sourceName": "《孙子兵法》通行本学习版",
+      "edition": "通行本",
+      "completeness": "待复校",
+      "proofreadingStatus": "初校",
+      "variantNotes": [],
+      "note": "本项目已按逐句学习结构组织原文与译注；古籍全文与异文仍建议在正式上线前由人工复校。"
+    },
+    "structure": [
+      "分类地形",
+      "说明不同条件不同策略",
+      "地形是辅助条件",
+      "知天知地才能持续取胜"
+    ],
+    "fullOriginal": "地形有通者、有挂者、有支者、有隘者、有险者、有远者。我可以往，彼可以来，曰通。可以往，难以返，曰挂。我出而不利，彼出而不利，曰支。夫地形者，兵之助也。料敌制胜，计险阨远近，上将之道也。知天知地，胜乃不穷。",
+    "sentences": [
       {
-        "id": "di-xing-s1",
+        "id": "di-xing-1",
         "chapterId": "di-xing",
-        "original": "孙子曰：地形有通者、有挂者、有支者、有隘者、有险者、有远者。凡此六者，地之道也，将之至任，不可不察也。故兵有走者、有弛者、有陷者、有崩者、有乱者、有北者。凡此六者，非天之灾，将之过也。知彼知己，胜乃不殆；知天知地，胜乃可全。",
-        "translation": "本篇强调“地形与组织”。用现代话说，就是不要只问如何行动，而要先判断目标是否一致、资源是否支持、成本是否可控、风险是否可承受、时机是否成熟。",
-        "annotations": [
+        "order": 1,
+        "original": "地形有通者、有挂者、有支者、有隘者、有险者、有远者。",
+        "words": [
           {
-            "word": "六地",
-            "explanation": "地形篇的核心关键词之一。",
+            "word": "地形有通",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
             "modernMapping": "地形与组织"
           },
           {
             "word": "胜",
-            "explanation": "不是单纯击败对方，而是以可承受代价达成目标。",
-            "modernMapping": "目标达成与成本收益"
-          },
-          {
-            "word": "势",
-            "explanation": "由结构、资源、位置、节奏共同形成的趋势力量。",
-            "modernMapping": "组织势能与系统优势"
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
           }
         ],
-        "strategyInterpretation": "地形篇提醒我们：战略不是口号，而是对条件的清醒计算。本篇在网站中对应“地形与组织”模块，用户可以通过案例、概念和训练题把古文转化为现实判断。"
+        "translation": "这句话强调：不同条件下使用不同策略。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于地形与组织：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect"
+        ],
+        "relatedTrainingIds": [
+          "t10"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "di-xing-2",
+        "chapterId": "di-xing",
+        "order": 2,
+        "original": "我可以往，彼可以来，曰通。",
+        "words": [
+          {
+            "word": "我可以往",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不同条件下使用不同策略。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于地形与组织：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect"
+        ],
+        "relatedTrainingIds": [
+          "t10"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "di-xing-3",
+        "chapterId": "di-xing",
+        "order": 3,
+        "original": "可以往，难以返，曰挂。",
+        "words": [
+          {
+            "word": "可以往",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不同条件下使用不同策略。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于地形与组织：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect"
+        ],
+        "relatedTrainingIds": [
+          "t10"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "di-xing-4",
+        "chapterId": "di-xing",
+        "order": 4,
+        "original": "我出而不利，彼出而不利，曰支。",
+        "words": [
+          {
+            "word": "我出而不",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不同条件下使用不同策略。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于地形与组织：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect"
+        ],
+        "relatedTrainingIds": [
+          "t10"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "di-xing-5",
+        "chapterId": "di-xing",
+        "order": 5,
+        "original": "夫地形者，兵之助也。料敌制胜，计险阨远近，上将之道也。",
+        "words": [
+          {
+            "word": "夫地形者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不同条件下使用不同策略。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于地形与组织：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect"
+        ],
+        "relatedTrainingIds": [
+          "t10"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "di-xing-6",
+        "chapterId": "di-xing",
+        "order": 6,
+        "original": "知天知地，胜乃不穷。",
+        "words": [
+          {
+            "word": "知天知地",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：不同条件下使用不同策略。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于地形与组织：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect"
+        ],
+        "relatedTrainingIds": [
+          "t10"
+        ],
+        "quoteLevel": "classic"
       }
     ],
-    "relatedConceptIds": [
-      "di-xing"
+    "coreSummary": "地形篇的核心不是记住名句，而是形成“地形与组织”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
+    "modernApplications": [
+      "用于地形与组织的项目复盘",
+      "用于判断是否该继续投入资源",
+      "用于识别对手强弱与己方边界",
+      "用于把抽象原则转成行动前检查清单"
     ],
-    "relatedCaseIds": [],
+    "reflectionTemplate": [
+      "这篇解决的核心问题是什么？",
+      "我现实中遇到过类似局势吗？",
+      "如果重来一次，我会先检查哪些条件？",
+      "有哪些风险是我过去忽略的？"
+    ],
+    "relatedConceptIds": [
+      "zheng-qi",
+      "shi-neng"
+    ],
+    "relatedCaseIds": [
+      "network-effect",
+      "avoid-internal-friction"
+    ],
     "relatedQuoteIds": [
-      "q23"
+      "q10"
     ]
   },
   {
@@ -610,52 +2489,244 @@ export const chapters: Chapter[] = [
     "slug": "jiu-di",
     "theme": "处境管理",
     "summary": "根据所处局势调整行动方式。",
-    "modernMeaning": "九地篇可以转化为现代决策中的“处境管理”能力：在行动前识别局势、资源、成本、风险与执行条件，避免凭情绪和冲动做决定。",
+    "modernMeaning": "九地篇对应现代能力：处境管理。它要求用户把古文转成判断流程，先明确局势，再判断资源、成本、风险、时机与执行路径。",
     "keywords": [
-      "九地",
-      "投之亡地然后存"
+      "死地求生"
     ],
     "applicableScenes": [
-      "组织管理",
-      "项目推进",
-      "风险控制",
+      "项目立项",
       "竞争分析",
-      "学习复盘"
+      "团队管理",
+      "创业决策",
+      "技术项目",
+      "个人选择"
     ],
-    "sections": [
+    "versionInfo": {
+      "sourceName": "《孙子兵法》通行本学习版",
+      "edition": "通行本",
+      "completeness": "待复校",
+      "proofreadingStatus": "初校",
+      "variantNotes": [],
+      "note": "本项目已按逐句学习结构组织原文与译注；古籍全文与异文仍建议在正式上线前由人工复校。"
+    },
+    "structure": [
+      "定义九种处境",
+      "根据处境调整行动",
+      "说明死地求生边界",
+      "强调组织联动和速度"
+    ],
+    "fullOriginal": "用兵之法，有散地，有轻地，有争地，有交地，有衢地，有重地，有圮地，有围地，有死地。诸侯自战其地者，为散地。入人之地不深者，为轻地。我得则利，彼得亦利者，为争地。投之亡地然后存，陷之死地然后生。故善用兵者，譬如率然；率然者，常山之蛇也。始如处女，敌人开户；后如脱兔，敌不及拒。",
+    "sentences": [
       {
-        "id": "jiu-di-s1",
+        "id": "jiu-di-1",
         "chapterId": "jiu-di",
-        "original": "孙子曰：用兵之法，有散地，有轻地，有争地，有交地，有衢地，有重地，有圮地，有围地，有死地。善用兵者，譬如率然；率然者，常山之蛇也。投之亡地然后存，陷之死地然后生。夫众陷于害，然后能为胜败。",
-        "translation": "本篇强调“处境管理”。用现代话说，就是不要只问如何行动，而要先判断目标是否一致、资源是否支持、成本是否可控、风险是否可承受、时机是否成熟。",
-        "annotations": [
+        "order": 1,
+        "original": "用兵之法，有散地，有轻地，有争地，有交地，有衢地，有重地，有圮地，有围地，有死地。",
+        "words": [
           {
-            "word": "九地",
-            "explanation": "九地篇的核心关键词之一。",
+            "word": "用兵之法",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
             "modernMapping": "处境管理"
           },
           {
             "word": "胜",
-            "explanation": "不是单纯击败对方，而是以可承受代价达成目标。",
-            "modernMapping": "目标达成与成本收益"
-          },
-          {
-            "word": "势",
-            "explanation": "由结构、资源、位置、节奏共同形成的趋势力量。",
-            "modernMapping": "组织势能与系统优势"
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
           }
         ],
-        "strategyInterpretation": "九地篇提醒我们：战略不是口号，而是对条件的清醒计算。本篇在网站中对应“处境管理”模块，用户可以通过案例、概念和训练题把古文转化为现实判断。"
+        "translation": "这句话强调：根据所处局势调整行动方式。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于处境管理：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "shi-neng",
+          "bi-shi-ji-xu"
+        ],
+        "relatedCaseIds": [
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t11"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "jiu-di-2",
+        "chapterId": "jiu-di",
+        "order": 2,
+        "original": "诸侯自战其地者，为散地。入人之地不深者，为轻地。",
+        "words": [
+          {
+            "word": "诸侯自战",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "处境管理"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：根据所处局势调整行动方式。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于处境管理：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "shi-neng",
+          "bi-shi-ji-xu"
+        ],
+        "relatedCaseIds": [
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t11"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "jiu-di-3",
+        "chapterId": "jiu-di",
+        "order": 3,
+        "original": "我得则利，彼得亦利者，为争地。",
+        "words": [
+          {
+            "word": "我得则利",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "处境管理"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：根据所处局势调整行动方式。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于处境管理：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "shi-neng",
+          "bi-shi-ji-xu"
+        ],
+        "relatedCaseIds": [
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t11"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "jiu-di-4",
+        "chapterId": "jiu-di",
+        "order": 4,
+        "original": "投之亡地然后存，陷之死地然后生。",
+        "words": [
+          {
+            "word": "投之亡地",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "处境管理"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：根据所处局势调整行动方式。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于处境管理：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "shi-neng",
+          "bi-shi-ji-xu"
+        ],
+        "relatedCaseIds": [
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t11"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jiu-di-5",
+        "chapterId": "jiu-di",
+        "order": 5,
+        "original": "故善用兵者，譬如率然；率然者，常山之蛇也。",
+        "words": [
+          {
+            "word": "故善用兵",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "处境管理"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：根据所处局势调整行动方式。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于处境管理：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "shi-neng",
+          "bi-shi-ji-xu"
+        ],
+        "relatedCaseIds": [
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t11"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jiu-di-6",
+        "chapterId": "jiu-di",
+        "order": 6,
+        "original": "始如处女，敌人开户；后如脱兔，敌不及拒。",
+        "words": [
+          {
+            "word": "始如处女",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "处境管理"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：根据所处局势调整行动方式。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于处境管理：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "shi-neng",
+          "bi-shi-ji-xu"
+        ],
+        "relatedCaseIds": [
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t11"
+        ],
+        "quoteLevel": "normal"
       }
     ],
+    "coreSummary": "九地篇的核心不是记住名句，而是形成“处境管理”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
+    "modernApplications": [
+      "用于处境管理的项目复盘",
+      "用于判断是否该继续投入资源",
+      "用于识别对手强弱与己方边界",
+      "用于把抽象原则转成行动前检查清单"
+    ],
+    "reflectionTemplate": [
+      "这篇解决的核心问题是什么？",
+      "我现实中遇到过类似局势吗？",
+      "如果重来一次，我会先检查哪些条件？",
+      "有哪些风险是我过去忽略的？"
+    ],
     "relatedConceptIds": [
-      "si-di"
+      "shi-neng",
+      "bi-shi-ji-xu"
     ],
     "relatedCaseIds": [
-      "han-xin"
+      "brand-position",
+      "system-refactor"
     ],
     "relatedQuoteIds": [
-      "q24"
+      "q11"
     ]
   },
   {
@@ -664,56 +2735,247 @@ export const chapters: Chapter[] = [
     "title": "火攻篇",
     "slug": "huo-gong",
     "theme": "风险与时机",
-    "summary": "借助外部条件，但必须控制后果。",
-    "modernMeaning": "火攻篇可以转化为现代决策中的“风险与时机”能力：在行动前识别局势、资源、成本、风险与执行条件，避免凭情绪和冲动做决定。",
+    "summary": "借助特殊手段必须控制后果。",
+    "modernMeaning": "火攻篇对应现代能力：风险与时机。它要求用户把古文转成判断流程，先明确局势，再判断资源、成本、风险、时机与执行路径。",
     "keywords": [
-      "火攻",
-      "时机",
-      "怒战风险"
+      "风险与时机",
+      "战略",
+      "判断"
     ],
     "applicableScenes": [
-      "组织管理",
-      "项目推进",
-      "风险控制",
+      "项目立项",
       "竞争分析",
-      "学习复盘"
+      "团队管理",
+      "创业决策",
+      "技术项目",
+      "个人选择"
     ],
-    "sections": [
+    "versionInfo": {
+      "sourceName": "《孙子兵法》通行本学习版",
+      "edition": "通行本",
+      "completeness": "待复校",
+      "proofreadingStatus": "初校",
+      "variantNotes": [],
+      "note": "本项目已按逐句学习结构组织原文与译注；古籍全文与异文仍建议在正式上线前由人工复校。"
+    },
+    "structure": [
+      "列出火攻类型",
+      "强调条件准备",
+      "强调时机配合",
+      "警惕情绪化行动"
+    ],
+    "fullOriginal": "凡火攻有五：一曰火人，二曰火积，三曰火辎，四曰火库，五曰火队。行火必有因，烟火必素具。发火有时，起火有日。火发于内，则早应之于外。夫战胜攻取，而不修其功者，凶，命曰费留。主不可以怒而兴师，将不可以愠而致战。",
+    "sentences": [
       {
-        "id": "huo-gong-s1",
+        "id": "huo-gong-1",
         "chapterId": "huo-gong",
-        "original": "孙子曰：凡火攻有五：一曰火人，二曰火积，三曰火辎，四曰火库，五曰火队。行火必有因，烟火必素具。非利不动，非得不用，非危不战。主不可以怒而兴师，将不可以愠而致战。怒可以复喜，愠可以复悦；亡国不可以复存，死者不可以复生。",
-        "translation": "本篇强调“风险与时机”。用现代话说，就是不要只问如何行动，而要先判断目标是否一致、资源是否支持、成本是否可控、风险是否可承受、时机是否成熟。",
-        "annotations": [
+        "order": 1,
+        "original": "凡火攻有五：一曰火人，二曰火积，三曰火辎，四曰火库，五曰火队。",
+        "words": [
           {
-            "word": "火攻",
-            "explanation": "火攻篇的核心关键词之一。",
+            "word": "凡火攻有",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
             "modernMapping": "风险与时机"
           },
           {
             "word": "胜",
-            "explanation": "不是单纯击败对方，而是以可承受代价达成目标。",
-            "modernMapping": "目标达成与成本收益"
-          },
-          {
-            "word": "势",
-            "explanation": "由结构、资源、位置、节奏共同形成的趋势力量。",
-            "modernMapping": "组织势能与系统优势"
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
           }
         ],
-        "strategyInterpretation": "火攻篇提醒我们：战略不是口号，而是对条件的清醒计算。本篇在网站中对应“风险与时机”模块，用户可以通过案例、概念和训练题把古文转化为现实判断。"
+        "translation": "这句话强调：借助特殊手段必须控制后果。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于风险与时机：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "zhi-ren-bu-zhi-yu-ren"
+        ],
+        "relatedCaseIds": [
+          "project-kickoff"
+        ],
+        "relatedTrainingIds": [
+          "t12"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "huo-gong-2",
+        "chapterId": "huo-gong",
+        "order": 2,
+        "original": "行火必有因，烟火必素具。",
+        "words": [
+          {
+            "word": "行火必有",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "风险与时机"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：借助特殊手段必须控制后果。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于风险与时机：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "zhi-ren-bu-zhi-yu-ren"
+        ],
+        "relatedCaseIds": [
+          "project-kickoff"
+        ],
+        "relatedTrainingIds": [
+          "t12"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "huo-gong-3",
+        "chapterId": "huo-gong",
+        "order": 3,
+        "original": "发火有时，起火有日。",
+        "words": [
+          {
+            "word": "发火有时",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "风险与时机"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：借助特殊手段必须控制后果。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于风险与时机：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "zhi-ren-bu-zhi-yu-ren"
+        ],
+        "relatedCaseIds": [
+          "project-kickoff"
+        ],
+        "relatedTrainingIds": [
+          "t12"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "huo-gong-4",
+        "chapterId": "huo-gong",
+        "order": 4,
+        "original": "火发于内，则早应之于外。",
+        "words": [
+          {
+            "word": "火发于内",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "风险与时机"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：借助特殊手段必须控制后果。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于风险与时机：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "zhi-ren-bu-zhi-yu-ren"
+        ],
+        "relatedCaseIds": [
+          "project-kickoff"
+        ],
+        "relatedTrainingIds": [
+          "t12"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "huo-gong-5",
+        "chapterId": "huo-gong",
+        "order": 5,
+        "original": "夫战胜攻取，而不修其功者，凶，命曰费留。",
+        "words": [
+          {
+            "word": "夫战胜攻",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "风险与时机"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：借助特殊手段必须控制后果。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于风险与时机：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "zhi-ren-bu-zhi-yu-ren"
+        ],
+        "relatedCaseIds": [
+          "project-kickoff"
+        ],
+        "relatedTrainingIds": [
+          "t12"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "huo-gong-6",
+        "chapterId": "huo-gong",
+        "order": 6,
+        "original": "主不可以怒而兴师，将不可以愠而致战。",
+        "words": [
+          {
+            "word": "主不可以",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "风险与时机"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：借助特殊手段必须控制后果。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于风险与时机：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "zhi-ren-bu-zhi-yu-ren"
+        ],
+        "relatedCaseIds": [
+          "project-kickoff"
+        ],
+        "relatedTrainingIds": [
+          "t12"
+        ],
+        "quoteLevel": "normal"
       }
     ],
+    "coreSummary": "火攻篇的核心不是记住名句，而是形成“风险与时机”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
+    "modernApplications": [
+      "用于风险与时机的项目复盘",
+      "用于判断是否该继续投入资源",
+      "用于识别对手强弱与己方边界",
+      "用于把抽象原则转成行动前检查清单"
+    ],
+    "reflectionTemplate": [
+      "这篇解决的核心问题是什么？",
+      "我现实中遇到过类似局势吗？",
+      "如果重来一次，我会先检查哪些条件？",
+      "有哪些风险是我过去忽略的？"
+    ],
     "relatedConceptIds": [
-      "huo-gong"
+      "bi-shi-ji-xu",
+      "zhi-ren-bu-zhi-yu-ren"
     ],
     "relatedCaseIds": [
-      "chi-bi"
+      "project-kickoff",
+      "tech-debt"
     ],
     "relatedQuoteIds": [
-      "q25",
-      "q26",
-      "q27"
+      "q12"
     ]
   },
   {
@@ -722,438 +2984,1604 @@ export const chapters: Chapter[] = [
     "title": "用间篇",
     "slug": "yong-jian",
     "theme": "信息优势",
-    "summary": "通过信息减少误判，提高胜算。",
-    "modernMeaning": "用间篇可以转化为现代决策中的“信息优势”能力：在行动前识别局势、资源、成本、风险与执行条件，避免凭情绪和冲动做决定。",
+    "summary": "用信息差减少误判、提高胜算。",
+    "modernMeaning": "用间篇对应现代能力：信息优势。它要求用户把古文转成判断流程，先明确局势，再判断资源、成本、风险、时机与执行路径。",
     "keywords": [
-      "五间",
-      "先知",
-      "反间"
+      "用间"
     ],
     "applicableScenes": [
-      "组织管理",
-      "项目推进",
-      "风险控制",
+      "项目立项",
       "竞争分析",
-      "学习复盘"
+      "团队管理",
+      "创业决策",
+      "技术项目",
+      "个人选择"
     ],
-    "sections": [
+    "versionInfo": {
+      "sourceName": "《孙子兵法》通行本学习版",
+      "edition": "通行本",
+      "completeness": "待复校",
+      "proofreadingStatus": "初校",
+      "variantNotes": [],
+      "note": "本项目已按逐句学习结构组织原文与译注；古籍全文与异文仍建议在正式上线前由人工复校。"
+    },
+    "structure": [
+      "信息决定成本与胜算",
+      "反对迷信和空想推测",
+      "提出五间体系",
+      "强调保密与激励"
+    ],
+    "fullOriginal": "凡兴师十万，出征千里，百姓之费，公家之奉，日费千金。故明君贤将，所以动而胜人，成功出于众者，先知也。先知者，不可取于鬼神，不可象于事，不可验于度，必取于人，知敌之情者也。故用间有五：有乡间，有内间，有反间，有死间，有生间。五间俱起，莫知其道，是谓神纪，人君之宝也。故三军之事，莫亲于间，赏莫厚于间，事莫密于间。",
+    "sentences": [
       {
-        "id": "yong-jian-s1",
+        "id": "yong-jian-1",
         "chapterId": "yong-jian",
-        "original": "孙子曰：凡兴师十万，出征千里，百姓之费，公家之奉，日费千金。故明君贤将，所以动而胜人，成功出于众者，先知也。先知者，不可取于鬼神，不可象于事，不可验于度，必取于人，知敌之情者也。故用间有五：有因间，有内间，有反间，有死间，有生间。三军之事，莫亲于间，赏莫厚于间，事莫密于间。",
-        "translation": "本篇强调“信息优势”。用现代话说，就是不要只问如何行动，而要先判断目标是否一致、资源是否支持、成本是否可控、风险是否可承受、时机是否成熟。",
-        "annotations": [
+        "order": 1,
+        "original": "凡兴师十万，出征千里，百姓之费，公家之奉，日费千金。",
+        "words": [
           {
-            "word": "五间",
-            "explanation": "用间篇的核心关键词之一。",
+            "word": "凡兴师十",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
             "modernMapping": "信息优势"
           },
           {
             "word": "胜",
-            "explanation": "不是单纯击败对方，而是以可承受代价达成目标。",
-            "modernMapping": "目标达成与成本收益"
-          },
-          {
-            "word": "势",
-            "explanation": "由结构、资源、位置、节奏共同形成的趋势力量。",
-            "modernMapping": "组织势能与系统优势"
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
           }
         ],
-        "strategyInterpretation": "用间篇提醒我们：战略不是口号，而是对条件的清醒计算。本篇在网站中对应“信息优势”模块，用户可以通过案例、概念和训练题把古文转化为现实判断。"
+        "translation": "这句话强调：用信息差减少误判、提高胜算。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于信息优势：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
+        ],
+        "relatedCaseIds": [
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t13"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "yong-jian-2",
+        "chapterId": "yong-jian",
+        "order": 2,
+        "original": "故明君贤将，所以动而胜人，成功出于众者，先知也。",
+        "words": [
+          {
+            "word": "故明君贤",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：用信息差减少误判、提高胜算。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于信息优势：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
+        ],
+        "relatedCaseIds": [
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t13"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "yong-jian-3",
+        "chapterId": "yong-jian",
+        "order": 3,
+        "original": "先知者，不可取于鬼神，不可象于事，不可验于度，必取于人，知敌之情者也。",
+        "words": [
+          {
+            "word": "先知者",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：用信息差减少误判、提高胜算。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于信息优势：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
+        ],
+        "relatedCaseIds": [
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t13"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "yong-jian-4",
+        "chapterId": "yong-jian",
+        "order": 4,
+        "original": "故用间有五：有乡间，有内间，有反间，有死间，有生间。",
+        "words": [
+          {
+            "word": "故用间有",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：用信息差减少误判、提高胜算。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于信息优势：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
+        ],
+        "relatedCaseIds": [
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t13"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "yong-jian-5",
+        "chapterId": "yong-jian",
+        "order": 5,
+        "original": "五间俱起，莫知其道，是谓神纪，人君之宝也。",
+        "words": [
+          {
+            "word": "五间俱起",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：用信息差减少误判、提高胜算。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于信息优势：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
+        ],
+        "relatedCaseIds": [
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t13"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "yong-jian-6",
+        "chapterId": "yong-jian",
+        "order": 6,
+        "original": "故三军之事，莫亲于间，赏莫厚于间，事莫密于间。",
+        "words": [
+          {
+            "word": "故三军之",
+            "explanation": "本句的关键表达，体现本篇战略主题。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "胜",
+            "explanation": "不是表面赢一次，而是以可承受代价达成目标。",
+            "modernMapping": "有效结果"
+          }
+        ],
+        "translation": "这句话强调：用信息差减少误判、提高胜算。在具体行动中，需要先分辨条件、代价和可控边界。",
+        "modernApplication": "在现代场景中，可用于信息优势：做项目前先问目标、资源、时机、风险和执行条件，而不是只凭冲动推进。",
+        "relatedConceptIds": [
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
+        ],
+        "relatedCaseIds": [
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t13"
+        ],
+        "quoteLevel": "normal"
       }
     ],
+    "coreSummary": "用间篇的核心不是记住名句，而是形成“信息优势”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
+    "modernApplications": [
+      "用于信息优势的项目复盘",
+      "用于判断是否该继续投入资源",
+      "用于识别对手强弱与己方边界",
+      "用于把抽象原则转成行动前检查清单"
+    ],
+    "reflectionTemplate": [
+      "这篇解决的核心问题是什么？",
+      "我现实中遇到过类似局势吗？",
+      "如果重来一次，我会先检查哪些条件？",
+      "有哪些风险是我过去忽略的？"
+    ],
     "relatedConceptIds": [
-      "yong-jian"
+      "zhi-ren-bu-zhi-yu-ren",
+      "gong-qi-suo-bi-jiu"
     ],
     "relatedCaseIds": [
-      "resource-owner"
+      "team-alignment",
+      "architecture-pilot"
     ],
     "relatedQuoteIds": [
-      "q28",
-      "q29",
-      "q30"
+      "q13"
     ]
   }
 ];
 
-export const concepts: Concept[] = [
+export const concepts: DeepConcept[] = [
   {
     "id": "dao-tian-di-jiang-fa",
     "name": "道天地将法",
     "slug": "dao-tian-di-jiang-fa",
+    "oneLineExplanation": "行动前判断胜算的五个基本维度。",
     "sourceChapterIds": [
       "shi-ji"
     ],
-    "originalQuotes": [
-      "孙子曰：兵者，国之大事，死生之地，存亡之道，不可不察也。故经之以五事，校之以计，而索其情：一曰道，二曰天，三曰地，四曰将，五曰法。道者，令民与上同意也，故可以与之死，可以与之生，而……"
+    "originalSentences": [
+      "兵者，国之大事，死生之地，存亡之道，不可不察也。"
     ],
-    "explanation": "重大行动前的五个检查维度：共识、时机、环境、领导、制度。",
-    "modernMeaning": "不要把战略理解成口号，战略要落到目标共识、外部周期、资源环境、负责人能力和制度流程。",
-    "commonMisunderstanding": "只看领导热情，忽略组织共识和执行制度。",
+    "ancientContext": "在《始计篇》中，道天地将法不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，道天地将法应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "道",
+        "ancientMeaning": "上下同欲，目标一致。",
+        "modernMapping": "组织共识、共同目标。",
+        "example": "项目启动前确认业务、技术、管理层是否目标一致。"
+      },
+      {
+        "name": "天",
+        "ancientMeaning": "阴阳寒暑与时制。",
+        "modernMapping": "外部周期、政策环境、时间窗口。",
+        "example": "在行业窗口打开时推进，而不是逆周期硬冲。"
+      },
+      {
+        "name": "地",
+        "ancientMeaning": "远近险易、广狭死生。",
+        "modernMapping": "市场位置、资源环境、渠道结构。",
+        "example": "选择自己能触达、对手不易覆盖的细分场景。"
+      },
+      {
+        "name": "将",
+        "ancientMeaning": "智信仁勇严。",
+        "modernMapping": "负责人判断力、可信度、组织力。",
+        "example": "复杂项目必须有能拍板、能协调、能承担风险的人。"
+      },
+      {
+        "name": "法",
+        "ancientMeaning": "曲制、官道、主用。",
+        "modernMapping": "流程、规则、激励和执行系统。",
+        "example": "没有流程和责任边界，战略会停在口号。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把道天地将法当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
     "relatedCaseIds": [
-      "chu-han",
-      "team-alignment",
-      "review-platform"
+      "guan-du"
     ],
-    "relatedTrainingIds": []
+    "relatedTrainingIds": [
+      "t01"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
     "id": "qi-ji",
     "name": "七计",
     "slug": "qi-ji",
+    "oneLineExplanation": "用七组问题比较敌我条件，而不是凭感觉判断。",
     "sourceChapterIds": [
       "shi-ji"
     ],
-    "originalQuotes": [
-      "孙子曰：兵者，国之大事，死生之地，存亡之道，不可不察也。故经之以五事，校之以计，而索其情：一曰道，二曰天，三曰地，四曰将，五曰法。道者，令民与上同意也，故可以与之死，可以与之生，而……"
+    "originalSentences": [
+      "兵者，国之大事，死生之地，存亡之道，不可不察也。"
     ],
-    "explanation": "用七个问题比较双方胜算。",
-    "modernMeaning": "它适用于项目立项、产品竞争和团队决策。",
-    "commonMisunderstanding": "只凭感觉判断强弱。",
-    "relatedCaseIds": [],
-    "relatedTrainingIds": []
+    "ancientContext": "在《始计篇》中，七计不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，七计应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "用七组问题比较敌我条件，而不是凭感觉判断。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把七计当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
+    "relatedCaseIds": [
+      "chi-bi"
+    ],
+    "relatedTrainingIds": [
+      "t02"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
     "id": "miao-suan",
     "name": "庙算",
     "slug": "miao-suan",
+    "oneLineExplanation": "在行动前完成推演、比较、风险估算。",
     "sourceChapterIds": [
       "shi-ji"
     ],
-    "originalQuotes": [
-      "孙子曰：兵者，国之大事，死生之地，存亡之道，不可不察也。故经之以五事，校之以计，而索其情：一曰道，二曰天，三曰地，四曰将，五曰法。道者，令民与上同意也，故可以与之死，可以与之生，而……"
+    "originalSentences": [
+      "兵者，国之大事，死生之地，存亡之道，不可不察也。"
     ],
-    "explanation": "战前充分计算，而不是边打边想。",
-    "modernMeaning": "现代对应商业计划、风险评审、架构评审和资源预算。",
-    "commonMisunderstanding": "把计划当形式，不根据事实修正。",
-    "relatedCaseIds": [],
-    "relatedTrainingIds": []
+    "ancientContext": "在《始计篇》中，庙算不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，庙算应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "在行动前完成推演、比较、风险估算。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把庙算当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
+    "relatedCaseIds": [
+      "fei-shui"
+    ],
+    "relatedTrainingIds": [
+      "t03"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
     "id": "bing-gui-sheng",
     "name": "兵贵胜不贵久",
     "slug": "bing-gui-sheng",
+    "oneLineExplanation": "重视有效结果，警惕长期消耗。",
     "sourceChapterIds": [
       "zuo-zhan"
     ],
-    "originalQuotes": [
-      "孙子曰：凡用兵之法，驰车千驷，革车千乘，带甲十万，千里馈粮，则内外之费、宾客之用、胶漆之材、车甲之奉，日费千金，然后十万之师举矣。其用战也胜，久则钝兵挫锐，攻城则力屈，久暴师则国用……"
+    "originalSentences": [
+      "凡用兵之法，驰车千驷，革车千乘，带甲十万，千里馈粮。"
     ],
-    "explanation": "胜利要快且代价可控，长期消耗会拖垮系统。",
-    "modernMeaning": "项目、价格战、组织变革都要避免无期限消耗。",
-    "commonMisunderstanding": "以为坚持越久越正确。",
+    "ancientContext": "在《作战篇》中，兵贵胜不贵久不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，兵贵胜不贵久应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "重视有效结果，警惕长期消耗。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把兵贵胜不贵久当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
     "relatedCaseIds": [
-      "chang-ping",
-      "price-war",
-      "tech-debt"
+      "chu-han"
     ],
-    "relatedTrainingIds": []
+    "relatedTrainingIds": [
+      "t04"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
-    "id": "fa-mou",
+    "id": "shang-bing-fa-mou",
     "name": "上兵伐谋",
-    "slug": "fa-mou",
+    "slug": "shang-bing-fa-mou",
+    "oneLineExplanation": "优先瓦解对方战略，而不是直接消耗。",
     "sourceChapterIds": [
       "mou-gong"
     ],
-    "originalQuotes": [
-      "孙子曰：凡用兵之法，全国为上，破国次之；全军为上，破军次之；全旅为上，破旅次之。是故百战百胜，非善之善者也；不战而屈人之兵，善之善者也。故上兵伐谋，其次伐交，其次伐兵，其下攻城。知……"
+    "originalSentences": [
+      "凡用兵之法，全国为上，破国次之；全军为上，破军次之。"
     ],
-    "explanation": "最高层次的竞争是瓦解对方策略。",
-    "modernMeaning": "从战场选择、规则设计、合作关系入手，而非只拼资源。",
-    "commonMisunderstanding": "把竞争等同于正面冲突。",
+    "ancientContext": "在《谋攻篇》中，上兵伐谋不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，上兵伐谋应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "优先瓦解对方战略，而不是直接消耗。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把上兵伐谋当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
     "relatedCaseIds": [
-      "chi-bi",
-      "brand-position",
-      "conflict-cost"
+      "chang-ping"
     ],
-    "relatedTrainingIds": []
+    "relatedTrainingIds": [
+      "t05"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
-    "id": "bu-zhan-er-sheng",
+    "id": "bu-zhan-er-qu-ren",
     "name": "不战而屈人之兵",
-    "slug": "bu-zhan-er-sheng",
+    "slug": "bu-zhan-er-qu-ren",
+    "oneLineExplanation": "用结构和条件让对方失去继续对抗的必要。",
     "sourceChapterIds": [
       "mou-gong"
     ],
-    "originalQuotes": [
-      "孙子曰：凡用兵之法，全国为上，破国次之；全军为上，破军次之；全旅为上，破旅次之。是故百战百胜，非善之善者也；不战而屈人之兵，善之善者也。故上兵伐谋，其次伐交，其次伐兵，其下攻城。知……"
+    "originalSentences": [
+      "凡用兵之法，全国为上，破国次之；全军为上，破军次之。"
     ],
-    "explanation": "以局势设计迫使对方放弃无效对抗。",
-    "modernMeaning": "商业上可通过定位、生态、渠道和标准达成。",
-    "commonMisunderstanding": "误解为不行动。",
+    "ancientContext": "在《谋攻篇》中，不战而屈人之兵不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，不战而屈人之兵应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "用结构和条件让对方失去继续对抗的必要。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把不战而屈人之兵当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
     "relatedCaseIds": [
-      "channel-alliance"
+      "jing-xing"
     ],
-    "relatedTrainingIds": []
+    "relatedTrainingIds": [
+      "t06"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
     "id": "zhi-ji-zhi-bi",
     "name": "知己知彼",
     "slug": "zhi-ji-zhi-bi",
+    "oneLineExplanation": "同时理解自己和对方，降低误判。",
     "sourceChapterIds": [
       "mou-gong"
     ],
-    "originalQuotes": [
-      "孙子曰：凡用兵之法，全国为上，破国次之；全军为上，破军次之；全旅为上，破旅次之。是故百战百胜，非善之善者也；不战而屈人之兵，善之善者也。故上兵伐谋，其次伐交，其次伐兵，其下攻城。知……"
+    "originalSentences": [
+      "凡用兵之法，全国为上，破国次之；全军为上，破军次之。"
     ],
-    "explanation": "了解自己边界，也了解对方动机、资源和弱点。",
-    "modernMeaning": "用于面试、谈判、竞争分析和系统风险评估。",
-    "commonMisunderstanding": "只研究对手，不承认自己的限制。",
-    "relatedCaseIds": [],
-    "relatedTrainingIds": []
+    "ancientContext": "在《谋攻篇》中，知己知彼不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，知己知彼应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "同时理解自己和对方，降低误判。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把知己知彼当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
+    "relatedCaseIds": [
+      "startup-giant"
+    ],
+    "relatedTrainingIds": [
+      "t07"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
     "id": "xian-sheng-hou-zhan",
     "name": "先胜后战",
     "slug": "xian-sheng-hou-zhan",
+    "oneLineExplanation": "先建立赢的条件，再进入对抗。",
     "sourceChapterIds": [
       "jun-xing"
     ],
-    "originalQuotes": [
-      "孙子曰：昔之善战者，先为不可胜，以待敌之可胜。不可胜在己，可胜在敌。故善战者，能为不可胜，不能使敌之必可胜。胜兵先胜而后求战，败兵先战而后求胜。善用兵者，修道而保法，故能为胜败之政……"
+    "originalSentences": [
+      "昔之善战者，先为不可胜，以待敌之可胜。"
     ],
-    "explanation": "先建立不败条件，再投入关键行动。",
-    "modernMeaning": "上线前先验证灰度方案，创业前先验证细分市场。",
-    "commonMisunderstanding": "先冲出去再补计划。",
+    "ancientContext": "在《军形篇》中，先胜后战不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，先胜后战应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "先建立赢的条件，再进入对抗。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把先胜后战当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
     "relatedCaseIds": [
-      "legacy-refactor"
+      "price-war"
     ],
-    "relatedTrainingIds": []
+    "relatedTrainingIds": [
+      "t08"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
-    "id": "bu-ke-sheng",
+    "id": "bu-ke-sheng-zai-ji",
     "name": "不可胜在己",
-    "slug": "bu-ke-sheng",
+    "slug": "bu-ke-sheng-zai-ji",
+    "oneLineExplanation": "先控制自己能控制的失败风险。",
     "sourceChapterIds": [
       "jun-xing"
     ],
-    "originalQuotes": [
-      "孙子曰：昔之善战者，先为不可胜，以待敌之可胜。不可胜在己，可胜在敌。故善战者，能为不可胜，不能使敌之必可胜。胜兵先胜而后求战，败兵先战而后求胜。善用兵者，修道而保法，故能为胜败之政……"
+    "originalSentences": [
+      "昔之善战者，先为不可胜，以待敌之可胜。"
     ],
-    "explanation": "自己能控制的是不犯错、稳结构、保底线。",
-    "modernMeaning": "降低失败概率比幻想对手犯错更可靠。",
-    "commonMisunderstanding": "把胜利寄托在对方失误上。",
+    "ancientContext": "在《军形篇》中，不可胜在己不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，不可胜在己应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "先控制自己能控制的失败风险。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把不可胜在己当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
     "relatedCaseIds": [
-      "migration-risk"
+      "niche-product"
     ],
-    "relatedTrainingIds": []
+    "relatedTrainingIds": [
+      "t09"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
     "id": "zheng-qi",
     "name": "正合奇胜",
     "slug": "zheng-qi",
+    "oneLineExplanation": "用常规力量稳定局面，用非常规突破制胜。",
     "sourceChapterIds": [
       "bing-shi"
     ],
-    "originalQuotes": [
-      "孙子曰：凡治众如治寡，分数是也；斗众如斗寡，形名是也。三军之众，可使必受敌而无败者，奇正是也。战势不过奇正，奇正之变，不可胜穷也。善战者，求之于势，不责于人，故能择人而任势。任势者……"
+    "originalSentences": [
+      "凡治众如治寡，分数是也；斗众如斗寡，形名是也。"
     ],
-    "explanation": "正面能力保证基本盘，奇招创造突破。",
-    "modernMeaning": "产品需要稳定交付，也需要差异化创新。",
-    "commonMisunderstanding": "只追求奇招，不建设基本功。",
+    "ancientContext": "在《兵势篇》中，正合奇胜不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，正合奇胜应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "用常规力量稳定局面，用非常规突破制胜。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把正合奇胜当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
     "relatedCaseIds": [
-      "new-arch"
+      "network-effect"
     ],
-    "relatedTrainingIds": []
+    "relatedTrainingIds": [
+      "t10"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
-    "id": "ren-shi",
-    "name": "任势",
-    "slug": "ren-shi",
+    "id": "shi-neng",
+    "name": "势能",
+    "slug": "shi-neng",
+    "oneLineExplanation": "把力量放到有利结构中，让系统放大效果。",
     "sourceChapterIds": [
       "bing-shi"
     ],
-    "originalQuotes": [
-      "孙子曰：凡治众如治寡，分数是也；斗众如斗寡，形名是也。三军之众，可使必受敌而无败者，奇正是也。战势不过奇正，奇正之变，不可胜穷也。善战者，求之于势，不责于人，故能择人而任势。任势者……"
+    "originalSentences": [
+      "凡治众如治寡，分数是也；斗众如斗寡，形名是也。"
     ],
-    "explanation": "善战者借结构和趋势，而不是只责怪个人。",
-    "modernMeaning": "管理中要设计流程、激励和环境。",
-    "commonMisunderstanding": "把组织问题都归因于个人态度。",
+    "ancientContext": "在《兵势篇》中，势能不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，势能应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "把力量放到有利结构中，让系统放大效果。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把势能当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
     "relatedCaseIds": [
-      "fei-shui",
-      "platform-network"
+      "brand-position"
     ],
-    "relatedTrainingIds": []
+    "relatedTrainingIds": [
+      "t11"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
     "id": "bi-shi-ji-xu",
     "name": "避实击虚",
     "slug": "bi-shi-ji-xu",
+    "oneLineExplanation": "避开对方优势，攻击其薄弱处。",
     "sourceChapterIds": [
       "xu-shi"
     ],
-    "originalQuotes": [
-      "孙子曰：凡先处战地而待敌者佚，后处战地而趋战者劳。故善战者，致人而不致于人。出其所不趋，趋其所不意。攻其所必救，行千里而不劳者，行于无人之地也。故形人而我无形，则我专而敌分。兵之形……"
+    "originalSentences": [
+      "凡先处战地而待敌者佚，后处战地而趋战者劳。"
     ],
-    "explanation": "避开强点，打击薄弱处。",
-    "modernMeaning": "小团队应选择巨头覆盖不到的细分场景。",
-    "commonMisunderstanding": "把避开硬拼理解成软弱。",
+    "ancientContext": "在《虚实篇》中，避实击虚不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，避实击虚应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "避开对方优势，攻击其薄弱处。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把避实击虚当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
     "relatedCaseIds": [
-      "guan-du",
-      "niche-startup"
+      "project-kickoff"
     ],
-    "relatedTrainingIds": []
+    "relatedTrainingIds": [
+      "t12"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
-    "id": "zhi-ren",
+    "id": "zhi-ren-bu-zhi-yu-ren",
     "name": "致人而不致于人",
-    "slug": "zhi-ren",
+    "slug": "zhi-ren-bu-zhi-yu-ren",
+    "oneLineExplanation": "掌握节奏，不被对方牵引。",
     "sourceChapterIds": [
       "xu-shi"
     ],
-    "originalQuotes": [
-      "孙子曰：凡先处战地而待敌者佚，后处战地而趋战者劳。故善战者，致人而不致于人。出其所不趋，趋其所不意。攻其所必救，行千里而不劳者，行于无人之地也。故形人而我无形，则我专而敌分。兵之形……"
+    "originalSentences": [
+      "凡先处战地而待敌者佚，后处战地而趋战者劳。"
     ],
-    "explanation": "争取主动权，让对方跟随你的节奏。",
-    "modernMeaning": "产品节奏、谈判节奏、上线节奏都要主动设计。",
-    "commonMisunderstanding": "被动响应所有外部变化。",
+    "ancientContext": "在《虚实篇》中，致人而不致于人不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，致人而不致于人应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "掌握节奏，不被对方牵引。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把致人而不致于人当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
     "relatedCaseIds": [
-      "meeting-rhythm"
+      "team-alignment"
     ],
-    "relatedTrainingIds": []
+    "relatedTrainingIds": [
+      "t13"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
-    "id": "jun-zheng",
+    "id": "gong-qi-suo-bi-jiu",
+    "name": "攻其所必救",
+    "slug": "gong-qi-suo-bi-jiu",
+    "oneLineExplanation": "攻击对方必须保护的关键节点。",
+    "sourceChapterIds": [
+      "xu-shi"
+    ],
+    "originalSentences": [
+      "凡先处战地而待敌者佚，后处战地而趋战者劳。"
+    ],
+    "ancientContext": "在《虚实篇》中，攻其所必救不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，攻其所必救应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "攻击对方必须保护的关键节点。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把攻其所必救当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
+    "relatedCaseIds": [
+      "resource-fight"
+    ],
+    "relatedTrainingIds": [
+      "t14"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
+  },
+  {
+    "id": "yi-yu-wei-zhi",
     "name": "以迂为直",
-    "slug": "jun-zheng",
+    "slug": "yi-yu-wei-zhi",
+    "oneLineExplanation": "用绕路获得更好的战略位置。",
     "sourceChapterIds": [
       "jun-zheng"
     ],
-    "originalQuotes": [
-      "孙子曰：凡用兵之法，将受命于君，合军聚众，交和而舍，莫难于军争。军争之难者，以迂为直，以患为利。故迂其途而诱之以利，后人发，先人至，此知迂直之计者也。故兵以诈立，以利动，以分合为变……"
+    "originalSentences": [
+      "凡用兵之法，将受命于君，合军聚众，交和而舍，莫难于军争。"
     ],
-    "explanation": "表面绕远，实际更快达成目标。",
-    "modernMeaning": "先做小范围试点，反而比全面推进更快。",
-    "commonMisunderstanding": "只看眼前路径长短。",
-    "relatedCaseIds": [],
-    "relatedTrainingIds": []
+    "ancientContext": "在《军争篇》中，以迂为直不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，以迂为直应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "用绕路获得更好的战略位置。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把以迂为直当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
+    "relatedCaseIds": [
+      "real-decision-maker"
+    ],
+    "relatedTrainingIds": [
+      "t15"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
-    "id": "jiu-bian",
-    "name": "九变",
-    "slug": "jiu-bian",
+    "id": "li-hai-bing-guan",
+    "name": "利害并观",
+    "slug": "li-hai-bing-guan",
+    "oneLineExplanation": "看见利益时同步计算风险。",
     "sourceChapterIds": [
       "jiu-bian"
     ],
-    "originalQuotes": [
-      "孙子曰：凡用兵之法，将受命于君，合军聚众，圮地无舍，衢地交合，绝地无留，围地则谋，死地则战。途有所不由，军有所不击，城有所不攻，地有所不争，君命有所不受。故将通于九变之利者，知用兵……"
+    "originalSentences": [
+      "凡用兵之法，将受命于君，合军聚众，圮地无舍，衢地交合。"
     ],
-    "explanation": "规则要服务局势，不能被规则反过来绑死。",
-    "modernMeaning": "架构、管理、产品策略都要按条件变化。",
-    "commonMisunderstanding": "机械套用方法论。",
-    "relatedCaseIds": [],
-    "relatedTrainingIds": []
+    "ancientContext": "在《九变篇》中，利害并观不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，利害并观应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "看见利益时同步计算风险。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把利害并观当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
+    "relatedCaseIds": [
+      "avoid-internal-friction"
+    ],
+    "relatedTrainingIds": [
+      "t16"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
-    "id": "xiang-di",
-    "name": "相敌处军",
-    "slug": "xiang-di",
+    "id": "jiang-you-wu-wei",
+    "name": "将有五危",
+    "slug": "jiang-you-wu-wei",
+    "oneLineExplanation": "识别领导者性格偏差带来的战略风险。",
     "sourceChapterIds": [
-      "xing-jun"
+      "jiu-bian"
     ],
-    "originalQuotes": [
-      "孙子曰：凡处军、相敌，绝山依谷，视生处高，战隆无登，此处山之军也。凡军好高而恶下，贵阳而贱阴，养生而处实。敌近而静者，恃其险也；远而挑战者，欲人之进也。众树动者，来也；众草多障者，……"
+    "originalSentences": [
+      "凡用兵之法，将受命于君，合军聚众，圮地无舍，衢地交合。"
     ],
-    "explanation": "通过环境与迹象判断风险。",
-    "modernMeaning": "观察用户行为、团队信号、线上指标。",
-    "commonMisunderstanding": "只听汇报，不看真实迹象。",
-    "relatedCaseIds": [],
-    "relatedTrainingIds": []
+    "ancientContext": "在《九变篇》中，将有五危不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，将有五危应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "识别领导者性格偏差带来的战略风险。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把将有五危当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
+    "relatedCaseIds": [
+      "system-refactor"
+    ],
+    "relatedTrainingIds": [
+      "t17"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
-    "id": "di-xing",
+    "id": "zhi-tian-zhi-di",
     "name": "知天知地",
-    "slug": "di-xing",
+    "slug": "zhi-tian-zhi-di",
+    "oneLineExplanation": "同时理解外部周期和具体环境。",
     "sourceChapterIds": [
       "di-xing"
     ],
-    "originalQuotes": [
-      "孙子曰：地形有通者、有挂者、有支者、有隘者、有险者、有远者。凡此六者，地之道也，将之至任，不可不察也。故兵有走者、有弛者、有陷者、有崩者、有乱者、有北者。凡此六者，非天之灾，将之过……"
+    "originalSentences": [
+      "地形有通者、有挂者、有支者、有隘者、有险者、有远者。"
     ],
-    "explanation": "理解外部环境与内部条件。",
-    "modernMeaning": "行业周期、政策、渠道、组织能力都决定策略。",
-    "commonMisunderstanding": "只照搬别人的成功路径。",
-    "relatedCaseIds": [],
-    "relatedTrainingIds": []
+    "ancientContext": "在《地形篇》中，知天知地不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，知天知地应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "同时理解外部周期和具体环境。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把知天知地当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
+    "relatedCaseIds": [
+      "tech-debt"
+    ],
+    "relatedTrainingIds": [
+      "t18"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
-    "id": "si-di",
-    "name": "投之亡地然后存",
-    "slug": "si-di",
+    "id": "si-di-qiu-sheng",
+    "name": "死地求生",
+    "slug": "si-di-qiu-sheng",
+    "oneLineExplanation": "在极端处境中压缩退路，但必须谨慎使用。",
     "sourceChapterIds": [
       "jiu-di"
     ],
-    "originalQuotes": [
-      "孙子曰：用兵之法，有散地，有轻地，有争地，有交地，有衢地，有重地，有圮地，有围地，有死地。善用兵者，譬如率然；率然者，常山之蛇也。投之亡地然后存，陷之死地然后生。夫众陷于害，然后能……"
+    "originalSentences": [
+      "用兵之法，有散地，有轻地，有争地，有交地，有衢地，有重地，有圮地，有围地，有死地。"
     ],
-    "explanation": "在特殊压力下反而形成高度一致。",
-    "modernMeaning": "危机管理要把目标和边界讲清楚。",
-    "commonMisunderstanding": "滥用高压制造危机。",
+    "ancientContext": "在《九地篇》中，死地求生不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，死地求生应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "在极端处境中压缩退路，但必须谨慎使用。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把死地求生当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
     "relatedCaseIds": [
-      "han-xin"
+      "architecture-pilot"
     ],
-    "relatedTrainingIds": []
-  },
-  {
-    "id": "huo-gong",
-    "name": "非利不动",
-    "slug": "huo-gong",
-    "sourceChapterIds": [
-      "huo-gong"
+    "relatedTrainingIds": [
+      "t19"
     ],
-    "originalQuotes": [
-      "孙子曰：凡火攻有五：一曰火人，二曰火积，三曰火辎，四曰火库，五曰火队。行火必有因，烟火必素具。非利不动，非得不用，非危不战。主不可以怒而兴师，将不可以愠而致战。怒可以复喜，愠可以复……"
-    ],
-    "explanation": "高风险手段必须有明确收益和边界。",
-    "modernMeaning": "安全、舆论、价格战和组织变革都需止损线。",
-    "commonMisunderstanding": "因愤怒行动。",
-    "relatedCaseIds": [],
-    "relatedTrainingIds": []
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   },
   {
     "id": "yong-jian",
-    "name": "用间先知",
+    "name": "用间",
     "slug": "yong-jian",
+    "oneLineExplanation": "通过可靠信息源减少误判，而不是靠猜测决策。",
     "sourceChapterIds": [
       "yong-jian"
     ],
-    "originalQuotes": [
-      "孙子曰：凡兴师十万，出征千里，百姓之费，公家之奉，日费千金。故明君贤将，所以动而胜人，成功出于众者，先知也。先知者，不可取于鬼神，不可象于事，不可验于度，必取于人，知敌之情者也。故……"
+    "originalSentences": [
+      "凡兴师十万，出征千里，百姓之费，公家之奉，日费千金。"
     ],
-    "explanation": "真实信息来自人和现场，不来自臆测。",
-    "modernMeaning": "用户访谈、销售反馈、竞品观察、代码审计都是信息系统。",
-    "commonMisunderstanding": "迷信猜测和二手传言。",
+    "ancientContext": "在《用间篇》中，用间不是孤立口号，而是用来处理战争、组织、资源、地形、信息与时机之间关系的判断工具。古代语境里，错误判断会带来巨大人力和国家成本。",
+    "modernMeaning": "现代使用时，用间应被转化为可执行检查清单：先明确目标，再识别资源、成本、风险、对手和时间窗口。",
+    "dimensions": [
+      {
+        "name": "判断维度",
+        "ancientMeaning": "通过可靠信息源减少误判，而不是靠猜测决策。",
+        "modernMapping": "把兵法概念转成行动前检查项。",
+        "example": "在项目、竞争、谈判或重构前先完成条件判断。"
+      }
+    ],
+    "applicableScenes": [
+      "项目立项",
+      "竞争策略",
+      "团队协作",
+      "商业谈判",
+      "技术重构"
+    ],
+    "unsuitableScenes": [
+      "低成本快速试错的小决策",
+      "信息极度不足且无法补充时",
+      "已经进入紧急执行且无法停下评估时"
+    ],
+    "commonMisunderstandings": [
+      "把用间当成漂亮口号，而不是检查工具。",
+      "只看对手，不看自己资源。",
+      "只看机会，不看成本和失败后果。"
+    ],
+    "correctUsage": [
+      "先写出当前问题。",
+      "列出可验证事实。",
+      "判断哪些条件可控、哪些不可控。",
+      "给出适用前提，而不是直接下结论。"
+    ],
+    "negativeCases": [
+      "大型系统重构未评估依赖和业务窗口，直接全面推翻旧系统，导致长期消耗。"
+    ],
     "relatedCaseIds": [
-      "resource-owner"
+      "review-platform"
     ],
-    "relatedTrainingIds": []
+    "relatedTrainingIds": [
+      "t20"
+    ],
+    "selfTestQuestions": [
+      "这个概念解决的是什么问题？",
+      "它在哪些场景下会被误用？",
+      "如果应用到我现在的项目，第一步要检查什么？"
+    ]
   }
 ];
 
-export const cases: CaseItem[] = [
+export const cases: DeepCaseItem[] = [
   {
     "id": "guan-du",
-    "title": "官渡之战：弱者如何通过粮道击穿强者",
+    "title": "官渡之战：小势力如何攻击大势力的关键弱点？",
     "slug": "guan-du",
     "category": "history",
-    "summary": "用“避实击虚”分析：官渡之战：弱者如何通过粮道击穿强者。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过官渡之战：小势力如何攻击大势力的关键弱点？理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "袁绍",
+        "role": "兵力与资源占优的一方",
+        "advantages": [
+          "兵力较强",
+          "资源与声望较高",
+          "拥有较大动员能力"
+        ],
+        "disadvantages": [
+          "内部意见复杂",
+          "决策迟疑",
+          "关键粮草节点暴露"
+        ]
+      },
+      {
+        "name": "曹操",
+        "role": "资源劣势但执行果断的一方",
+        "advantages": [
+          "决策集中",
+          "执行速度快",
+          "能利用关键情报"
+        ],
+        "disadvantages": [
+          "兵少",
+          "粮少",
+          "长期对峙压力大"
+        ]
+      },
+      {
+        "name": "许攸",
+        "role": "提供关键信息的人",
+        "advantages": [
+          "了解袁军粮草布置"
+        ],
+        "disadvantages": [
+          "投奔带来情报可信度风险"
+        ]
+      },
+      {
+        "name": "乌巢粮仓",
+        "role": "袁军关键资源节点",
+        "advantages": [
+          "支撑前线长期作战"
+        ],
+        "disadvantages": [
+          "一旦失守，正面兵力优势被削弱"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "袁绍",
+        "manpower": "优势明显",
+        "resource": "粮草储备更强但集中于关键节点",
+        "morale": "声望高但内部不一",
+        "information": "部分关键部署被许攸带出",
+        "position": "正面压迫曹操"
+      },
+      {
+        "side": "曹操",
+        "manpower": "明显劣势",
+        "resource": "粮草紧张",
+        "morale": "压力大但指挥集中",
+        "information": "获得乌巢线索后形成局部信息优势",
+        "position": "正面对耗不利"
+      }
+    ],
+    "constraints": [
+      "曹操无法承受长期正面对耗。",
+      "袁绍粮草虽然强，但关键节点集中。",
+      "一旦袭击失败，曹操主力会暴露在更大风险中。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "袭击乌巢粮仓，把正面对抗转成关键节点打击。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "袭击乌巢粮仓，把正面对抗转成关键节点打击。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "shi-ji"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "bi-shi-ji-xu"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "小团队面对大公司时，不应在预算、渠道、人力上正面硬拼，而要寻找对方短期难以保护的关键薄弱点：细分用户、服务响应、老产品体验缺口、流程慢点。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
@@ -1161,359 +4589,1983 @@ export const cases: CaseItem[] = [
     "title": "赤壁之战：联盟、火攻与时机",
     "slug": "chi-bi",
     "category": "history",
-    "summary": "用“上兵伐谋”分析：赤壁之战：联盟、火攻与时机。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过赤壁之战：联盟、火攻与时机理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "huo-gong"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "fa-mou"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
     "id": "fei-shui",
-    "title": "淝水之战：士气崩溃如何放大失败",
+    "title": "淝水之战：心理崩溃与势能逆转",
     "slug": "fei-shui",
     "category": "history",
-    "summary": "用“任势”分析：淝水之战：士气崩溃如何放大失败。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过淝水之战：心理崩溃与势能逆转理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "jun-xing"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "ren-shi"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
-    ]
-  },
-  {
-    "id": "han-xin",
-    "title": "井陉之战：背水阵与处境管理",
-    "slug": "han-xin",
-    "category": "history",
-    "summary": "用“投之亡地然后存”分析：井陉之战：背水阵与处境管理。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
-    "relatedChapterIds": [
-      "jiu-di"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
     ],
-    "relatedConceptIds": [
-      "si-di"
-    ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
     "id": "chu-han",
-    "title": "楚汉相争：组织能力胜过个人勇武",
+    "title": "楚汉相争：战略耐心与人才组织",
     "slug": "chu-han",
     "category": "history",
-    "summary": "用“道天地将法”分析：楚汉相争：组织能力胜过个人勇武。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过楚汉相争：战略耐心与人才组织理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "shi-ji"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "dao-tian-di-jiang-fa"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
     "id": "chang-ping",
-    "title": "长平之战：长期消耗与错误换将",
+    "title": "长平之战：主帅更替与战略误判",
     "slug": "chang-ping",
     "category": "history",
-    "summary": "用“兵贵胜不贵久”分析：长平之战：长期消耗与错误换将。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过长平之战：主帅更替与战略误判理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
+      "xu-shi",
       "zuo-zhan"
     ],
     "relatedConceptIds": [
+      "bi-shi-ji-xu",
       "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
-    "id": "niche-startup",
-    "title": "小公司避开巨头主战场",
-    "slug": "niche-startup",
-    "category": "business",
-    "summary": "用“避实击虚”分析：小公司避开巨头主战场。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "id": "jing-xing",
+    "title": "井陉之战：背水一战的适用边界",
+    "slug": "jing-xing",
+    "category": "history",
+    "summary": "通过井陉之战：背水一战的适用边界理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "xu-shi"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "bi-shi-ji-xu"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
+    ]
+  },
+  {
+    "id": "startup-giant",
+    "title": "小公司面对巨头进入市场",
+    "slug": "startup-giant",
+    "category": "business",
+    "summary": "通过小公司面对巨头进入市场理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
+    "relatedChapterIds": [
+      "xu-shi",
+      "zuo-zhan"
+    ],
+    "relatedConceptIds": [
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
+    ],
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
     "id": "price-war",
-    "title": "价格战为什么容易两败俱伤",
+    "title": "价格战中的资源消耗",
     "slug": "price-war",
     "category": "business",
-    "summary": "用“兵贵胜不贵久”分析：价格战为什么容易两败俱伤。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过价格战中的资源消耗理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
+      "xu-shi",
       "zuo-zhan"
     ],
     "relatedConceptIds": [
+      "bi-shi-ji-xu",
       "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
-    "id": "platform-network",
-    "title": "平台产品如何建立网络效应",
-    "slug": "platform-network",
+    "id": "niche-product",
+    "title": "新产品从细分市场切入",
+    "slug": "niche-product",
     "category": "business",
-    "summary": "用“任势”分析：平台产品如何建立网络效应。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过新产品从细分市场切入理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "bing-shi"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "ren-shi"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
+    ]
+  },
+  {
+    "id": "network-effect",
+    "title": "平台产品如何建立网络效应",
+    "slug": "network-effect",
+    "category": "business",
+    "summary": "通过平台产品如何建立网络效应理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
+    "relatedChapterIds": [
+      "xu-shi",
+      "zuo-zhan"
+    ],
+    "relatedConceptIds": [
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
+    ],
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
     "id": "brand-position",
-    "title": "品牌差异化：重新选择战场",
+    "title": "品牌差异化定位",
     "slug": "brand-position",
     "category": "business",
-    "summary": "用“上兵伐谋”分析：品牌差异化：重新选择战场。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过品牌差异化定位理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "mou-gong"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "fa-mou"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
-    "id": "channel-alliance",
-    "title": "渠道联盟：伐交优先于伐兵",
-    "slug": "channel-alliance",
-    "category": "business",
-    "summary": "用“不战而屈人之兵”分析：渠道联盟：伐交优先于伐兵。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "id": "project-kickoff",
+    "title": "项目启动前如何判断胜算",
+    "slug": "project-kickoff",
+    "category": "workplace",
+    "summary": "通过项目启动前如何判断胜算理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "mou-gong"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "bu-zhan-er-sheng"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
     "id": "team-alignment",
-    "title": "团队目标不一致导致项目失败",
+    "title": "团队目标不一致如何推进",
     "slug": "team-alignment",
     "category": "workplace",
-    "summary": "用“道天地将法”分析：团队目标不一致导致项目失败。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过团队目标不一致如何推进理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "shi-ji"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "dao-tian-di-jiang-fa"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
-    "id": "resource-owner",
-    "title": "识别真实决策人，争取关键资源",
-    "slug": "resource-owner",
+    "id": "resource-fight",
+    "title": "如何争取关键资源",
+    "slug": "resource-fight",
     "category": "workplace",
-    "summary": "用“用间先知”分析：识别真实决策人，争取关键资源。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过如何争取关键资源理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "yong-jian"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "yong-jian"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
-    "id": "meeting-rhythm",
-    "title": "项目推进中的节奏主动权",
-    "slug": "meeting-rhythm",
+    "id": "real-decision-maker",
+    "title": "如何识别真正决策人",
+    "slug": "real-decision-maker",
     "category": "workplace",
-    "summary": "用“致人而不致于人”分析：项目推进中的节奏主动权。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过如何识别真正决策人理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "xu-shi"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "zhi-ren"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
-    "id": "conflict-cost",
-    "title": "职场冲突如何降低硬碰硬成本",
-    "slug": "conflict-cost",
+    "id": "avoid-internal-friction",
+    "title": "如何避免无意义内耗",
+    "slug": "avoid-internal-friction",
     "category": "workplace",
-    "summary": "用“上兵伐谋”分析：职场冲突如何降低硬碰硬成本。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过如何避免无意义内耗理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "mou-gong"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "fa-mou"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
-    "id": "legacy-refactor",
-    "title": "大型系统重构不能一上来推翻旧系统",
-    "slug": "legacy-refactor",
+    "id": "system-refactor",
+    "title": "大型系统重构是否应该启动",
+    "slug": "system-refactor",
     "category": "tech",
-    "summary": "用“先胜后战”分析：大型系统重构不能一上来推翻旧系统。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过大型系统重构是否应该启动理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "jun-xing"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "xian-sheng-hou-zhan"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
@@ -1521,47 +6573,247 @@ export const cases: CaseItem[] = [
     "title": "技术债治理如何避免长期消耗",
     "slug": "tech-debt",
     "category": "tech",
-    "summary": "用“兵贵胜不贵久”分析：技术债治理如何避免长期消耗。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过技术债治理如何避免长期消耗理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
+      "xu-shi",
       "zuo-zhan"
     ],
     "relatedConceptIds": [
+      "bi-shi-ji-xu",
       "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
-    "id": "new-arch",
-    "title": "新架构推广：先做局部胜利",
-    "slug": "new-arch",
+    "id": "architecture-pilot",
+    "title": "新架构推广如何先做局部胜利",
+    "slug": "architecture-pilot",
     "category": "tech",
-    "summary": "用“正合奇胜”分析：新架构推广：先做局部胜利。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过新架构推广如何先做局部胜利理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "bing-shi"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "zheng-qi"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
+    ],
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   },
   {
@@ -1569,2173 +6821,6594 @@ export const cases: CaseItem[] = [
     "title": "代码评审平台如何建立组织共识",
     "slug": "review-platform",
     "category": "tech",
-    "summary": "用“道天地将法”分析：代码评审平台如何建立组织共识。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
+    "summary": "通过代码评审平台如何建立组织共识理解如何把兵法概念落到真实决策节点，而不是停留在抽象口号。",
+    "background": "这个案例用于训练用户把局势、资源、对手、约束和时机放在同一张图中分析。关键不是谁更努力，而是谁能识别真正决定胜负的节点。",
+    "actors": [
+      {
+        "name": "主动方",
+        "role": "希望快速推进目标的一方",
+        "advantages": [
+          "行动意愿强",
+          "有局部资源"
+        ],
+        "disadvantages": [
+          "容易低估成本",
+          "信息可能不足"
+        ]
+      },
+      {
+        "name": "对抗方 / 环境约束",
+        "role": "形成阻力的一方或外部条件",
+        "advantages": [
+          "掌握既有资源或规则",
+          "能拖慢节奏"
+        ],
+        "disadvantages": [
+          "存在薄弱点或协作成本"
+        ]
+      }
+    ],
+    "resourceComparison": [
+      {
+        "side": "主动方",
+        "manpower": "有限",
+        "resource": "需要集中使用",
+        "morale": "初期较高",
+        "information": "需要补足关键事实",
+        "position": "应寻找局部突破"
+      },
+      {
+        "side": "对抗方",
+        "manpower": "未必更强但有既有优势",
+        "resource": "已有渠道或制度优势",
+        "morale": "可能稳定",
+        "information": "了解规则但不一定敏捷",
+        "position": "主战场优势较明显"
+      }
+    ],
+    "constraints": [
+      "资源不能无限投入。",
+      "如果正面硬拼会进入长期消耗。",
+      "必须先找到可验证的关键节点。"
+    ],
+    "timeline": [
+      {
+        "time": "阶段一",
+        "event": "双方形成对抗或项目进入关键阶段。",
+        "strategicMeaning": "需要判断是否适合正面推进。"
+      },
+      {
+        "time": "阶段二",
+        "event": "资源消耗和信息差开始显现。",
+        "strategicMeaning": "必须识别关键约束。"
+      },
+      {
+        "time": "阶段三",
+        "event": "把问题从全面对抗缩小为关键节点突破。",
+        "strategicMeaning": "从全面消耗转向局部优势。"
+      }
+    ],
+    "decisionNodes": [
+      {
+        "title": "是否正面硬拼？",
+        "options": [
+          "继续投入资源硬拼",
+          "收缩保存实力",
+          "寻找关键薄弱点"
+        ],
+        "chosen": "寻找关键薄弱点",
+        "why": "正面硬拼会放大资源劣势。",
+        "risk": "如果薄弱点判断错误，会错失窗口。"
+      },
+      {
+        "title": "何时行动？",
+        "options": [
+          "立即行动",
+          "等待更多信息",
+          "先做局部验证"
+        ],
+        "chosen": "先做局部验证",
+        "why": "在风险可控条件下提高胜算。",
+        "risk": "验证过慢会失去时机。"
+      }
+    ],
+    "hardFightConsequence": "如果直接硬拼，资源较弱一方会被拖入对方擅长的主战场，成本不断上升，最终即使局部有成果也可能整体失败。",
+    "keyTurningPoint": "把问题从全面对抗缩小为关键节点突破。",
+    "relatedOriginalSentences": [
+      "避实而击虚。",
+      "兵贵胜，不贵久。"
+    ],
     "relatedChapterIds": [
-      "shi-ji"
+      "xu-shi",
+      "zuo-zhan"
     ],
     "relatedConceptIds": [
-      "dao-tian-di-jiang-fa"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
-    ]
-  },
-  {
-    "id": "migration-risk",
-    "title": "旧系统迁移如何降低上线风险",
-    "slug": "migration-risk",
-    "category": "tech",
-    "summary": "用“不可胜在己”分析：旧系统迁移如何降低上线风险。",
-    "background": "案例中的关键问题不是单点能力不足，而是目标、资源、时机、对手与风险共同作用。",
-    "conflict": "一方希望快速达成目标，另一方或环境因素形成阻力，直接硬拼会放大成本。",
-    "resourceComparison": "比较双方资源、信息、组织、时间窗口和可承受损失，寻找不对称优势。",
-    "strategyChoice": "避免在强点硬碰，优先建立胜算、控制成本、选择更有利的战场。",
-    "result": "通过改变战场、节奏或组织条件，降低失败概率，提高行动收益。",
-    "relatedChapterIds": [
-      "jun-xing"
+    "result": "优势不一定来自总资源，而可能来自对关键节点的识别和行动速度。",
+    "modernTransfer": "现实中先找关键约束和薄弱点，避免把战略问题变成情绪化硬拼。",
+    "reusableMethod": [
+      "先列资源对比。",
+      "找出长期消耗的风险。",
+      "识别对方必须保护的节点。",
+      "用小规模验证代替全面豪赌。"
     ],
-    "relatedConceptIds": [
-      "bu-ke-sheng"
-    ],
-    "lesson": "《孙子兵法》的价值在于把冲动行动转化为条件判断。任何策略都要先问：胜算在哪里、代价是什么、风险能否承受。",
-    "reflectionQuestions": [
-      "这个案例中的真正战场是什么？",
-      "哪一方掌握了主动权？",
-      "如果换成你的项目，最低成本的突破口在哪里？"
+    "practiceQuestions": [
+      "这个案例中真正的关键节点是什么？",
+      "如果正面硬拼会损失什么？",
+      "现实中有哪些类似乌巢的薄弱点？"
     ]
   }
 ];
 
-export const quotes: Quote[] = [
+export const quotes: DeepQuote[] = [
   {
-    "id": "q1",
+    "id": "q01",
     "text": "兵者，国之大事，死生之地，存亡之道，不可不察也。",
     "chapterId": "shi-ji",
-    "translation": "战争是国家大事，关系生死存亡，必须认真考察。",
-    "explanation": "重大决策要敬畏风险，不要冲动。",
-    "modernApplication": "重大决策要敬畏风险，不要冲动。",
+    "sentenceId": "shi-ji-1",
+    "wordAnnotations": [
+      {
+        "word": "兵者",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "chi-bi"
+    ],
+    "relatedTrainingIds": [
+      "t02"
+    ],
     "tags": [
+      "金句",
       "战略",
-      "风险"
+      "复盘"
     ]
   },
   {
-    "id": "q2",
+    "id": "q02",
     "text": "道者，令民与上同意也。",
     "chapterId": "shi-ji",
-    "translation": "道，是让上下目标一致。",
-    "explanation": "组织共识比口号更重要。",
-    "modernApplication": "组织共识比口号更重要。",
+    "sentenceId": "shi-ji-1",
+    "wordAnnotations": [
+      {
+        "word": "道者",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "fei-shui"
+    ],
+    "relatedTrainingIds": [
+      "t03"
+    ],
     "tags": [
-      "组织",
-      "共识"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
-    "id": "q3",
+    "id": "q03",
     "text": "多算胜，少算不胜，而况于无算乎。",
     "chapterId": "shi-ji",
-    "translation": "计算充分者更可能胜利，不计算者更危险。",
-    "explanation": "立项前要做胜算和风险评估。",
-    "modernApplication": "立项前要做胜算和风险评估。",
+    "sentenceId": "shi-ji-1",
+    "wordAnnotations": [
+      {
+        "word": "多算",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "chu-han"
+    ],
+    "relatedTrainingIds": [
+      "t04"
+    ],
     "tags": [
-      "庙算",
-      "计划"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
-    "id": "q4",
+    "id": "q04",
+    "text": "兵闻拙速，未睹巧之久也。",
+    "chapterId": "zuo-zhan",
+    "sentenceId": "zuo-zhan-1",
+    "wordAnnotations": [
+      {
+        "word": "兵闻",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "chang-ping"
+    ],
+    "relatedTrainingIds": [
+      "t05"
+    ],
+    "tags": [
+      "金句",
+      "战略",
+      "复盘"
+    ]
+  },
+  {
+    "id": "q05",
     "text": "兵贵胜，不贵久。",
     "chapterId": "zuo-zhan",
-    "translation": "用兵贵在取胜，不贵在拖久。",
-    "explanation": "长期消耗会让胜利变得没有价值。",
-    "modernApplication": "长期消耗会让胜利变得没有价值。",
+    "sentenceId": "zuo-zhan-1",
+    "wordAnnotations": [
+      {
+        "word": "兵贵",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "jing-xing"
+    ],
+    "relatedTrainingIds": [
+      "t06"
+    ],
     "tags": [
-      "成本"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
-    "id": "q5",
-    "text": "不尽知用兵之害者，则不能尽知用兵之利也。",
-    "chapterId": "zuo-zhan",
-    "translation": "不了解用兵之害，就不能真正理解其利。",
-    "explanation": "任何机会都要同时看代价。",
-    "modernApplication": "任何机会都要同时看代价。",
-    "tags": [
-      "风险"
-    ]
-  },
-  {
-    "id": "q6",
-    "text": "百战百胜，非善之善者也。",
-    "chapterId": "mou-gong",
-    "translation": "百战百胜并不是最高明。",
-    "explanation": "真正高明是减少冲突成本。",
-    "modernApplication": "真正高明是减少冲突成本。",
-    "tags": [
-      "不战而胜"
-    ]
-  },
-  {
-    "id": "q7",
+    "id": "q06",
     "text": "不战而屈人之兵，善之善者也。",
     "chapterId": "mou-gong",
-    "translation": "不经战斗使对方屈服，才是最高明。",
-    "explanation": "用规则、定位和信息优势降低对抗。",
-    "modernApplication": "用规则、定位和信息优势降低对抗。",
+    "sentenceId": "mou-gong-1",
+    "wordAnnotations": [
+      {
+        "word": "不战",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "startup-giant"
+    ],
+    "relatedTrainingIds": [
+      "t07"
+    ],
     "tags": [
-      "战略"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
-    "id": "q8",
+    "id": "q07",
     "text": "上兵伐谋，其次伐交。",
     "chapterId": "mou-gong",
-    "translation": "最高层次打击谋略，其次打击外交联盟。",
-    "explanation": "优先解决策略和关系，而不是蛮干。",
-    "modernApplication": "优先解决策略和关系，而不是蛮干。",
+    "sentenceId": "mou-gong-1",
+    "wordAnnotations": [
+      {
+        "word": "上兵",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "price-war"
+    ],
+    "relatedTrainingIds": [
+      "t08"
+    ],
     "tags": [
-      "伐谋"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
-    "id": "q9",
+    "id": "q08",
     "text": "知彼知己，百战不殆。",
     "chapterId": "mou-gong",
-    "translation": "了解对方也了解自己，就不容易失败。",
-    "explanation": "竞争分析要同时看自己边界。",
-    "modernApplication": "竞争分析要同时看自己边界。",
+    "sentenceId": "mou-gong-1",
+    "wordAnnotations": [
+      {
+        "word": "知彼",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "niche-product"
+    ],
+    "relatedTrainingIds": [
+      "t09"
+    ],
     "tags": [
-      "信息"
+      "金句",
+      "战略",
+      "复盘"
+    ]
+  },
+  {
+    "id": "q09",
+    "text": "先为不可胜，以待敌之可胜。",
+    "chapterId": "jun-xing",
+    "sentenceId": "jun-xing-1",
+    "wordAnnotations": [
+      {
+        "word": "先为",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "network-effect"
+    ],
+    "relatedTrainingIds": [
+      "t10"
+    ],
+    "tags": [
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q10",
-    "text": "先为不可胜，以待敌之可胜。",
+    "text": "胜兵先胜而后求战。",
     "chapterId": "jun-xing",
-    "translation": "先让自己不可被战胜，再等待对方可被战胜。",
-    "explanation": "先建立安全边界，再抓机会。",
-    "modernApplication": "先建立安全边界，再抓机会。",
+    "sentenceId": "jun-xing-1",
+    "wordAnnotations": [
+      {
+        "word": "胜兵",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "brand-position"
+    ],
+    "relatedTrainingIds": [
+      "t11"
+    ],
     "tags": [
-      "风险控制"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q11",
-    "text": "不可胜在己，可胜在敌。",
-    "chapterId": "jun-xing",
-    "translation": "不被击败取决于自己，能否取胜取决于对方是否暴露机会。",
-    "explanation": "控制能控制的，等待机会。",
-    "modernApplication": "控制能控制的，等待机会。",
+    "text": "战势不过奇正。",
+    "chapterId": "bing-shi",
+    "sentenceId": "bing-shi-1",
+    "wordAnnotations": [
+      {
+        "word": "战势",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "project-kickoff"
+    ],
+    "relatedTrainingIds": [
+      "t12"
+    ],
     "tags": [
-      "先胜后战"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q12",
-    "text": "胜兵先胜而后求战，败兵先战而后求胜。",
-    "chapterId": "jun-xing",
-    "translation": "胜利者先创造胜利条件再开战，失败者先开战再求胜。",
-    "explanation": "项目开始前要先有可验证优势。",
-    "modernApplication": "项目开始前要先有可验证优势。",
+    "text": "善战人之势，如转圆石于千仞之山者，势也。",
+    "chapterId": "bing-shi",
+    "sentenceId": "bing-shi-1",
+    "wordAnnotations": [
+      {
+        "word": "善战",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "team-alignment"
+    ],
+    "relatedTrainingIds": [
+      "t13"
+    ],
     "tags": [
-      "决策"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q13",
-    "text": "战势不过奇正，奇正之变，不可胜穷也。",
-    "chapterId": "bing-shi",
-    "translation": "战法不外乎奇正，但变化无穷。",
-    "explanation": "基本盘与创新要结合。",
-    "modernApplication": "基本盘与创新要结合。",
+    "text": "善战者，致人而不致于人。",
+    "chapterId": "xu-shi",
+    "sentenceId": "xu-shi-1",
+    "wordAnnotations": [
+      {
+        "word": "善战",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "resource-fight"
+    ],
+    "relatedTrainingIds": [
+      "t14"
+    ],
     "tags": [
-      "正奇"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q14",
-    "text": "善战者，求之于势，不责于人。",
-    "chapterId": "bing-shi",
-    "translation": "善战者追求势能，不只责怪个人。",
-    "explanation": "管理要先设计系统。",
-    "modernApplication": "管理要先设计系统。",
+    "text": "攻其所不守也。",
+    "chapterId": "xu-shi",
+    "sentenceId": "xu-shi-1",
+    "wordAnnotations": [
+      {
+        "word": "攻其",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "real-decision-maker"
+    ],
+    "relatedTrainingIds": [
+      "t15"
+    ],
     "tags": [
-      "组织"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q15",
-    "text": "致人而不致于人。",
+    "text": "避实而击虚。",
     "chapterId": "xu-shi",
-    "translation": "调动别人，而不被别人调动。",
-    "explanation": "争取节奏主动权。",
-    "modernApplication": "争取节奏主动权。",
+    "sentenceId": "xu-shi-1",
+    "wordAnnotations": [
+      {
+        "word": "避实",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "avoid-internal-friction"
+    ],
+    "relatedTrainingIds": [
+      "t16"
+    ],
     "tags": [
-      "主动权"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q16",
-    "text": "攻其所必救。",
-    "chapterId": "xu-shi",
-    "translation": "攻击对方不得不救的地方。",
-    "explanation": "找到关键依赖和真实痛点。",
-    "modernApplication": "找到关键依赖和真实痛点。",
+    "text": "以迂为直，以患为利。",
+    "chapterId": "jun-zheng",
+    "sentenceId": "jun-zheng-1",
+    "wordAnnotations": [
+      {
+        "word": "以迂",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "system-refactor"
+    ],
+    "relatedTrainingIds": [
+      "t17"
+    ],
     "tags": [
-      "虚实"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q17",
-    "text": "兵之形，避实而击虚。",
-    "chapterId": "xu-shi",
-    "translation": "用兵形态在于避开坚实，攻击虚弱。",
-    "explanation": "小团队不要在巨头强处硬拼。",
-    "modernApplication": "小团队不要在巨头强处硬拼。",
+    "text": "三军可夺气，将军可夺心。",
+    "chapterId": "jun-zheng",
+    "sentenceId": "jun-zheng-1",
+    "wordAnnotations": [
+      {
+        "word": "三军",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "tech-debt"
+    ],
+    "relatedTrainingIds": [
+      "t18"
+    ],
     "tags": [
-      "避实击虚"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q18",
-    "text": "以迂为直，以患为利。",
-    "chapterId": "jun-zheng",
-    "translation": "把迂回变成直达，把困难转为利益。",
-    "explanation": "短期绕路可能降低整体风险。",
-    "modernApplication": "短期绕路可能降低整体风险。",
+    "text": "智者之虑，必杂于利害。",
+    "chapterId": "jiu-bian",
+    "sentenceId": "jiu-bian-1",
+    "wordAnnotations": [
+      {
+        "word": "智者",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "architecture-pilot"
+    ],
+    "relatedTrainingIds": [
+      "t19"
+    ],
     "tags": [
-      "军争"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q19",
-    "text": "兵以诈立，以利动，以分合为变者也。",
-    "chapterId": "jun-zheng",
-    "translation": "用兵以变化迷惑，以利益驱动，以分合调整。",
-    "explanation": "策略要围绕目标动态变化。",
-    "modernApplication": "策略要围绕目标动态变化。",
+    "text": "途有所不由，军有所不击。",
+    "chapterId": "jiu-bian",
+    "sentenceId": "jiu-bian-1",
+    "wordAnnotations": [
+      {
+        "word": "途有",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "review-platform"
+    ],
+    "relatedTrainingIds": [
+      "t20"
+    ],
     "tags": [
-      "变化"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q20",
-    "text": "君命有所不受。",
-    "chapterId": "jiu-bian",
-    "translation": "有些命令不能机械执行。",
-    "explanation": "现场决策需要根据真实情况判断。",
-    "modernApplication": "现场决策需要根据真实情况判断。",
+    "text": "敌近而静者，恃其险也。",
+    "chapterId": "xing-jun",
+    "sentenceId": "xing-jun-1",
+    "wordAnnotations": [
+      {
+        "word": "敌近",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "guan-du"
+    ],
+    "relatedTrainingIds": [
+      "t21"
+    ],
     "tags": [
-      "应变"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q21",
-    "text": "智者之虑，必杂于利害。",
-    "chapterId": "jiu-bian",
-    "translation": "智者思考，一定兼顾利与害。",
-    "explanation": "机会和风险要一起看。",
-    "modernApplication": "机会和风险要一起看。",
+    "text": "兵非贵益多也。",
+    "chapterId": "xing-jun",
+    "sentenceId": "xing-jun-1",
+    "wordAnnotations": [
+      {
+        "word": "兵非",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "chi-bi"
+    ],
+    "relatedTrainingIds": [
+      "t22"
+    ],
     "tags": [
-      "利害"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q22",
-    "text": "敌近而静者，恃其险也。",
-    "chapterId": "xing-jun",
-    "translation": "敌人近而安静，可能有所依恃。",
-    "explanation": "异常平静也可能是风险信号。",
-    "modernApplication": "异常平静也可能是风险信号。",
+    "text": "地形者，兵之助也。",
+    "chapterId": "di-xing",
+    "sentenceId": "di-xing-1",
+    "wordAnnotations": [
+      {
+        "word": "地形",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "fei-shui"
+    ],
+    "relatedTrainingIds": [
+      "t23"
+    ],
     "tags": [
-      "迹象"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q23",
-    "text": "知彼知己，胜乃不殆；知天知地，胜乃可全。",
+    "text": "知天知地，胜乃不穷。",
     "chapterId": "di-xing",
-    "translation": "知彼知己可不败，知天知地才可全胜。",
-    "explanation": "信息、环境、组织都要综合判断。",
-    "modernApplication": "信息、环境、组织都要综合判断。",
+    "sentenceId": "di-xing-1",
+    "wordAnnotations": [
+      {
+        "word": "知天",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "chu-han"
+    ],
+    "relatedTrainingIds": [
+      "t24"
+    ],
     "tags": [
-      "环境"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q24",
     "text": "投之亡地然后存，陷之死地然后生。",
     "chapterId": "jiu-di",
-    "translation": "置于绝境反而可能求生。",
-    "explanation": "压力可凝聚，但不能滥用。",
-    "modernApplication": "压力可凝聚，但不能滥用。",
+    "sentenceId": "jiu-di-1",
+    "wordAnnotations": [
+      {
+        "word": "投之",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "chang-ping"
+    ],
+    "relatedTrainingIds": [
+      "t25"
+    ],
     "tags": [
-      "处境"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q25",
-    "text": "非利不动，非得不用，非危不战。",
-    "chapterId": "huo-gong",
-    "translation": "没有利益不行动，没有把握不用兵，不到危急不战。",
-    "explanation": "重大行动必须有收益、把握和边界。",
-    "modernApplication": "重大行动必须有收益、把握和边界。",
+    "text": "始如处女，后如脱兔。",
+    "chapterId": "jiu-di",
+    "sentenceId": "jiu-di-1",
+    "wordAnnotations": [
+      {
+        "word": "始如",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "jing-xing"
+    ],
+    "relatedTrainingIds": [
+      "t26"
+    ],
     "tags": [
-      "风险"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q26",
-    "text": "主不可以怒而兴师，将不可以愠而致战。",
+    "text": "发火有时，起火有日。",
     "chapterId": "huo-gong",
-    "translation": "君主不能因愤怒兴兵，将领不能因怨愤开战。",
-    "explanation": "情绪不是决策依据。",
-    "modernApplication": "情绪不是决策依据。",
+    "sentenceId": "huo-gong-1",
+    "wordAnnotations": [
+      {
+        "word": "发火",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "startup-giant"
+    ],
+    "relatedTrainingIds": [
+      "t27"
+    ],
     "tags": [
-      "情绪"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q27",
-    "text": "亡国不可以复存，死者不可以复生。",
+    "text": "主不可以怒而兴师。",
     "chapterId": "huo-gong",
-    "translation": "亡国不能复存，死者不能复生。",
-    "explanation": "不可逆后果必须谨慎。",
-    "modernApplication": "不可逆后果必须谨慎。",
+    "sentenceId": "huo-gong-1",
+    "wordAnnotations": [
+      {
+        "word": "主不",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "price-war"
+    ],
+    "relatedTrainingIds": [
+      "t28"
+    ],
     "tags": [
-      "底线"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q28",
-    "text": "成功出于众者，先知也。",
+    "text": "先知者，必取于人。",
     "chapterId": "yong-jian",
-    "translation": "成功超过众人，是因为预先知道真实情况。",
-    "explanation": "信息优势是决策优势。",
-    "modernApplication": "信息优势是决策优势。",
+    "sentenceId": "yong-jian-1",
+    "wordAnnotations": [
+      {
+        "word": "先知",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "niche-product"
+    ],
+    "relatedTrainingIds": [
+      "t29"
+    ],
     "tags": [
-      "信息"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q29",
-    "text": "先知者，不可取于鬼神。",
+    "text": "故用间有五。",
     "chapterId": "yong-jian",
-    "translation": "预知不能靠鬼神。",
-    "explanation": "不要迷信，要做真实调研。",
-    "modernApplication": "不要迷信，要做真实调研。",
+    "sentenceId": "yong-jian-1",
+    "wordAnnotations": [
+      {
+        "word": "故用",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "network-effect"
+    ],
+    "relatedTrainingIds": [
+      "t30"
+    ],
     "tags": [
-      "调研"
+      "金句",
+      "战略",
+      "复盘"
     ]
   },
   {
     "id": "q30",
-    "text": "三军之事，莫亲于间，赏莫厚于间，事莫密于间。",
+    "text": "事莫密于间。",
     "chapterId": "yong-jian",
-    "translation": "军中没有比间谍更亲近、赏赐更厚、事情更机密的。",
-    "explanation": "关键情报要有专门机制。",
-    "modernApplication": "关键情报要有专门机制。",
+    "sentenceId": "yong-jian-1",
+    "wordAnnotations": [
+      {
+        "word": "事莫",
+        "explanation": "金句中的关键表达。",
+        "modernMapping": "战略判断"
+      }
+    ],
+    "translation": "这句话提醒我们，要把兵法原则转成具体判断，而不是只做口号式理解。",
+    "strategicMeaning": "核心在于先看条件、成本、风险和时机，再决定行动方式。",
+    "modernApplication": "可用于项目推进、商业竞争、技术治理、个人选择等场景的行动前检查。",
+    "misuseWarning": "不要把这句话理解成权谋或攻击他人的技巧，它更重要的是减少误判和降低代价。",
+    "relatedCaseIds": [
+      "brand-position"
+    ],
+    "relatedTrainingIds": [
+      "t01"
+    ],
     "tags": [
-      "用间"
+      "金句",
+      "战略",
+      "复盘"
     ]
   }
 ];
 
-export const trainingScenarios: TrainingScenario[] = [
+export const trainingScenarios: DeepTrainingScenario[] = [
   {
-    "id": "training-01",
-    "title": "小公司面对巨头进入市场 #1",
+    "id": "t01",
+    "title": "小公司面对巨头进入细分市场",
     "category": "business",
-    "difficulty": "easy",
-    "background": "你资源有限，但在细分用户中有口碑。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "深耕细分用户，避开巨头主战场",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "xu-shi"
-    ],
-    "relatedConceptIds": [
-      "bi-shi-ji-xu"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 避实击虚：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-02",
-    "title": "大型系统是否全面重构 #2",
-    "category": "workplace",
     "difficulty": "medium",
-    "background": "旧系统问题很多，但业务强依赖。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
+    "background": "你正在处理场景：小公司面对巨头进入细分市场。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t01-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t01-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t01-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t01-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
     "options": [
       {
         "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
+        "text": "立即正面推进，用速度和投入压过去。",
         "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "B",
-        "text": "先选择边界清晰模块做局部胜利",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
       },
       {
         "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
+        "text": "复制强者打法，争取看起来更完整。",
         "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
       }
     ],
     "recommendedOptionIds": [
-      "B"
+      "C"
     ],
-    "relatedChapterIds": [
-      "jun-xing"
-    ],
-    "relatedConceptIds": [
-      "xian-sheng-hou-zhan"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 先胜后战：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-03",
-    "title": "团队对项目目标不一致 #3",
-    "category": "startup",
-    "difficulty": "hard",
-    "background": "业务、研发、运营对优先级理解不同。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
+    "scoringRules": [
       {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
       },
       {
-        "id": "B",
-        "text": "先统一目标和判断标准",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
       },
       {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
       },
       {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
       },
       {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
       }
     ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "shi-ji"
-    ],
-    "relatedConceptIds": [
-      "dao-tian-di-jiang-fa"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 道天地将法：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-04",
-    "title": "价格战已经开始 #4",
-    "category": "tech",
-    "difficulty": "easy",
-    "background": "竞品开始降价，团队想立刻跟进。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "计算成本与底线，寻找非价格差异化",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "zuo-zhan"
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
     ],
     "relatedConceptIds": [
+      "bi-shi-ji-xu",
       "bing-gui-sheng"
     ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
+    "relatedCaseIds": [
+      "guan-du"
     ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 兵贵胜不贵久：先降低硬拼成本，再寻找更有胜算的路径。"
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
   },
   {
-    "id": "training-05",
-    "title": "新产品找不到突破口 #5",
-    "category": "management",
-    "difficulty": "medium",
-    "background": "大市场竞争激烈，但某类用户痛点明显。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "选择痛点集中、巨头忽视的场景",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "mou-gong"
-    ],
-    "relatedConceptIds": [
-      "fa-mou"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 上兵伐谋：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-06",
-    "title": "关键会议即将召开 #6",
-    "category": "personal",
-    "difficulty": "hard",
-    "background": "你想推动方案通过，但资源负责人态度不明。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "先获取真实诉求，再设计方案",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "yong-jian"
-    ],
-    "relatedConceptIds": [
-      "yong-jian"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 用间先知：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-07",
-    "title": "线上系统频繁故障 #7",
-    "category": "history",
-    "difficulty": "easy",
-    "background": "团队只想加人救火。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "先识别结构性风险并设止损线",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "jun-xing"
-    ],
-    "relatedConceptIds": [
-      "bu-ke-sheng"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 不可胜在己：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-08",
-    "title": "创业方向摇摆 #8",
+    "id": "t02",
+    "title": "价格战已经开始，是否跟进降价",
     "category": "business",
     "difficulty": "medium",
-    "background": "多个机会都看似不错，资金有限。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
+    "background": "你正在处理场景：价格战已经开始，是否跟进降价。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t02-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t02-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t02-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t02-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
     "options": [
       {
         "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
+        "text": "立即正面推进，用速度和投入压过去。",
         "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "B",
-        "text": "用庙算比较胜算、成本和时间窗口",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
       },
       {
         "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "miao-suan"
+        ]
       },
       {
         "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
+        "text": "复制强者打法，争取看起来更完整。",
         "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
       }
     ],
     "recommendedOptionIds": [
-      "B"
+      "C"
     ],
-    "relatedChapterIds": [
-      "shi-ji"
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
     ],
     "relatedConceptIds": [
+      "dao-tian-di-jiang-fa",
       "miao-suan"
     ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
+    "relatedCaseIds": [
+      "chi-bi"
     ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 庙算：先降低硬拼成本，再寻找更有胜算的路径。"
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
   },
   {
-    "id": "training-09",
-    "title": "跨部门协作迟迟推进不动 #9",
-    "category": "workplace",
-    "difficulty": "hard",
-    "background": "没人反对，但也没人真正投入。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "找到共同利益和关键责任人",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "shi-ji"
-    ],
-    "relatedConceptIds": [
-      "dao-tian-di-jiang-fa"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 道天地将法：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-10",
-    "title": "竞品功能更多 #10",
+    "id": "t03",
+    "title": "新产品上线前发现核心用户画像不清",
     "category": "startup",
     "difficulty": "easy",
-    "background": "团队想全量模仿竞品。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
+    "background": "你正在处理场景：新产品上线前发现核心用户画像不清。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t03-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t03-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t03-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t03-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
     "options": [
       {
         "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
+        "text": "立即正面推进，用速度和投入压过去。",
         "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "B",
-        "text": "保住基本盘，做差异化奇胜",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
       },
       {
         "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "zhi-ji-zhi-bi"
+        ]
       },
       {
         "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
+        "text": "复制强者打法，争取看起来更完整。",
         "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
       }
     ],
     "recommendedOptionIds": [
-      "B"
+      "C"
     ],
-    "relatedChapterIds": [
-      "bing-shi"
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
     ],
     "relatedConceptIds": [
-      "zheng-qi"
+      "xian-sheng-hou-zhan",
+      "zhi-ji-zhi-bi"
     ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
+    "relatedCaseIds": [
+      "fei-shui"
     ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 正合奇胜：先降低硬拼成本，再寻找更有胜算的路径。"
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
   },
   {
-    "id": "training-11",
-    "title": "小公司面对巨头进入市场 #11",
-    "category": "tech",
+    "id": "t04",
+    "title": "竞品抢先发布，你是否提前发布半成品",
+    "category": "startup",
     "difficulty": "medium",
-    "background": "你资源有限，但在细分用户中有口碑。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
+    "background": "你正在处理场景：竞品抢先发布，你是否提前发布半成品。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t04-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t04-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t04-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t04-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
     "options": [
       {
         "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
+        "text": "立即正面推进，用速度和投入压过去。",
         "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "B",
-        "text": "深耕细分用户，避开巨头主战场",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
       },
       {
         "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
+        "text": "复制强者打法，争取看起来更完整。",
         "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
       }
     ],
     "recommendedOptionIds": [
-      "B"
+      "C"
     ],
-    "relatedChapterIds": [
-      "xu-shi"
-    ],
-    "relatedConceptIds": [
-      "bi-shi-ji-xu"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 避实击虚：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-12",
-    "title": "大型系统是否全面重构 #12",
-    "category": "management",
-    "difficulty": "hard",
-    "background": "旧系统问题很多，但业务强依赖。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
+    "scoringRules": [
       {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
       },
       {
-        "id": "B",
-        "text": "先选择边界清晰模块做局部胜利",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
       },
       {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
       },
       {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
       },
       {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
       }
     ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "jun-xing"
-    ],
-    "relatedConceptIds": [
-      "xian-sheng-hou-zhan"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 先胜后战：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-13",
-    "title": "团队对项目目标不一致 #13",
-    "category": "personal",
-    "difficulty": "easy",
-    "background": "业务、研发、运营对优先级理解不同。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "先统一目标和判断标准",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "shi-ji"
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
     ],
     "relatedConceptIds": [
-      "dao-tian-di-jiang-fa"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 道天地将法：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-14",
-    "title": "价格战已经开始 #14",
-    "category": "history",
-    "difficulty": "medium",
-    "background": "竞品开始降价，团队想立刻跟进。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "计算成本与底线，寻找非价格差异化",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "zuo-zhan"
-    ],
-    "relatedConceptIds": [
+      "bi-shi-ji-xu",
       "bing-gui-sheng"
     ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
+    "relatedCaseIds": [
+      "chu-han"
     ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 兵贵胜不贵久：先降低硬拼成本，再寻找更有胜算的路径。"
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
   },
   {
-    "id": "training-15",
-    "title": "新产品找不到突破口 #15",
-    "category": "business",
-    "difficulty": "hard",
-    "background": "大市场竞争激烈，但某类用户痛点明显。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "选择痛点集中、巨头忽视的场景",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "mou-gong"
-    ],
-    "relatedConceptIds": [
-      "fa-mou"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 上兵伐谋：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-16",
-    "title": "关键会议即将召开 #16",
-    "category": "workplace",
-    "difficulty": "easy",
-    "background": "你想推动方案通过，但资源负责人态度不明。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "先获取真实诉求，再设计方案",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "yong-jian"
-    ],
-    "relatedConceptIds": [
-      "yong-jian"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 用间先知：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-17",
-    "title": "线上系统频繁故障 #17",
-    "category": "startup",
-    "difficulty": "medium",
-    "background": "团队只想加人救火。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "先识别结构性风险并设止损线",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "jun-xing"
-    ],
-    "relatedConceptIds": [
-      "bu-ke-sheng"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 不可胜在己：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-18",
-    "title": "创业方向摇摆 #18",
+    "id": "t05",
+    "title": "大型系统重构是否全面启动",
     "category": "tech",
     "difficulty": "hard",
-    "background": "多个机会都看似不错，资金有限。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
+    "background": "你正在处理场景：大型系统重构是否全面启动。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t05-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t05-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t05-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t05-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
     "options": [
       {
         "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
+        "text": "立即正面推进，用速度和投入压过去。",
         "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "B",
-        "text": "用庙算比较胜算、成本和时间窗口",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
       },
       {
         "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "miao-suan"
+        ]
       },
       {
         "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
+        "text": "复制强者打法，争取看起来更完整。",
         "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
       }
     ],
     "recommendedOptionIds": [
-      "B"
+      "C"
     ],
-    "relatedChapterIds": [
-      "shi-ji"
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
     ],
     "relatedConceptIds": [
+      "dao-tian-di-jiang-fa",
       "miao-suan"
     ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
+    "relatedCaseIds": [
+      "chang-ping"
     ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 庙算：先降低硬拼成本，再寻找更有胜算的路径。"
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
   },
   {
-    "id": "training-19",
-    "title": "跨部门协作迟迟推进不动 #19",
-    "category": "management",
-    "difficulty": "easy",
-    "background": "没人反对，但也没人真正投入。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "找到共同利益和关键责任人",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "shi-ji"
-    ],
-    "relatedConceptIds": [
-      "dao-tian-di-jiang-fa"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 道天地将法：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-20",
-    "title": "竞品功能更多 #20",
-    "category": "personal",
+    "id": "t06",
+    "title": "技术债治理预算不足如何推进",
+    "category": "tech",
     "difficulty": "medium",
-    "background": "团队想全量模仿竞品。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
+    "background": "你正在处理场景：技术债治理预算不足如何推进。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t06-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t06-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t06-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t06-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
     "options": [
       {
         "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
+        "text": "立即正面推进，用速度和投入压过去。",
         "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "B",
-        "text": "保住基本盘，做差异化奇胜",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
       },
       {
         "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "zhi-ji-zhi-bi"
+        ]
       },
       {
         "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
+        "text": "复制强者打法，争取看起来更完整。",
         "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
       }
     ],
     "recommendedOptionIds": [
-      "B"
+      "C"
     ],
-    "relatedChapterIds": [
-      "bing-shi"
-    ],
-    "relatedConceptIds": [
-      "zheng-qi"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 正合奇胜：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-21",
-    "title": "小公司面对巨头进入市场 #21",
-    "category": "history",
-    "difficulty": "hard",
-    "background": "你资源有限，但在细分用户中有口碑。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
+    "scoringRules": [
       {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
       },
       {
-        "id": "B",
-        "text": "深耕细分用户，避开巨头主战场",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
       },
       {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
       },
       {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
       },
       {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
       }
     ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "xu-shi"
-    ],
-    "relatedConceptIds": [
-      "bi-shi-ji-xu"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 避实击虚：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-22",
-    "title": "大型系统是否全面重构 #22",
-    "category": "business",
-    "difficulty": "easy",
-    "background": "旧系统问题很多，但业务强依赖。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "先选择边界清晰模块做局部胜利",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "jun-xing"
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
     ],
     "relatedConceptIds": [
-      "xian-sheng-hou-zhan"
+      "xian-sheng-hou-zhan",
+      "zhi-ji-zhi-bi"
     ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
+    "relatedCaseIds": [
+      "jing-xing"
     ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 先胜后战：先降低硬拼成本，再寻找更有胜算的路径。"
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
   },
   {
-    "id": "training-23",
-    "title": "团队对项目目标不一致 #23",
-    "category": "workplace",
+    "id": "t07",
+    "title": "新架构推广遇到老团队抵触",
+    "category": "tech",
     "difficulty": "medium",
-    "background": "业务、研发、运营对优先级理解不同。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
+    "background": "你正在处理场景：新架构推广遇到老团队抵触。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t07-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t07-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t07-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t07-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
     "options": [
       {
         "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
+        "text": "立即正面推进，用速度和投入压过去。",
         "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "B",
-        "text": "先统一目标和判断标准",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
       },
       {
         "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
+        "text": "复制强者打法，争取看起来更完整。",
         "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
       }
     ],
     "recommendedOptionIds": [
-      "B"
+      "C"
     ],
-    "relatedChapterIds": [
-      "shi-ji"
-    ],
-    "relatedConceptIds": [
-      "dao-tian-di-jiang-fa"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 道天地将法：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-24",
-    "title": "价格战已经开始 #24",
-    "category": "startup",
-    "difficulty": "hard",
-    "background": "竞品开始降价，团队想立刻跟进。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
+    "scoringRules": [
       {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
       },
       {
-        "id": "B",
-        "text": "计算成本与底线，寻找非价格差异化",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
       },
       {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
       },
       {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
       },
       {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
       }
     ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "zuo-zhan"
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
     ],
     "relatedConceptIds": [
+      "bi-shi-ji-xu",
       "bing-gui-sheng"
     ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
+    "relatedCaseIds": [
+      "startup-giant"
     ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 兵贵胜不贵久：先降低硬拼成本，再寻找更有胜算的路径。"
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
   },
   {
-    "id": "training-25",
-    "title": "新产品找不到突破口 #25",
+    "id": "t08",
+    "title": "代码评审平台上线前缺少组织共识",
     "category": "tech",
-    "difficulty": "easy",
-    "background": "大市场竞争激烈，但某类用户痛点明显。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "选择痛点集中、巨头忽视的场景",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "mou-gong"
-    ],
-    "relatedConceptIds": [
-      "fa-mou"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 上兵伐谋：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-26",
-    "title": "关键会议即将召开 #26",
-    "category": "management",
     "difficulty": "medium",
-    "background": "你想推动方案通过，但资源负责人态度不明。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
+    "background": "你正在处理场景：代码评审平台上线前缺少组织共识。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t08-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t08-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t08-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t08-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
     "options": [
       {
         "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
+        "text": "立即正面推进，用速度和投入压过去。",
         "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "B",
-        "text": "先获取真实诉求，再设计方案",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
       },
       {
         "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "miao-suan"
+        ]
       },
       {
         "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
+        "text": "复制强者打法，争取看起来更完整。",
         "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
       }
     ],
     "recommendedOptionIds": [
-      "B"
+      "C"
     ],
-    "relatedChapterIds": [
-      "yong-jian"
-    ],
-    "relatedConceptIds": [
-      "yong-jian"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 用间先知：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-27",
-    "title": "线上系统频繁故障 #27",
-    "category": "personal",
-    "difficulty": "hard",
-    "background": "团队只想加人救火。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
+    "scoringRules": [
       {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
       },
       {
-        "id": "B",
-        "text": "先识别结构性风险并设止损线",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
       },
       {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
       },
       {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
       },
       {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
       }
     ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "jun-xing"
-    ],
-    "relatedConceptIds": [
-      "bu-ke-sheng"
-    ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
-    ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 不可胜在己：先降低硬拼成本，再寻找更有胜算的路径。"
-  },
-  {
-    "id": "training-28",
-    "title": "创业方向摇摆 #28",
-    "category": "history",
-    "difficulty": "easy",
-    "background": "多个机会都看似不错，资金有限。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
-    "options": [
-      {
-        "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
-        "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
-      },
-      {
-        "id": "B",
-        "text": "用庙算比较胜算、成本和时间窗口",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
-      },
-      {
-        "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
-      },
-      {
-        "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
-        "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
-      }
-    ],
-    "recommendedOptionIds": [
-      "B"
-    ],
-    "relatedChapterIds": [
-      "shi-ji"
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
     ],
     "relatedConceptIds": [
+      "dao-tian-di-jiang-fa",
       "miao-suan"
     ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
+    "relatedCaseIds": [
+      "price-war"
     ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 庙算：先降低硬拼成本，再寻找更有胜算的路径。"
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
   },
   {
-    "id": "training-29",
-    "title": "跨部门协作迟迟推进不动 #29",
-    "category": "business",
+    "id": "t09",
+    "title": "跨部门项目目标不一致",
+    "category": "workplace",
     "difficulty": "medium",
-    "background": "没人反对，但也没人真正投入。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
+    "background": "你正在处理场景：跨部门项目目标不一致。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t09-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t09-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t09-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t09-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
     "options": [
       {
         "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
+        "text": "立即正面推进，用速度和投入压过去。",
         "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "B",
-        "text": "找到共同利益和关键责任人",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
       },
       {
         "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "zhi-ji-zhi-bi"
+        ]
       },
       {
         "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
+        "text": "复制强者打法，争取看起来更完整。",
         "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
       }
     ],
     "recommendedOptionIds": [
-      "B"
+      "C"
     ],
-    "relatedChapterIds": [
-      "shi-ji"
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
     ],
     "relatedConceptIds": [
-      "dao-tian-di-jiang-fa"
+      "xian-sheng-hou-zhan",
+      "zhi-ji-zhi-bi"
     ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
+    "relatedCaseIds": [
+      "niche-product"
     ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 道天地将法：先降低硬拼成本，再寻找更有胜算的路径。"
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
   },
   {
-    "id": "training-30",
-    "title": "竞品功能更多 #30",
+    "id": "t10",
+    "title": "领导要求一周内完成高风险改造",
     "category": "workplace",
     "difficulty": "hard",
-    "background": "团队想全量模仿竞品。 你需要在信息不完全、资源有限、时间有压力的情况下做选择。",
-    "question": "你应该优先采用哪种策略？",
+    "background": "你正在处理场景：领导要求一周内完成高风险改造。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t10-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t10-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t10-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t10-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
     "options": [
       {
         "id": "A",
-        "text": "立刻正面投入全部资源，先抢声量再说。",
+        "text": "立即正面推进，用速度和投入压过去。",
         "score": 35,
-        "feedback": "容易变成先战后求胜，成本与风险不可控。"
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "B",
-        "text": "保住基本盘，做差异化奇胜",
-        "score": 95,
-        "feedback": "推荐策略。它先改变条件，再行动，符合对应兵法思想。"
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
       },
       {
         "id": "C",
-        "text": "暂停所有行动，等待局势完全清楚。",
-        "score": 55,
-        "feedback": "能降低风险，但可能错过时机。需要搭配信息收集。"
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "bing-gui-sheng"
+        ]
       },
       {
         "id": "D",
-        "text": "模仿最强对手的做法，减少思考成本。",
-        "score": 45,
-        "feedback": "照搬容易进入对方擅长的战场，缺少自己的胜算。"
-      },
-      {
-        "id": "E",
-        "text": "只靠个人努力加班解决，不改变结构。",
+        "text": "复制强者打法，争取看起来更完整。",
         "score": 30,
-        "feedback": "把系统问题个人化，难以形成可持续优势。"
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
       }
     ],
     "recommendedOptionIds": [
-      "B"
+      "C"
     ],
-    "relatedChapterIds": [
-      "bing-shi"
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
     ],
     "relatedConceptIds": [
-      "zheng-qi"
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
     ],
-    "scoringDimensions": [
-      "胜算",
-      "成本",
-      "风险",
-      "时机",
-      "信息",
-      "对手",
-      "执行"
+    "relatedCaseIds": [
+      "network-effect"
     ],
-    "explanation": "本题核心是“先判断条件，再选择战场”。推荐答案体现了 正合奇胜：先降低硬拼成本，再寻找更有胜算的路径。"
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t11",
+    "title": "团队内部争夺资源导致内耗",
+    "category": "team",
+    "difficulty": "medium",
+    "background": "你正在处理场景：团队内部争夺资源导致内耗。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t11-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t11-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t11-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t11-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "dao-tian-di-jiang-fa",
+      "miao-suan"
+    ],
+    "relatedCaseIds": [
+      "brand-position"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t12",
+    "title": "新人主管如何建立执行秩序",
+    "category": "team",
+    "difficulty": "easy",
+    "background": "你正在处理场景：新人主管如何建立执行秩序。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t12-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t12-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t12-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t12-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "zhi-ji-zhi-bi"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "xian-sheng-hou-zhan",
+      "zhi-ji-zhi-bi"
+    ],
+    "relatedCaseIds": [
+      "project-kickoff"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t13",
+    "title": "是否离开稳定工作加入创业公司",
+    "category": "personal",
+    "difficulty": "medium",
+    "background": "你正在处理场景：是否离开稳定工作加入创业公司。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t13-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t13-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t13-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t13-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
+    ],
+    "relatedCaseIds": [
+      "team-alignment"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t14",
+    "title": "长期投入的副业看不到结果",
+    "category": "personal",
+    "difficulty": "medium",
+    "background": "你正在处理场景：长期投入的副业看不到结果。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t14-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t14-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t14-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t14-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "dao-tian-di-jiang-fa",
+      "miao-suan"
+    ],
+    "relatedCaseIds": [
+      "resource-fight"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t15",
+    "title": "客户谈判对方持续压价",
+    "category": "business",
+    "difficulty": "medium",
+    "background": "你正在处理场景：客户谈判对方持续压价。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t15-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t15-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t15-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t15-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "zhi-ji-zhi-bi"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "xian-sheng-hou-zhan",
+      "zhi-ji-zhi-bi"
+    ],
+    "relatedCaseIds": [
+      "real-decision-maker"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t16",
+    "title": "渠道被大平台封锁如何突围",
+    "category": "business",
+    "difficulty": "hard",
+    "background": "你正在处理场景：渠道被大平台封锁如何突围。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t16-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t16-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t16-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t16-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
+    ],
+    "relatedCaseIds": [
+      "avoid-internal-friction"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t17",
+    "title": "历史推演：曹操是否应袭乌巢",
+    "category": "history",
+    "difficulty": "medium",
+    "background": "你正在处理场景：历史推演：曹操是否应袭乌巢。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t17-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t17-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t17-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t17-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "dao-tian-di-jiang-fa",
+      "miao-suan"
+    ],
+    "relatedCaseIds": [
+      "system-refactor"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t18",
+    "title": "历史推演：赤壁是否应等待风向",
+    "category": "history",
+    "difficulty": "medium",
+    "background": "你正在处理场景：历史推演：赤壁是否应等待风向。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t18-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t18-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t18-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t18-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "zhi-ji-zhi-bi"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "xian-sheng-hou-zhan",
+      "zhi-ji-zhi-bi"
+    ],
+    "relatedCaseIds": [
+      "tech-debt"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t19",
+    "title": "上线事故后是否立即重写系统",
+    "category": "tech",
+    "difficulty": "hard",
+    "background": "你正在处理场景：上线事故后是否立即重写系统。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t19-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t19-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t19-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t19-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
+    ],
+    "relatedCaseIds": [
+      "architecture-pilot"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t20",
+    "title": "项目延期三个月是否继续投入",
+    "category": "workplace",
+    "difficulty": "medium",
+    "background": "你正在处理场景：项目延期三个月是否继续投入。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t20-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t20-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t20-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t20-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "dao-tian-di-jiang-fa",
+      "miao-suan"
+    ],
+    "relatedCaseIds": [
+      "review-platform"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t21",
+    "title": "两个业务线争抢同一研发团队",
+    "category": "team",
+    "difficulty": "medium",
+    "background": "你正在处理场景：两个业务线争抢同一研发团队。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t21-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t21-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t21-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t21-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "zhi-ji-zhi-bi"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "xian-sheng-hou-zhan",
+      "zhi-ji-zhi-bi"
+    ],
+    "relatedCaseIds": [
+      "guan-du"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t22",
+    "title": "市场窗口变窄是否加速扩张",
+    "category": "startup",
+    "difficulty": "hard",
+    "background": "你正在处理场景：市场窗口变窄是否加速扩张。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t22-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t22-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t22-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t22-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
+    ],
+    "relatedCaseIds": [
+      "chi-bi"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t23",
+    "title": "被竞争对手带节奏如何应对",
+    "category": "business",
+    "difficulty": "medium",
+    "background": "你正在处理场景：被竞争对手带节奏如何应对。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t23-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t23-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t23-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t23-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "dao-tian-di-jiang-fa",
+      "miao-suan"
+    ],
+    "relatedCaseIds": [
+      "fei-shui"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t24",
+    "title": "数据不足是否启动战略项目",
+    "category": "workplace",
+    "difficulty": "easy",
+    "background": "你正在处理场景：数据不足是否启动战略项目。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t24-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t24-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t24-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t24-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "zhi-ji-zhi-bi"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "xian-sheng-hou-zhan",
+      "zhi-ji-zhi-bi"
+    ],
+    "relatedCaseIds": [
+      "chu-han"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t25",
+    "title": "团队士气低落但任务紧急",
+    "category": "team",
+    "difficulty": "medium",
+    "background": "你正在处理场景：团队士气低落但任务紧急。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t25-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t25-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t25-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t25-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
+    ],
+    "relatedCaseIds": [
+      "chang-ping"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t26",
+    "title": "老系统迁移如何选择第一块阵地",
+    "category": "tech",
+    "difficulty": "medium",
+    "background": "你正在处理场景：老系统迁移如何选择第一块阵地。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t26-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t26-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t26-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t26-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "dao-tian-di-jiang-fa",
+      "miao-suan"
+    ],
+    "relatedCaseIds": [
+      "jing-xing"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t27",
+    "title": "品牌定位模糊是否全面换标语",
+    "category": "business",
+    "difficulty": "easy",
+    "background": "你正在处理场景：品牌定位模糊是否全面换标语。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t27-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t27-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t27-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t27-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "zhi-ji-zhi-bi"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "xian-sheng-hou-zhan",
+      "zhi-ji-zhi-bi"
+    ],
+    "relatedCaseIds": [
+      "startup-giant"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t28",
+    "title": "资源很少但机会窗口明显",
+    "category": "startup",
+    "difficulty": "medium",
+    "background": "你正在处理场景：资源很少但机会窗口明显。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t28-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t28-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t28-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t28-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "bi-shi-ji-xu",
+      "bing-gui-sheng"
+    ],
+    "relatedCaseIds": [
+      "price-war"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t29",
+    "title": "合作伙伴目标不一致是否继续合作",
+    "category": "workplace",
+    "difficulty": "medium",
+    "background": "你正在处理场景：合作伙伴目标不一致是否继续合作。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t29-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t29-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t29-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t29-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "dao-tian-di-jiang-fa",
+      "miao-suan"
+    ],
+    "relatedCaseIds": [
+      "niche-product"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
+  },
+  {
+    "id": "t30",
+    "title": "个人学习计划坚持很久但无反馈",
+    "category": "personal",
+    "difficulty": "easy",
+    "background": "你正在处理场景：个人学习计划坚持很久但无反馈。表面问题是要不要马上行动，深层问题是胜算、成本、风险、信息和对手结构是否已经被看清。",
+    "conflict": "如果马上行动，可能抢到时机；如果判断不足，可能进入长期消耗或被对方牵引。",
+    "knownFacts": [
+      "资源有限，不能无限投入。",
+      "当前信息并不完整。",
+      "对方或环境存在既有优势。",
+      "存在一个可局部验证的切入点。",
+      "时间窗口正在变化。"
+    ],
+    "unknownFacts": [
+      "对方真实底线是什么？",
+      "用户或业务方是否真正支持？",
+      "失败后最大损失是否可承受？"
+    ],
+    "situationQuestions": [
+      {
+        "id": "t30-sq1",
+        "question": "当前最主要矛盾是什么？",
+        "type": "single",
+        "options": [
+          "资源不足",
+          "目标不清",
+          "对手太强",
+          "信息不足"
+        ],
+        "explanation": "训练第一步不是选策略，而是识别局势。"
+      },
+      {
+        "id": "t30-sq2",
+        "question": "这个场景是否适合正面硬拼？",
+        "type": "single",
+        "options": [
+          "适合",
+          "不适合",
+          "需要先验证"
+        ],
+        "explanation": "正面硬拼只在资源、时机、执行都匹配时才成立。"
+      }
+    ],
+    "selfResourceQuestions": [
+      {
+        "id": "t30-rq1",
+        "question": "你最可靠的资源是什么？",
+        "type": "multiple",
+        "options": [
+          "用户口碑",
+          "执行速度",
+          "预算",
+          "组织共识",
+          "技术能力"
+        ],
+        "explanation": "资源识别决定策略边界。"
+      }
+    ],
+    "opponentQuestions": [
+      {
+        "id": "t30-oq1",
+        "question": "对手或环境最可能的优势是什么？",
+        "type": "multiple",
+        "options": [
+          "规模",
+          "规则",
+          "信息",
+          "渠道",
+          "时间"
+        ],
+        "explanation": "知彼不是夸大对手，而是找到不能硬碰的位置。"
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "立即正面推进，用速度和投入压过去。",
+        "score": 35,
+        "whenItWorks": "资源明显占优且窗口极短。",
+        "whenItFails": "资源不足、信息不足、执行链条不稳时。",
+        "feedback": "容易把激烈行动误认为有效战略。",
+        "relatedConceptIds": [
+          "bing-gui-sheng"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "暂停所有行动，等待信息完全明确。",
+        "score": 45,
+        "whenItWorks": "失败代价极大且无验证空间。",
+        "whenItFails": "窗口快速关闭、可小步验证时。",
+        "feedback": "过度等待会丧失主动权。",
+        "relatedConceptIds": [
+          "miao-suan"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "先选择一个关键薄弱点做局部验证，再扩大。",
+        "score": 88,
+        "whenItWorks": "资源有限但能找到清晰验证点。",
+        "whenItFails": "薄弱点不存在或验证指标错误。",
+        "feedback": "符合先胜后战、避实击虚的思路。",
+        "relatedConceptIds": [
+          "xian-sheng-hou-zhan",
+          "zhi-ji-zhi-bi"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "复制强者打法，争取看起来更完整。",
+        "score": 30,
+        "whenItWorks": "对方模式已被验证且你有同等资源。",
+        "whenItFails": "多数资源弱势场景都会失败。",
+        "feedback": "模仿不等于战略，容易进入别人定义的战场。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi"
+        ]
+      }
+    ],
+    "recommendedOptionIds": [
+      "C"
+    ],
+    "scoringRules": [
+      {
+        "dimension": "胜算",
+        "maxScore": 10,
+        "description": "评估策略在胜算上的质量。"
+      },
+      {
+        "dimension": "成本",
+        "maxScore": 10,
+        "description": "评估策略在成本上的质量。"
+      },
+      {
+        "dimension": "风险",
+        "maxScore": 10,
+        "description": "评估策略在风险上的质量。"
+      },
+      {
+        "dimension": "时机",
+        "maxScore": 10,
+        "description": "评估策略在时机上的质量。"
+      },
+      {
+        "dimension": "信息",
+        "maxScore": 10,
+        "description": "评估策略在信息上的质量。"
+      },
+      {
+        "dimension": "对手",
+        "maxScore": 10,
+        "description": "评估策略在对手上的质量。"
+      },
+      {
+        "dimension": "执行",
+        "maxScore": 10,
+        "description": "评估策略在执行上的质量。"
+      }
+    ],
+    "bestAnswerCondition": "C 更优的前提是：确实存在可验证的关键薄弱点；验证成本可控；团队能根据结果及时调整；不把局部试验伪装成全面胜利。",
+    "relatedOriginalSentences": [
+      "胜兵先胜而后求战。",
+      "避实而击虚。",
+      "知彼知己，百战不殆。"
+    ],
+    "relatedConceptIds": [
+      "xian-sheng-hou-zhan",
+      "zhi-ji-zhi-bi"
+    ],
+    "relatedCaseIds": [
+      "network-effect"
+    ],
+    "wrongThinkingPatterns": [
+      "把行动强度当成战略质量。",
+      "只看机会不看消耗。",
+      "没有区分可控条件与不可控条件。"
+    ],
+    "reflectionTemplate": [
+      "我一开始最想选哪个策略？",
+      "我忽略了哪些资源和风险？",
+      "这个选择成立的前提是什么？",
+      "如果失败，最大损失是什么？",
+      "下次遇到类似问题，我会先问什么？"
+    ]
   }
 ];
 
 export const learningPaths: LearningPath[] = [
   {
-    "id": "beginner",
+    "id": "intro",
     "title": "快速入门路线",
-    "audience": "第一次阅读《孙子兵法》的用户",
+    "audience": "第一次读《孙子兵法》的用户",
     "steps": [
-      "了解核心思想",
-      "阅读始计篇",
+      "读首页闭环",
+      "读始计篇逐句译注",
       "理解道天地将法",
-      "阅读谋攻篇",
-      "理解不战而胜",
-      "完成 3 个基础训练题",
-      "生成学习笔记"
+      "完成 3 道基础训练",
+      "写第一份复盘"
     ],
     "chapterIds": [
       "shi-ji",
@@ -3743,34 +13416,28 @@ export const learningPaths: LearningPath[] = [
     ],
     "conceptIds": [
       "dao-tian-di-jiang-fa",
-      "bu-zhan-er-sheng"
+      "bu-zhan-er-qu-ren"
     ]
   },
   {
     "id": "manager",
     "title": "管理者路线",
-    "audience": "管理者、团队负责人",
+    "audience": "管理者、项目负责人",
     "steps": [
-      "始计篇",
-      "作战篇",
-      "谋攻篇",
-      "军形篇",
-      "兵势篇",
-      "虚实篇",
-      "用间篇"
+      "胜算判断",
+      "成本控制",
+      "组织共识",
+      "先胜后战",
+      "用间与信息"
     ],
     "chapterIds": [
       "shi-ji",
       "zuo-zhan",
-      "mou-gong",
       "jun-xing",
-      "bing-shi",
-      "xu-shi",
       "yong-jian"
     ],
     "conceptIds": [
-      "dao-tian-di-jiang-fa",
-      "bing-gui-sheng",
+      "miao-suan",
       "xian-sheng-hou-zhan"
     ]
   },
@@ -3780,117 +13447,78 @@ export const learningPaths: LearningPath[] = [
     "audience": "创业者、产品负责人",
     "steps": [
       "选择市场",
-      "避开巨头",
+      "避开巨头主战场",
       "找到切入点",
       "建立差异化",
-      "判断竞争环境"
+      "复盘资源消耗"
     ],
     "chapterIds": [
       "shi-ji",
       "mou-gong",
       "xu-shi",
-      "jun-zheng",
-      "jiu-bian",
-      "yong-jian"
+      "jun-zheng"
     ],
     "conceptIds": [
-      "miao-suan",
       "bi-shi-ji-xu",
-      "yong-jian"
+      "zhi-ji-zhi-bi"
     ]
   },
   {
     "id": "workplace",
     "title": "职场实践路线",
-    "audience": "普通职场用户",
+    "audience": "项目推进、跨部门协作人群",
     "steps": [
-      "判断项目值不值得做",
       "识别真实决策人",
-      "避免无效消耗",
-      "找到关键突破口",
-      "复盘结果"
+      "争取关键资源",
+      "避免内耗",
+      "判断时机",
+      "写行动复盘"
     ],
     "chapterIds": [
       "shi-ji",
-      "xu-shi",
-      "jun-xing",
-      "yong-jian"
+      "jiu-bian",
+      "xing-jun"
     ],
     "conceptIds": [
-      "zhi-ren",
       "dao-tian-di-jiang-fa",
-      "xian-sheng-hou-zhan"
+      "li-hai-bing-guan"
     ]
   },
   {
     "id": "tech",
     "title": "技术项目路线",
-    "audience": "程序员、架构师、产品经理",
+    "audience": "程序员、架构师、技术管理者",
     "steps": [
-      "项目立项判断",
-      "技术债治理",
-      "架构演进",
-      "风险控制",
-      "渐进式重构"
+      "技术债胜算判断",
+      "重构成本控制",
+      "先做局部胜利",
+      "迁移风险复盘",
+      "形成组织共识"
     ],
     "chapterIds": [
       "shi-ji",
       "zuo-zhan",
       "jun-xing",
-      "bing-shi",
-      "xu-shi",
-      "jiu-bian"
+      "xu-shi"
     ],
     "conceptIds": [
-      "miao-suan",
       "bing-gui-sheng",
-      "xian-sheng-hou-zhan",
-      "zheng-qi"
+      "xian-sheng-hou-zhan"
     ]
   }
 ];
 
-
-export const categoryLabels: Record<string, string> = {
-  history: '历史战争',
-  business: '商业竞争',
-  workplace: '职场管理',
-  tech: '技术项目',
-  personal: '个人决策',
-  startup: '创业决策',
-  management: '团队管理'
+export const stats = {
+  chapters: chapters.length,
+  concepts: concepts.length,
+  cases: cases.length,
+  trainings: trainingScenarios.length,
+  quotes: quotes.length,
+  sentenceBlocks: chapters.reduce((sum, chapter) => sum + chapter.sentences.length, 0)
 };
 
-export function getChapterBySlug(slug: string) {
-  return chapters.find((chapter) => chapter.slug === slug);
-}
-
-export function getChapterById(id: string) {
-  return chapters.find((chapter) => chapter.id === id);
-}
-
-export function getConceptBySlug(slug: string) {
-  return concepts.find((concept) => concept.slug === slug);
-}
-
-export function getCaseBySlug(slug: string) {
-  return cases.find((item) => item.slug === slug);
-}
-
-export function getTrainingById(id: string) {
-  return trainingScenarios.find((item) => item.id === id);
-}
-
-export function relatedChapters(ids: string[]) {
-  return ids.map(getChapterById).filter(Boolean) as Chapter[];
-}
-
-export function searchIndex() {
-  return [
-    ...chapters.map((item) => ({ type: '篇章', title: item.title, href: `/chapters/${item.slug}`, text: `${item.theme} ${item.summary} ${item.keywords.join(' ')} ${item.sections.map((s) => s.original + s.translation).join(' ')}` })),
-    ...concepts.map((item) => ({ type: '概念', title: item.name, href: `/concepts/${item.slug}`, text: `${item.explanation} ${item.modernMeaning} ${item.commonMisunderstanding}` })),
-    ...cases.map((item) => ({ type: '案例', title: item.title, href: `/cases/${item.slug}`, text: `${item.summary} ${item.background} ${item.lesson}` })),
-    ...trainingScenarios.map((item) => ({ type: '训练', title: item.title, href: `/training/${item.id}`, text: `${item.background} ${item.explanation}` })),
-    ...quotes.map((item) => ({ type: '金句', title: item.text, href: `/quotes#${item.id}`, text: `${item.translation} ${item.explanation} ${item.tags.join(' ')}` }))
-  ];
-}
+export function getChapter(slug: string) { return chapters.find((chapter) => chapter.slug === slug); }
+export function getConcept(slug: string) { return concepts.find((concept) => concept.slug === slug); }
+export function getCase(slug: string) { return cases.find((item) => item.slug === slug); }
+export function getTraining(id: string) { return trainingScenarios.find((item) => item.id === id); }
+export function getQuote(id: string) { return quotes.find((item) => item.id === id); }

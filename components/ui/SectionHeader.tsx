@@ -1,15 +1,7 @@
-interface SectionHeaderProps {
-  eyebrow?: string;
-  title: string;
-  description?: string;
-}
-
-export function SectionHeader({ eyebrow, title, description }: SectionHeaderProps) {
-  return (
-    <div className="mb-8 max-w-3xl">
-      {eyebrow ? <p className="mb-3 text-sm font-semibold tracking-[0.3em] text-bronze">{eyebrow}</p> : null}
-      <h1 className="font-serif text-3xl font-bold text-paper md:text-5xl">{title}</h1>
-      {description ? <p className="mt-4 text-base leading-8 text-paper/70">{description}</p> : null}
-    </div>
-  );
+export default function SectionHeader({ eyebrow, title, description }: { eyebrow?: string; title: string; description?: string }) {
+  return <div className="mb-6">
+    {eyebrow && <div className="mb-2 text-sm font-semibold text-bronze">{eyebrow}</div>}
+    <h2 className="font-serifcn text-2xl font-bold text-paper sm:text-3xl">{title}</h2>
+    {description && <p className="mt-2 max-w-3xl text-paper/65">{description}</p>}
+  </div>;
 }

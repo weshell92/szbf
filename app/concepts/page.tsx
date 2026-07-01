@@ -1,16 +1,4 @@
 import Link from 'next/link';
-import { SectionHeader } from '@/components/ui/SectionHeader';
 import { concepts } from '@/lib/data';
-
-export const metadata = { title: '孙子兵法核心概念库' };
-
-export default function ConceptsPage() {
-  return (
-    <section className="mx-auto max-w-7xl px-4 py-16">
-      <SectionHeader eyebrow="核心概念库" title="把兵法思想拆成可复用卡片" description="每个概念包含出处、解释、现代应用、常见误解、相关案例和训练题。" />
-      <div className="card-grid">
-        {concepts.map((concept) => <Link key={concept.id} href={`/concepts/${concept.slug}`} className="rounded-3xl border border-white/10 bg-white/[0.03] p-5 hover:border-bronze/50"><h2 className="font-serif text-2xl text-paper">{concept.name}</h2><p className="mt-3 text-sm leading-7 text-paper/65">{concept.explanation}</p><p className="mt-4 text-xs text-bronze">常见误解：{concept.commonMisunderstanding}</p></Link>)}
-      </div>
-    </section>
-  );
-}
+import SectionHeader from '@/components/ui/SectionHeader';
+export default function ConceptsPage() { return <div><SectionHeader eyebrow="核心概念库" title="战略概念手册" description="每个概念包含古代语境、现代迁移、适用边界、常见误解和自测问题。" /><div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">{concepts.map((concept) => <Link key={concept.id} href={`/concepts/${concept.slug}`} className="card block p-5 hover:border-bronze/60"><h3 className="font-serifcn text-xl font-bold text-paper">{concept.name}</h3><p className="mt-2 text-sm leading-6 text-paper/65">{concept.oneLineExplanation}</p><div className="mt-4 text-xs text-bronze">{concept.commonMisunderstandings.length} 个常见误解 · {concept.selfTestQuestions.length} 个自测</div></Link>)}</div></div>; }

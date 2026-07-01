@@ -5,17 +5,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: '#0F1115',
-        paper: '#F4EFE6',
-        bronze: '#B08D57',
-        cinnabar: '#C2410C'
+        ink: '#0f1115',
+        paper: '#f4efe6',
+        bronze: '#b08d57',
+        cinnabar: '#c2410c'
       },
       fontFamily: {
-        serif: ['var(--font-serif)', 'Noto Serif SC', 'serif'],
-        sans: ['var(--font-sans)', 'Noto Sans SC', 'system-ui', 'sans-serif']
-      },
-      boxShadow: {
-        soft: '0 20px 80px rgba(0,0,0,0.22)'
+        serifcn: ['Noto Serif SC', 'Songti SC', 'SimSun', 'serif'],
+        sanscn: ['Noto Sans SC', 'Microsoft YaHei', 'sans-serif']
       }
     }
   },
