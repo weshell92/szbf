@@ -222,7 +222,7 @@ export interface UserReflection {
 }
 
 export interface SearchItem {
-  type: '原文' | '译文' | '概念' | '案例' | '训练' | '金句' | '现代应用';
+  type: '篇章' | '原文' | '字词' | '译文' | '概念' | '案例' | '训练' | '金句' | '现代应用';
   title: string;
   href: string;
   text: string;

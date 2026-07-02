@@ -39,8 +39,16 @@ export function addLocalValue(key: string, id: string): boolean {
   return true;
 }
 export function getReflections(): UserReflection[] { return readArray<UserReflection>(keys.reflections); }
-export function saveReflection(reflection: UserReflection) {
-  const list = getReflections();
-  const next = [reflection, ...list.filter((item) => item.id !== reflection.id)].slice(0, 100);
-  writeArray(keys.reflections, next);
+export function getReflection(targetType: UserReflection['targetType'], targetId: string): UserReflection | undefined {
+  return getReflections().find((item) => item.targetType === targetType && item.targetId === targetId);
+}
+export function saveReflection(reflection: UserReflection): { ok: boolean; error?: string } {
+  try {
+    const list = getReflections();
+    const next = [reflection, ...list.filter((item) => item.id !== reflection.id)].slice(0, 100);
+    writeArray(keys.reflections, next);
+    return { ok: true };
+  } catch (error) {
+    return { ok: false, error: error instanceof Error ? error.message : '保存失败' };
+  }
 }

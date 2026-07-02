@@ -4,7 +4,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
-  title: '孙子兵法 · 战略决策系统 Pro',
+  title: '孙子兵法 · 战略决策系统',
   description: '完整原文、逐句译注、深度案例、多步骤决策训练与个人复盘系统。'
 };
 

@@ -1,4 +1,4 @@
-# 孙子兵法 · 战略决策系统 Pro
+# 孙子兵法 · 战略决策系统
 
 按照改进版 `plan.md` 实现第一至第七阶段的 Next.js 项目。
 
@@ -36,7 +36,7 @@ npm run dev
 访问：
 
 ```text
-http://localhost:3000
+http://localhost:3000/szbf/
 ```
 
 ## AI 配置
