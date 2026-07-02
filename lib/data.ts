@@ -28,7 +28,7 @@ export const chapters: Chapter[] = [
       "completeness": "完整",
       "proofreadingStatus": "初校",
       "variantNotes": [],
-      "note": "已按《孙子兵法.txt》补齐通行本完整原文；逐句译注为初校内容，建议结合原文继续复校。"
+      "note": "原文与白话译文参照《孙子兵法原文与译文.txt》整理；逐句应用与误读提示为学习辅助内容，后续可继续复校。"
     },
     "structure": [
       "说明战争与重大行动的风险",
@@ -36,13 +36,13 @@ export const chapters: Chapter[] = [
       "提出七计比较法",
       "强调庙算与胜算"
     ],
-    "fullOriginal": "兵者，国之大事，死生之地，存亡之道，不可不察也。\n\n故经之以五事，校之以计，而索其情：一曰道，二曰天，三曰地，四曰将，五曰法。道者，令民于上同意，可与之死，可与之生，而不危也；天者，阴阳、寒暑、时制也；地者，远近、险易、广狭、死生也；将者，智、信、仁、勇、严也；法者，曲制、官道、主用也。凡此五者，将莫不闻，知之者胜，不知之者不胜。故校之以计，而索其情，曰：主孰有道？将孰有能？天地孰得？法令孰行？兵众孰强？士卒孰练？赏罚孰明？吾以此知胜负矣。将听吾计，用之必胜，留之；将不听吾计，用之必败，去之。\n\n计利以听，乃为之势，以佐其外。势者，因利而制权也。兵者，诡道也。故能而示之不能，用而示之不用，近而示之远，远而示之近。利而诱之，乱而取之，实而备之，强而避之，怒而挠之，卑而骄之，佚而劳之，亲而离之，攻其无备，出其不意。此兵家之胜，不可先传也。\n\n夫未战而庙算胜者，得算多也；未战而庙算不胜者，得算少也。多算胜少算，而况于无算乎！吾以此观之，胜负见矣。",
+    "fullOriginal": "孙子曰：兵者，国之大事，死生之地，存亡之道，不可不察也。\n故经之以五事，校之以计，而索其情：一曰道，二曰天，三曰地，四曰将，五曰法。\n道者，令民与上同意也，可与之死，可与之生，而不危也。\n天者，阴阳、寒暑、时制也。\n地者，远近、险易、广狭、死生也。\n将者，智、信、仁、勇、严也。\n法者，曲制、官道、主用也。\n凡此五者，将莫不闻，知之者胜，不知者不胜。\n故校之以计，而索其情，曰：主孰有道？将孰有能？天地孰得？法令孰行？兵众孰强？士卒孰练？赏罚孰明？\n吾以此知胜负矣。\n将听吾计，用之必胜，留之；将不听吾计，用之必败，去之。\n计利以听，乃为之势，以佐其外。势者，因利而制权也。\n兵者，诡道也。\n故能而示之不能，用而示之不用，近而示之远，远而示之近。\n利而诱之，乱而取之，实而备之，强而避之。\n怒而挠之，卑而骄之，佚而劳之，亲而离之。\n攻其无备，出其不意。\n此兵家之胜，不可先传也。\n夫未战而庙算胜者，得算多也；未战而庙算不胜者，得算少也。\n多算胜，少算不胜，而况于无算乎！\n吾以此观之，胜负见矣。",
     "sentences": [
       {
         "id": "shi-ji-1",
         "chapterId": "shi-ji",
         "order": 1,
-        "original": "兵者，国之大事，死生之地，存亡之道，不可不察也。",
+        "original": "孙子曰：兵者，国之大事，死生之地，存亡之道，不可不察也。",
         "words": [
           {
             "word": "不可不察",
@@ -56,7 +56,7 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "死生之地",
-            "explanation": "关系生存与失败代价的处境。",
+            "explanation": "关系生存、失败代价与责任边界的处境。",
             "modernMapping": "风险边界"
           },
           {
@@ -65,8 +65,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "长期存续"
           }
         ],
-        "translation": "军事行动是国家大事，关系生死存亡，不能不慎重考察。",
+        "translation": "孙子说：战争是国家最重大的事情，关系到人民的生死，关系到国家的存亡，不能不认真考察。",
+        "literalTranslation": "孙子说：战争是国家最重大的事情，关系到人民的生死，关系到国家的存亡，不能不认真考察。",
+        "freeTranslation": "凡是代价足以影响生死存亡的行动，都必须先审慎评估。",
+        "coreMeaning": "本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
@@ -109,8 +113,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "资源环境"
           }
         ],
-        "translation": "所以要用五个方面作为基本准则，再用具体比较来探求真实情况：道、天、地、将、法。",
+        "translation": "所以，要用五个方面作为基本标准来分析战争，再通过具体比较来判断双方实际情况。这五个方面是：一是政治与人心，二是天时，三是地利，四是将帅，五是制度。",
+        "literalTranslation": "所以，要用五个方面作为基本标准来分析战争，再通过具体比较来判断双方实际情况。这五个方面是：一是政治与人心，二是天时，三是地利，四是将帅，五是制度。",
+        "freeTranslation": "这句话强调：行动前先做结构化比较，胜算来自可验证条件，而不是气势或愿望。",
+        "coreMeaning": "行动前先做结构化比较，胜算来自可验证条件，而不是气势或愿望。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "miao-suan",
@@ -131,7 +139,7 @@ export const chapters: Chapter[] = [
         "id": "shi-ji-3",
         "chapterId": "shi-ji",
         "order": 3,
-        "original": "道者，令民于上同意，可与之死，可与之生，而不危也；天者，阴阳、寒暑、时制也；地者，远近、险易、广狭、死生也；将者，智、信、仁、勇、严也；法者，曲制、官道、主用也。",
+        "original": "道者，令民与上同意也，可与之死，可与之生，而不危也。",
         "words": [
           {
             "word": "道",
@@ -139,26 +147,24 @@ export const chapters: Chapter[] = [
             "modernMapping": "组织共识"
           },
           {
-            "word": "天",
-            "explanation": "时令、气候与外部周期条件。",
-            "modernMapping": "时间窗口"
+            "word": "道者",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "胜算判断"
           },
           {
-            "word": "地",
-            "explanation": "远近、险易、广狭等空间与环境条件。",
-            "modernMapping": "资源环境"
-          },
-          {
-            "word": "将",
-            "explanation": "负责人的智、信、仁、勇、严。",
-            "modernMapping": "领导能力"
+            "word": "令民与上",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "胜算判断"
           }
         ],
-        "translation": "换成今天的话：共同目标，令民众于上同意，可与之死，可与之生，而不危；时机，阴阳、寒暑、时制；地利，远近、险易、广狭、死生；将领，智、信、仁、勇、严；制度，曲制、官共同目标、君主用。",
+        "translation": "所谓“道”，是指君主与民众目标一致、上下同心。这样，百姓可以与君主同生共死，而不会在危难时离心离德。",
+        "literalTranslation": "所谓“道”，是指君主与民众目标一致、上下同心。这样，百姓可以与君主同生共死，而不会在危难时离心离德。",
+        "freeTranslation": "这句话强调：本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "zhi-tian-zhi-di",
           "qi-ji"
         ],
         "relatedCaseIds": [
@@ -169,34 +175,39 @@ export const chapters: Chapter[] = [
           "t04",
           "t11"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "shi-ji-4",
         "chapterId": "shi-ji",
         "order": 4,
-        "original": "凡此五者，将莫不闻，知之者胜，不知之者不胜。",
+        "original": "天者，阴阳、寒暑、时制也。",
         "words": [
           {
-            "word": "将",
-            "explanation": "负责人的智、信、仁、勇、严。",
-            "modernMapping": "领导能力"
+            "word": "天",
+            "explanation": "时令、气候与外部周期条件。",
+            "modernMapping": "时间窗口"
           },
           {
-            "word": "凡此五者",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "天者",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           },
           {
-            "word": "将莫不闻",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "阴阳",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           }
         ],
-        "translation": "这句在说：凡是此五，将领没有谁不闻，知之取胜，不知之不取胜。",
+        "translation": "所谓“天”，是指昼夜、晴雨、寒暑、季节时令等自然条件。",
+        "literalTranslation": "所谓“天”，是指昼夜、晴雨、寒暑、季节时令等自然条件。",
+        "freeTranslation": "这句话强调：本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
           "qi-ji"
         ],
         "relatedCaseIds": [
@@ -207,35 +218,39 @@ export const chapters: Chapter[] = [
           "t05",
           "t12"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "shi-ji-5",
         "chapterId": "shi-ji",
         "order": 5,
-        "original": "故校之以计，而索其情，曰：主孰有道？",
+        "original": "地者，远近、险易、广狭、死生也。",
         "words": [
           {
-            "word": "道",
-            "explanation": "上下同欲、目标一致的组织状态。",
-            "modernMapping": "组织共识"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           },
           {
-            "word": "故校之以",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
-            "modernMapping": "胜算判断"
+            "word": "险",
+            "explanation": "险要地形。",
+            "modernMapping": "高风险入口"
           },
           {
-            "word": "而索其情",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
-            "modernMapping": "胜算判断"
+            "word": "远",
+            "explanation": "距离过远、挑战困难。",
+            "modernMapping": "高摩擦距离"
           }
         ],
-        "translation": "意思是：所以校之以计算和比较，而索其情，曰：君主哪一方有共同目标？",
+        "translation": "所谓“地”，是指道路远近、地势险易、地域宽窄，以及哪里适合生存、哪里容易陷入死地。",
+        "literalTranslation": "所谓“地”，是指道路远近、地势险易、地域宽窄，以及哪里适合生存、哪里容易陷入死地。",
+        "freeTranslation": "这句话强调：本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "miao-suan",
+          "zhi-tian-zhi-di",
           "qi-ji"
         ],
         "relatedCaseIds": [
@@ -252,7 +267,7 @@ export const chapters: Chapter[] = [
         "id": "shi-ji-6",
         "chapterId": "shi-ji",
         "order": 6,
-        "original": "将孰有能？",
+        "original": "将者，智、信、仁、勇、严也。",
         "words": [
           {
             "word": "将",
@@ -260,13 +275,22 @@ export const chapters: Chapter[] = [
             "modernMapping": "领导能力"
           },
           {
-            "word": "将孰有能",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "将者",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "胜算判断"
+          },
+          {
+            "word": "严也",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           }
         ],
-        "translation": "可以理解为：将领哪一方有能？",
+        "translation": "所谓“将”，是指将帅是否具备智慧、诚信、仁爱、勇敢和威严。",
+        "literalTranslation": "所谓“将”，是指将帅是否具备智慧、诚信、仁爱、勇敢和威严。",
+        "freeTranslation": "这句话强调：本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "qi-ji"
@@ -285,24 +309,27 @@ export const chapters: Chapter[] = [
         "id": "shi-ji-7",
         "chapterId": "shi-ji",
         "order": 7,
-        "original": "天地孰得？",
+        "original": "法者，曲制、官道、主用也。",
         "words": [
           {
-            "word": "天",
-            "explanation": "时令、气候与外部周期条件。",
-            "modernMapping": "时间窗口"
+            "word": "道",
+            "explanation": "上下同欲、目标一致的组织状态。",
+            "modernMapping": "组织共识"
           },
           {
-            "word": "地",
-            "explanation": "远近、险易、广狭等空间与环境条件。",
-            "modernMapping": "资源环境"
+            "word": "法",
+            "explanation": "制度、编制、职责和资源使用规则。",
+            "modernMapping": "流程治理"
           }
         ],
-        "translation": "白话说就是：时机地利哪一方得？",
+        "translation": "所谓“法”，是指军队编制、管理制度、职责分工、后勤供应和资源调度。",
+        "literalTranslation": "所谓“法”，是指军队编制、管理制度、职责分工、后勤供应和资源调度。",
+        "freeTranslation": "这句话强调：本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "zhi-tian-zhi-di",
           "qi-ji"
         ],
         "relatedCaseIds": [
@@ -319,21 +346,30 @@ export const chapters: Chapter[] = [
         "id": "shi-ji-8",
         "chapterId": "shi-ji",
         "order": 8,
-        "original": "法令孰行？",
+        "original": "凡此五者，将莫不闻，知之者胜，不知者不胜。",
         "words": [
           {
-            "word": "法",
-            "explanation": "制度、编制、职责和资源使用规则。",
-            "modernMapping": "流程治理"
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
           },
           {
-            "word": "法令孰行",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "凡此五者",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "胜算判断"
+          },
+          {
+            "word": "将莫不闻",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           }
         ],
-        "translation": "换成今天的话：制度令哪一方行？",
+        "translation": "这五个方面，将帅没有不知道的；但真正理解并能运用的人会胜利，不能真正理解和运用的人就会失败。",
+        "literalTranslation": "这五个方面，将帅没有不知道的；但真正理解并能运用的人会胜利，不能真正理解和运用的人就会失败。",
+        "freeTranslation": "这句话强调：本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "qi-ji"
@@ -346,24 +382,45 @@ export const chapters: Chapter[] = [
           "t09",
           "t16"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "shi-ji-9",
         "chapterId": "shi-ji",
         "order": 9,
-        "original": "兵众孰强？",
+        "original": "故校之以计，而索其情，曰：主孰有道？将孰有能？天地孰得？法令孰行？兵众孰强？士卒孰练？赏罚孰明？",
         "words": [
           {
-            "word": "兵众孰强",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
-            "modernMapping": "胜算判断"
+            "word": "道",
+            "explanation": "上下同欲、目标一致的组织状态。",
+            "modernMapping": "组织共识"
+          },
+          {
+            "word": "天",
+            "explanation": "时令、气候与外部周期条件。",
+            "modernMapping": "时间窗口"
+          },
+          {
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
+          {
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
           }
         ],
-        "translation": "这句在说：兵兵众哪一方强？",
-        "modernApplication": "用于胜算判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，还要通过具体比较来探究双方实情：哪一方君主更得人心？哪一方将帅更有能力？哪一方更占天时地利？哪一方法令制度执行得更好？哪一方兵力更强？哪一方士卒训练更熟练？哪一方赏罚更分明？",
+        "literalTranslation": "所以，还要通过具体比较来探究双方实情：哪一方君主更得人心？哪一方将帅更有能力？哪一方更占天时地利？哪一方法令制度执行得更好？哪一方兵力更强？哪一方士卒训练更熟练？哪一方赏罚更分明？",
+        "freeTranslation": "这句话强调：本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
+          "miao-suan",
+          "zhi-tian-zhi-di",
           "qi-ji"
         ],
         "relatedCaseIds": [
@@ -374,24 +431,39 @@ export const chapters: Chapter[] = [
           "t10",
           "t17"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "shi-ji-10",
         "chapterId": "shi-ji",
         "order": 10,
-        "original": "士卒孰练？",
+        "original": "吾以此知胜负矣。",
         "words": [
           {
-            "word": "士卒孰练",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "知胜",
+            "explanation": "知道胜利成立的条件。",
+            "modernMapping": "可行性判断"
+          },
+          {
+            "word": "吾以此知",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "胜算判断"
+          },
+          {
+            "word": "胜负矣",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           }
         ],
-        "translation": "意思是：士士卒哪一方练？",
-        "modernApplication": "用于胜算判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "我凭这些，就可以判断胜负。",
+        "literalTranslation": "我凭这些，就可以判断胜负。",
+        "freeTranslation": "这句话强调：本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于胜算判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
+          "miao-suan",
           "qi-ji"
         ],
         "relatedCaseIds": [
@@ -402,24 +474,39 @@ export const chapters: Chapter[] = [
           "t11",
           "t18"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "shi-ji-11",
         "chapterId": "shi-ji",
         "order": 11,
-        "original": "赏罚孰明？",
+        "original": "将听吾计，用之必胜，留之；将不听吾计，用之必败，去之。",
         "words": [
           {
-            "word": "赏罚孰明",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
+          },
+          {
+            "word": "将听吾计",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "胜算判断"
+          },
+          {
+            "word": "用之必胜",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           }
         ],
-        "translation": "可以理解为：赏罚哪一方明？",
-        "modernApplication": "用于胜算判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "如果将帅听从我的计策，用他必胜，可以留下；如果不听从我的计策，用他必败，就应让他离开。",
+        "literalTranslation": "如果将帅听从我的计策，用他必胜，可以留下；如果不听从我的计策，用他必败，就应让他离开。",
+        "freeTranslation": "这句话强调：本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
+          "miao-suan",
           "qi-ji"
         ],
         "relatedCaseIds": [
@@ -430,36 +517,41 @@ export const chapters: Chapter[] = [
           "t12",
           "t19"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "shi-ji-12",
         "chapterId": "shi-ji",
         "order": 12,
-        "original": "吾以此知胜负矣。",
+        "original": "计利以听，乃为之势，以佐其外。势者，因利而制权也。",
         "words": [
           {
-            "word": "知胜",
-            "explanation": "知道胜利成立的条件。",
-            "modernMapping": "可行性判断"
+            "word": "势",
+            "explanation": "结构、节奏和位置共同形成的力量。",
+            "modernMapping": "系统势能"
           },
           {
-            "word": "吾以此知",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "计利以听",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           },
           {
-            "word": "胜负矣",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "乃为之势",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           }
         ],
-        "translation": "白话说就是：我方以此知取胜负了。",
-        "modernApplication": "用于胜算判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "在判断计策有利并被采纳之后，还要进一步创造有利态势，以辅助军事行动。所谓“势”，就是根据有利条件灵活掌握主动权。",
+        "literalTranslation": "在判断计策有利并被采纳之后，还要进一步创造有利态势，以辅助军事行动。所谓“势”，就是根据有利条件灵活掌握主动权。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "modernApplication": "做产品、投资或组织变革前，先列出可验证的有利条件和不利条件，用证据数量决定是否推进。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "miao-suan",
-          "qi-ji"
+          "shi-neng",
+          "li-hai-bing-guan"
         ],
         "relatedCaseIds": [
           "guan-du",
@@ -475,29 +567,27 @@ export const chapters: Chapter[] = [
         "id": "shi-ji-13",
         "chapterId": "shi-ji",
         "order": 13,
-        "original": "将听吾计，用之必胜，留之；将不听吾计，用之必败，去之。",
+        "original": "兵者，诡道也。",
         "words": [
           {
-            "word": "将",
-            "explanation": "负责人的智、信、仁、勇、严。",
-            "modernMapping": "领导能力"
+            "word": "诡道",
+            "explanation": "通过虚实变化保护真实意图，核心是因势制权。",
+            "modernMapping": "信息策略"
           },
           {
-            "word": "将听吾计",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
-            "modernMapping": "胜算判断"
-          },
-          {
-            "word": "用之必胜",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
-            "modernMapping": "胜算判断"
+            "word": "道",
+            "explanation": "上下同欲、目标一致的组织状态。",
+            "modernMapping": "组织共识"
           }
         ],
-        "translation": "换成今天的话：将领听我方计算和比较，用之必取胜，留之；将领不听我方计算和比较，用之必失败，去之。",
+        "translation": "用兵之道，重在虚实变化。",
+        "literalTranslation": "用兵之道，重在虚实变化。",
+        "freeTranslation": "这句话强调：虚实变化的重点是保护主动权，并根据对方反应选择时机。",
+        "coreMeaning": "虚实变化的重点是保护主动权，并根据对方反应选择时机。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要把“诡道”理解成无底线欺骗；它强调的是信息控制、虚实变化和因势制权，不能突破法律与伦理边界。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "miao-suan",
           "qi-ji"
         ],
         "relatedCaseIds": [
@@ -508,37 +598,40 @@ export const chapters: Chapter[] = [
           "t14",
           "t21"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "shi-ji-14",
         "chapterId": "shi-ji",
         "order": 14,
-        "original": "计利以听，乃为之势，以佐其外。",
+        "original": "故能而示之不能，用而示之不用，近而示之远，远而示之近。",
         "words": [
           {
-            "word": "势",
-            "explanation": "结构、节奏和位置共同形成的力量。",
-            "modernMapping": "系统势能"
+            "word": "远",
+            "explanation": "距离过远、挑战困难。",
+            "modernMapping": "高摩擦距离"
           },
           {
-            "word": "计利以听",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "故能而示",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           },
           {
-            "word": "乃为之势",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "之不能",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           }
         ],
-        "translation": "这句在说：计算和比较利益以听，乃为之势能，以佐其外。",
-        "modernApplication": "做产品、投资或组织变革前，先列出可验证的有利条件和不利条件，用证据数量决定是否推进。",
+        "translation": "所以，有能力却要让敌人以为我没有能力；准备使用某种行动，却让敌人以为我不会使用；要攻近处，却让敌人以为我要攻远处；要攻远处，却让敌人以为我要攻近处。",
+        "literalTranslation": "所以，有能力却要让敌人以为我没有能力；准备使用某种行动，却让敌人以为我不会使用；要攻近处，却让敌人以为我要攻远处；要攻远处，却让敌人以为我要攻近处。",
+        "freeTranslation": "这句话强调：虚实变化的重点是保护主动权，并根据对方反应选择时机。",
+        "coreMeaning": "虚实变化的重点是保护主动权，并根据对方反应选择时机。",
+        "modernApplication": "竞争中不要过早暴露真实路线、发布时间和资源重点，可用试点、节奏控制和信息差保护主动权。",
+        "misunderstanding": "不要把“诡道”理解成无底线欺骗；它强调的是信息控制、虚实变化和因势制权，不能突破法律与伦理边界。",
         "relatedConceptIds": [
+          "zhi-tian-zhi-di",
           "dao-tian-di-jiang-fa",
-          "miao-suan",
-          "shi-neng",
-          "li-hai-bing-guan"
+          "qi-ji"
         ],
         "relatedCaseIds": [
           "guan-du",
@@ -548,34 +641,38 @@ export const chapters: Chapter[] = [
           "t15",
           "t22"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "shi-ji-15",
         "chapterId": "shi-ji",
         "order": 15,
-        "original": "势者，因利而制权也。",
+        "original": "利而诱之，乱而取之，实而备之，强而避之。",
         "words": [
           {
-            "word": "势",
-            "explanation": "结构、节奏和位置共同形成的力量。",
-            "modernMapping": "系统势能"
-          },
-          {
-            "word": "势者",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "利而诱之",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           },
           {
-            "word": "因利而制",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "乱而取之",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "胜算判断"
+          },
+          {
+            "word": "实而备之",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           }
         ],
-        "translation": "意思是：势能，因利益而制权。",
-        "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "translation": "敌人贪利，就用利益引诱他；敌人混乱，就趁机攻击他；敌人实力充足，就要谨慎防备；敌人强大，就要暂时避开锋芒。",
+        "literalTranslation": "敌人贪利，就用利益引诱他；敌人混乱，就趁机攻击他；敌人实力充足，就要谨慎防备；敌人强大，就要暂时避开锋芒。",
+        "freeTranslation": "这句话强调：虚实变化的重点是保护主动权，并根据对方反应选择时机。",
+        "coreMeaning": "虚实变化的重点是保护主动权，并根据对方反应选择时机。",
+        "modernApplication": "竞争中不要过早暴露真实路线、发布时间和资源重点，可用试点、节奏控制和信息差保护主动权。",
+        "misunderstanding": "不要把“诡道”理解成无底线欺骗；它强调的是信息控制、虚实变化和因势制权，不能突破法律与伦理边界。",
         "relatedConceptIds": [
-          "shi-neng",
+          "bi-shi-ji-xu",
           "li-hai-bing-guan",
           "dao-tian-di-jiang-fa",
           "qi-ji"
@@ -594,26 +691,30 @@ export const chapters: Chapter[] = [
         "id": "shi-ji-16",
         "chapterId": "shi-ji",
         "order": 16,
-        "original": "兵者，诡道也。",
+        "original": "怒而挠之，卑而骄之，佚而劳之，亲而离之。",
         "words": [
           {
-            "word": "道",
-            "explanation": "上下同欲、目标一致的组织状态。",
-            "modernMapping": "组织共识"
-          },
-          {
-            "word": "兵者",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "怒而挠之",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           },
           {
-            "word": "诡道也",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "卑而骄之",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "胜算判断"
+          },
+          {
+            "word": "佚而劳之",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           }
         ],
-        "translation": "可以理解为：军队事行动，诡共同目标。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "敌人易怒，就设法激怒扰乱他；敌人谦卑谨慎，就设法让他骄傲轻敌；敌人安逸，就设法使他疲劳；敌人内部亲密团结，就设法离间他们。",
+        "literalTranslation": "敌人易怒，就设法激怒扰乱他；敌人谦卑谨慎，就设法让他骄傲轻敌；敌人安逸，就设法使他疲劳；敌人内部亲密团结，就设法离间他们。",
+        "freeTranslation": "这句话强调：本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "危机决策中先问是否有明确收益、能否达成目标、是否真正危险，避免被愤怒或焦虑驱动。",
+        "misunderstanding": "不要把“诡道”理解成无底线欺骗；它强调的是信息控制、虚实变化和因势制权，不能突破法律与伦理边界。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "qi-ji"
@@ -632,28 +733,28 @@ export const chapters: Chapter[] = [
         "id": "shi-ji-17",
         "chapterId": "shi-ji",
         "order": 17,
-        "original": "故能而示之不能，用而示之不用，近而示之远，远而示之近。",
+        "original": "攻其无备，出其不意。",
         "words": [
           {
-            "word": "远",
-            "explanation": "距离过远、挑战困难。",
-            "modernMapping": "高摩擦距离"
+            "word": "攻其无备",
+            "explanation": "攻击对方没有准备的地方。",
+            "modernMapping": "薄弱点切入"
           },
           {
-            "word": "故能而示",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
-            "modernMapping": "胜算判断"
-          },
-          {
-            "word": "之不能",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
-            "modernMapping": "胜算判断"
+            "word": "出其不意",
+            "explanation": "在对方预料之外行动。",
+            "modernMapping": "节奏差"
           }
         ],
-        "translation": "白话说就是：所以能而示之不能，用而示之不用，近而示之远，远而示之近。",
-        "modernApplication": "竞争中不要把真实路线、发布时间和资源重点过早暴露，可用试点、节奏控制和信息差保护主动权。",
+        "translation": "要攻击敌人没有防备的地方，在敌人意料不到的时候行动。",
+        "literalTranslation": "要攻击敌人没有防备的地方，在敌人意料不到的时候行动。",
+        "freeTranslation": "这句话强调：虚实变化的重点是保护主动权，并根据对方反应选择时机。",
+        "coreMeaning": "虚实变化的重点是保护主动权，并根据对方反应选择时机。",
+        "modernApplication": "竞争中不要过早暴露真实路线、发布时间和资源重点，可用试点、节奏控制和信息差保护主动权。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "zhi-tian-zhi-di",
+          "bu-ke-sheng-zai-ji",
+          "bi-shi-ji-xu",
           "dao-tian-di-jiang-fa",
           "qi-ji"
         ],
@@ -671,31 +772,28 @@ export const chapters: Chapter[] = [
         "id": "shi-ji-18",
         "chapterId": "shi-ji",
         "order": 18,
-        "original": "利而诱之，乱而取之，实而备之，强而避之，怒而挠之，卑而骄之，佚而劳之，亲而离之，攻其无备，出其不意。",
+        "original": "此兵家之胜，不可先传也。",
         "words": [
           {
-            "word": "利而诱之",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "此兵家之",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           },
           {
-            "word": "乱而取之",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
-            "modernMapping": "胜算判断"
-          },
-          {
-            "word": "实而备之",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "不可先传",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           }
         ],
-        "translation": "换成今天的话：利益而诱之，乱而取之，坚实处而备之，强而避之，怒而挠之，卑而骄之，佚而劳之，亲而离之，进攻其无备，出其不意。",
-        "modernApplication": "竞争中不要把真实路线、发布时间和资源重点过早暴露，可用试点、节奏控制和信息差保护主动权。",
+        "translation": "这些是兵家取胜的奥妙，不能在战前机械地预先说明，因为它必须根据实际情况变化而变化。",
+        "literalTranslation": "这些是兵家取胜的奥妙，不能在战前机械地预先说明，因为它必须根据实际情况变化而变化。",
+        "freeTranslation": "这句话强调：本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于胜算判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "bu-ke-sheng-zai-ji",
-          "bi-shi-ji-xu",
-          "li-hai-bing-guan",
-          "dao-tian-di-jiang-fa"
+          "dao-tian-di-jiang-fa",
+          "qi-ji"
         ],
         "relatedCaseIds": [
           "guan-du",
@@ -711,23 +809,28 @@ export const chapters: Chapter[] = [
         "id": "shi-ji-19",
         "chapterId": "shi-ji",
         "order": 19,
-        "original": "此兵家之胜，不可先传也。",
+        "original": "夫未战而庙算胜者，得算多也；未战而庙算不胜者，得算少也。",
         "words": [
           {
-            "word": "此兵家之",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
-            "modernMapping": "胜算判断"
+            "word": "庙算",
+            "explanation": "行动前在决策中枢进行的系统筹划。",
+            "modernMapping": "预案评估"
           },
           {
-            "word": "不可先传",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
-            "modernMapping": "胜算判断"
+            "word": "得算",
+            "explanation": "有利条件与可验证依据的数量。",
+            "modernMapping": "胜算证据"
           }
         ],
-        "translation": "这句在说：此兵家之取胜，不可先传。",
-        "modernApplication": "用于胜算判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "开战之前，在庙堂上筹划时已经具备胜利条件的，是因为胜算多；开战之前筹划时看不到胜利条件的，是因为胜算少。",
+        "literalTranslation": "开战之前，在庙堂上筹划时已经具备胜利条件的，是因为胜算多；开战之前筹划时看不到胜利条件的，是因为胜算少。",
+        "freeTranslation": "这句话强调：行动前先做结构化比较，胜算来自可验证条件，而不是气势或愿望。",
+        "coreMeaning": "行动前先做结构化比较，胜算来自可验证条件，而不是气势或愿望。",
+        "modernApplication": "做产品、投资或组织变革前，先列出可验证的有利条件和不利条件，用证据数量决定是否推进。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
+          "miao-suan",
           "qi-ji"
         ],
         "relatedCaseIds": [
@@ -744,21 +847,30 @@ export const chapters: Chapter[] = [
         "id": "shi-ji-20",
         "chapterId": "shi-ji",
         "order": 20,
-        "original": "夫未战而庙算胜者，得算多也；未战而庙算不胜者，得算少也。",
+        "original": "多算胜，少算不胜，而况于无算乎！",
         "words": [
           {
-            "word": "庙算",
-            "explanation": "行动前在决策中枢进行的系统筹划。",
-            "modernMapping": "预案评估"
+            "word": "多算胜",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "胜算判断"
           },
           {
-            "word": "得算",
-            "explanation": "有利条件与可验证依据的数量。",
-            "modernMapping": "胜算证据"
+            "word": "少算不胜",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "胜算判断"
+          },
+          {
+            "word": "而况于无",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "胜算判断"
           }
         ],
-        "translation": "还没有开战就在庙堂筹划中显示能胜，是因为有利条件多；筹划中显示不能胜，是因为有利条件少。",
-        "modernApplication": "做产品、投资或组织变革前，先列出可验证的有利条件和不利条件，用证据数量决定是否推进。",
+        "translation": "胜算多就容易胜，胜算少就难以胜，更何况完全没有筹划呢？",
+        "literalTranslation": "胜算多就容易胜，胜算少就难以胜，更何况完全没有筹划呢？",
+        "freeTranslation": "这句话强调：行动前先做结构化比较，胜算来自可验证条件，而不是气势或愿望。",
+        "coreMeaning": "行动前先做结构化比较，胜算来自可验证条件，而不是气势或愿望。",
+        "modernApplication": "用于胜算判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "miao-suan",
@@ -778,26 +890,25 @@ export const chapters: Chapter[] = [
         "id": "shi-ji-21",
         "chapterId": "shi-ji",
         "order": 21,
-        "original": "多算胜少算，而况于无算乎！",
+        "original": "吾以此观之，胜负见矣。",
         "words": [
           {
-            "word": "多算胜少",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "吾以此观",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           },
           {
-            "word": "而况于无",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
-            "modernMapping": "胜算判断"
-          },
-          {
-            "word": "算乎",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
+            "word": "胜负见矣",
+            "explanation": "理解这个表达时，应结合“胜算判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "胜算判断"
           }
         ],
-        "translation": "可以理解为：多算取胜少算，而况于无算乎！",
-        "modernApplication": "用于胜算判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "我根据这些观察，胜负就已经可以看出来了。",
+        "literalTranslation": "我根据这些观察，胜负就已经可以看出来了。",
+        "freeTranslation": "这句话强调：本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“胜算判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于胜算判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“胜算判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "miao-suan",
@@ -810,40 +921,6 @@ export const chapters: Chapter[] = [
         "relatedTrainingIds": [
           "t22",
           "t29"
-        ],
-        "quoteLevel": "important"
-      },
-      {
-        "id": "shi-ji-22",
-        "chapterId": "shi-ji",
-        "order": 22,
-        "original": "吾以此观之，胜负见矣。",
-        "words": [
-          {
-            "word": "吾以此观",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
-            "modernMapping": "胜算判断"
-          },
-          {
-            "word": "胜负见矣",
-            "explanation": "本句实际出现的关键表达，需要放回“胜算判断”语境中理解。",
-            "modernMapping": "胜算判断"
-          }
-        ],
-        "translation": "白话说就是：我方以此观之，取胜负见了。",
-        "modernApplication": "用于胜算判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
-        "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "miao-suan",
-          "qi-ji"
-        ],
-        "relatedCaseIds": [
-          "guan-du",
-          "startup-giant"
-        ],
-        "relatedTrainingIds": [
-          "t23",
-          "t30"
         ],
         "quoteLevel": "important"
       }
@@ -898,7 +975,7 @@ export const chapters: Chapter[] = [
       "completeness": "完整",
       "proofreadingStatus": "初校",
       "variantNotes": [],
-      "note": "已按《孙子兵法.txt》补齐通行本完整原文；逐句译注为初校内容，建议结合原文继续复校。"
+      "note": "原文与白话译文参照《孙子兵法原文与译文.txt》整理；逐句应用与误读提示为学习辅助内容，后续可继续复校。"
     },
     "structure": [
       "列出战争成本",
@@ -906,13 +983,13 @@ export const chapters: Chapter[] = [
       "强调拙速胜过巧久",
       "总结兵贵胜不贵久"
     ],
-    "fullOriginal": "凡用兵之法，驰车千驷，革车千乘，带甲十万，千里馈粮。则内外之费，宾客之用，胶漆之材，车甲之奉，日费千金，然后十万之师举矣。\n\n其用战也，胜久则钝兵挫锐，攻城则力屈，久暴师则国用不足。夫钝兵挫锐，屈力殚货，则诸侯乘其弊而起，虽有智者不能善其后矣。故兵闻拙速，未睹巧之久也。夫兵久而国利者，未之有也。故不尽知用兵之害者，则不能尽知用兵之利也。\n\n善用兵者，役不再籍，粮不三载，取用于国，因粮于敌，故军食可足也。国之贫于师者远输，远输则百姓贫；近师者贵卖，贵卖则百姓财竭，财竭则急于丘役。力屈中原、内虚于家，百姓之费，十去其七；公家之费，破军罢马，甲胄矢弓，戟盾矛橹，丘牛大车，十去其六。故智将务食于敌，食敌一钟，当吾二十钟；萁杆一石，当吾二十石。故杀敌者，怒也；取敌之利者，货也。车战得车十乘以上，赏其先得者而更其旌旗。车杂而乘之，卒善而养之，是谓胜敌而益强。\n\n故兵贵胜，不贵久。\n\n故知兵之将，民之司命。国家安危之主也。",
+    "fullOriginal": "孙子曰：凡用兵之法，驰车千驷，革车千乘，带甲十万，千里馈粮，则内外之费，宾客之用，胶漆之材，车甲之奉，日费千金，然后十万之师举矣。\n其用战也胜，久则钝兵挫锐，攻城则力屈，久暴师则国用不足。\n夫钝兵挫锐，屈力殚货，则诸侯乘其弊而起，虽有智者，不能善其后矣。\n故兵闻拙速，未睹巧之久也。\n夫兵久而国利者，未之有也。\n故不尽知用兵之害者，则不能尽知用兵之利也。\n善用兵者，役不再籍，粮不三载；取用于国，因粮于敌，故军食可足也。\n国之贫于师者远输，远输则百姓贫。\n近于师者贵卖，贵卖则百姓财竭；财竭则急于丘役。\n力屈、财殚，中原内虚于家；百姓之费，十去其七；公家之费，破车罢马，甲胄矢弩，戟楯蔽橹，丘牛大车，十去其六。\n故智将务食于敌，食敌一钟，当吾二十钟；𦮼秆一石，当吾二十石。\n故杀敌者，怒也；取敌之利者，货也。\n故车战，得车十乘已上，赏其先得者，而更其旌旗，车杂而乘之，卒善而养之，是谓胜敌而益强。\n故兵贵胜，不贵久。\n故知兵之将，民之司命，国家安危之主也。",
     "sentences": [
       {
         "id": "zuo-zhan-1",
         "chapterId": "zuo-zhan",
         "order": 1,
-        "original": "凡用兵之法，驰车千驷，革车千乘，带甲十万，千里馈粮。",
+        "original": "孙子曰：凡用兵之法，驰车千驷，革车千乘，带甲十万，千里馈粮，则内外之费，宾客之用，胶漆之材，车甲之奉，日费千金，然后十万之师举矣。",
         "words": [
           {
             "word": "法",
@@ -920,18 +997,22 @@ export const chapters: Chapter[] = [
             "modernMapping": "流程治理"
           },
           {
-            "word": "凡用兵之",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "孙子曰",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
-            "word": "驰车千驷",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "凡用兵之",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           }
         ],
-        "translation": "白话说就是：凡是用兵的基本方制度，驰车千驷，革车千乘，带甲十万，千里馈粮粮食。",
+        "translation": "孙子说：凡是兴兵作战，如果要出动轻车千辆、重车千辆、披甲士卒十万，并从千里之外运输粮草，那么前方后方的费用、外交宾客的开支、修造器械的材料、车辆甲胄的供给，每天都要耗费大量钱财。必须有这样的国力支撑，十万大军才能行动。",
+        "literalTranslation": "孙子说：凡是兴兵作战，如果要出动轻车千辆、重车千辆、披甲士卒十万，并从千里之外运输粮草，那么前方后方的费用、外交宾客的开支、修造器械的材料、车辆甲胄的供给，每天都要耗费大量钱财。必须有这样的国力支撑，十万大军才能行动。",
+        "freeTranslation": "这句话强调：本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“成本控制”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
@@ -946,52 +1027,13 @@ export const chapters: Chapter[] = [
           "t03",
           "t10"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "zuo-zhan-2",
         "chapterId": "zuo-zhan",
         "order": 2,
-        "original": "则内外之费，宾客之用，胶漆之材，车甲之奉，日费千金，然后十万之师举矣。",
-        "words": [
-          {
-            "word": "则内外之",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
-            "modernMapping": "成本控制"
-          },
-          {
-            "word": "宾客之用",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
-            "modernMapping": "成本控制"
-          },
-          {
-            "word": "胶漆之材",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
-            "modernMapping": "成本控制"
-          }
-        ],
-        "translation": "换成今天的话：则内外之费，宾客之用，胶漆之材，车甲之奉，日费千金，然后十万之军队举了。",
-        "modernApplication": "用于成本控制时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
-        "relatedConceptIds": [
-          "bing-gui-sheng",
-          "qi-ji",
-          "miao-suan"
-        ],
-        "relatedCaseIds": [
-          "chi-bi",
-          "price-war"
-        ],
-        "relatedTrainingIds": [
-          "t04",
-          "t11"
-        ],
-        "quoteLevel": "normal"
-      },
-      {
-        "id": "zuo-zhan-3",
-        "chapterId": "zuo-zhan",
-        "order": 3,
-        "original": "其用战也，胜久则钝兵挫锐，攻城则力屈，久暴师则国用不足。",
+        "original": "其用战也胜，久则钝兵挫锐，攻城则力屈，久暴师则国用不足。",
         "words": [
           {
             "word": "钝兵挫锐",
@@ -1009,8 +1051,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "高成本方案"
           }
         ],
-        "translation": "这句在说：其用作战，取胜久则钝兵挫锐，进攻城则力屈，久暴军队则国家用不足。",
+        "translation": "战争即使能够取胜，如果拖延太久，也会使军队疲惫、锐气受挫；如果攻城久攻不下，力量就会耗尽；军队长期在外，国家财政也会不足。",
+        "literalTranslation": "战争即使能够取胜，如果拖延太久，也会使军队疲惫、锐气受挫；如果攻城久攻不下，力量就会耗尽；军队长期在外，国家财政也会不足。",
+        "freeTranslation": "这句话强调：长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
+        "coreMeaning": "长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
         "modernApplication": "长期延期项目、价格战或持续内耗要设置止损线，定期判断投入是否还会换来有效结果。",
+        "misunderstanding": "不要脱离“成本控制”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
@@ -1022,16 +1068,16 @@ export const chapters: Chapter[] = [
           "price-war"
         ],
         "relatedTrainingIds": [
-          "t05",
-          "t12"
+          "t04",
+          "t11"
         ],
         "quoteLevel": "important"
       },
       {
-        "id": "zuo-zhan-4",
+        "id": "zuo-zhan-3",
         "chapterId": "zuo-zhan",
-        "order": 4,
-        "original": "夫钝兵挫锐，屈力殚货，则诸侯乘其弊而起，虽有智者不能善其后矣。",
+        "order": 3,
+        "original": "夫钝兵挫锐，屈力殚货，则诸侯乘其弊而起，虽有智者，不能善其后矣。",
         "words": [
           {
             "word": "钝兵挫锐",
@@ -1040,17 +1086,64 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "夫钝兵挫",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
             "word": "屈力殚货",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           }
         ],
-        "translation": "意思是：大凡是钝兵挫锐，屈力殚货，则诸侯乘其弊而起，虽有智不能善其后了。",
+        "translation": "军队疲惫、锐气受损，力量耗尽、财物枯竭，其他诸侯就会趁着你的疲敝起兵。到那时，即使有聪明的人，也难以妥善收拾残局。",
+        "literalTranslation": "军队疲惫、锐气受损，力量耗尽、财物枯竭，其他诸侯就会趁着你的疲敝起兵。到那时，即使有聪明的人，也难以妥善收拾残局。",
+        "freeTranslation": "这句话强调：长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
+        "coreMeaning": "长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
         "modernApplication": "长期延期项目、价格战或持续内耗要设置止损线，定期判断投入是否还会换来有效结果。",
+        "misunderstanding": "不要脱离“成本控制”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bing-gui-sheng",
+          "qi-ji",
+          "miao-suan"
+        ],
+        "relatedCaseIds": [
+          "chi-bi",
+          "price-war"
+        ],
+        "relatedTrainingIds": [
+          "t05",
+          "t12"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "zuo-zhan-4",
+        "chapterId": "zuo-zhan",
+        "order": 4,
+        "original": "故兵闻拙速，未睹巧之久也。",
+        "words": [
+          {
+            "word": "故兵闻拙",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "成本控制"
+          },
+          {
+            "word": "未睹巧之",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "成本控制"
+          },
+          {
+            "word": "久也",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "成本控制"
+          }
+        ],
+        "translation": "所以，只听说过用兵虽然笨拙但贵在迅速，从没见过战争拖得长久还能算高明的。",
+        "literalTranslation": "所以，只听说过用兵虽然笨拙但贵在迅速，从没见过战争拖得长久还能算高明的。",
+        "freeTranslation": "这句话强调：长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
+        "coreMeaning": "长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
+        "modernApplication": "长期延期项目、价格战或持续内耗要设置止损线，定期判断投入是否还会换来有效结果。",
+        "misunderstanding": "不要把“贵胜”理解成盲目求快；它反对的是无效拖耗，不是省略准备。",
         "relatedConceptIds": [
           "bing-gui-sheng",
           "qi-ji",
@@ -1070,28 +1163,33 @@ export const chapters: Chapter[] = [
         "id": "zuo-zhan-5",
         "chapterId": "zuo-zhan",
         "order": 5,
-        "original": "故兵闻拙速，未睹巧之久也。",
+        "original": "夫兵久而国利者，未之有也。",
         "words": [
           {
-            "word": "故兵闻拙",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "夫兵久而",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
-            "word": "未睹巧之",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "国利者",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
-            "word": "久也",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "未之有也",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           }
         ],
-        "translation": "可以理解为：所以兵闻拙速，未睹巧之久。",
+        "translation": "战争长期拖延而对国家有利，这样的事从来没有过。",
+        "literalTranslation": "战争长期拖延而对国家有利，这样的事从来没有过。",
+        "freeTranslation": "这句话强调：长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
+        "coreMeaning": "长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
         "modernApplication": "长期延期项目、价格战或持续内耗要设置止损线，定期判断投入是否还会换来有效结果。",
+        "misunderstanding": "不要脱离“成本控制”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bing-gui-sheng",
+          "li-hai-bing-guan",
           "qi-ji",
           "miao-suan"
         ],
@@ -1103,34 +1201,37 @@ export const chapters: Chapter[] = [
           "t07",
           "t14"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "zuo-zhan-6",
         "chapterId": "zuo-zhan",
         "order": 6,
-        "original": "夫兵久而国利者，未之有也。",
+        "original": "故不尽知用兵之害者，则不能尽知用兵之利也。",
         "words": [
           {
-            "word": "夫兵久而",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "故不尽知",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
-            "word": "国利者",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "用兵之害",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
-            "word": "未之有也",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "则不能尽",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           }
         ],
-        "translation": "白话说就是：大凡是兵久而国家利益，未之有。",
-        "modernApplication": "长期延期项目、价格战或持续内耗要设置止损线，定期判断投入是否还会换来有效结果。",
+        "translation": "所以，如果不能充分认识战争的危害，也就不能真正理解战争的利益。",
+        "literalTranslation": "所以，如果不能充分认识战争的危害，也就不能真正理解战争的利益。",
+        "freeTranslation": "这句话强调：本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于成本控制时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“成本控制”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "bing-gui-sheng",
           "li-hai-bing-guan",
           "qi-ji",
           "miao-suan"
@@ -1149,28 +1250,32 @@ export const chapters: Chapter[] = [
         "id": "zuo-zhan-7",
         "chapterId": "zuo-zhan",
         "order": 7,
-        "original": "故不尽知用兵之害者，则不能尽知用兵之利也。",
+        "original": "善用兵者，役不再籍，粮不三载；取用于国，因粮于敌，故军食可足也。",
         "words": [
           {
-            "word": "故不尽知",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "因粮于敌",
+            "explanation": "利用外部或对方资源补给自己。",
+            "modernMapping": "资源转化"
+          },
+          {
+            "word": "善用兵者",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
-            "word": "用兵之害",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
-            "modernMapping": "成本控制"
-          },
-          {
-            "word": "则不能尽",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "役不再籍",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           }
         ],
-        "translation": "换成今天的话：所以不尽知用兵之风险，则不能尽知用兵之利益。",
-        "modernApplication": "用于成本控制时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "善于用兵的人，不会反复征兵，也不会多次从国内远途运输粮草；武器装备取自本国，粮食尽量取自敌方，所以军粮可以供应充足。",
+        "literalTranslation": "善于用兵的人，不会反复征兵，也不会多次从国内远途运输粮草；武器装备取自本国，粮食尽量取自敌方，所以军粮可以供应充足。",
+        "freeTranslation": "这句话强调：本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "商业扩张可优先寻找能利用现有渠道、伙伴资源或客户网络的路径，让每次胜利反过来补强能力。",
+        "misunderstanding": "不要脱离“成本控制”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "li-hai-bing-guan",
+          "bing-gui-sheng",
           "qi-ji",
           "miao-suan"
         ],
@@ -1182,34 +1287,38 @@ export const chapters: Chapter[] = [
           "t09",
           "t16"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "zuo-zhan-8",
         "chapterId": "zuo-zhan",
         "order": 8,
-        "original": "善用兵者，役不再籍，粮不三载，取用于国，因粮于敌，故军食可足也。",
+        "original": "国之贫于师者远输，远输则百姓贫。",
         "words": [
           {
-            "word": "因粮于敌",
-            "explanation": "利用外部或对方资源补给自己。",
-            "modernMapping": "资源转化"
+            "word": "远",
+            "explanation": "距离过远、挑战困难。",
+            "modernMapping": "高摩擦距离"
           },
           {
-            "word": "善用兵者",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "国之贫于",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
-            "word": "役不再籍",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "师者远输",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           }
         ],
-        "translation": "这句在说：善用军队事行动，役不再籍，粮粮食不三载，取用于国家，因粮粮食于对手，所以军队粮食可足。",
-        "modernApplication": "商业扩张可优先寻找能利用现有渠道、伙伴资源或客户网络的路径，让每次胜利反过来补强能力。",
+        "translation": "国家因战争而贫困，主要是因为远距离运输。远距离运输会使百姓贫穷。",
+        "literalTranslation": "国家因战争而贫困，主要是因为远距离运输。远距离运输会使百姓贫穷。",
+        "freeTranslation": "这句话强调：本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于成本控制时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“成本控制”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "bing-gui-sheng",
+          "zhi-tian-zhi-di",
           "qi-ji",
           "miao-suan"
         ],
@@ -1227,26 +1336,30 @@ export const chapters: Chapter[] = [
         "id": "zuo-zhan-9",
         "chapterId": "zuo-zhan",
         "order": 9,
-        "original": "国之贫于师者远输，远输则百姓贫；近师者贵卖，贵卖则百姓财竭，财竭则急于丘役。",
+        "original": "近于师者贵卖，贵卖则百姓财竭；财竭则急于丘役。",
         "words": [
           {
-            "word": "远",
-            "explanation": "距离过远、挑战困难。",
-            "modernMapping": "高摩擦距离"
-          },
-          {
-            "word": "国之贫于",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "近于师者",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
-            "word": "师者远输",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "贵卖",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "成本控制"
+          },
+          {
+            "word": "贵卖则百",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           }
         ],
-        "translation": "意思是：国家之贫于军队远输，远输则百姓贫；近军队贵卖，贵卖则百姓财竭，财竭则急于丘役。",
-        "modernApplication": "用于成本控制时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "靠近军队的地方，物价会因军需暴涨；物价暴涨，百姓财产就会枯竭；百姓财产枯竭，国家征税服役就会更加急迫。",
+        "literalTranslation": "靠近军队的地方，物价会因军需暴涨；物价暴涨，百姓财产就会枯竭；百姓财产枯竭，国家征税服役就会更加急迫。",
+        "freeTranslation": "这句话强调：本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于成本控制时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“成本控制”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "zhi-tian-zhi-di",
           "qi-ji",
@@ -1260,32 +1373,36 @@ export const chapters: Chapter[] = [
           "t11",
           "t18"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "zuo-zhan-10",
         "chapterId": "zuo-zhan",
         "order": 10,
-        "original": "力屈中原、内虚于家，百姓之费，十去其七；公家之费，破军罢马，甲胄矢弓，戟盾矛橹，丘牛大车，十去其六。",
+        "original": "力屈、财殚，中原内虚于家；百姓之费，十去其七；公家之费，破车罢马，甲胄矢弩，戟楯蔽橹，丘牛大车，十去其六。",
         "words": [
           {
-            "word": "力屈中原",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "力屈",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
-            "word": "内虚于家",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "财殚",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
-            "word": "百姓之费",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "word": "中原内虚",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           }
         ],
-        "translation": "可以理解为：力屈中原、内薄弱处于家，百姓之费，十去其七；公家之费，破军队罢马，甲胄矢弓，戟盾矛橹，丘牛大车，十去其六。",
+        "translation": "兵力疲惫、财物耗尽，国内家家户户空虚。百姓的财产会损失十分之七；国家的费用也会因车辆损坏、马匹疲惫、甲胄弓弩、矛盾橹牌、牛车运输等消耗而损失十分之六。",
+        "literalTranslation": "兵力疲惫、财物耗尽，国内家家户户空虚。百姓的财产会损失十分之七；国家的费用也会因车辆损坏、马匹疲惫、甲胄弓弩、矛盾橹牌、牛车运输等消耗而损失十分之六。",
+        "freeTranslation": "这句话强调：争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "coreMeaning": "争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
         "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "misunderstanding": "不要把“击虚”理解成投机取巧；它要求准确识别对方真正薄弱且关键的节点。",
         "relatedConceptIds": [
           "bing-gui-sheng",
           "bi-shi-ji-xu",
@@ -1306,7 +1423,7 @@ export const chapters: Chapter[] = [
         "id": "zuo-zhan-11",
         "chapterId": "zuo-zhan",
         "order": 11,
-        "original": "故智将务食于敌，食敌一钟，当吾二十钟；萁杆一石，当吾二十石。",
+        "original": "故智将务食于敌，食敌一钟，当吾二十钟；𦮼秆一石，当吾二十石。",
         "words": [
           {
             "word": "将",
@@ -1315,17 +1432,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "故智将务",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
             "word": "食于敌",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           }
         ],
-        "translation": "白话说就是：所以智将领务粮食于对手，粮食对手一钟，当我方二十钟；萁杆一石，当我方二十石。",
+        "translation": "所以，聪明的将帅一定重视从敌方取得粮草。吃敌方一钟粮食，相当于从本国运来二十钟；用敌方一石草料，相当于从本国运来二十石。",
+        "literalTranslation": "所以，聪明的将帅一定重视从敌方取得粮草。吃敌方一钟粮食，相当于从本国运来二十钟；用敌方一石草料，相当于从本国运来二十石。",
+        "freeTranslation": "这句话强调：本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“成本控制”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "qi-ji",
@@ -1349,22 +1470,26 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "故杀敌者",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
             "word": "怒也",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
             "word": "取敌之利",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           }
         ],
-        "translation": "换成今天的话：所以杀对手，怒；取对手之利益，货。",
+        "translation": "要使士兵奋勇杀敌，需要激发他们的斗志；要使士兵夺取敌人的物资，需要用利益奖励他们。",
+        "literalTranslation": "要使士兵奋勇杀敌，需要激发他们的斗志；要使士兵夺取敌人的物资，需要用利益奖励他们。",
+        "freeTranslation": "这句话强调：本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "商业扩张可优先寻找能利用现有渠道、伙伴资源或客户网络的路径，让每次胜利反过来补强能力。",
+        "misunderstanding": "不要把高风险手段当成情绪出口；时机、条件和后果边界必须先确认。",
         "relatedConceptIds": [
           "li-hai-bing-guan",
           "qi-ji",
@@ -1384,27 +1509,27 @@ export const chapters: Chapter[] = [
         "id": "zuo-zhan-13",
         "chapterId": "zuo-zhan",
         "order": 13,
-        "original": "车战得车十乘以上，赏其先得者而更其旌旗。",
+        "original": "故车战，得车十乘已上，赏其先得者，而更其旌旗，车杂而乘之，卒善而养之，是谓胜敌而益强。",
         "words": [
+          {
+            "word": "胜敌而益强",
+            "explanation": "取胜后还能增强自身能力。",
+            "modernMapping": "正向积累"
+          },
           {
             "word": "旌旗",
             "explanation": "古代传递军令的视觉信号。",
             "modernMapping": "协同标识"
-          },
-          {
-            "word": "车战得车",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
-            "modernMapping": "成本控制"
-          },
-          {
-            "word": "十乘以上",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
-            "modernMapping": "成本控制"
           }
         ],
-        "translation": "这句在说：车作战得车十乘以上，赏其先得而更其旌旗。",
-        "modernApplication": "多人协作要建立统一信号，例如里程碑、状态面板和升级机制，避免勇者冒进、谨慎者掉队。",
+        "translation": "所以，车战中夺得敌车十辆以上，要奖赏最先夺车的人，并换上我方旗帜，把缴获的战车混编使用；对于俘虏的士卒，要妥善安置和善待。这样才叫战胜敌人而使自己更强。",
+        "literalTranslation": "所以，车战中夺得敌车十辆以上，要奖赏最先夺车的人，并换上我方旗帜，把缴获的战车混编使用；对于俘虏的士卒，要妥善安置和善待。这样才叫战胜敌人而使自己更强。",
+        "freeTranslation": "这句话强调：本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "商业扩张可优先寻找能利用现有渠道、伙伴资源或客户网络的路径，让每次胜利反过来补强能力。",
+        "misunderstanding": "不要脱离“成本控制”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
           "qi-ji",
           "miao-suan"
         ],
@@ -1416,51 +1541,12 @@ export const chapters: Chapter[] = [
           "t15",
           "t22"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "zuo-zhan-14",
         "chapterId": "zuo-zhan",
         "order": 14,
-        "original": "车杂而乘之，卒善而养之，是谓胜敌而益强。",
-        "words": [
-          {
-            "word": "胜敌而益强",
-            "explanation": "取胜后还能增强自身能力。",
-            "modernMapping": "正向积累"
-          },
-          {
-            "word": "车杂而乘",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
-            "modernMapping": "成本控制"
-          },
-          {
-            "word": "卒善而养",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
-            "modernMapping": "成本控制"
-          }
-        ],
-        "translation": "意思是：车杂而乘之，士卒善而养之，是谓取胜对手而益强。",
-        "modernApplication": "商业扩张可优先寻找能利用现有渠道、伙伴资源或客户网络的路径，让每次胜利反过来补强能力。",
-        "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "qi-ji",
-          "miao-suan"
-        ],
-        "relatedCaseIds": [
-          "chi-bi",
-          "price-war"
-        ],
-        "relatedTrainingIds": [
-          "t16",
-          "t23"
-        ],
-        "quoteLevel": "important"
-      },
-      {
-        "id": "zuo-zhan-15",
-        "chapterId": "zuo-zhan",
-        "order": 15,
         "original": "故兵贵胜，不贵久。",
         "words": [
           {
@@ -1474,8 +1560,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "成本控制"
           }
         ],
-        "translation": "所以用兵重在迅速取得有效胜利，而不是陷入长期拖耗。",
+        "translation": "所以，用兵贵在迅速取胜，不贵在持久消耗。",
+        "literalTranslation": "所以，用兵贵在迅速取胜，不贵在持久消耗。",
+        "freeTranslation": "真正重要的是有效达成目标，而不是把资源耗在拖延的过程里。",
+        "coreMeaning": "长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
         "modernApplication": "长期延期项目、价格战或持续内耗要设置止损线，定期判断投入是否还会换来有效结果。",
+        "misunderstanding": "不要把“贵胜”理解成盲目求快；它反对的是无效拖耗，不是省略准备。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
@@ -1487,16 +1577,16 @@ export const chapters: Chapter[] = [
           "price-war"
         ],
         "relatedTrainingIds": [
-          "t17",
-          "t24"
+          "t16",
+          "t23"
         ],
         "quoteLevel": "classic"
       },
       {
-        "id": "zuo-zhan-16",
+        "id": "zuo-zhan-15",
         "chapterId": "zuo-zhan",
-        "order": 16,
-        "original": "故知兵之将，民之司命。",
+        "order": 15,
+        "original": "故知兵之将，民之司命，国家安危之主也。",
         "words": [
           {
             "word": "将",
@@ -1505,17 +1595,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "故知兵之",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           },
           {
             "word": "民之司命",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
+            "explanation": "理解这个表达时，应结合“成本控制”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "成本控制"
           }
         ],
-        "translation": "白话说就是：所以知兵之将领，民众之司命。",
+        "translation": "真正懂得战争的将帅，是掌握人民生死命运的人，是决定国家安危的人。",
+        "literalTranslation": "真正懂得战争的将帅，是掌握人民生死命运的人，是决定国家安危的人。",
+        "freeTranslation": "这句话强调：本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“成本控制”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“成本控制”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "qi-ji",
@@ -1526,41 +1620,8 @@ export const chapters: Chapter[] = [
           "price-war"
         ],
         "relatedTrainingIds": [
-          "t18",
-          "t25"
-        ],
-        "quoteLevel": "normal"
-      },
-      {
-        "id": "zuo-zhan-17",
-        "chapterId": "zuo-zhan",
-        "order": 17,
-        "original": "国家安危之主也。",
-        "words": [
-          {
-            "word": "国家安危",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
-            "modernMapping": "成本控制"
-          },
-          {
-            "word": "之主也",
-            "explanation": "本句实际出现的关键表达，需要放回“成本控制”语境中理解。",
-            "modernMapping": "成本控制"
-          }
-        ],
-        "translation": "换成今天的话：国家家安危之君主。",
-        "modernApplication": "用于成本控制时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
-        "relatedConceptIds": [
-          "qi-ji",
-          "miao-suan"
-        ],
-        "relatedCaseIds": [
-          "chi-bi",
-          "price-war"
-        ],
-        "relatedTrainingIds": [
-          "t19",
-          "t26"
+          "t17",
+          "t24"
         ],
         "quoteLevel": "normal"
       }
@@ -1617,7 +1678,7 @@ export const chapters: Chapter[] = [
       "completeness": "完整",
       "proofreadingStatus": "初校",
       "variantNotes": [],
-      "note": "已按《孙子兵法.txt》补齐通行本完整原文；逐句译注为初校内容，建议结合原文继续复校。"
+      "note": "原文与白话译文参照《孙子兵法原文与译文.txt》整理；逐句应用与误读提示为学习辅助内容，后续可继续复校。"
     },
     "structure": [
       "比较全胜与破胜",
@@ -1625,13 +1686,13 @@ export const chapters: Chapter[] = [
       "提出伐谋伐交伐兵攻城层级",
       "强调知己知彼"
     ],
-    "fullOriginal": "夫用兵之法，全国为上，破国次之；全军为上，破军次之；全旅为上，破旅次之；全卒为上，破卒次之；全伍为上，破伍次之。\n\n是故百战百胜，非善之善也；不战而屈人之兵，善之善者也。故上兵伐谋，其次伐交，其次伐兵，其下攻城。攻城之法，为不得已。修橹轒辒，具器械，三月而后成；距堙，又三月而后已。将不胜其忿而蚁附之，杀士卒三分之一，而城不拔者，此攻之灾也。故善用兵者，屈人之兵而非战也，拔人之城而非攻也，毁人之国而非久也，必以全争于天下，故兵不顿而利可全，此谋攻之法也。\n\n故用兵之法，十则围之，五则攻之，倍则分之，敌则能战之，少则能逃之，不若则能避之。故小敌之坚，大敌之擒也。\n\n夫将者，国之辅也。辅周则国必强，辅隙则国必弱。故君之所以患于军者三：不知军之不可以进而谓之进，不知军之不可以退而谓之退，是谓縻军；不知三军之事而同三军之政，则军士惑矣；不知三军之权而同三军之任，则军士疑矣。三军既惑且疑，则诸侯之难至矣。是谓乱军引胜。\n\n故知胜有五：知可以战与不可以战者胜，识众寡之用者胜，上下同欲者胜，以虞待不虞者胜，将能而君不御者胜。此五者，知胜之道也。故曰：知己知彼，百战不贻；不知彼而知己，一胜一负；不知彼不知己，每战必败。",
+    "fullOriginal": "孙子曰：凡用兵之法，全国为上，破国次之；全军为上，破军次之；全旅为上，破旅次之；全卒为上，破卒次之；全伍为上，破伍次之。\n是故百战百胜，非善之善者也；不战而屈人之兵，善之善者也。\n故上兵伐谋，其次伐交，其次伐兵，其下攻城。\n攻城之法，为不得已。\n修橹轒辒，具器械，三月而后成；距堙，又三月而后已。\n将不胜其忿，而蚁附之，杀士三分之一，而城不拔者，此攻之灾也。\n故善用兵者，屈人之兵而非战也，拔人之城而非攻也，毁人之国而非久也，必以全争于天下，故兵不顿而利可全，此谋攻之法也。\n故用兵之法，十则围之，五则攻之，倍则分之，敌则能战之，少则能逃之，不若则能避之。\n故小敌之坚，大敌之擒也。\n夫将者，国之辅也。辅周则国必强，辅隙则国必弱。\n故君之所以患于军者三：不知军之不可以进而谓之进，不知军之不可以退而谓之退，是谓縻军。\n不知三军之事而同三军之政者，则军士惑矣。\n不知三军之权而同三军之任者，则军士疑矣。\n三军既惑且疑，则诸侯之难至矣。是谓乱军引胜。\n故知胜有五：知可以战与不可以战者胜；识众寡之用者胜；上下同欲者胜；以虞待不虞者胜；将能而君不御者胜。\n此五者，知胜之道也。\n故曰：知彼知己，百战不殆；不知彼而知己，一胜一负；不知彼不知己，每战必殆。",
     "sentences": [
       {
         "id": "mou-gong-1",
         "chapterId": "mou-gong",
         "order": 1,
-        "original": "夫用兵之法，全国为上，破国次之；全军为上，破军次之；全旅为上，破旅次之；全卒为上，破卒次之；全伍为上，破伍次之。",
+        "original": "孙子曰：凡用兵之法，全国为上，破国次之；全军为上，破军次之；全旅为上，破旅次之；全卒为上，破卒次之；全伍为上，破伍次之。",
         "words": [
           {
             "word": "全国为上",
@@ -1644,8 +1705,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "流程治理"
           }
         ],
-        "translation": "换成今天的话：大凡是用兵的基本方制度，全国家为上，破国家次之；全军队为上，破军队次之；全旅为上，破旅次之；全士卒为上，破士卒次之；全伍为上，破伍次之。",
+        "translation": "孙子说：凡是用兵，能完整地保全敌国而使其屈服，是上策；把敌国打残打破，是次一等。能完整地保全敌军而使其屈服，是上策；击破敌军，是次一等。对旅、卒、伍等各级部队也是如此，能完整降服最好，彻底摧毁次之。",
+        "literalTranslation": "孙子说：凡是用兵，能完整地保全敌国而使其屈服，是上策；把敌国打残打破，是次一等。能完整地保全敌军而使其屈服，是上策；击破敌军，是次一等。对旅、卒、伍等各级部队也是如此，能完整降服最好，彻底摧毁次之。",
+        "freeTranslation": "这句话强调：最高层次的竞争是改变局势和预期，而不是把对抗推到最昂贵的阶段。",
+        "coreMeaning": "最高层次的竞争是改变局势和预期，而不是把对抗推到最昂贵的阶段。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bu-zhan-er-qu-ren",
@@ -1666,7 +1731,7 @@ export const chapters: Chapter[] = [
         "id": "mou-gong-2",
         "chapterId": "mou-gong",
         "order": 2,
-        "original": "是故百战百胜，非善之善也；不战而屈人之兵，善之善者也。",
+        "original": "是故百战百胜，非善之善者也；不战而屈人之兵，善之善者也。",
         "words": [
           {
             "word": "不战而屈人之兵",
@@ -1675,17 +1740,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "是故百战",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
             "word": "百胜",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           }
         ],
-        "translation": "所以百战百胜并不是最高明；不通过交战就让对手屈服，才是最高明。",
+        "translation": "所以，百战百胜，并不是最高明中的最高明；不通过正面大战就能使敌军屈服，才是最高明中的最高明。",
+        "literalTranslation": "所以，百战百胜，并不是最高明中的最高明；不通过正面大战就能使敌军屈服，才是最高明中的最高明。",
+        "freeTranslation": "能通过结构性优势解决问题，就不要轻易进入高成本正面对抗。",
+        "coreMeaning": "最高层次的竞争是改变局势和预期，而不是把对抗推到最昂贵的阶段。",
         "modernApplication": "谈判和竞争中优先改变对方预期、伙伴关系和成本结构，正面硬拼应作为最后选项。",
+        "misunderstanding": "不要把“不战”理解成逃避竞争；它要求用更低成本改变局势。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bu-zhan-er-qu-ren",
@@ -1724,8 +1793,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "高成本方案"
           }
         ],
-        "translation": "最高明的用兵是破坏对方谋划，其次是瓦解外交联盟，再次是打击军队，最差才是攻城。",
+        "translation": "因此，最高层次的用兵是破坏敌人的谋略；其次是破坏敌人的外交联盟；再次是攻击敌人的军队；最下策才是攻打城池。",
+        "literalTranslation": "因此，最高层次的用兵是破坏敌人的谋略；其次是破坏敌人的外交联盟；再次是攻击敌人的军队；最下策才是攻打城池。",
+        "freeTranslation": "这句话强调：最高层次的竞争是改变局势和预期，而不是把对抗推到最昂贵的阶段。",
+        "coreMeaning": "最高层次的竞争是改变局势和预期，而不是把对抗推到最昂贵的阶段。",
         "modernApplication": "谈判和竞争中优先改变对方预期、伙伴关系和成本结构，正面硬拼应作为最后选项。",
+        "misunderstanding": "不要把“不战”理解成逃避竞争；它要求用更低成本改变局势。",
         "relatedConceptIds": [
           "shang-bing-fa-mou",
           "bu-ke-sheng-zai-ji",
@@ -1759,8 +1832,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "流程治理"
           }
         ],
-        "translation": "可以理解为：进攻城之制度，为不得已。",
+        "translation": "攻城，是不得已才采用的办法。",
+        "literalTranslation": "攻城，是不得已才采用的办法。",
+        "freeTranslation": "这句话强调：最高层次的竞争是改变局势和预期，而不是把对抗推到最昂贵的阶段。",
+        "coreMeaning": "最高层次的竞争是改变局势和预期，而不是把对抗推到最昂贵的阶段。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "shang-bing-fa-mou",
@@ -1785,22 +1862,26 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "修橹轒辒",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
             "word": "具器械",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
             "word": "三月而后",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           }
         ],
-        "translation": "白话说就是：修橹轒辒，具器械，三月而后成；距堙，又三月而后已。",
-        "modernApplication": "用于不战而胜时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "制造大盾、攻城车，准备各种攻城器械，需要几个月才能完成；堆筑攻城土山，又需要几个月。",
+        "literalTranslation": "制造大盾、攻城车，准备各种攻城器械，需要几个月才能完成；堆筑攻城土山，又需要几个月。",
+        "freeTranslation": "这句话强调：本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于不战而胜时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "miao-suan",
           "bing-gui-sheng"
@@ -1819,7 +1900,7 @@ export const chapters: Chapter[] = [
         "id": "mou-gong-6",
         "chapterId": "mou-gong",
         "order": 6,
-        "original": "将不胜其忿而蚁附之，杀士卒三分之一，而城不拔者，此攻之灾也。",
+        "original": "将不胜其忿，而蚁附之，杀士三分之一，而城不拔者，此攻之灾也。",
         "words": [
           {
             "word": "将",
@@ -1828,17 +1909,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "将不胜其",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
-            "word": "忿而蚁附",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "word": "而蚁附之",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           }
         ],
-        "translation": "换成今天的话：将领不取胜其忿而蚁附之，杀士士卒三分之一，而城不拔，此进攻之灾。",
+        "translation": "如果将帅压不住怒气，命令士兵像蚂蚁一样爬城强攻，士兵死伤三分之一而城还没攻下，这就是攻城带来的灾难。",
+        "literalTranslation": "如果将帅压不住怒气，命令士兵像蚂蚁一样爬城强攻，士兵死伤三分之一而城还没攻下，这就是攻城带来的灾难。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bu-ke-sheng-zai-ji",
@@ -1872,8 +1957,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "流程治理"
           }
         ],
-        "translation": "这句在说：所以善用军队事行动，屈人之兵而非作战，拔人之城而非进攻，毁人之国家而非久，必以全争于时机下，所以兵不顿而利益可全，此谋进攻之制度。",
+        "translation": "所以，善于用兵的人，能使敌军屈服而不靠血战；能夺取敌城而不靠强攻；能制服敌国而不靠长期消耗。他一定要用“保全”的方式争胜于天下，因此军队不疲惫，而利益能够完整取得。这就是谋攻的方法。",
+        "literalTranslation": "所以，善于用兵的人，能使敌军屈服而不靠血战；能夺取敌城而不靠强攻；能制服敌国而不靠长期消耗。他一定要用“保全”的方式争胜于天下，因此军队不疲惫，而利益能够完整取得。这就是谋攻的方法。",
+        "freeTranslation": "这句话强调：长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
+        "coreMeaning": "长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
@@ -1903,17 +1992,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "故用兵之",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
             "word": "十则围之",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           }
         ],
-        "translation": "意思是：所以用兵的基本方制度，十则围之，五则进攻之，倍则分之，对手则能作战之，少则能逃之，不若则能避之。",
+        "translation": "所以，用兵的原则是：兵力十倍于敌，就包围敌人；五倍于敌，就进攻敌人；两倍于敌，就设法分割敌人；势均力敌，就要善于作战；兵力较少，就要能够脱离；明显不如敌人，就要避免决战。",
+        "literalTranslation": "所以，用兵的原则是：兵力十倍于敌，就包围敌人；五倍于敌，就进攻敌人；两倍于敌，就设法分割敌人；势均力敌，就要善于作战；兵力较少，就要能够脱离；明显不如敌人，就要避免决战。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bu-ke-sheng-zai-ji",
@@ -1938,17 +2031,21 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "故小敌之",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
             "word": "大敌之擒",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           }
         ],
-        "translation": "可以理解为：所以小对手之坚，大对手之擒。",
-        "modernApplication": "用于不战而胜时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "弱小的一方如果硬要固执死拼，就会成为强大敌人的俘虏。",
+        "literalTranslation": "弱小的一方如果硬要固执死拼，就会成为强大敌人的俘虏。",
+        "freeTranslation": "这句话强调：本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于不战而胜时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "miao-suan",
           "bing-gui-sheng"
@@ -1967,7 +2064,7 @@ export const chapters: Chapter[] = [
         "id": "mou-gong-10",
         "chapterId": "mou-gong",
         "order": 10,
-        "original": "夫将者，国之辅也。",
+        "original": "夫将者，国之辅也。辅周则国必强，辅隙则国必弱。",
         "words": [
           {
             "word": "将",
@@ -1976,17 +2073,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "夫将者",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
             "word": "国之辅也",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           }
         ],
-        "translation": "白话说就是：大凡是将领，国家之辅。",
+        "translation": "将帅是国家的辅佐。辅佐周密，国家就强；辅佐有缺陷，国家就弱。",
+        "literalTranslation": "将帅是国家的辅佐。辅佐周密，国家就强；辅佐有缺陷，国家就弱。",
+        "freeTranslation": "这句话强调：本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "miao-suan",
@@ -2006,26 +2107,30 @@ export const chapters: Chapter[] = [
         "id": "mou-gong-11",
         "chapterId": "mou-gong",
         "order": 11,
-        "original": "辅周则国必强，辅隙则国必弱。",
+        "original": "故君之所以患于军者三：不知军之不可以进而谓之进，不知军之不可以退而谓之退，是谓縻军。",
         "words": [
           {
-            "word": "辅周则国",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "word": "故君之所",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
-            "word": "必强",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "word": "以患于军",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
-            "word": "辅隙则国",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "word": "者三",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           }
         ],
-        "translation": "换成今天的话：辅周则国家必强，辅隙则国家必弱。",
-        "modernApplication": "用于不战而胜时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "君主危害军队的情况有三种：不知道军队不能前进，却命令它前进；不知道军队不能后退，却命令它后退，这叫束缚军队。",
+        "literalTranslation": "君主危害军队的情况有三种：不知道军队不能前进，却命令它前进；不知道军队不能后退，却命令它后退，这叫束缚军队。",
+        "freeTranslation": "这句话强调：本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于不战而胜时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "miao-suan",
           "bing-gui-sheng"
@@ -2038,32 +2143,36 @@ export const chapters: Chapter[] = [
           "t14",
           "t21"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "mou-gong-12",
         "chapterId": "mou-gong",
         "order": 12,
-        "original": "故君之所以患于军者三：不知军之不可以进而谓之进，不知军之不可以退而谓之退，是谓縻军；不知三军之事而同三军之政，则军士惑矣；不知三军之权而同三军之任，则军士疑矣。",
+        "original": "不知三军之事而同三军之政者，则军士惑矣。",
         "words": [
           {
-            "word": "故君之所",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "word": "不知三军",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
-            "word": "以患于军",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "word": "之事而同",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
-            "word": "者三",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "word": "三军之政",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           }
         ],
-        "translation": "这句在说：所以君之所以患于军队三：不知军队之不可以进而谓之进，不知军队之不可以退而谓之退，是谓縻军队；不知三军队之事而同三军队之政，则军队士惑了；不知三军队之权而同三军队之任，则军队士疑了。",
-        "modernApplication": "用于不战而胜时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "不懂军队内部事务，却干预军队行政管理，就会使士兵迷惑。",
+        "literalTranslation": "不懂军队内部事务，却干预军队行政管理，就会使士兵迷惑。",
+        "freeTranslation": "这句话强调：本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于不战而胜时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "miao-suan",
           "bing-gui-sheng"
@@ -2076,32 +2185,36 @@ export const chapters: Chapter[] = [
           "t15",
           "t22"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "mou-gong-13",
         "chapterId": "mou-gong",
         "order": 13,
-        "original": "三军既惑且疑，则诸侯之难至矣。",
+        "original": "不知三军之权而同三军之任者，则军士疑矣。",
         "words": [
           {
-            "word": "三军既惑",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "word": "不知三军",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
-            "word": "且疑",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "word": "之权而同",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
-            "word": "则诸侯之",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "word": "三军之任",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           }
         ],
-        "translation": "意思是：三军队既惑且疑，则诸侯之难至了。",
-        "modernApplication": "用于不战而胜时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "不懂军队临机应变的权变原则，却干预将帅指挥，就会使士兵疑虑。",
+        "literalTranslation": "不懂军队临机应变的权变原则，却干预将帅指挥，就会使士兵疑虑。",
+        "freeTranslation": "这句话强调：本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于不战而胜时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "miao-suan",
           "bing-gui-sheng"
@@ -2120,21 +2233,30 @@ export const chapters: Chapter[] = [
         "id": "mou-gong-14",
         "chapterId": "mou-gong",
         "order": 14,
-        "original": "是谓乱军引胜。",
+        "original": "三军既惑且疑，则诸侯之难至矣。是谓乱军引胜。",
         "words": [
           {
-            "word": "是谓乱军",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "word": "三军既惑",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
-            "word": "引胜",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "word": "且疑",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "不战而胜"
+          },
+          {
+            "word": "则诸侯之",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           }
         ],
-        "translation": "可以理解为：是谓乱军队引取胜。",
-        "modernApplication": "复盘失败时不要只怪外部环境，要检查资源比例、管理强弱、指挥清晰度和执行队形。",
+        "translation": "三军既迷惑又疑虑，其他诸侯的灾难就会到来。这叫扰乱自己的军队，把胜利送给敌人。",
+        "literalTranslation": "三军既迷惑又疑虑，其他诸侯的灾难就会到来。这叫扰乱自己的军队，把胜利送给敌人。",
+        "freeTranslation": "这句话强调：本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于不战而胜时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "miao-suan",
@@ -2154,7 +2276,7 @@ export const chapters: Chapter[] = [
         "id": "mou-gong-15",
         "chapterId": "mou-gong",
         "order": 15,
-        "original": "故知胜有五：知可以战与不可以战者胜，识众寡之用者胜，上下同欲者胜，以虞待不虞者胜，将能而君不御者胜。",
+        "original": "故知胜有五：知可以战与不可以战者胜；识众寡之用者胜；上下同欲者胜；以虞待不虞者胜；将能而君不御者胜。",
         "words": [
           {
             "word": "知胜",
@@ -2167,8 +2289,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "领导能力"
           }
         ],
-        "translation": "白话说就是：所以知取胜有五：知可以作战与不可以作战取胜，识兵众寡之用取胜，上下同欲取胜，以虞待不虞取胜，将领能而君不御取胜。",
+        "translation": "所以，预知胜利有五个条件：知道什么时候可以战、什么时候不可以战的人会胜；懂得兵力多寡该如何运用的人会胜；上下同心同欲的人会胜；以有准备对付无准备的人会胜；将帅有才能而君主不随意干预的人会胜。",
+        "literalTranslation": "所以，预知胜利有五个条件：知道什么时候可以战、什么时候不可以战的人会胜；懂得兵力多寡该如何运用的人会胜；上下同心同欲的人会胜；以有准备对付无准备的人会胜；将帅有才能而君主不随意干预的人会胜。",
+        "freeTranslation": "这句话强调：本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "miao-suan",
@@ -2201,8 +2327,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "组织共识"
           }
         ],
-        "translation": "换成今天的话：此五，知取胜之共同目标。",
+        "translation": "这五点，就是预知胜利的方法。",
+        "literalTranslation": "这五点，就是预知胜利的方法。",
+        "freeTranslation": "这句话强调：本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“不战而胜”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“不战而胜”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "miao-suan",
@@ -2222,26 +2352,30 @@ export const chapters: Chapter[] = [
         "id": "mou-gong-17",
         "chapterId": "mou-gong",
         "order": 17,
-        "original": "故曰：知己知彼，百战不贻；不知彼而知己，一胜一负；不知彼不知己，每战必败。",
+        "original": "故曰：知彼知己，百战不殆；不知彼而知己，一胜一负；不知彼不知己，每战必殆。",
         "words": [
           {
-            "word": "知己知彼",
-            "explanation": "同时理解自己与对手。",
-            "modernMapping": "双向认知"
-          },
-          {
             "word": "故曰",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           },
           {
-            "word": "百战不贻",
-            "explanation": "本句实际出现的关键表达，需要放回“不战而胜”语境中理解。",
+            "word": "知彼知己",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "不战而胜"
+          },
+          {
+            "word": "百战不殆",
+            "explanation": "理解这个表达时，应结合“不战而胜”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "不战而胜"
           }
         ],
-        "translation": "所以说：了解自己又了解对方，百战也不危险；只了解自己不了解对方，胜负各半；双方都不了解，每战都会失败。",
-        "modernApplication": "进入新市场、重构系统或谈判前，同时写清自身能力边界和对方约束，避免只看机会不看对手。",
+        "translation": "所以说：了解敌人，也了解自己，百战都不会陷入危险；不了解敌人但了解自己，胜负各半；不了解敌人，也不了解自己，每战必定危险。",
+        "literalTranslation": "所以说：了解敌人，也了解自己，百战都不会陷入危险；不了解敌人但了解自己，胜负各半；不了解敌人，也不了解自己，每战必定危险。",
+        "freeTranslation": "这句话强调：判断必须同时覆盖自身、对手和环境，缺一面都会造成误判。",
+        "coreMeaning": "判断必须同时覆盖自身、对手和环境，缺一面都会造成误判。",
+        "modernApplication": "进入新市场、重构系统或谈判前，同时写清自身能力边界和对方约束，避免只看机会不看代价。",
+        "misunderstanding": "不要只搜集对手信息，却忽略自己的资源、能力和承受边界。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-ji-zhi-bi",
@@ -2256,7 +2390,7 @@ export const chapters: Chapter[] = [
           "t20",
           "t27"
         ],
-        "quoteLevel": "classic"
+        "quoteLevel": "important"
       }
     ],
     "coreSummary": "谋攻篇的核心不是记住名句，而是形成“不战而胜”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
@@ -2310,7 +2444,7 @@ export const chapters: Chapter[] = [
       "completeness": "完整",
       "proofreadingStatus": "初校",
       "variantNotes": [],
-      "note": "已按《孙子兵法.txt》补齐通行本完整原文；逐句译注为初校内容，建议结合原文继续复校。"
+      "note": "原文与白话译文参照《孙子兵法原文与译文.txt》整理；逐句应用与误读提示为学习辅助内容，后续可继续复校。"
     },
     "structure": [
       "先建立不败条件",
@@ -2318,13 +2452,13 @@ export const chapters: Chapter[] = [
       "强调胜兵先胜后战",
       "以制度保障胜利"
     ],
-    "fullOriginal": "昔之善战者，先为不可胜，以待敌之可胜。不可胜在己，可胜在敌。故善战者，能为不可胜，不能使敌之必可胜。故曰：胜可知，而不可为。不可胜者，守也；可胜者，攻也。守则不足，攻则有余。善守者藏于九地之下，善攻者动于九天之上，故能自保而全胜也。见胜不过众人之所知，非善之善者也；战胜而天下曰善，非善之善者也。故举秋毫不为多力，见日月不为明目，闻雷霆不为聪耳。古之所谓善战者，胜于易胜者也。故善战者之胜也，无智名，无勇功，故其战胜不忒。不忒者，其所措胜，胜已败者也。故善战者，立于不败之地，而不失敌之败也。是故胜兵先胜而后求战，败兵先战而后求胜。善用兵者，修道而保法，故能为胜败之政。\n\n兵法：一曰度，二曰量，三曰数，四曰称，五曰胜。地生度，度生量，量生数，数生称，称生胜。故胜兵若以镒称铢，败兵若以铢称镒。\n\n称胜者之战民也，若决积水于千仞之溪者，形也。",
+    "fullOriginal": "孙子曰：昔之善战者，先为不可胜，以待敌之可胜。\n不可胜在己，可胜在敌。\n故善战者，能为不可胜，不能使敌之可胜。\n故曰：胜可知，而不可为。\n不可胜者，守也；可胜者，攻也。\n守则不足，攻则有余。\n善守者，藏于九地之下；善攻者，动于九天之上，故能自保而全胜也。\n见胜不过众人之所知，非善之善者也；战胜而天下曰善，非善之善者也。\n故举秋毫不为多力，见日月不为明目，闻雷霆不为聪耳。\n古之所谓善战者，胜胜易胜者也。\n故善战者之胜也，无智名，无勇功。\n故其战胜不忒。不忒者，其所措胜，胜已败者也。\n故善战者，立于不败之地，而不失敌之败也。\n是故胜兵先胜而后求战，败兵先战而后求胜。\n善用兵者，修道而保法，故能为胜败之政。\n兵法：一曰度，二曰量，三曰数，四曰称，五曰胜。\n地生度，度生量，量生数，数生称，称生胜。\n故胜兵若以镒称铢，败兵若以铢称镒。\n胜者之战民也，若决积水于千仞之溪者，形也。",
     "sentences": [
       {
         "id": "jun-xing-1",
         "chapterId": "jun-xing",
         "order": 1,
-        "original": "昔之善战者，先为不可胜，以待敌之可胜。",
+        "original": "孙子曰：昔之善战者，先为不可胜，以待敌之可胜。",
         "words": [
           {
             "word": "不可胜",
@@ -2337,8 +2471,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "机会窗口"
           }
         ],
-        "translation": "这句在说：昔之善作战，先为不可取胜，以待对手之可取胜。",
+        "translation": "孙子说：古代善于作战的人，首先使自己处于不可被战胜的状态，然后等待敌人出现可以被战胜的机会。",
+        "literalTranslation": "孙子说：古代善于作战的人，首先使自己处于不可被战胜的状态，然后等待敌人出现可以被战胜的机会。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "上线、扩张或转型前先保证自己不容易崩盘，再等待对方暴露窗口，避免把希望押在好运上。",
+        "misunderstanding": "不要把“先胜”理解成必胜承诺；它只是说明行动前要先创造更稳的条件。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "xian-sheng-hou-zhan",
@@ -2372,8 +2510,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "机会窗口"
           }
         ],
-        "translation": "意思是：不可取胜在己，可取胜在对手。",
+        "translation": "不被敌人战胜，主动权在自己；能不能战胜敌人，要看敌人是否暴露破绽。",
+        "literalTranslation": "不被敌人战胜，主动权在自己；能不能战胜敌人，要看敌人是否暴露破绽。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "上线、扩张或转型前先保证自己不容易崩盘，再等待对方暴露窗口，避免把希望押在好运上。",
+        "misunderstanding": "不要把“先胜”理解成必胜承诺；它只是说明行动前要先创造更稳的条件。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "xian-sheng-hou-zhan",
@@ -2394,7 +2536,7 @@ export const chapters: Chapter[] = [
         "id": "jun-xing-3",
         "chapterId": "jun-xing",
         "order": 3,
-        "original": "故善战者，能为不可胜，不能使敌之必可胜。",
+        "original": "故善战者，能为不可胜，不能使敌之可胜。",
         "words": [
           {
             "word": "不可胜",
@@ -2407,8 +2549,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "机会窗口"
           }
         ],
-        "translation": "可以理解为：所以善作战，能为不可取胜，不能使对手之必可取胜。",
+        "translation": "所以，善战者能够做到自己不被战胜，却不能强迫敌人一定出现可被战胜的机会。",
+        "literalTranslation": "所以，善战者能够做到自己不被战胜，却不能强迫敌人一定出现可被战胜的机会。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "上线、扩张或转型前先保证自己不容易崩盘，再等待对方暴露窗口，避免把希望押在好运上。",
+        "misunderstanding": "不要把“先胜”理解成必胜承诺；它只是说明行动前要先创造更稳的条件。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "xian-sheng-hou-zhan",
@@ -2433,22 +2579,26 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "故曰",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "胜可知",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "而不可为",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           }
         ],
-        "translation": "白话说就是：所以曰：取胜可知，而不可为。",
-        "modernApplication": "用于先胜后战时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "因此说：胜利可以预见，但不能凭空强求。",
+        "literalTranslation": "因此说：胜利可以预见，但不能凭空强求。",
+        "freeTranslation": "这句话强调：本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于先胜后战时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
@@ -2481,8 +2631,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "机会窗口"
           }
         ],
-        "translation": "换成今天的话：不可取胜，防守；可取胜，进攻。",
+        "translation": "使自己不可被战胜，主要靠防守；发现敌人可以被战胜，才转入进攻。",
+        "literalTranslation": "使自己不可被战胜，主要靠防守；发现敌人可以被战胜，才转入进攻。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "上线、扩张或转型前先保证自己不容易崩盘，再等待对方暴露窗口，避免把希望押在好运上。",
+        "misunderstanding": "不要把“先胜”理解成必胜承诺；它只是说明行动前要先创造更稳的条件。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "xian-sheng-hou-zhan",
@@ -2507,17 +2661,21 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "守则不足",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "攻则有余",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           }
         ],
-        "translation": "这句在说：防守则不足，进攻则有余。",
-        "modernApplication": "用于先胜后战时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "防守，是因为条件还不足；进攻，是因为条件已经有余。",
+        "literalTranslation": "防守，是因为条件还不足；进攻，是因为条件已经有余。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "用于先胜后战时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bu-ke-sheng-zai-ji",
           "bing-gui-sheng",
@@ -2537,7 +2695,7 @@ export const chapters: Chapter[] = [
         "id": "jun-xing-7",
         "chapterId": "jun-xing",
         "order": 7,
-        "original": "善守者藏于九地之下，善攻者动于九天之上，故能自保而全胜也。",
+        "original": "善守者，藏于九地之下；善攻者，动于九天之上，故能自保而全胜也。",
         "words": [
           {
             "word": "九地",
@@ -2555,8 +2713,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "资源环境"
           }
         ],
-        "translation": "意思是：善防守藏于九地利之下，善进攻动于九时机之上，所以能自保而全取胜。",
+        "translation": "善于防守的人，像藏在深不可测的地下；善于进攻的人，像行动于高不可测的天空。所以能够保存自己，并取得完全胜利。",
+        "literalTranslation": "善于防守的人，像藏在深不可测的地下；善于进攻的人，像行动于高不可测的天空。所以能够保存自己，并取得完全胜利。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bu-zhan-er-qu-ren",
@@ -2586,17 +2748,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "见胜不过",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "众人之所",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           }
         ],
-        "translation": "可以理解为：见取胜不过兵众人之所知，非善之善；作战取胜而时机下曰善，非善之善。",
+        "translation": "看见人人都能看见的胜利机会，并不算最高明；打赢一场天下人都称赞的胜仗，也不算最高明。",
+        "literalTranslation": "看见人人都能看见的胜利机会，并不算最高明；打赢一场天下人都称赞的胜仗，也不算最高明。",
+        "freeTranslation": "这句话强调：本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
@@ -2621,22 +2787,26 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "故举秋毫",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "不为多力",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "见日月不",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           }
         ],
-        "translation": "白话说就是：所以举秋毫不为多力，见日月不为明目，闻雷霆不为聪耳。",
-        "modernApplication": "用于先胜后战时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "能举起秋毫，不算力量大；能看见日月，不算眼力好；能听见雷霆，不算耳朵灵。",
+        "literalTranslation": "能举起秋毫，不算力量大；能看见日月，不算眼力好；能听见雷霆，不算耳朵灵。",
+        "freeTranslation": "这句话强调：本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于先胜后战时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bing-gui-sheng",
           "shang-bing-fa-mou"
@@ -2655,26 +2825,30 @@ export const chapters: Chapter[] = [
         "id": "jun-xing-10",
         "chapterId": "jun-xing",
         "order": 10,
-        "original": "古之所谓善战者，胜于易胜者也。",
+        "original": "古之所谓善战者，胜胜易胜者也。",
         "words": [
           {
             "word": "古之所谓",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "善战者",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
-            "word": "胜于易胜",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "word": "胜胜易胜",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           }
         ],
-        "translation": "换成今天的话：古之所谓善作战，取胜于易取胜。",
-        "modernApplication": "用于先胜后战时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "古人所谓善战者，是战胜那些本来就容易被战胜的敌人。",
+        "literalTranslation": "古人所谓善战者，是战胜那些本来就容易被战胜的敌人。",
+        "freeTranslation": "这句话强调：本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于先胜后战时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
@@ -2694,26 +2868,30 @@ export const chapters: Chapter[] = [
         "id": "jun-xing-11",
         "chapterId": "jun-xing",
         "order": 11,
-        "original": "故善战者之胜也，无智名，无勇功，故其战胜不忒。",
+        "original": "故善战者之胜也，无智名，无勇功。",
         "words": [
           {
             "word": "故善战者",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "之胜也",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "无智名",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           }
         ],
-        "translation": "这句在说：所以善作战之取胜，无智名，无勇功，所以其作战取胜不忒。",
-        "modernApplication": "用于先胜后战时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，善战者取得胜利，往往没有惊人的智慧名声，也没有显赫的勇武功劳。",
+        "literalTranslation": "所以，善战者取得胜利，往往没有惊人的智慧名声，也没有显赫的勇武功劳。",
+        "freeTranslation": "这句话强调：本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于先胜后战时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
@@ -2733,26 +2911,30 @@ export const chapters: Chapter[] = [
         "id": "jun-xing-12",
         "chapterId": "jun-xing",
         "order": 12,
-        "original": "不忒者，其所措胜，胜已败者也。",
+        "original": "故其战胜不忒。不忒者，其所措胜，胜已败者也。",
         "words": [
           {
+            "word": "故其战胜",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "先胜后战"
+          },
+          {
+            "word": "不忒",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "先胜后战"
+          },
+          {
             "word": "不忒者",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
-            "modernMapping": "先胜后战"
-          },
-          {
-            "word": "其所措胜",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
-            "modernMapping": "先胜后战"
-          },
-          {
-            "word": "胜已败者",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           }
         ],
-        "translation": "意思是：不忒，其所措取胜，取胜已失败。",
-        "modernApplication": "用于先胜后战时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "他的胜利不会出差错。所谓不会出差错，是因为他所采取的措施，本来就是在敌人已经显露败象时完成胜利。",
+        "literalTranslation": "他的胜利不会出差错。所谓不会出差错，是因为他所采取的措施，本来就是在敌人已经显露败象时完成胜利。",
+        "freeTranslation": "这句话强调：本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于先胜后战时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
@@ -2781,17 +2963,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "故善战者",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "立于不败",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           }
         ],
-        "translation": "可以理解为：所以善作战，立于不失败之地利，而不失对手之失败。",
+        "translation": "所以，善战者先使自己立于不败之地，同时不放过敌人走向失败的机会。",
+        "literalTranslation": "所以，善战者先使自己立于不败之地，同时不放过敌人走向失败的机会。",
+        "freeTranslation": "这句话强调：本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "xian-sheng-hou-zhan",
@@ -2816,22 +3002,26 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "是故胜兵",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "先胜而后",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "求战",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           }
         ],
-        "translation": "胜利的一方先创造胜利条件再求战，失败的一方先开战再指望取胜。",
+        "translation": "因此，胜利的军队是先具备胜利条件，然后才寻求作战；失败的军队是先贸然作战，然后才在战斗中侥幸求胜。",
+        "literalTranslation": "因此，胜利的军队是先具备胜利条件，然后才寻求作战；失败的军队是先贸然作战，然后才在战斗中侥幸求胜。",
+        "freeTranslation": "先让胜利条件成立，再进入竞争或冲突。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "上线、扩张或转型前先保证自己不容易崩盘，再等待对方暴露窗口，避免把希望押在好运上。",
+        "misunderstanding": "不要把“先胜”理解成必胜承诺；它只是说明行动前要先创造更稳的条件。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "xian-sheng-hou-zhan",
@@ -2865,8 +3055,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "流程治理"
           }
         ],
-        "translation": "换成今天的话：善用军队事行动，修共同目标而保制度，所以能为取胜失败之政。",
+        "translation": "善于用兵的人，会修明政治、维护法度，所以能够掌握胜败的主动权。",
+        "literalTranslation": "善于用兵的人，会修明政治、维护法度，所以能够掌握胜败的主动权。",
+        "freeTranslation": "这句话强调：本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
@@ -2895,17 +3089,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "兵法",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "一曰度",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           }
         ],
-        "translation": "这句在说：兵制度：一曰度，二曰量，三曰数，四曰称，五曰取胜。",
+        "translation": "兵法上有五个层次：一是度量土地，二是估算容量，三是计算兵力，四是权衡强弱，五是判断胜负。",
+        "literalTranslation": "兵法上有五个层次：一是度量土地，二是估算容量，三是计算兵力，四是权衡强弱，五是判断胜负。",
+        "freeTranslation": "这句话强调：本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
@@ -2934,17 +3132,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "地生度",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "度生量",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           }
         ],
-        "translation": "意思是：地利生度，度生量，量生数，数生称，称生取胜。",
+        "translation": "地形产生面积与距离的度量，度量产生资源容量的判断，容量产生兵力数量的估算，数量产生实力轻重的权衡，权衡之后才能判断胜负。",
+        "literalTranslation": "地形产生面积与距离的度量，度量产生资源容量的判断，容量产生兵力数量的估算，数量产生实力轻重的权衡，权衡之后才能判断胜负。",
+        "freeTranslation": "这句话强调：本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
@@ -2969,22 +3171,26 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "故胜兵若",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "以镒称铢",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "败兵若以",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           }
         ],
-        "translation": "可以理解为：所以取胜兵若以镒称铢，失败兵若以铢称镒。",
-        "modernApplication": "用于先胜后战时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，胜利的军队对失败的军队，就像用很重的镒去称很轻的铢；失败的军队对胜利的军队，就像用很轻的铢去称很重的镒。",
+        "literalTranslation": "所以，胜利的军队对失败的军队，就像用很重的镒去称很轻的铢；失败的军队对胜利的军队，就像用很轻的铢去称很重的镒。",
+        "freeTranslation": "这句话强调：本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于先胜后战时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
@@ -3004,26 +3210,30 @@ export const chapters: Chapter[] = [
         "id": "jun-xing-19",
         "chapterId": "jun-xing",
         "order": 19,
-        "original": "称胜者之战民也，若决积水于千仞之溪者，形也。",
+        "original": "胜者之战民也，若决积水于千仞之溪者，形也。",
         "words": [
           {
-            "word": "称胜者之",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "word": "胜者之战",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
-            "word": "战民也",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "word": "民也",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           },
           {
             "word": "若决积水",
-            "explanation": "本句实际出现的关键表达，需要放回“先胜后战”语境中理解。",
+            "explanation": "理解这个表达时，应结合“先胜后战”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "先胜后战"
           }
         ],
-        "translation": "白话说就是：称取胜之作战民众，若决积水于千仞之溪，形势能。",
-        "modernApplication": "用于先胜后战时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "胜利者驱使军队作战，就像积蓄的水从千仞高谷中决口而下，这就是“形”所形成的压倒性力量。",
+        "literalTranslation": "胜利者驱使军队作战，就像积蓄的水从千仞高谷中决口而下，这就是“形”所形成的压倒性力量。",
+        "freeTranslation": "这句话强调：本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“先胜后战”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于先胜后战时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“先胜后战”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
@@ -3092,7 +3302,7 @@ export const chapters: Chapter[] = [
       "completeness": "完整",
       "proofreadingStatus": "初校",
       "variantNotes": [],
-      "note": "已按《孙子兵法.txt》补齐通行本完整原文；逐句译注为初校内容，建议结合原文继续复校。"
+      "note": "原文与白话译文参照《孙子兵法原文与译文.txt》整理；逐句应用与误读提示为学习辅助内容，后续可继续复校。"
     },
     "structure": [
       "用组织分工治理大规模行动",
@@ -3100,30 +3310,37 @@ export const chapters: Chapter[] = [
       "强调势能不是蛮力",
       "通过结构制造顺势"
     ],
-    "fullOriginal": "凡治众如治寡，分数是也；斗众如斗寡，形名是也；三军之众，可使必受敌而无败者，奇正是也；兵之所加，如以碫投卵者，虚实是也。\n\n凡战者，以正合，以奇胜。故善出奇者，无穷如天地，不竭如江海。终而复始，日月是也。死而更生，四时是也。声不过五，五声之变，不可胜听也；色不过五，五色之变，不可胜观也；味不过五，五味之变，不可胜尝也；战势不过奇正，奇正之变，不可胜穷也。奇正相生，如循环之无端，孰能穷之哉！\n\n激水之疾，至于漂石者，势也；鸷鸟之疾，至于毁折者，节也。故善战者，其势险，其节短。势如扩弩，节如发机。纷纷纭纭，斗乱而不可乱；浑浑沌沌，形圆而不可败。乱生于治，怯生于勇，弱生于强。治乱，数也；勇怯，势也；强弱，形也。\n\n故善动敌者，形之，敌必从之；予之，敌必取之。以利动之，以卒待之。故善战者，求之于势，不责于人故能择人而任势。任势者，其战人也，如转木石。木石之性，安则静，危则动，方则止，圆则行。\n\n故善战人之势，如转圆石于千仞之山者，势也。",
+    "fullOriginal": "孙子曰：凡治众如治寡，分数是也；斗众如斗寡，形名是也。\n三军之众，可使必受敌而无败者，奇正是也。\n兵之所加，如以碫投卵者，虚实是也。\n凡战者，以正合，以奇胜。\n故善出奇者，无穷如天地，不竭如江河。\n终而复始，日月是也；死而复生，四时是也。\n声不过五，五声之变，不可胜听也。\n色不过五，五色之变，不可胜观也。\n味不过五，五味之变，不可胜尝也。\n战势不过奇正，奇正之变，不可胜穷也。\n奇正相生，如循环之无端，孰能穷之哉！\n激水之疾，至于漂石者，势也。\n鸷鸟之疾，至于毁折者，节也。\n是故善战者，其势险，其节短。\n势如张弩，节如发机。\n纷纷纭纭，斗乱而不可乱也；浑浑沌沌，形圆而不可败也。\n乱生于治，怯生于勇，弱生于强。\n治乱，数也；勇怯，势也；强弱，形也。\n故善动敌者，形之，敌必从之；予之，敌必取之。\n以利动之，以卒待之。\n故善战者，求之于势，不责于人，故能择人而任势。\n任势者，其战人也，如转木石。\n木石之性，安则静，危则动，方则止，圆则行。\n故善战人之势，如转圆石于千仞之山者，势也。",
     "sentences": [
       {
         "id": "bing-shi-1",
         "chapterId": "bing-shi",
         "order": 1,
-        "original": "凡治众如治寡，分数是也；斗众如斗寡，形名是也；三军之众，可使必受敌而无败者，奇正是也；兵之所加，如以碫投卵者，虚实是也。",
+        "original": "孙子曰：凡治众如治寡，分数是也；斗众如斗寡，形名是也。",
         "words": [
           {
-            "word": "奇正",
-            "explanation": "正面常规力量与非常规变化手段。",
-            "modernMapping": "组合策略"
+            "word": "孙子曰",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
           },
           {
-            "word": "虚实",
-            "explanation": "强弱、空实、守备与薄弱处。",
-            "modernMapping": "切入点"
+            "word": "凡治众如",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "治寡",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
           }
         ],
-        "translation": "意思是：凡是治兵众如治寡，分数是；斗兵众如斗寡，形势能名是；三军队之兵众，可使必受对手而无失败，奇招正兵是；兵之所加，如以碫投卵，薄弱处坚实处是。",
-        "modernApplication": "运营和产品打法要有稳定基本盘，也要保留可快速切换的非常规动作，例如灰度发布、侧翼渠道或差异化功能。",
+        "translation": "孙子说：治理大部队能像治理小部队一样，是因为有合理的组织编制；指挥大部队作战能像指挥小部队一样，是因为有明确的信号和号令。",
+        "literalTranslation": "孙子说：治理大部队能像治理小部队一样，是因为有合理的组织编制；指挥大部队作战能像指挥小部队一样，是因为有明确的信号和号令。",
+        "freeTranslation": "这句话强调：本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于借势造势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "zheng-qi",
-          "bi-shi-ji-xu",
           "shang-bing-fa-mou",
           "bu-zhan-er-qu-ren"
         ],
@@ -3135,34 +3352,37 @@ export const chapters: Chapter[] = [
           "t06",
           "t13"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "bing-shi-2",
         "chapterId": "bing-shi",
         "order": 2,
-        "original": "凡战者，以正合，以奇胜。",
+        "original": "三军之众，可使必受敌而无败者，奇正是也。",
         "words": [
           {
-            "word": "凡战者",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
+            "word": "奇正",
+            "explanation": "正面常规力量与非常规变化手段。",
+            "modernMapping": "组合策略"
+          },
+          {
+            "word": "三军之众",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "借势造势"
           },
           {
-            "word": "以正合",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          },
-          {
-            "word": "以奇胜",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
+            "word": "可使必受",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "借势造势"
           }
         ],
-        "translation": "凡作战，通常用正面力量接敌，再用出奇变化取胜。",
-        "modernApplication": "用于借势造势时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "使全军遭遇敌人攻击而不败，靠的是“正”与“奇”的配合。",
+        "literalTranslation": "使全军遭遇敌人攻击而不败，靠的是“正”与“奇”的配合。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "modernApplication": "运营和产品打法要有稳定基本盘，也要保留可快速切换的非常规动作，例如灰度发布、侧翼渠道或差异化功能。",
+        "misunderstanding": "不要迷信奇招；没有正面基本盘，奇招往往只是冒险。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
           "zheng-qi",
           "shang-bing-fa-mou",
           "bu-zhan-er-qu-ren"
@@ -3181,7 +3401,94 @@ export const chapters: Chapter[] = [
         "id": "bing-shi-3",
         "chapterId": "bing-shi",
         "order": 3,
-        "original": "故善出奇者，无穷如天地，不竭如江海。",
+        "original": "兵之所加，如以碫投卵者，虚实是也。",
+        "words": [
+          {
+            "word": "虚实",
+            "explanation": "强弱、空实、守备与薄弱处。",
+            "modernMapping": "切入点"
+          },
+          {
+            "word": "兵之所加",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "如以碫投",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          }
+        ],
+        "translation": "攻击敌人时像用石头击碎鸡蛋，靠的是避实击虚。",
+        "literalTranslation": "攻击敌人时像用石头击碎鸡蛋，靠的是避实击虚。",
+        "freeTranslation": "这句话强调：争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "coreMeaning": "争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "misunderstanding": "不要把“击虚”理解成投机取巧；它要求准确识别对方真正薄弱且关键的节点。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping",
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t08",
+          "t15"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "bing-shi-4",
+        "chapterId": "bing-shi",
+        "order": 4,
+        "original": "凡战者，以正合，以奇胜。",
+        "words": [
+          {
+            "word": "凡战者",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "以正合",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "以奇胜",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          }
+        ],
+        "translation": "凡是作战，通常用正兵与敌人正面接触，用奇兵决定胜负。",
+        "literalTranslation": "凡是作战，通常用正兵与敌人正面接触，用奇兵决定胜负。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "modernApplication": "运营和产品打法要有稳定基本盘，也要保留可快速切换的非常规动作，例如灰度发布、侧翼渠道或差异化功能。",
+        "misunderstanding": "不要迷信奇招；没有正面基本盘，奇招往往只是冒险。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zheng-qi",
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping",
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t09",
+          "t16"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "bing-shi-5",
+        "chapterId": "bing-shi",
+        "order": 5,
+        "original": "故善出奇者，无穷如天地，不竭如江河。",
         "words": [
           {
             "word": "天",
@@ -3194,79 +3501,17 @@ export const chapters: Chapter[] = [
             "modernMapping": "资源环境"
           }
         ],
-        "translation": "白话说就是：所以善出奇招，无穷如时机地利，不竭如江海。",
+        "translation": "所以，善于出奇制胜的人，变化像天地一样无穷，像江河一样不竭。",
+        "literalTranslation": "所以，善于出奇制胜的人，变化像天地一样无穷，像江河一样不竭。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要迷信奇招；没有正面基本盘，奇招往往只是冒险。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zheng-qi",
           "zhi-tian-zhi-di",
           "shang-bing-fa-mou"
-        ],
-        "relatedCaseIds": [
-          "chang-ping",
-          "brand-position"
-        ],
-        "relatedTrainingIds": [
-          "t08",
-          "t15"
-        ],
-        "quoteLevel": "normal"
-      },
-      {
-        "id": "bing-shi-4",
-        "chapterId": "bing-shi",
-        "order": 4,
-        "original": "终而复始，日月是也。",
-        "words": [
-          {
-            "word": "终而复始",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          },
-          {
-            "word": "日月是也",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          }
-        ],
-        "translation": "换成今天的话：终而复始，日月是。",
-        "modernApplication": "用于借势造势时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
-        "relatedConceptIds": [
-          "shang-bing-fa-mou",
-          "bu-zhan-er-qu-ren"
-        ],
-        "relatedCaseIds": [
-          "chang-ping",
-          "brand-position"
-        ],
-        "relatedTrainingIds": [
-          "t09",
-          "t16"
-        ],
-        "quoteLevel": "normal"
-      },
-      {
-        "id": "bing-shi-5",
-        "chapterId": "bing-shi",
-        "order": 5,
-        "original": "死而更生，四时是也。",
-        "words": [
-          {
-            "word": "死而更生",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          },
-          {
-            "word": "四时是也",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          }
-        ],
-        "translation": "这句在说：死而更生，四时是。",
-        "modernApplication": "用于借势造势时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
-        "relatedConceptIds": [
-          "shang-bing-fa-mou",
-          "bu-zhan-er-qu-ren"
         ],
         "relatedCaseIds": [
           "chang-ping",
@@ -3282,7 +3527,166 @@ export const chapters: Chapter[] = [
         "id": "bing-shi-6",
         "chapterId": "bing-shi",
         "order": 6,
-        "original": "声不过五，五声之变，不可胜听也；色不过五，五色之变，不可胜观也；味不过五，五味之变，不可胜尝也；战势不过奇正，奇正之变，不可胜穷也。",
+        "original": "终而复始，日月是也；死而复生，四时是也。",
+        "words": [
+          {
+            "word": "终而复始",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "日月是也",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "死而复生",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          }
+        ],
+        "translation": "结束之后又重新开始，就像日月运行；衰亡之后又重新发生，就像四季循环。",
+        "literalTranslation": "结束之后又重新开始，就像日月运行；衰亡之后又重新发生，就像四季循环。",
+        "freeTranslation": "这句话强调：本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于借势造势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping",
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t11",
+          "t18"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "bing-shi-7",
+        "chapterId": "bing-shi",
+        "order": 7,
+        "original": "声不过五，五声之变，不可胜听也。",
+        "words": [
+          {
+            "word": "不可胜",
+            "explanation": "自己先做到不容易被击败。",
+            "modernMapping": "防守底线"
+          },
+          {
+            "word": "可胜",
+            "explanation": "对方露出可利用的破绽。",
+            "modernMapping": "机会窗口"
+          }
+        ],
+        "translation": "声音不过五音，但五音的变化听不尽。",
+        "literalTranslation": "声音不过五音，但五音的变化听不尽。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "上线、扩张或转型前先保证自己不容易崩盘，再等待对方暴露窗口，避免把希望押在好运上。",
+        "misunderstanding": "不要把“先胜”理解成必胜承诺；它只是说明行动前要先创造更稳的条件。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "xian-sheng-hou-zhan",
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping",
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t12",
+          "t19"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "bing-shi-8",
+        "chapterId": "bing-shi",
+        "order": 8,
+        "original": "色不过五，五色之变，不可胜观也。",
+        "words": [
+          {
+            "word": "不可胜",
+            "explanation": "自己先做到不容易被击败。",
+            "modernMapping": "防守底线"
+          },
+          {
+            "word": "可胜",
+            "explanation": "对方露出可利用的破绽。",
+            "modernMapping": "机会窗口"
+          }
+        ],
+        "translation": "颜色不过五色，但五色的变化看不尽。",
+        "literalTranslation": "颜色不过五色，但五色的变化看不尽。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "上线、扩张或转型前先保证自己不容易崩盘，再等待对方暴露窗口，避免把希望押在好运上。",
+        "misunderstanding": "不要把“先胜”理解成必胜承诺；它只是说明行动前要先创造更稳的条件。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "xian-sheng-hou-zhan",
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping",
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t13",
+          "t20"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "bing-shi-9",
+        "chapterId": "bing-shi",
+        "order": 9,
+        "original": "味不过五，五味之变，不可胜尝也。",
+        "words": [
+          {
+            "word": "不可胜",
+            "explanation": "自己先做到不容易被击败。",
+            "modernMapping": "防守底线"
+          },
+          {
+            "word": "可胜",
+            "explanation": "对方露出可利用的破绽。",
+            "modernMapping": "机会窗口"
+          }
+        ],
+        "translation": "味道不过五味，但五味的变化尝不尽。",
+        "literalTranslation": "味道不过五味，但五味的变化尝不尽。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "上线、扩张或转型前先保证自己不容易崩盘，再等待对方暴露窗口，避免把希望押在好运上。",
+        "misunderstanding": "不要把“先胜”理解成必胜承诺；它只是说明行动前要先创造更稳的条件。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "xian-sheng-hou-zhan",
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping",
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t14",
+          "t21"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "bing-shi-10",
+        "chapterId": "bing-shi",
+        "order": 10,
+        "original": "战势不过奇正，奇正之变，不可胜穷也。",
         "words": [
           {
             "word": "不可胜",
@@ -3305,8 +3709,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "系统势能"
           }
         ],
-        "translation": "意思是：声不过五，五声之变，不可取胜听；色不过五，五色之变，不可取胜观；味不过五，五味之变，不可取胜尝；作战势能不过奇招正兵，奇招正兵之变，不可取胜穷。",
+        "translation": "作战态势不过奇与正两类，但奇正之间的变化无法穷尽。",
+        "literalTranslation": "作战态势不过奇与正两类，但奇正之间的变化无法穷尽。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "上线、扩张或转型前先保证自己不容易崩盘，再等待对方暴露窗口，避免把希望押在好运上。",
+        "misunderstanding": "不要把“先胜”理解成必胜承诺；它只是说明行动前要先创造更稳的条件。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "xian-sheng-hou-zhan",
@@ -3318,15 +3726,15 @@ export const chapters: Chapter[] = [
           "brand-position"
         ],
         "relatedTrainingIds": [
-          "t11",
-          "t18"
+          "t15",
+          "t22"
         ],
         "quoteLevel": "important"
       },
       {
-        "id": "bing-shi-7",
+        "id": "bing-shi-11",
         "chapterId": "bing-shi",
-        "order": 7,
+        "order": 11,
         "original": "奇正相生，如循环之无端，孰能穷之哉！",
         "words": [
           {
@@ -3336,17 +3744,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "奇正相生",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "借势造势"
           },
           {
             "word": "如循环之",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "借势造势"
           }
         ],
-        "translation": "可以理解为：奇招正兵相生，如循环之无端，哪一方能穷之哉！",
+        "translation": "奇与正相互转化、相互生成，就像圆环没有端点，谁能穷尽它呢？",
+        "literalTranslation": "奇与正相互转化、相互生成，就像圆环没有端点，谁能穷尽它呢？",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
         "modernApplication": "运营和产品打法要有稳定基本盘，也要保留可快速切换的非常规动作，例如灰度发布、侧翼渠道或差异化功能。",
+        "misunderstanding": "不要迷信奇招；没有正面基本盘，奇招往往只是冒险。",
         "relatedConceptIds": [
           "zheng-qi",
           "shang-bing-fa-mou",
@@ -3357,16 +3769,16 @@ export const chapters: Chapter[] = [
           "brand-position"
         ],
         "relatedTrainingIds": [
-          "t12",
-          "t19"
+          "t16",
+          "t23"
         ],
         "quoteLevel": "normal"
       },
       {
-        "id": "bing-shi-8",
+        "id": "bing-shi-12",
         "chapterId": "bing-shi",
-        "order": 8,
-        "original": "激水之疾，至于漂石者，势也；鸷鸟之疾，至于毁折者，节也。",
+        "order": 12,
+        "original": "激水之疾，至于漂石者，势也。",
         "words": [
           {
             "word": "势",
@@ -3374,13 +3786,22 @@ export const chapters: Chapter[] = [
             "modernMapping": "系统势能"
           },
           {
-            "word": "节",
-            "explanation": "力量释放的时机与节奏。",
-            "modernMapping": "执行节拍"
+            "word": "激水之疾",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "至于漂石",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
           }
         ],
-        "translation": "白话说就是：激水之疾，至于漂石，势能；鸷鸟之疾，至于毁折，节。",
+        "translation": "湍急的水流能漂起石头，这是“势”的力量。",
+        "literalTranslation": "湍急的水流能漂起石头，这是“势”的力量。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
         "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shi-neng",
           "zhi-tian-zhi-di",
@@ -3392,16 +3813,59 @@ export const chapters: Chapter[] = [
           "brand-position"
         ],
         "relatedTrainingIds": [
-          "t13",
-          "t20"
+          "t17",
+          "t24"
         ],
         "quoteLevel": "important"
       },
       {
-        "id": "bing-shi-9",
+        "id": "bing-shi-13",
         "chapterId": "bing-shi",
-        "order": 9,
-        "original": "故善战者，其势险，其节短。",
+        "order": 13,
+        "original": "鸷鸟之疾，至于毁折者，节也。",
+        "words": [
+          {
+            "word": "节",
+            "explanation": "力量释放的时机与节奏。",
+            "modernMapping": "执行节拍"
+          },
+          {
+            "word": "鸷鸟之疾",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "至于毁折",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          }
+        ],
+        "translation": "猛禽疾飞而能击毁猎物，这是“节”的力量，也就是力量集中爆发的时机。",
+        "literalTranslation": "猛禽疾飞而能击毁猎物，这是“节”的力量，也就是力量集中爆发的时机。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "shi-neng",
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping",
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t18",
+          "t25"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "bing-shi-14",
+        "chapterId": "bing-shi",
+        "order": 14,
+        "original": "是故善战者，其势险，其节短。",
         "words": [
           {
             "word": "势",
@@ -3419,8 +3883,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "高风险入口"
           }
         ],
-        "translation": "换成今天的话：所以善作战，其势能险，其节短。",
+        "translation": "所以，善战者形成的态势险峻有力，发动攻击的节奏短促迅猛。",
+        "literalTranslation": "所以，善战者形成的态势险峻有力，发动攻击的节奏短促迅猛。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
         "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shi-neng",
           "zhi-tian-zhi-di",
@@ -3432,16 +3900,16 @@ export const chapters: Chapter[] = [
           "brand-position"
         ],
         "relatedTrainingIds": [
-          "t14",
-          "t21"
+          "t19",
+          "t26"
         ],
         "quoteLevel": "important"
       },
       {
-        "id": "bing-shi-10",
+        "id": "bing-shi-15",
         "chapterId": "bing-shi",
-        "order": 10,
-        "original": "势如扩弩，节如发机。",
+        "order": 15,
+        "original": "势如张弩，节如发机。",
         "words": [
           {
             "word": "势",
@@ -3454,197 +3922,14 @@ export const chapters: Chapter[] = [
             "modernMapping": "执行节拍"
           }
         ],
-        "translation": "这句在说：势能如扩弩，节如发机。",
+        "translation": "态势像拉满的弓弩，节奏像扣动机关。",
+        "literalTranslation": "态势像拉满的弓弩，节奏像扣动机关。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
         "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shi-neng",
-          "shang-bing-fa-mou",
-          "bu-zhan-er-qu-ren"
-        ],
-        "relatedCaseIds": [
-          "chang-ping",
-          "brand-position"
-        ],
-        "relatedTrainingIds": [
-          "t15",
-          "t22"
-        ],
-        "quoteLevel": "important"
-      },
-      {
-        "id": "bing-shi-11",
-        "chapterId": "bing-shi",
-        "order": 11,
-        "original": "纷纷纭纭，斗乱而不可乱；浑浑沌沌，形圆而不可败。",
-        "words": [
-          {
-            "word": "纷纷纭纭",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          },
-          {
-            "word": "斗乱而不",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          },
-          {
-            "word": "可乱",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          }
-        ],
-        "translation": "意思是：纷纷纭纭，斗乱而不可乱；浑浑沌沌，形势能圆而不可失败。",
-        "modernApplication": "复盘失败时不要只怪外部环境，要检查资源比例、管理强弱、指挥清晰度和执行队形。",
-        "relatedConceptIds": [
-          "shang-bing-fa-mou",
-          "bu-zhan-er-qu-ren"
-        ],
-        "relatedCaseIds": [
-          "chang-ping",
-          "brand-position"
-        ],
-        "relatedTrainingIds": [
-          "t16",
-          "t23"
-        ],
-        "quoteLevel": "important"
-      },
-      {
-        "id": "bing-shi-12",
-        "chapterId": "bing-shi",
-        "order": 12,
-        "original": "乱生于治，怯生于勇，弱生于强。",
-        "words": [
-          {
-            "word": "乱生于治",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          },
-          {
-            "word": "怯生于勇",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          },
-          {
-            "word": "弱生于强",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          }
-        ],
-        "translation": "可以理解为：乱生于治，怯生于勇，弱生于强。",
-        "modernApplication": "复盘失败时不要只怪外部环境，要检查资源比例、管理强弱、指挥清晰度和执行队形。",
-        "relatedConceptIds": [
-          "shang-bing-fa-mou",
-          "bu-zhan-er-qu-ren"
-        ],
-        "relatedCaseIds": [
-          "chang-ping",
-          "brand-position"
-        ],
-        "relatedTrainingIds": [
-          "t17",
-          "t24"
-        ],
-        "quoteLevel": "normal"
-      },
-      {
-        "id": "bing-shi-13",
-        "chapterId": "bing-shi",
-        "order": 13,
-        "original": "治乱，数也；勇怯，势也；强弱，形也。",
-        "words": [
-          {
-            "word": "势",
-            "explanation": "结构、节奏和位置共同形成的力量。",
-            "modernMapping": "系统势能"
-          },
-          {
-            "word": "治乱",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          },
-          {
-            "word": "数也",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          }
-        ],
-        "translation": "白话说就是：治乱，数；勇怯，势能；强弱，形势能。",
-        "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
-        "relatedConceptIds": [
-          "shi-neng",
-          "shang-bing-fa-mou",
-          "bu-zhan-er-qu-ren"
-        ],
-        "relatedCaseIds": [
-          "chang-ping",
-          "brand-position"
-        ],
-        "relatedTrainingIds": [
-          "t18",
-          "t25"
-        ],
-        "quoteLevel": "important"
-      },
-      {
-        "id": "bing-shi-14",
-        "chapterId": "bing-shi",
-        "order": 14,
-        "original": "故善动敌者，形之，敌必从之；予之，敌必取之。",
-        "words": [
-          {
-            "word": "故善动敌",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          },
-          {
-            "word": "形之",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          },
-          {
-            "word": "敌必从之",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          }
-        ],
-        "translation": "换成今天的话：所以善动对手，形势能之，对手必从之；予之，对手必取之。",
-        "modernApplication": "用于借势造势时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
-        "relatedConceptIds": [
-          "shang-bing-fa-mou",
-          "bu-zhan-er-qu-ren"
-        ],
-        "relatedCaseIds": [
-          "chang-ping",
-          "brand-position"
-        ],
-        "relatedTrainingIds": [
-          "t19",
-          "t26"
-        ],
-        "quoteLevel": "normal"
-      },
-      {
-        "id": "bing-shi-15",
-        "chapterId": "bing-shi",
-        "order": 15,
-        "original": "以利动之，以卒待之。",
-        "words": [
-          {
-            "word": "以利动之",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          },
-          {
-            "word": "以卒待之",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
-            "modernMapping": "借势造势"
-          }
-        ],
-        "translation": "这句在说：以利益动之，以士卒待之。",
-        "modernApplication": "用于借势造势时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
-        "relatedConceptIds": [
-          "li-hai-bing-guan",
           "shang-bing-fa-mou",
           "bu-zhan-er-qu-ren"
         ],
@@ -3662,23 +3947,31 @@ export const chapters: Chapter[] = [
         "id": "bing-shi-16",
         "chapterId": "bing-shi",
         "order": 16,
-        "original": "故善战者，求之于势，不责于人故能择人而任势。",
+        "original": "纷纷纭纭，斗乱而不可乱也；浑浑沌沌，形圆而不可败也。",
         "words": [
           {
-            "word": "任势",
-            "explanation": "让结构和趋势放大人的作用。",
-            "modernMapping": "杠杆设计"
+            "word": "纷纷纭纭",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
           },
           {
-            "word": "势",
-            "explanation": "结构、节奏和位置共同形成的力量。",
-            "modernMapping": "系统势能"
+            "word": "斗乱而不",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "可乱也",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
           }
         ],
-        "translation": "善于作战的人追求形势带来的力量，而不是单纯苛责个人，所以能够选择合适的人并让他们借势发挥。",
-        "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "translation": "战场上纷乱复杂，看似混乱而自己不能真乱；形势浑沌难辨，但阵势圆活完整而不可被击败。",
+        "literalTranslation": "战场上纷乱复杂，看似混乱而自己不能真乱；形势浑沌难辨，但阵势圆活完整而不可被击败。",
+        "freeTranslation": "这句话强调：本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于借势造势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "shi-neng",
           "shang-bing-fa-mou",
           "bu-zhan-er-qu-ren"
         ],
@@ -3696,6 +3989,209 @@ export const chapters: Chapter[] = [
         "id": "bing-shi-17",
         "chapterId": "bing-shi",
         "order": 17,
+        "original": "乱生于治，怯生于勇，弱生于强。",
+        "words": [
+          {
+            "word": "乱生于治",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "怯生于勇",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "弱生于强",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          }
+        ],
+        "translation": "混乱可以从治理中制造出来，怯懦可以从勇敢中制造出来，弱小可以从强大中制造出来。",
+        "literalTranslation": "混乱可以从治理中制造出来，怯懦可以从勇敢中制造出来，弱小可以从强大中制造出来。",
+        "freeTranslation": "这句话强调：本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于借势造势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping",
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t22",
+          "t29"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "bing-shi-18",
+        "chapterId": "bing-shi",
+        "order": 18,
+        "original": "治乱，数也；勇怯，势也；强弱，形也。",
+        "words": [
+          {
+            "word": "势",
+            "explanation": "结构、节奏和位置共同形成的力量。",
+            "modernMapping": "系统势能"
+          },
+          {
+            "word": "治乱",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "数也",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          }
+        ],
+        "translation": "治与乱，取决于组织编制；勇与怯，取决于态势；强与弱，取决于外在形势的呈现。",
+        "literalTranslation": "治与乱，取决于组织编制；勇与怯，取决于态势；强与弱，取决于外在形势的呈现。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "shi-neng",
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping",
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t23",
+          "t30"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "bing-shi-19",
+        "chapterId": "bing-shi",
+        "order": 19,
+        "original": "故善动敌者，形之，敌必从之；予之，敌必取之。",
+        "words": [
+          {
+            "word": "故善动敌",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "形之",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "敌必从之",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          }
+        ],
+        "translation": "所以，善于调动敌人的人，会故意显露某种形态，敌人必定跟随反应；给敌人某种诱饵，敌人必定来取。",
+        "literalTranslation": "所以，善于调动敌人的人，会故意显露某种形态，敌人必定跟随反应；给敌人某种诱饵，敌人必定来取。",
+        "freeTranslation": "这句话强调：本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于借势造势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping",
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t24",
+          "t01"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "bing-shi-20",
+        "chapterId": "bing-shi",
+        "order": 20,
+        "original": "以利动之，以卒待之。",
+        "words": [
+          {
+            "word": "以利动之",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          },
+          {
+            "word": "以卒待之",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "借势造势"
+          }
+        ],
+        "translation": "用利益调动敌人，用伏兵等待敌人。",
+        "literalTranslation": "用利益调动敌人，用伏兵等待敌人。",
+        "freeTranslation": "这句话强调：本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于借势造势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "li-hai-bing-guan",
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping",
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t25",
+          "t02"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "bing-shi-21",
+        "chapterId": "bing-shi",
+        "order": 21,
+        "original": "故善战者，求之于势，不责于人，故能择人而任势。",
+        "words": [
+          {
+            "word": "任势",
+            "explanation": "让结构和趋势放大人的作用。",
+            "modernMapping": "杠杆设计"
+          },
+          {
+            "word": "势",
+            "explanation": "结构、节奏和位置共同形成的力量。",
+            "modernMapping": "系统势能"
+          }
+        ],
+        "translation": "所以，善战者追求形成有利态势，而不是苛求每个人都超常发挥。因此他能够选择合适的人，并让他们借助态势发挥作用。",
+        "literalTranslation": "所以，善战者追求形成有利态势，而不是苛求每个人都超常发挥。因此他能够选择合适的人，并让他们借助态势发挥作用。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "shi-neng",
+          "shang-bing-fa-mou",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "chang-ping",
+          "brand-position"
+        ],
+        "relatedTrainingIds": [
+          "t26",
+          "t03"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "bing-shi-22",
+        "chapterId": "bing-shi",
+        "order": 22,
         "original": "任势者，其战人也，如转木石。",
         "words": [
           {
@@ -3709,8 +4205,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "系统势能"
           }
         ],
-        "translation": "可以理解为：任势能，其作战人，如转木石。",
+        "translation": "善于运用态势的人，指挥士兵作战，就像转动木头和石头。",
+        "literalTranslation": "善于运用态势的人，指挥士兵作战，就像转动木头和石头。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
         "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shi-neng",
           "shang-bing-fa-mou",
@@ -3721,35 +4221,39 @@ export const chapters: Chapter[] = [
           "brand-position"
         ],
         "relatedTrainingIds": [
-          "t22",
-          "t29"
+          "t27",
+          "t04"
         ],
         "quoteLevel": "important"
       },
       {
-        "id": "bing-shi-18",
+        "id": "bing-shi-23",
         "chapterId": "bing-shi",
-        "order": 18,
+        "order": 23,
         "original": "木石之性，安则静，危则动，方则止，圆则行。",
         "words": [
           {
             "word": "木石之性",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "借势造势"
           },
           {
             "word": "安则静",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "借势造势"
           },
           {
             "word": "危则动",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "借势造势"
           }
         ],
-        "translation": "白话说就是：木石之性，安则静，危则动，方则止，圆则行。",
-        "modernApplication": "用于借势造势时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "木石的特性是：放在平稳处就静止，放在险峻处就滚动；方形的容易停住，圆形的容易滚动。",
+        "literalTranslation": "木石的特性是：放在平稳处就静止，放在险峻处就滚动；方形的容易停住，圆形的容易滚动。",
+        "freeTranslation": "这句话强调：本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“借势造势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于借势造势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shang-bing-fa-mou",
           "bu-zhan-er-qu-ren"
@@ -3759,15 +4263,15 @@ export const chapters: Chapter[] = [
           "brand-position"
         ],
         "relatedTrainingIds": [
-          "t23",
-          "t30"
+          "t28",
+          "t05"
         ],
         "quoteLevel": "normal"
       },
       {
-        "id": "bing-shi-19",
+        "id": "bing-shi-24",
         "chapterId": "bing-shi",
-        "order": 19,
+        "order": 24,
         "original": "故善战人之势，如转圆石于千仞之山者，势也。",
         "words": [
           {
@@ -3777,17 +4281,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "故善战人",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "借势造势"
           },
           {
             "word": "之势",
-            "explanation": "本句实际出现的关键表达，需要放回“借势造势”语境中理解。",
+            "explanation": "理解这个表达时，应结合“借势造势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "借势造势"
           }
         ],
-        "translation": "换成今天的话：所以善作战人之势能，如转圆石于千仞之山，势能。",
+        "translation": "所以，善于使军队形成作战态势，就像把圆石从千仞高山上滚下去，这就是“势”。",
+        "literalTranslation": "所以，善于使军队形成作战态势，就像把圆石从千仞高山上滚下去，这就是“势”。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
         "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "misunderstanding": "不要脱离“借势造势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shi-neng",
           "zhi-tian-zhi-di",
@@ -3799,8 +4307,8 @@ export const chapters: Chapter[] = [
           "brand-position"
         ],
         "relatedTrainingIds": [
-          "t24",
-          "t01"
+          "t29",
+          "t06"
         ],
         "quoteLevel": "important"
       }
@@ -3857,7 +4365,7 @@ export const chapters: Chapter[] = [
       "completeness": "完整",
       "proofreadingStatus": "初校",
       "variantNotes": [],
-      "note": "已按《孙子兵法.txt》补齐通行本完整原文；逐句译注为初校内容，建议结合原文继续复校。"
+      "note": "原文与白话译文参照《孙子兵法原文与译文.txt》整理；逐句应用与误读提示为学习辅助内容，后续可继续复校。"
     },
     "structure": [
       "抢占主动位置",
@@ -3865,13 +4373,13 @@ export const chapters: Chapter[] = [
       "攻击不防守处",
       "避实击虚"
     ],
-    "fullOriginal": "凡先处战地而待敌者佚，后处战地而趋战者劳。故善战者，致人而不致于人。能使敌人自至者，利之也；能使敌人不得至者，害之也。故敌佚能劳之，饱能饥之，安能动之。出其所必趋，趋其所不意。\n\n行千里而不劳者，行于无人之地也；攻而必取者，攻其所不守也。守而必固者，守其所必攻也。故善攻者，敌不知其所守；善守者，敌不知其所攻。微乎微乎，至于无形；神乎神乎，至于无声，故能为敌之司命。进而不可御者，冲其虚也；退而不可追者，速而不可及也。故我欲战，敌虽高垒深沟，不得不与我战者，攻其所必救也；我不欲战，虽画地而守之，敌不得与我战者，乖其所之也。故形人而我无形，则我专而敌分。我专为一，敌分为十，是以十攻其一也。则我众敌寡，能以众击寡者，则吾之所与战者约矣。吾所与战之地不可知，不可知则敌所备者多，敌所备者多，则吾所与战者寡矣。故备前则后寡，备后则前寡，备左则右寡，备右则左寡，无所不备，则无所不寡。寡者，备人者也；众者，使人备己者也。故知战之地，知战之日，则可千里而会战；不知战之地，不知战日，则左不能救右，右不能救左，前不能救后，后不能救前，而况远者数十里，近者数里乎！\n\n以吾度之，越人之兵虽多，亦奚益于胜哉！\n\n故曰：胜可为也。敌虽众，可使无斗。故策之而知得失之计，候之而知动静之理，形之而知死生之地，角之而知有余不足之处。故形兵之极，至于无形。无形则深间不能窥，智者不能谋。因形而措胜于众，众不能知。人皆知我所以胜之形，而莫知吾所以制胜之形。故其战胜不复，而应形于无穷。\n\n夫兵形象水，水之行避高而趋下，兵之形避实而击虚；水因地而制流，兵因敌而制胜。故兵无常势，水无常形。能因敌变化而取胜者，谓之神。故五行无常胜，四时无常位，日有短长，月有死生。",
+    "fullOriginal": "孙子曰：凡先处战地而待敌者佚，后处战地而趋战者劳。\n故善战者，致人而不致于人。\n能使敌人自至者，利之也；能使敌人不得至者，害之也。\n故敌佚能劳之，饱能饥之，安能动之。\n出其所不趋，趋其所不意。\n行千里而不劳者，行于无人之地也。\n攻而必取者，攻其所不守也。\n守而必固者，守其所必攻也。\n故善攻者，敌不知其所守；善守者，敌不知其所攻。\n微乎微乎，至于无形；神乎神乎，至于无声，故能为敌之司命。\n进而不可御者，冲其虚也；退而不可追者，速而不可及也。\n故我欲战，敌虽高垒深沟，不得不与我战者，攻其所必救也。\n我不欲战，虽画地而守之，敌不得与我战者，乖其所之也。\n故形人而我无形，则我专而敌分。\n我专为一，敌分为十，是以十攻其一也，则我众而敌寡。\n能以众击寡者，则吾之所与战者约矣。\n吾所与战之地不可知，不可知，则敌所备者多。\n敌所备者多，则吾所与战者寡矣。\n故备前则后寡，备后则前寡，备左则右寡，备右则左寡，无所不备，则无所不寡。\n寡者，备人者也；众者，使人备己者也。\n故知战之地，知战之日，则可千里而会战。\n不知战地，不知战日，则左不能救右，右不能救左，前不能救后，后不能救前，而况远者数十里，近者数里乎！\n以吾度之，越人之兵虽多，亦奚益于胜败哉！\n故曰：胜可为也。敌虽众，可使无斗。\n故策之而知得失之计，作之而知动静之理，形之而知死生之地，角之而知有余不足之处。\n故形兵之极，至于无形。\n无形，则深间不能窥，智者不能谋。\n因形而错胜于众，众不能知。\n人皆知我所以胜之形，而莫知吾所以制胜之形。\n故其战胜不复，而应形于无穷。\n夫兵形象水。水之形，避高而趋下；兵之形，避实而击虚。\n水因地而制流，兵因敌而制胜。\n故兵无常势，水无常形；能因敌变化而取胜者，谓之神。\n故五行无常胜，四时无常位，日有短长，月有死生。",
     "sentences": [
       {
         "id": "xu-shi-1",
         "chapterId": "xu-shi",
         "order": 1,
-        "original": "凡先处战地而待敌者佚，后处战地而趋战者劳。",
+        "original": "孙子曰：凡先处战地而待敌者佚，后处战地而趋战者劳。",
         "words": [
           {
             "word": "地",
@@ -3879,18 +4387,22 @@ export const chapters: Chapter[] = [
             "modernMapping": "资源环境"
           },
           {
-            "word": "凡先处战",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "孙子曰",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "地而待敌",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "凡先处战",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "可以理解为：凡是先处作战地利而待对手佚，后处作战地利而趋作战劳。",
+        "translation": "孙子说：凡是先到战场等待敌人的人安逸，后到战场匆忙赶来作战的人疲劳。",
+        "literalTranslation": "孙子说：凡是先到战场等待敌人的人安逸，后到战场匆忙赶来作战的人疲劳。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
@@ -3920,17 +4432,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "故善战者",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
             "word": "致人而不",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "白话说就是：所以善作战，致人而不致于人。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，善战者能调动敌人，而不被敌人调动。",
+        "literalTranslation": "所以，善战者能调动敌人，而不被敌人调动。",
+        "freeTranslation": "这句话强调：争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "coreMeaning": "争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "zhi-ren-bu-zhi-yu-ren",
           "bu-zhan-er-qu-ren",
@@ -3954,22 +4470,26 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "能使敌人",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
             "word": "自至者",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
             "word": "利之也",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "换成今天的话：能使对手人自至，利益之；能使对手人不得至，风险之。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "能使敌人自己前来的，是用利益引诱他；能使敌人不能到达的，是用威胁阻止他。",
+        "literalTranslation": "能使敌人自己前来的，是用利益引诱他；能使敌人不能到达的，是用威胁阻止他。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "li-hai-bing-guan",
           "bu-zhan-er-qu-ren",
@@ -3993,22 +4513,26 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "故敌佚能",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
             "word": "劳之",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
             "word": "饱能饥之",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "这句在说：所以对手佚能劳之，饱能饥之，安能动之。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，敌人安逸，就设法使他疲劳；敌人粮足，就设法使他饥饿；敌人安稳，就设法使他行动。",
+        "literalTranslation": "所以，敌人安逸，就设法使他疲劳；敌人粮足，就设法使他饥饿；敌人安稳，就设法使他行动。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
@@ -4027,24 +4551,27 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-5",
         "chapterId": "xu-shi",
         "order": 5,
-        "original": "出其所必趋，趋其所不意。",
+        "original": "出其所不趋，趋其所不意。",
         "words": [
           {
-            "word": "出其所必",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "出其所不",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
             "word": "趋其所不",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "意思是：出其所必趋，趋其所不意。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "要从敌人来不及赶到的地方出击，奔向敌人意想不到的方向。",
+        "literalTranslation": "要从敌人来不及赶到的地方出击，奔向敌人意想不到的方向。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bi-shi-ji-xu",
-          "gong-qi-suo-bi-jiu",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -4062,7 +4589,7 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-6",
         "chapterId": "xu-shi",
         "order": 6,
-        "original": "行千里而不劳者，行于无人之地也；攻而必取者，攻其所不守也。",
+        "original": "行千里而不劳者，行于无人之地也。",
         "words": [
           {
             "word": "地",
@@ -4071,22 +4598,26 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "行千里而",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
             "word": "不劳者",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "可以理解为：行千里而不劳，行于无人之地利；进攻而必取，进攻其所不防守。",
+        "translation": "行军千里而不疲劳，是因为走在敌人没有设防的地区。",
+        "literalTranslation": "行军千里而不疲劳，是因为走在敌人没有设防的地区。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "bu-ke-sheng-zai-ji",
           "zhi-tian-zhi-di",
-          "bu-zhan-er-qu-ren"
+          "bu-zhan-er-qu-ren",
+          "zhi-ji-zhi-bi"
         ],
         "relatedCaseIds": [
           "jing-xing",
@@ -4102,26 +4633,30 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-7",
         "chapterId": "xu-shi",
         "order": 7,
-        "original": "守而必固者，守其所必攻也。",
+        "original": "攻而必取者，攻其所不守也。",
         "words": [
           {
-            "word": "守而必固",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "攻而必取",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "守其所必",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "攻其所不",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "攻也",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "守也",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "白话说就是：防守而必固，防守其所必进攻。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "进攻必定能夺取，是因为攻击敌人没有防守的地方。",
+        "literalTranslation": "进攻必定能夺取，是因为攻击敌人没有防守的地方。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bu-ke-sheng-zai-ji",
           "bu-zhan-er-qu-ren",
@@ -4141,26 +4676,30 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-8",
         "chapterId": "xu-shi",
         "order": 8,
-        "original": "故善攻者，敌不知其所守；善守者，敌不知其所攻。",
+        "original": "守而必固者，守其所必攻也。",
         "words": [
           {
-            "word": "故善攻者",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "守而必固",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "敌不知其",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "守其所必",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "所守",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "攻也",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "换成今天的话：所以善进攻，对手不知其所防守；善防守，对手不知其所进攻。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "防守必定稳固，是因为守住敌人必定要攻击的地方。",
+        "literalTranslation": "防守必定稳固，是因为守住敌人必定要攻击的地方。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bu-ke-sheng-zai-ji",
           "bu-zhan-er-qu-ren",
@@ -4180,27 +4719,32 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-9",
         "chapterId": "xu-shi",
         "order": 9,
-        "original": "微乎微乎，至于无形；神乎神乎，至于无声，故能为敌之司命。",
+        "original": "故善攻者，敌不知其所守；善守者，敌不知其所攻。",
         "words": [
           {
-            "word": "无形",
-            "explanation": "不让对方看清自己的真实部署。",
-            "modernMapping": "信息隐藏"
-          },
-          {
-            "word": "微乎微乎",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "故善攻者",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "至于无形",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "敌不知其",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "所守",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "这句在说：微乎微乎，至于无形势能；神乎神乎，至于无声，所以能为对手之司命。",
-        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "translation": "所以，善于进攻的人，使敌人不知道该守哪里；善于防守的人，使敌人不知道该攻哪里。",
+        "literalTranslation": "所以，善于进攻的人，使敌人不知道该守哪里；善于防守的人，使敌人不知道该攻哪里。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -4218,28 +4762,31 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-10",
         "chapterId": "xu-shi",
         "order": 10,
-        "original": "进而不可御者，冲其虚也；退而不可追者，速而不可及也。",
+        "original": "微乎微乎，至于无形；神乎神乎，至于无声，故能为敌之司命。",
         "words": [
           {
-            "word": "进而不可",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "无形",
+            "explanation": "不让对方看清自己的真实部署。",
+            "modernMapping": "信息隐藏"
+          },
+          {
+            "word": "微乎微乎",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "御者",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
-            "modernMapping": "虚实变化"
-          },
-          {
-            "word": "冲其虚也",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "至于无形",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "意思是：进而不可御，冲其薄弱处；退而不可追，速而不可及。",
+        "translation": "微妙啊，微妙到没有形迹；神奇啊，神奇到没有声息，所以能够掌握敌人的命运。",
+        "literalTranslation": "微妙啊，微妙到没有形迹；神奇啊，神奇到没有声息，所以能够掌握敌人的命运。",
+        "freeTranslation": "这句话强调：争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "coreMeaning": "争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
         "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "bi-shi-ji-xu",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -4251,32 +4798,40 @@ export const chapters: Chapter[] = [
           "t16",
           "t23"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "xu-shi-11",
         "chapterId": "xu-shi",
         "order": 11,
-        "original": "故我欲战，敌虽高垒深沟，不得不与我战者，攻其所必救也；我不欲战，虽画地而守之，敌不得与我战者，乖其所之也。",
+        "original": "进而不可御者，冲其虚也；退而不可追者，速而不可及也。",
         "words": [
           {
-            "word": "攻其所必救",
-            "explanation": "攻击对方必须救援的关键点。",
-            "modernMapping": "关键节点"
+            "word": "进而不可",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
           },
           {
-            "word": "地",
-            "explanation": "远近、险易、广狭等空间与环境条件。",
-            "modernMapping": "资源环境"
+            "word": "御者",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "冲其虚也",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
           }
         ],
-        "translation": "可以理解为：所以我欲作战，对手虽高垒深沟，不得不与我作战，进攻其所必救；我不欲作战，虽画地利而防守之，对手不得与我作战，乖其所之。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "前进而敌人不能抵挡，是因为冲击了敌人的空虚处；后退而敌人不能追上，是因为行动迅速，敌人来不及追赶。",
+        "literalTranslation": "前进而敌人不能抵挡，是因为冲击了敌人的空虚处；后退而敌人不能追上，是因为行动迅速，敌人来不及追赶。",
+        "freeTranslation": "这句话强调：争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "coreMeaning": "争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "misunderstanding": "不要把“击虚”理解成投机取巧；它要求准确识别对方真正薄弱且关键的节点。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "bu-ke-sheng-zai-ji",
-          "gong-qi-suo-bi-jiu",
-          "zhi-tian-zhi-di"
+          "bi-shi-ji-xu",
+          "bu-zhan-er-qu-ren",
+          "zhi-ji-zhi-bi"
         ],
         "relatedCaseIds": [
           "jing-xing",
@@ -4292,27 +4847,33 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-12",
         "chapterId": "xu-shi",
         "order": 12,
-        "original": "故形人而我无形，则我专而敌分。",
+        "original": "故我欲战，敌虽高垒深沟，不得不与我战者，攻其所必救也。",
         "words": [
           {
-            "word": "无形",
-            "explanation": "不让对方看清自己的真实部署。",
-            "modernMapping": "信息隐藏"
+            "word": "攻其所必救",
+            "explanation": "攻击对方必须救援的关键点。",
+            "modernMapping": "关键节点"
           },
           {
-            "word": "故形人而",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "故我欲战",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "我无形",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "敌虽高垒",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "白话说就是：所以形势能人而我无形势能，则我专而对手分。",
+        "translation": "所以，我想要作战，敌人即使高垒深沟，也不得不出来与我作战，是因为我攻击了他必须救援的地方。",
+        "literalTranslation": "所以，我想要作战，敌人即使高垒深沟，也不得不出来与我作战，是因为我攻击了他必须救援的地方。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "misunderstanding": "不要把“击虚”理解成投机取巧；它要求准确识别对方真正薄弱且关键的节点。",
         "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "gong-qi-suo-bi-jiu",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -4330,30 +4891,35 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-13",
         "chapterId": "xu-shi",
         "order": 13,
-        "original": "我专为一，敌分为十，是以十攻其一也。",
+        "original": "我不欲战，虽画地而守之，敌不得与我战者，乖其所之也。",
         "words": [
           {
-            "word": "我专为一",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
+          {
+            "word": "我不欲战",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "敌分为十",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
-            "modernMapping": "虚实变化"
-          },
-          {
-            "word": "是以十攻",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "虽画地而",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "换成今天的话：我专为一，对手分为十，是以十进攻其一。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "我不想作战，即使只是划地而守，敌人也不能迫使我作战，是因为我改变了敌人进攻的方向。",
+        "literalTranslation": "我不想作战，即使只是划地而守，敌人也不能迫使我作战，是因为我改变了敌人进攻的方向。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
           "bu-ke-sheng-zai-ji",
-          "bu-zhan-er-qu-ren",
-          "zhi-ji-zhi-bi"
+          "zhi-tian-zhi-di",
+          "bu-zhan-er-qu-ren"
         ],
         "relatedCaseIds": [
           "jing-xing",
@@ -4369,26 +4935,30 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-14",
         "chapterId": "xu-shi",
         "order": 14,
-        "original": "则我众敌寡，能以众击寡者，则吾之所与战者约矣。",
+        "original": "故形人而我无形，则我专而敌分。",
         "words": [
           {
-            "word": "则我众敌",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "无形",
+            "explanation": "不让对方看清自己的真实部署。",
+            "modernMapping": "信息隐藏"
+          },
+          {
+            "word": "故形人而",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "能以众击",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
-            "modernMapping": "虚实变化"
-          },
-          {
-            "word": "寡者",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "我无形",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "这句在说：则我兵众对手寡，能以兵众击寡，则我方之所与作战约了。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，让敌人暴露形态，而我自己不暴露形态，那么我方就能集中，敌人就会分散。",
+        "literalTranslation": "所以，让敌人暴露形态，而我自己不暴露形态，那么我方就能集中，敌人就会分散。",
+        "freeTranslation": "这句话强调：争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "coreMeaning": "争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
@@ -4407,29 +4977,32 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-15",
         "chapterId": "xu-shi",
         "order": 15,
-        "original": "吾所与战之地不可知，不可知则敌所备者多，敌所备者多，则吾所与战者寡矣。",
+        "original": "我专为一，敌分为十，是以十攻其一也，则我众而敌寡。",
         "words": [
           {
-            "word": "地",
-            "explanation": "远近、险易、广狭等空间与环境条件。",
-            "modernMapping": "资源环境"
-          },
-          {
-            "word": "吾所与战",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "我专为一",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "之地不可",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "敌分为十",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "是以十攻",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "意思是：我方所与作战之地利不可知，不可知则对手所备多，对手所备多，则我方所与作战寡了。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "我方集中为一，敌人分散为十，我就可以用十分力量攻击敌人一分力量，于是我方相对成众，敌方相对成寡。",
+        "literalTranslation": "我方集中为一，敌人分散为十，我就可以用十分力量攻击敌人一分力量，于是我方相对成众，敌方相对成寡。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "zhi-tian-zhi-di",
+          "bu-ke-sheng-zai-ji",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -4447,26 +5020,30 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-16",
         "chapterId": "xu-shi",
         "order": 16,
-        "original": "故备前则后寡，备后则前寡，备左则右寡，备右则左寡，无所不备，则无所不寡。",
+        "original": "能以众击寡者，则吾之所与战者约矣。",
         "words": [
           {
-            "word": "故备前则",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "能以众击",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "后寡",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "寡者",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "备后则前",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "则吾之所",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "可以理解为：所以备前则后寡，备后则前寡，备左则右寡，备右则左寡，无所不备，则无所不寡。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "能够用众击寡，那么与我交战的敌人就少了。",
+        "literalTranslation": "能够用众击寡，那么与我交战的敌人就少了。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
@@ -4479,33 +5056,39 @@ export const chapters: Chapter[] = [
           "t22",
           "t29"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "xu-shi-17",
         "chapterId": "xu-shi",
         "order": 17,
-        "original": "寡者，备人者也；众者，使人备己者也。",
+        "original": "吾所与战之地不可知，不可知，则敌所备者多。",
         "words": [
           {
-            "word": "寡者",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
+          {
+            "word": "吾所与战",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "备人者也",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
-            "modernMapping": "虚实变化"
-          },
-          {
-            "word": "众者",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "之地不可",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "白话说就是：寡，备人；兵众，使人备己。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "敌人不知道我要在哪里作战，就必须多处防备。",
+        "literalTranslation": "敌人不知道我要在哪里作战，就必须多处防备。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -4523,24 +5106,31 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-18",
         "chapterId": "xu-shi",
         "order": 18,
-        "original": "故知战之地，知战之日，则可千里而会战；不知战之地，不知战日，则左不能救右，右不能救左，前不能救后，后不能救前，而况远者数十里，近者数里乎！",
+        "original": "敌所备者多，则吾所与战者寡矣。",
         "words": [
           {
-            "word": "地",
-            "explanation": "远近、险易、广狭等空间与环境条件。",
-            "modernMapping": "资源环境"
+            "word": "敌所备者",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
           },
           {
-            "word": "远",
-            "explanation": "距离过远、挑战困难。",
-            "modernMapping": "高摩擦距离"
+            "word": "则吾所与",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "战者寡矣",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
           }
         ],
-        "translation": "换成今天的话：所以知作战之地利，知作战之日，则可千里而会作战；不知作战之地利，不知作战日，则左不能救右，右不能救左，前不能救后，后不能救前，而况远数十里，近数里乎！",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "敌人防备的地方多，那么真正与我作战的兵力就少。",
+        "literalTranslation": "敌人防备的地方多，那么真正与我作战的兵力就少。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "zhi-tian-zhi-di",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -4552,34 +5142,37 @@ export const chapters: Chapter[] = [
           "t24",
           "t01"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "xu-shi-19",
         "chapterId": "xu-shi",
         "order": 19,
-        "original": "以吾度之，越人之兵虽多，亦奚益于胜哉！",
+        "original": "故备前则后寡，备后则前寡，备左则右寡，备右则左寡，无所不备，则无所不寡。",
         "words": [
           {
-            "word": "以吾度之",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "故备前则",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "越人之兵",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "后寡",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "虽多",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "备后则前",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "这句在说：以我方度之，越人之兵虽多，亦奚益于取胜哉！",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，防备前方，后方就空虚；防备后方，前方就空虚；防备左边，右边就空虚；防备右边，左边就空虚；处处防备，就处处兵力不足。",
+        "literalTranslation": "所以，防备前方，后方就空虚；防备后方，前方就空虚；防备左边，右边就空虚；防备右边，左边就空虚；处处防备，就处处兵力不足。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -4597,23 +5190,31 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-20",
         "chapterId": "xu-shi",
         "order": 20,
-        "original": "故曰：胜可为也。",
+        "original": "寡者，备人者也；众者，使人备己者也。",
         "words": [
           {
-            "word": "故曰",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "寡者",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "胜可为也",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "备人者也",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "众者",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "意思是：所以曰：取胜可为。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "兵力少，是因为被迫防备别人；兵力多，是因为迫使别人防备自己。",
+        "literalTranslation": "兵力少，是因为被迫防备别人；兵力多，是因为迫使别人防备自己。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -4625,28 +5226,39 @@ export const chapters: Chapter[] = [
           "t26",
           "t03"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "xu-shi-21",
         "chapterId": "xu-shi",
         "order": 21,
-        "original": "敌虽众，可使无斗。",
+        "original": "故知战之地，知战之日，则可千里而会战。",
         "words": [
           {
-            "word": "敌虽众",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
+          {
+            "word": "故知战之",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "可使无斗",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "知战之日",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "可以理解为：对手虽兵众，可使无斗。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "如果知道作战地点，知道作战日期，即使相距千里也可以赶来会战。",
+        "literalTranslation": "如果知道作战地点，知道作战日期，即使相距千里也可以赶来会战。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -4664,26 +5276,30 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-22",
         "chapterId": "xu-shi",
         "order": 22,
-        "original": "故策之而知得失之计，候之而知动静之理，形之而知死生之地，角之而知有余不足之处。",
+        "original": "不知战地，不知战日，则左不能救右，右不能救左，前不能救后，后不能救前，而况远者数十里，近者数里乎！",
         "words": [
-          {
-            "word": "死生之地",
-            "explanation": "关系生存与失败代价的处境。",
-            "modernMapping": "风险边界"
-          },
           {
             "word": "地",
             "explanation": "远近、险易、广狭等空间与环境条件。",
             "modernMapping": "资源环境"
+          },
+          {
+            "word": "远",
+            "explanation": "距离过远、挑战困难。",
+            "modernMapping": "高摩擦距离"
           }
         ],
-        "translation": "白话说就是：所以策之而知得失之计算和比较，候之而知动静之理，形势能之而知关系生死的处境，角之而知有余不足之处。",
+        "translation": "如果不知道作战地点，也不知道作战日期，那么左边不能救右边，右边不能救左边，前方不能救后方，后方不能救前方，更何况远的相隔几十里，近的也相隔几里呢？",
+        "literalTranslation": "如果不知道作战地点，也不知道作战日期，那么左边不能救右边，右边不能救左边，前方不能救后方，后方不能救前方，更何况远的相隔几十里，近的也相隔几里呢？",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "miao-suan",
           "zhi-tian-zhi-di",
-          "bu-zhan-er-qu-ren"
+          "bu-zhan-er-qu-ren",
+          "zhi-ji-zhi-bi"
         ],
         "relatedCaseIds": [
           "jing-xing",
@@ -4699,27 +5315,32 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-23",
         "chapterId": "xu-shi",
         "order": 23,
-        "original": "故形兵之极，至于无形。",
+        "original": "以吾度之，越人之兵虽多，亦奚益于胜败哉！",
         "words": [
           {
-            "word": "无形",
-            "explanation": "不让对方看清自己的真实部署。",
-            "modernMapping": "信息隐藏"
-          },
-          {
-            "word": "故形兵之",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "以吾度之",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "至于无形",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "越人之兵",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "虽多",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "换成今天的话：所以形势能兵之极，至于无形势能。",
-        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "translation": "按我的估计，越国兵力即使很多，对胜败又有什么帮助呢？",
+        "literalTranslation": "按我的估计，越国兵力即使很多，对胜败又有什么帮助呢？",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -4731,36 +5352,40 @@ export const chapters: Chapter[] = [
           "t29",
           "t06"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "xu-shi-24",
         "chapterId": "xu-shi",
         "order": 24,
-        "original": "无形则深间不能窥，智者不能谋。",
+        "original": "故曰：胜可为也。敌虽众，可使无斗。",
         "words": [
           {
-            "word": "无形",
-            "explanation": "不让对方看清自己的真实部署。",
-            "modernMapping": "信息隐藏"
-          },
-          {
-            "word": "无形则深",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "故曰",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "间不能窥",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "胜可为也",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "敌虽众",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "这句在说：无形势能则深情报人员不能窥，智不能谋。",
-        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "translation": "所以说：胜利是可以创造的。敌人兵力虽多，也可以让他无法发挥整体战斗力。",
+        "literalTranslation": "所以说：胜利是可以创造的。敌人兵力虽多，也可以让他无法发挥整体战斗力。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "zhi-ji-zhi-bi",
-          "yong-jian",
-          "bu-zhan-er-qu-ren"
+          "dao-tian-di-jiang-fa",
+          "bu-zhan-er-qu-ren",
+          "zhi-ji-zhi-bi"
         ],
         "relatedCaseIds": [
           "jing-xing",
@@ -4776,30 +5401,30 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-25",
         "chapterId": "xu-shi",
         "order": 25,
-        "original": "因形而措胜于众，众不能知。",
+        "original": "故策之而知得失之计，作之而知动静之理，形之而知死生之地，角之而知有余不足之处。",
         "words": [
           {
-            "word": "因形而措",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
-            "modernMapping": "虚实变化"
+            "word": "死生之地",
+            "explanation": "关系生存、失败代价与责任边界的处境。",
+            "modernMapping": "风险边界"
           },
           {
-            "word": "胜于众",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
-            "modernMapping": "虚实变化"
-          },
-          {
-            "word": "众不能知",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
-            "modernMapping": "虚实变化"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           }
         ],
-        "translation": "意思是：因形势能而措取胜于兵众，兵众不能知。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "因此，要通过谋算来了解敌人计划的得失；通过扰动来了解敌人的行动规律；通过显示形态来判断敌人的生地死地；通过试探交锋来知道敌人哪里有余、哪里不足。",
+        "literalTranslation": "因此，要通过谋算来了解敌人计划的得失；通过扰动来了解敌人的行动规律；通过显示形态来判断敌人的生地死地；通过试探交锋来知道敌人哪里有余、哪里不足。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "bu-zhan-er-qu-ren",
-          "zhi-ji-zhi-bi"
+          "miao-suan",
+          "zhi-tian-zhi-di",
+          "bu-zhan-er-qu-ren"
         ],
         "relatedCaseIds": [
           "jing-xing",
@@ -4815,28 +5440,31 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-26",
         "chapterId": "xu-shi",
         "order": 26,
-        "original": "人皆知我所以胜之形，而莫知吾所以制胜之形。",
+        "original": "故形兵之极，至于无形。",
         "words": [
           {
-            "word": "人皆知我",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "无形",
+            "explanation": "不让对方看清自己的真实部署。",
+            "modernMapping": "信息隐藏"
+          },
+          {
+            "word": "故形兵之",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "所以胜之",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
-            "modernMapping": "虚实变化"
-          },
-          {
-            "word": "而莫知吾",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "至于无形",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "可以理解为：人皆知我所以取胜之形势能，而没有谁知我方所以制取胜之形势能。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，用兵布势达到最高境界，就是让自己不显露固定形态。",
+        "literalTranslation": "所以，用兵布势达到最高境界，就是让自己不显露固定形态。",
+        "freeTranslation": "这句话强调：争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "coreMeaning": "争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -4848,36 +5476,40 @@ export const chapters: Chapter[] = [
           "t02",
           "t09"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "xu-shi-27",
         "chapterId": "xu-shi",
         "order": 27,
-        "original": "故其战胜不复，而应形于无穷。",
+        "original": "无形，则深间不能窥，智者不能谋。",
         "words": [
           {
-            "word": "故其战胜",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "无形",
+            "explanation": "不让对方看清自己的真实部署。",
+            "modernMapping": "信息隐藏"
+          },
+          {
+            "word": "则深间不",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "不复",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
-            "modernMapping": "虚实变化"
-          },
-          {
-            "word": "而应形于",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "能窥",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "白话说就是：所以其作战取胜不复，而应形势能于无穷。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "没有固定形态，那么深藏的间谍也无法窥探，聪明的谋士也无法谋划。",
+        "literalTranslation": "没有固定形态，那么深藏的间谍也无法窥探，聪明的谋士也无法谋划。",
+        "freeTranslation": "这句话强调：争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "coreMeaning": "争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "bu-zhan-er-qu-ren",
-          "zhi-ji-zhi-bi"
+          "zhi-ji-zhi-bi",
+          "yong-jian",
+          "bu-zhan-er-qu-ren"
         ],
         "relatedCaseIds": [
           "jing-xing",
@@ -4893,31 +5525,34 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-28",
         "chapterId": "xu-shi",
         "order": 28,
-        "original": "夫兵形象水，水之行避高而趋下，兵之形避实而击虚；水因地而制流，兵因敌而制胜。",
+        "original": "因形而错胜于众，众不能知。",
         "words": [
           {
-            "word": "地",
-            "explanation": "远近、险易、广狭等空间与环境条件。",
-            "modernMapping": "资源环境"
-          },
-          {
-            "word": "夫兵形象",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "因形而错",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "水之行避",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "胜于众",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "众不能知",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "用兵的形态像水：水避开高处流向低处，用兵避开坚实处打击薄弱处；水随地势流动，用兵随敌情取胜。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "根据敌情变化而把胜利摆在众人面前，众人却不知道其中奥妙。",
+        "literalTranslation": "根据敌情变化而把胜利摆在众人面前，众人却不知道其中奥妙。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "bi-shi-ji-xu",
-          "zhi-tian-zhi-di",
-          "bu-zhan-er-qu-ren"
+          "bu-zhan-er-qu-ren",
+          "zhi-ji-zhi-bi"
         ],
         "relatedCaseIds": [
           "jing-xing",
@@ -4927,35 +5562,38 @@ export const chapters: Chapter[] = [
           "t04",
           "t11"
         ],
-        "quoteLevel": "classic"
+        "quoteLevel": "important"
       },
       {
         "id": "xu-shi-29",
         "chapterId": "xu-shi",
         "order": 29,
-        "original": "故兵无常势，水无常形。",
+        "original": "人皆知我所以胜之形，而莫知吾所以制胜之形。",
         "words": [
           {
-            "word": "势",
-            "explanation": "结构、节奏和位置共同形成的力量。",
-            "modernMapping": "系统势能"
-          },
-          {
-            "word": "故兵无常",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "人皆知我",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "水无常形",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "所以胜之",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "而莫知吾",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "这句在说：所以兵无常势能，水无常形势能。",
-        "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "translation": "人们都知道我获胜时表现出来的形态，却不知道我为什么能制造这种胜利形态。",
+        "literalTranslation": "人们都知道我获胜时表现出来的形态，却不知道我为什么能制造这种胜利形态。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "shi-neng",
-          "zhi-tian-zhi-di",
+          "dao-tian-di-jiang-fa",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -4973,26 +5611,30 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-30",
         "chapterId": "xu-shi",
         "order": 30,
-        "original": "能因敌变化而取胜者，谓之神。",
+        "original": "故其战胜不复，而应形于无穷。",
         "words": [
           {
-            "word": "能因敌变",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "故其战胜",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "化而取胜",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "不复",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "谓之神",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "而应形于",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "能够根据对手变化而取胜的人，才称得上用兵神妙。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，胜利的方法不会重复，而是随着形势变化无穷应对。",
+        "literalTranslation": "所以，胜利的方法不会重复，而是随着形势变化无穷应对。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bu-zhan-er-qu-ren",
@@ -5012,28 +5654,33 @@ export const chapters: Chapter[] = [
         "id": "xu-shi-31",
         "chapterId": "xu-shi",
         "order": 31,
-        "original": "故五行无常胜，四时无常位，日有短长，月有死生。",
+        "original": "夫兵形象水。水之形，避高而趋下；兵之形，避实而击虚。",
         "words": [
           {
-            "word": "故五行无",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "夫兵形象",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "常胜",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "水之形",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           },
           {
-            "word": "四时无常",
-            "explanation": "本句实际出现的关键表达，需要放回“虚实变化”语境中理解。",
+            "word": "避高而趋",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "虚实变化"
           }
         ],
-        "translation": "可以理解为：所以五行无常取胜，四时无常位，日有短长，月有死生。",
-        "modernApplication": "用于虚实变化时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "用兵的形态就像水。水的流动，是避开高处而流向低处；用兵的规律，是避开敌人的坚实处而攻击其空虚处。",
+        "literalTranslation": "用兵的形态就像水。水的流动，是避开高处而流向低处；用兵的规律，是避开敌人的坚实处而攻击其空虚处。",
+        "freeTranslation": "不要在对方最强的位置硬拼，要找对方薄弱且必须回应的地方。",
+        "coreMeaning": "争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "misunderstanding": "不要把“击虚”理解成投机取巧；它要求准确识别对方真正薄弱且关键的节点。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
+          "bi-shi-ji-xu",
+          "zhi-tian-zhi-di",
           "bu-zhan-er-qu-ren",
           "zhi-ji-zhi-bi"
         ],
@@ -5044,6 +5691,137 @@ export const chapters: Chapter[] = [
         "relatedTrainingIds": [
           "t07",
           "t14"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "xu-shi-32",
+        "chapterId": "xu-shi",
+        "order": 32,
+        "original": "水因地而制流，兵因敌而制胜。",
+        "words": [
+          {
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
+          {
+            "word": "水因地而",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "制流",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          }
+        ],
+        "translation": "水根据地势决定流向，用兵根据敌情决定取胜方式。",
+        "literalTranslation": "水根据地势决定流向，用兵根据敌情决定取胜方式。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
+          "bu-zhan-er-qu-ren",
+          "zhi-ji-zhi-bi"
+        ],
+        "relatedCaseIds": [
+          "jing-xing",
+          "project-kickoff"
+        ],
+        "relatedTrainingIds": [
+          "t08",
+          "t15"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "xu-shi-33",
+        "chapterId": "xu-shi",
+        "order": 33,
+        "original": "故兵无常势，水无常形；能因敌变化而取胜者，谓之神。",
+        "words": [
+          {
+            "word": "势",
+            "explanation": "结构、节奏和位置共同形成的力量。",
+            "modernMapping": "系统势能"
+          },
+          {
+            "word": "故兵无常",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "水无常形",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          }
+        ],
+        "translation": "所以，用兵没有固定不变的态势，就像水没有固定不变的形状。能够根据敌人变化而取胜，才称得上神妙。",
+        "literalTranslation": "所以，用兵没有固定不变的态势，就像水没有固定不变的形状。能够根据敌人变化而取胜，才称得上神妙。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "shi-neng",
+          "zhi-tian-zhi-di",
+          "bu-zhan-er-qu-ren"
+        ],
+        "relatedCaseIds": [
+          "jing-xing",
+          "project-kickoff"
+        ],
+        "relatedTrainingIds": [
+          "t09",
+          "t16"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "xu-shi-34",
+        "chapterId": "xu-shi",
+        "order": 34,
+        "original": "故五行无常胜，四时无常位，日有短长，月有死生。",
+        "words": [
+          {
+            "word": "故五行无",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "常胜",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          },
+          {
+            "word": "四时无常",
+            "explanation": "理解这个表达时，应结合“虚实变化”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "虚实变化"
+          }
+        ],
+        "translation": "五行之间没有永远胜出的某一行，四季也没有固定不变的位置；太阳有长短变化，月亮有盈亏死生。",
+        "literalTranslation": "五行之间没有永远胜出的某一行，四季也没有固定不变的位置；太阳有长短变化，月亮有盈亏死生。",
+        "freeTranslation": "这句话强调：本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“虚实变化”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于虚实变化时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“虚实变化”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "bu-zhan-er-qu-ren",
+          "zhi-ji-zhi-bi"
+        ],
+        "relatedCaseIds": [
+          "jing-xing",
+          "project-kickoff"
+        ],
+        "relatedTrainingIds": [
+          "t10",
+          "t17"
         ],
         "quoteLevel": "important"
       }
@@ -5098,7 +5876,7 @@ export const chapters: Chapter[] = [
       "completeness": "完整",
       "proofreadingStatus": "初校",
       "variantNotes": [],
-      "note": "已按《孙子兵法.txt》补齐通行本完整原文；逐句译注为初校内容，建议结合原文继续复校。"
+      "note": "原文与白话译文参照《孙子兵法原文与译文.txt》整理；逐句应用与误读提示为学习辅助内容，后续可继续复校。"
     },
     "structure": [
       "说明军争最难",
@@ -5106,13 +5884,13 @@ export const chapters: Chapter[] = [
       "强调外部关系与情报",
       "管理气势与心理"
     ],
-    "fullOriginal": "凡用兵之法，将受命于君，合军聚众，交和而舍，莫难于军争。军争之难者，以迂为直，以患为利。\n\n故迂其途，而诱之以利，后人发，先人至，此知迂直之计者也。军争为利，军争为危。举军而争利则不及，委军而争利则辎重捐。是故卷甲而趋，日夜不处，倍道兼行，百里而争利，则擒三将军，劲者先，疲者后，其法十一而至；五十里而争利，则蹶上将军，其法半至；三十里而争利，则三分之二至。是故军无辎重则亡，无粮食则亡，无委积则亡。故不知诸侯之谋者，不能豫交；不知山林、险阻、沮泽之形者，不能行军；不用乡导者，不能得地利。故兵以诈立，以利动，以分和为变者也。故其疾如风，其徐如林，侵掠如火，不动如山，难知如阴，动如雷震。掠乡分众，廓地分利，悬权而动。先知迂直之计者胜，此军争之法也。\n\n《军政》曰：“言不相闻，故为之金鼓；视不相见，故为之旌旗。”夫金鼓旌旗者，所以一民之耳目也。民既专一，则勇者不得独进，怯者不得独退，此用众之法也。故夜战多金鼓，昼战多旌旗，所以变人之耳目也。\n\n三军可夺气，将军可夺心。是故朝气锐，昼气惰，暮气归。善用兵者，避其锐气，击其惰归，此治气者也。以治待乱，以静待哗，此治心者也。以近待远，以佚待劳，以饱待饥，此治力者也。无邀正正之旗，无击堂堂之陈，此治变者也。\n\n故用兵之法，高陵勿向，背丘勿逆，佯北勿从，锐卒勿攻，饵兵勿食，归师勿遏，围师遗阙，穷寇勿迫，此用兵之法也。",
+    "fullOriginal": "孙子曰：凡用兵之法，将受命于君，合军聚众，交和而舍，莫难于军争。\n军争之难者，以迂为直，以患为利。\n故迂其途，而诱之以利，后人发，先人至，此知迂直之计者也。\n故军争为利，军争为危。\n举军而争利则不及，委军而争利则辎重捐。\n是故卷甲而趋，日夜不处，倍道兼行，百里而争利，则擒三将军；劲者先，疲者后，其法十一而至。\n五十里而争利，则蹶上将军，其法半至。\n三十里而争利，则三分之二至。\n是故军无辎重则亡，无粮食则亡，无委积则亡。\n故不知诸侯之谋者，不能豫交。\n不知山林、险阻、沮泽之形者，不能行军。\n不用乡导者，不能得地利。\n故兵以诈立，以利动，以分合为变者也。\n故其疾如风，其徐如林，侵掠如火，不动如山，难知如阴，动如雷震。\n掠乡分众，廓地分利，悬权而动。\n先知迂直之计者胜，此军争之法也。\n《军政》曰：“言不相闻，故为金鼓；视不相见，故为旌旗。”\n夫金鼓旌旗者，所以一人之耳目也。\n人既专一，则勇者不得独进，怯者不得独退，此用众之法也。\n故夜战多金鼓，昼战多旌旗，所以变人之耳目也。\n故三军可夺气，将军可夺心。\n是故朝气锐，昼气惰，暮气归。\n故善用兵者，避其锐气，击其惰归，此治气者也。\n以治待乱，以静待哗，此治心者也。\n以近待远，以佚待劳，以饱待饥，此治力者也。\n无邀正正之旗，无击堂堂之阵，此治变者也。\n故用兵之法：高陵勿向，背丘勿逆，佯北勿从，锐卒勿攻，饵兵勿食，归师勿遏，围师必阙，穷寇勿迫。\n此用兵之法也。",
     "sentences": [
       {
         "id": "jun-zheng-1",
         "chapterId": "jun-zheng",
         "order": 1,
-        "original": "凡用兵之法，将受命于君，合军聚众，交和而舍，莫难于军争。",
+        "original": "孙子曰：凡用兵之法，将受命于君，合军聚众，交和而舍，莫难于军争。",
         "words": [
           {
             "word": "军争",
@@ -5130,8 +5908,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "流程治理"
           }
         ],
-        "translation": "白话说就是：凡是用兵的基本方制度，将领受命于君，合军队聚兵众，交和而舍，没有谁难于军队争。",
+        "translation": "孙子说：凡是用兵，将帅接受君主命令，集合军队，组织部众，与敌军接触并安营对峙，其中最困难的是争夺有利先机。",
+        "literalTranslation": "孙子说：凡是用兵，将帅接受君主命令，集合军队，组织部众，与敌军接触并安营对峙，其中最困难的是争夺有利先机。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "yi-yu-wei-zhi",
@@ -5161,17 +5943,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "军争之难",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
             "word": "以迂为直",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           }
         ],
-        "translation": "换成今天的话：军队争之难，以迂为直，以患为利益。",
+        "translation": "争夺先机的困难在于：要把迂回变成直达，把不利变成有利。",
+        "literalTranslation": "争夺先机的困难在于：要把迂回变成直达，把不利变成有利。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "跨部门项目要把路径、节奏和补给算清楚：有些绕路反而更快，有些看似快进会丢掉关键资源。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "yi-yu-wei-zhi",
           "li-hai-bing-guan",
@@ -5201,17 +5987,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "故迂其途",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
             "word": "而诱之以",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           }
         ],
-        "translation": "这句在说：所以迂其途，而诱之以利益，后人发，先人至，此知迂直之计算和比较。",
+        "translation": "所以，故意绕远路，同时用利益引诱敌人，使自己虽然后出发，却比敌人先到达。这就是懂得迂回与直接之间转化的计谋。",
+        "literalTranslation": "所以，故意绕远路，同时用利益引诱敌人，使自己虽然后出发，却比敌人先到达。这就是懂得迂回与直接之间转化的计谋。",
+        "freeTranslation": "这句话强调：虚实变化的重点是保护主动权，并根据对方反应选择时机。",
+        "coreMeaning": "虚实变化的重点是保护主动权，并根据对方反应选择时机。",
         "modernApplication": "做产品、投资或组织变革前，先列出可验证的有利条件和不利条件，用证据数量决定是否推进。",
+        "misunderstanding": "不要把“诡道”理解成无底线欺骗；它强调的是信息控制、虚实变化和因势制权，不能突破法律与伦理边界。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "miao-suan",
@@ -5232,7 +6022,7 @@ export const chapters: Chapter[] = [
         "id": "jun-zheng-4",
         "chapterId": "jun-zheng",
         "order": 4,
-        "original": "军争为利，军争为危。",
+        "original": "故军争为利，军争为危。",
         "words": [
           {
             "word": "军争",
@@ -5240,18 +6030,22 @@ export const chapters: Chapter[] = [
             "modernMapping": "节奏竞争"
           },
           {
-            "word": "军争为利",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "故军争为",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
             "word": "军争为危",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           }
         ],
-        "translation": "意思是：军队争为利益，军队争为危。",
+        "translation": "争夺先机可以带来利益，也可能带来危险。",
+        "literalTranslation": "争夺先机可以带来利益，也可能带来危险。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "跨部门项目要把路径、节奏和补给算清楚：有些绕路反而更快，有些看似快进会丢掉关键资源。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "yi-yu-wei-zhi",
           "li-hai-bing-guan",
@@ -5276,22 +6070,26 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "举军而争",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
             "word": "利则不及",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
             "word": "委军而争",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           }
         ],
-        "translation": "可以理解为：举军队而争利益则不及，委军队而争利益则辎重捐。",
-        "modernApplication": "用于争夺主动权时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "如果全军携带全部装备去争夺利益，就可能来不及到达；如果轻装疾进去争夺利益，就会丢弃辎重。",
+        "literalTranslation": "如果全军携带全部装备去争夺利益，就可能来不及到达；如果轻装疾进去争夺利益，就会丢弃辎重。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于争夺主动权时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "li-hai-bing-guan",
           "zhi-ji-zhi-bi",
@@ -5311,7 +6109,7 @@ export const chapters: Chapter[] = [
         "id": "jun-zheng-6",
         "chapterId": "jun-zheng",
         "order": 6,
-        "original": "是故卷甲而趋，日夜不处，倍道兼行，百里而争利，则擒三将军，劲者先，疲者后，其法十一而至；五十里而争利，则蹶上将军，其法半至；三十里而争利，则三分之二至。",
+        "original": "是故卷甲而趋，日夜不处，倍道兼行，百里而争利，则擒三将军；劲者先，疲者后，其法十一而至。",
         "words": [
           {
             "word": "道",
@@ -5329,8 +6127,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "流程治理"
           }
         ],
-        "translation": "白话说就是：是所以卷甲而趋，日夜不处，倍共同目标兼行，百里而争利益，则擒三将领军队，劲先，疲后，其制度十一而至；五十里而争利益，则蹶上将领军队，其制度半至；三十里而争利益，则三分之二至。",
+        "translation": "所以，卷起铠甲急行军，昼夜不停，加倍赶路，走百里去争夺利益，三军将领都有可能被擒。强壮的士兵先到，疲弱的士兵落后，通常只有十分之一能到达。",
+        "literalTranslation": "所以，卷起铠甲急行军，昼夜不停，加倍赶路，走百里去争夺利益，三军将领都有可能被擒。强壮的士兵先到，疲弱的士兵落后，通常只有十分之一能到达。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "li-hai-bing-guan",
@@ -5351,28 +6153,28 @@ export const chapters: Chapter[] = [
         "id": "jun-zheng-7",
         "chapterId": "jun-zheng",
         "order": 7,
-        "original": "是故军无辎重则亡，无粮食则亡，无委积则亡。",
+        "original": "五十里而争利，则蹶上将军，其法半至。",
         "words": [
           {
-            "word": "是故军无",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
           },
           {
-            "word": "辎重则亡",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
-          },
-          {
-            "word": "无粮食则",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
+            "word": "法",
+            "explanation": "制度、编制、职责和资源使用规则。",
+            "modernMapping": "流程治理"
           }
         ],
-        "translation": "换成今天的话：是所以军队无辎重则亡，无粮粮食粮食则亡，无委积则亡。",
-        "modernApplication": "用于争夺主动权时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "走五十里去争夺利益，上将军可能受挫，通常只有一半人能到达。",
+        "literalTranslation": "走五十里去争夺利益，上将军可能受挫，通常只有一半人能到达。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "bing-gui-sheng",
+          "dao-tian-di-jiang-fa",
+          "li-hai-bing-guan",
           "zhi-ji-zhi-bi",
           "xian-sheng-hou-zhan"
         ],
@@ -5384,37 +6186,40 @@ export const chapters: Chapter[] = [
           "t14",
           "t21"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "jun-zheng-8",
         "chapterId": "jun-zheng",
         "order": 8,
-        "original": "故不知诸侯之谋者，不能豫交；不知山林、险阻、沮泽之形者，不能行军；不用乡导者，不能得地利。",
+        "original": "三十里而争利，则三分之二至。",
         "words": [
           {
-            "word": "行军",
-            "explanation": "行军驻扎和观察敌情的方法。",
-            "modernMapping": "现场判断"
+            "word": "三十里而",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
           },
           {
-            "word": "地",
-            "explanation": "远近、险易、广狭等空间与环境条件。",
-            "modernMapping": "资源环境"
+            "word": "争利",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
           },
           {
-            "word": "险",
-            "explanation": "险要地形。",
-            "modernMapping": "高风险入口"
+            "word": "则三分之",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
           }
         ],
-        "translation": "这句在说：所以不知诸侯之谋，不能豫交；不知山林、险阻、沮泽之形势能，不能行军队；不用乡导，不能得地利利益。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "走三十里去争夺利益，通常也只有三分之二能到达。",
+        "literalTranslation": "走三十里去争夺利益，通常也只有三分之二能到达。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于争夺主动权时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
           "li-hai-bing-guan",
-          "zhi-tian-zhi-di",
-          "zhi-ji-zhi-bi"
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
         ],
         "relatedCaseIds": [
           "startup-giant",
@@ -5430,28 +6235,32 @@ export const chapters: Chapter[] = [
         "id": "jun-zheng-9",
         "chapterId": "jun-zheng",
         "order": 9,
-        "original": "故兵以诈立，以利动，以分和为变者也。",
+        "original": "是故军无辎重则亡，无粮食则亡，无委积则亡。",
         "words": [
           {
-            "word": "故兵以诈",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "是故军无",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
-            "word": "以利动",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "辎重则亡",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
-            "word": "以分和为",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "无粮食则",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           }
         ],
-        "translation": "意思是：所以兵以诈立，以利益动，以分和为变。",
-        "modernApplication": "用于争夺主动权时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，军队没有辎重就会灭亡，没有粮食就会灭亡，没有物资储备就会灭亡。",
+        "literalTranslation": "所以，军队没有辎重就会灭亡，没有粮食就会灭亡，没有物资储备就会灭亡。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于争夺主动权时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "li-hai-bing-guan",
+          "bing-gui-sheng",
           "zhi-ji-zhi-bi",
           "xian-sheng-hou-zhan"
         ],
@@ -5463,35 +6272,37 @@ export const chapters: Chapter[] = [
           "t16",
           "t23"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "jun-zheng-10",
         "chapterId": "jun-zheng",
         "order": 10,
-        "original": "故其疾如风，其徐如林，侵掠如火，不动如山，难知如阴，动如雷震。",
+        "original": "故不知诸侯之谋者，不能豫交。",
         "words": [
           {
-            "word": "故其疾如",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "故不知诸",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
-            "word": "其徐如林",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "侯之谋者",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
-            "word": "侵掠如火",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "不能豫交",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           }
         ],
-        "translation": "可以理解为：所以其疾如风，其徐如林，侵掠如火，不动如山，难知如阴，动如雷震。",
-        "modernApplication": "跨部门项目要把路径、节奏和补给算清楚：有些绕路反而更快，有些看似快进会丢掉关键资源。",
+        "translation": "不了解诸侯各方的谋划，就不能预先进行外交结盟。",
+        "literalTranslation": "不了解诸侯各方的谋划，就不能预先进行外交结盟。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于争夺主动权时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "yi-yu-wei-zhi",
-          "zhi-tian-zhi-di",
           "zhi-ji-zhi-bi",
           "xian-sheng-hou-zhan"
         ],
@@ -5509,7 +6320,45 @@ export const chapters: Chapter[] = [
         "id": "jun-zheng-11",
         "chapterId": "jun-zheng",
         "order": 11,
-        "original": "掠乡分众，廓地分利，悬权而动。",
+        "original": "不知山林、险阻、沮泽之形者，不能行军。",
+        "words": [
+          {
+            "word": "行军",
+            "explanation": "行军驻扎和观察敌情的方法。",
+            "modernMapping": "现场判断"
+          },
+          {
+            "word": "险",
+            "explanation": "险要地形。",
+            "modernMapping": "高风险入口"
+          }
+        ],
+        "translation": "不了解山林、险阻、沼泽等地形，就不能行军。",
+        "literalTranslation": "不了解山林、险阻、沼泽等地形，就不能行军。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "运营监控、客户访谈和项目管理要重视弱信号：异常流量、措辞变化、迟迟不行动都可能指向真实状态。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "zhi-tian-zhi-di",
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant",
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t18",
+          "t25"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jun-zheng-12",
+        "chapterId": "jun-zheng",
+        "order": 12,
+        "original": "不用乡导者，不能得地利。",
         "words": [
           {
             "word": "地",
@@ -5517,18 +6366,22 @@ export const chapters: Chapter[] = [
             "modernMapping": "资源环境"
           },
           {
-            "word": "掠乡分众",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "不用乡导",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
-            "word": "廓地分利",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "不能得地",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           }
         ],
-        "translation": "白话说就是：掠乡分兵众，廓地利分利益，悬权而动。",
+        "translation": "不用当地向导，就不能获得地利。",
+        "literalTranslation": "不用当地向导，就不能获得地利。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "li-hai-bing-guan",
@@ -5540,15 +6393,146 @@ export const chapters: Chapter[] = [
           "team-alignment"
         ],
         "relatedTrainingIds": [
-          "t18",
-          "t25"
+          "t19",
+          "t26"
         ],
         "quoteLevel": "important"
       },
       {
-        "id": "jun-zheng-12",
+        "id": "jun-zheng-13",
         "chapterId": "jun-zheng",
-        "order": 12,
+        "order": 13,
+        "original": "故兵以诈立，以利动，以分合为变者也。",
+        "words": [
+          {
+            "word": "故兵以诈",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "以利动",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "以分合为",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          }
+        ],
+        "translation": "所以，用兵是靠谋略立足，因利益而行动，根据兵力分散与集中来变化。",
+        "literalTranslation": "所以，用兵是靠谋略立足，因利益而行动，根据兵力分散与集中来变化。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于争夺主动权时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "li-hai-bing-guan",
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant",
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t20",
+          "t27"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "jun-zheng-14",
+        "chapterId": "jun-zheng",
+        "order": 14,
+        "original": "故其疾如风，其徐如林，侵掠如火，不动如山，难知如阴，动如雷震。",
+        "words": [
+          {
+            "word": "故其疾如",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "其徐如林",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "侵掠如火",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          }
+        ],
+        "translation": "行动迅速时像风，行动舒缓时像林，侵袭掠取时像火，静止不动时像山，隐藏难测时像阴云，发动攻击时像雷霆震动。",
+        "literalTranslation": "行动迅速时像风，行动舒缓时像林，侵袭掠取时像火，静止不动时像山，隐藏难测时像阴云，发动攻击时像雷霆震动。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "跨部门项目要把路径、节奏和补给算清楚：有些绕路反而更快，有些看似快进会丢掉关键资源。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "yi-yu-wei-zhi",
+          "zhi-tian-zhi-di",
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant",
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t21",
+          "t28"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jun-zheng-15",
+        "chapterId": "jun-zheng",
+        "order": 15,
+        "original": "掠乡分众，廓地分利，悬权而动。",
+        "words": [
+          {
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
+          {
+            "word": "掠乡分众",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "廓地分利",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          }
+        ],
+        "translation": "掠取乡邑，要分兵行动；开拓土地，要分配利益；权衡利害，然后行动。",
+        "literalTranslation": "掠取乡邑，要分兵行动；开拓土地，要分配利益；权衡利害，然后行动。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "li-hai-bing-guan",
+          "zhi-tian-zhi-di",
+          "zhi-ji-zhi-bi"
+        ],
+        "relatedCaseIds": [
+          "startup-giant",
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t22",
+          "t29"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "jun-zheng-16",
+        "chapterId": "jun-zheng",
+        "order": 16,
         "original": "先知迂直之计者胜，此军争之法也。",
         "words": [
           {
@@ -5572,8 +6556,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "流程治理"
           }
         ],
-        "translation": "换成今天的话：先知迂直之计算和比较取胜，此军队争之制度。",
+        "translation": "先懂得迂回与直接之间转化的人会胜利，这就是军争的方法。",
+        "literalTranslation": "先懂得迂回与直接之间转化的人会胜利，这就是军争的方法。",
+        "freeTranslation": "关键决策前要取得真实可靠的信息来源。",
+        "coreMeaning": "判断必须同时覆盖自身、对手和环境，缺一面都会造成误判。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "miao-suan",
@@ -5585,175 +6573,35 @@ export const chapters: Chapter[] = [
           "team-alignment"
         ],
         "relatedTrainingIds": [
-          "t19",
-          "t26"
-        ],
-        "quoteLevel": "classic"
-      },
-      {
-        "id": "jun-zheng-13",
-        "chapterId": "jun-zheng",
-        "order": 13,
-        "original": "《军政》曰：“言不相闻，故为之金鼓；视不相见，故为之旌旗。”",
-        "words": [
-          {
-            "word": "金鼓",
-            "explanation": "古代传递军令的声音信号。",
-            "modernMapping": "同步机制"
-          },
-          {
-            "word": "旌旗",
-            "explanation": "古代传递军令的视觉信号。",
-            "modernMapping": "协同标识"
-          }
-        ],
-        "translation": "这句在说：《军队政》曰：“言不相闻，所以为之金鼓；视不相见，所以为之旌旗。”",
-        "modernApplication": "多人协作要建立统一信号，例如里程碑、状态面板和升级机制，避免勇者冒进、谨慎者掉队。",
-        "relatedConceptIds": [
-          "zhi-ji-zhi-bi",
-          "xian-sheng-hou-zhan"
-        ],
-        "relatedCaseIds": [
-          "startup-giant",
-          "team-alignment"
-        ],
-        "relatedTrainingIds": [
-          "t20",
-          "t27"
-        ],
-        "quoteLevel": "normal"
-      },
-      {
-        "id": "jun-zheng-14",
-        "chapterId": "jun-zheng",
-        "order": 14,
-        "original": "夫金鼓旌旗者，所以一民之耳目也。",
-        "words": [
-          {
-            "word": "金鼓",
-            "explanation": "古代传递军令的声音信号。",
-            "modernMapping": "同步机制"
-          },
-          {
-            "word": "旌旗",
-            "explanation": "古代传递军令的视觉信号。",
-            "modernMapping": "协同标识"
-          }
-        ],
-        "translation": "意思是：大凡是金鼓旌旗，所以一民众之耳目。",
-        "modernApplication": "多人协作要建立统一信号，例如里程碑、状态面板和升级机制，避免勇者冒进、谨慎者掉队。",
-        "relatedConceptIds": [
-          "zhi-ji-zhi-bi",
-          "xian-sheng-hou-zhan"
-        ],
-        "relatedCaseIds": [
-          "startup-giant",
-          "team-alignment"
-        ],
-        "relatedTrainingIds": [
-          "t21",
-          "t28"
-        ],
-        "quoteLevel": "normal"
-      },
-      {
-        "id": "jun-zheng-15",
-        "chapterId": "jun-zheng",
-        "order": 15,
-        "original": "民既专一，则勇者不得独进，怯者不得独退，此用众之法也。",
-        "words": [
-          {
-            "word": "法",
-            "explanation": "制度、编制、职责和资源使用规则。",
-            "modernMapping": "流程治理"
-          },
-          {
-            "word": "民既专一",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
-          },
-          {
-            "word": "则勇者不",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
-          }
-        ],
-        "translation": "可以理解为：民众既专一，则勇不得独进，怯不得独退，此用兵众之制度。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
-        "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "zhi-ji-zhi-bi",
-          "xian-sheng-hou-zhan"
-        ],
-        "relatedCaseIds": [
-          "startup-giant",
-          "team-alignment"
-        ],
-        "relatedTrainingIds": [
-          "t22",
-          "t29"
-        ],
-        "quoteLevel": "normal"
-      },
-      {
-        "id": "jun-zheng-16",
-        "chapterId": "jun-zheng",
-        "order": 16,
-        "original": "故夜战多金鼓，昼战多旌旗，所以变人之耳目也。",
-        "words": [
-          {
-            "word": "金鼓",
-            "explanation": "古代传递军令的声音信号。",
-            "modernMapping": "同步机制"
-          },
-          {
-            "word": "旌旗",
-            "explanation": "古代传递军令的视觉信号。",
-            "modernMapping": "协同标识"
-          }
-        ],
-        "translation": "白话说就是：所以夜作战多金鼓，昼作战多旌旗，所以变人之耳目。",
-        "modernApplication": "多人协作要建立统一信号，例如里程碑、状态面板和升级机制，避免勇者冒进、谨慎者掉队。",
-        "relatedConceptIds": [
-          "zhi-ji-zhi-bi",
-          "xian-sheng-hou-zhan"
-        ],
-        "relatedCaseIds": [
-          "startup-giant",
-          "team-alignment"
-        ],
-        "relatedTrainingIds": [
           "t23",
           "t30"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "classic"
       },
       {
         "id": "jun-zheng-17",
         "chapterId": "jun-zheng",
         "order": 17,
-        "original": "三军可夺气，将军可夺心。",
+        "original": "《军政》曰：“言不相闻，故为金鼓；视不相见，故为旌旗。”",
         "words": [
           {
-            "word": "夺气",
-            "explanation": "削弱对方士气。",
-            "modernMapping": "情绪节奏"
+            "word": "金鼓",
+            "explanation": "古代传递军令的声音信号。",
+            "modernMapping": "同步机制"
           },
           {
-            "word": "夺心",
-            "explanation": "动摇对方主将判断。",
-            "modernMapping": "心理博弈"
-          },
-          {
-            "word": "将",
-            "explanation": "负责人的智、信、仁、勇、严。",
-            "modernMapping": "领导能力"
+            "word": "旌旗",
+            "explanation": "古代传递军令的视觉信号。",
+            "modernMapping": "协同标识"
           }
         ],
-        "translation": "一支军队的士气可以被削弱，主将的心志也可以被动摇。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "《军政》说：“说话听不见，所以设置金鼓；远处看不见，所以设置旌旗。”",
+        "literalTranslation": "《军政》说：“说话听不见，所以设置金鼓；远处看不见，所以设置旌旗。”",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "多人协作要建立统一信号，例如里程碑、状态面板和升级机制，避免勇者冒进、谨慎者掉队。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
           "zhi-ji-zhi-bi",
           "xian-sheng-hou-zhan"
         ],
@@ -5771,26 +6619,25 @@ export const chapters: Chapter[] = [
         "id": "jun-zheng-18",
         "chapterId": "jun-zheng",
         "order": 18,
-        "original": "是故朝气锐，昼气惰，暮气归。",
+        "original": "夫金鼓旌旗者，所以一人之耳目也。",
         "words": [
           {
-            "word": "是故朝气",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
+            "word": "金鼓",
+            "explanation": "古代传递军令的声音信号。",
+            "modernMapping": "同步机制"
           },
           {
-            "word": "昼气惰",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
-          },
-          {
-            "word": "暮气归",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
+            "word": "旌旗",
+            "explanation": "古代传递军令的视觉信号。",
+            "modernMapping": "协同标识"
           }
         ],
-        "translation": "这句在说：是所以朝气锐，昼气惰，暮气归。",
-        "modernApplication": "谈判、销售和管理中要观察对方节奏与情绪，在对方锐气最盛时避开，在疲惫和犹豫时推进。",
+        "translation": "金鼓和旌旗，是用来统一士卒耳目、统一行动的。",
+        "literalTranslation": "金鼓和旌旗，是用来统一士卒耳目、统一行动的。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "多人协作要建立统一信号，例如里程碑、状态面板和升级机制，避免勇者冒进、谨慎者掉队。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "zhi-ji-zhi-bi",
           "xian-sheng-hou-zhan"
@@ -5809,27 +6656,32 @@ export const chapters: Chapter[] = [
         "id": "jun-zheng-19",
         "chapterId": "jun-zheng",
         "order": 19,
-        "original": "善用兵者，避其锐气，击其惰归，此治气者也。",
+        "original": "人既专一，则勇者不得独进，怯者不得独退，此用众之法也。",
         "words": [
           {
-            "word": "善用兵者",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "法",
+            "explanation": "制度、编制、职责和资源使用规则。",
+            "modernMapping": "流程治理"
+          },
+          {
+            "word": "人既专一",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
-            "word": "避其锐气",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
-          },
-          {
-            "word": "击其惰归",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "则勇者不",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           }
         ],
-        "translation": "意思是：善用军队事行动，避其锐气，击其惰归，此治气。",
-        "modernApplication": "用于争夺主动权时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "众人既然行动统一，那么勇敢者不能独自冒进，怯懦者也不能独自后退。这就是指挥大军的方法。",
+        "literalTranslation": "众人既然行动统一，那么勇敢者不能独自冒进，怯懦者也不能独自后退。这就是指挥大军的方法。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
           "zhi-ji-zhi-bi",
           "xian-sheng-hou-zhan"
         ],
@@ -5847,26 +6699,25 @@ export const chapters: Chapter[] = [
         "id": "jun-zheng-20",
         "chapterId": "jun-zheng",
         "order": 20,
-        "original": "以治待乱，以静待哗，此治心者也。",
+        "original": "故夜战多金鼓，昼战多旌旗，所以变人之耳目也。",
         "words": [
           {
-            "word": "以治待乱",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
+            "word": "金鼓",
+            "explanation": "古代传递军令的声音信号。",
+            "modernMapping": "同步机制"
           },
           {
-            "word": "以静待哗",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
-          },
-          {
-            "word": "此治心者",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
+            "word": "旌旗",
+            "explanation": "古代传递军令的视觉信号。",
+            "modernMapping": "协同标识"
           }
         ],
-        "translation": "可以理解为：以治待乱，以静待哗，此治心。",
-        "modernApplication": "复盘失败时不要只怪外部环境，要检查资源比例、管理强弱、指挥清晰度和执行队形。",
+        "translation": "所以，夜战多用金鼓，昼战多用旌旗，是为了改变和统一士兵的听觉视觉。",
+        "literalTranslation": "所以，夜战多用金鼓，昼战多用旌旗，是为了改变和统一士兵的听觉视觉。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "多人协作要建立统一信号，例如里程碑、状态面板和升级机制，避免勇者冒进、谨慎者掉队。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "zhi-ji-zhi-bi",
           "xian-sheng-hou-zhan"
@@ -5885,28 +6736,32 @@ export const chapters: Chapter[] = [
         "id": "jun-zheng-21",
         "chapterId": "jun-zheng",
         "order": 21,
-        "original": "以近待远，以佚待劳，以饱待饥，此治力者也。",
+        "original": "故三军可夺气，将军可夺心。",
         "words": [
           {
-            "word": "远",
-            "explanation": "距离过远、挑战困难。",
-            "modernMapping": "高摩擦距离"
+            "word": "夺气",
+            "explanation": "削弱对方士气。",
+            "modernMapping": "情绪节奏"
           },
           {
-            "word": "以近待远",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
+            "word": "夺心",
+            "explanation": "动摇对方主将判断。",
+            "modernMapping": "心理博弈"
           },
           {
-            "word": "以佚待劳",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
-            "modernMapping": "争夺主动权"
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
           }
         ],
-        "translation": "白话说就是：以近待远，以佚待劳，以饱待饥，此治力。",
-        "modernApplication": "用于争夺主动权时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，三军的士气可以被夺取，将帅的心志也可以被动摇。",
+        "literalTranslation": "所以，三军的士气可以被夺取，将帅的心志也可以被动摇。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "zhi-tian-zhi-di",
+          "dao-tian-di-jiang-fa",
           "zhi-ji-zhi-bi",
           "xian-sheng-hou-zhan"
         ],
@@ -5924,28 +6779,31 @@ export const chapters: Chapter[] = [
         "id": "jun-zheng-22",
         "chapterId": "jun-zheng",
         "order": 22,
-        "original": "无邀正正之旗，无击堂堂之陈，此治变者也。",
+        "original": "是故朝气锐，昼气惰，暮气归。",
         "words": [
           {
-            "word": "无邀正正",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "是故朝气",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
-            "word": "之旗",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "昼气惰",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
-            "word": "无击堂堂",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "暮气归",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           }
         ],
-        "translation": "换成今天的话：无邀正兵正兵之旗，无击堂堂之陈，此治变。",
-        "modernApplication": "用于争夺主动权时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "早晨士气锐盛，白天士气松懈，傍晚士兵思归。",
+        "literalTranslation": "早晨士气锐盛，白天士气松懈，傍晚士兵思归。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "谈判、销售和管理中要观察对方节奏与情绪，在对方锐气最盛时避开，在疲惫和犹豫时推进。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "zheng-qi",
           "zhi-ji-zhi-bi",
           "xian-sheng-hou-zhan"
         ],
@@ -5963,29 +6821,31 @@ export const chapters: Chapter[] = [
         "id": "jun-zheng-23",
         "chapterId": "jun-zheng",
         "order": 23,
-        "original": "故用兵之法，高陵勿向，背丘勿逆，佯北勿从，锐卒勿攻，饵兵勿食，归师勿遏，围师遗阙，穷寇勿迫，此用兵之法也。",
+        "original": "故善用兵者，避其锐气，击其惰归，此治气者也。",
         "words": [
           {
-            "word": "法",
-            "explanation": "制度、编制、职责和资源使用规则。",
-            "modernMapping": "流程治理"
-          },
-          {
-            "word": "故用兵之",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "故善用兵",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           },
           {
-            "word": "高陵勿向",
-            "explanation": "本句实际出现的关键表达，需要放回“争夺主动权”语境中理解。",
+            "word": "避其锐气",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "击其惰归",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "争夺主动权"
           }
         ],
-        "translation": "这句在说：所以用兵的基本方制度，高陵勿向，背丘勿逆，佯北勿从，锐士卒勿进攻，饵兵勿粮食，归军队勿遏，围军队遗阙，穷寇勿迫，此用兵的基本方制度。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "所以，善于用兵的人，会避开敌人锐气正盛的时候，攻击敌人士气懈怠、思归的时候。这是掌握士气的方法。",
+        "literalTranslation": "所以，善于用兵的人，会避开敌人锐气正盛的时候，攻击敌人士气懈怠、思归的时候。这是掌握士气的方法。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于争夺主动权时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "bu-ke-sheng-zai-ji",
           "zhi-ji-zhi-bi",
           "xian-sheng-hou-zhan"
         ],
@@ -5997,7 +6857,222 @@ export const chapters: Chapter[] = [
           "t30",
           "t07"
         ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jun-zheng-24",
+        "chapterId": "jun-zheng",
+        "order": 24,
+        "original": "以治待乱，以静待哗，此治心者也。",
+        "words": [
+          {
+            "word": "以治待乱",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "以静待哗",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "此治心者",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          }
+        ],
+        "translation": "用治理严整对待敌人的混乱，用镇静对待敌人的喧哗，这是掌握军心的方法。",
+        "literalTranslation": "用治理严整对待敌人的混乱，用镇静对待敌人的喧哗，这是掌握军心的方法。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于争夺主动权时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant",
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t01",
+          "t08"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jun-zheng-25",
+        "chapterId": "jun-zheng",
+        "order": 25,
+        "original": "以近待远，以佚待劳，以饱待饥，此治力者也。",
+        "words": [
+          {
+            "word": "远",
+            "explanation": "距离过远、挑战困难。",
+            "modernMapping": "高摩擦距离"
+          },
+          {
+            "word": "以近待远",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "以佚待劳",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          }
+        ],
+        "translation": "用靠近战场对待远道而来的敌人，用安逸对待疲劳，用饱足对待饥饿，这是掌握体力的方法。",
+        "literalTranslation": "用靠近战场对待远道而来的敌人，用安逸对待疲劳，用饱足对待饥饿，这是掌握体力的方法。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于争夺主动权时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "zhi-tian-zhi-di",
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant",
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t02",
+          "t09"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jun-zheng-26",
+        "chapterId": "jun-zheng",
+        "order": 26,
+        "original": "无邀正正之旗，无击堂堂之阵，此治变者也。",
+        "words": [
+          {
+            "word": "无邀正正",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "之旗",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "无击堂堂",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          }
+        ],
+        "translation": "不要迎击旗帜整齐、阵容严整的敌军，不要攻击阵势堂堂的敌人，这是掌握变化的方法。",
+        "literalTranslation": "不要迎击旗帜整齐、阵容严整的敌军，不要攻击阵势堂堂的敌人，这是掌握变化的方法。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "modernApplication": "运营和产品打法要有稳定基本盘，也要保留可快速切换的非常规动作，例如灰度发布、侧翼渠道或差异化功能。",
+        "misunderstanding": "不要迷信奇招；没有正面基本盘，奇招往往只是冒险。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant",
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t03",
+          "t10"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jun-zheng-27",
+        "chapterId": "jun-zheng",
+        "order": 27,
+        "original": "故用兵之法：高陵勿向，背丘勿逆，佯北勿从，锐卒勿攻，饵兵勿食，归师勿遏，围师必阙，穷寇勿迫。",
+        "words": [
+          {
+            "word": "法",
+            "explanation": "制度、编制、职责和资源使用规则。",
+            "modernMapping": "流程治理"
+          },
+          {
+            "word": "故用兵之",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "高陵勿向",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          }
+        ],
+        "translation": "所以，用兵的原则是：敌人占据高陵，不要仰攻；敌人背靠丘陵，不要正面逆击；敌人假装败退，不要贸然追击；敌人精锐部队，不要硬攻；敌人投下诱饵，不要贪取；敌人归国之师，不要截断其退路；包围敌人，要留出缺口；敌人已到绝境，不要过分逼迫。",
+        "literalTranslation": "所以，用兵的原则是：敌人占据高陵，不要仰攻；敌人背靠丘陵，不要正面逆击；敌人假装败退，不要贸然追击；敌人精锐部队，不要硬攻；敌人投下诱饵，不要贪取；敌人归国之师，不要截断其退路；包围敌人，要留出缺口；敌人已到绝境，不要过分逼迫。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "bu-ke-sheng-zai-ji",
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant",
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t04",
+          "t11"
+        ],
         "quoteLevel": "important"
+      },
+      {
+        "id": "jun-zheng-28",
+        "chapterId": "jun-zheng",
+        "order": 28,
+        "original": "此用兵之法也。",
+        "words": [
+          {
+            "word": "法",
+            "explanation": "制度、编制、职责和资源使用规则。",
+            "modernMapping": "流程治理"
+          },
+          {
+            "word": "此用兵之",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          },
+          {
+            "word": "法也",
+            "explanation": "理解这个表达时，应结合“争夺主动权”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "争夺主动权"
+          }
+        ],
+        "translation": "这些都是用兵的方法。",
+        "literalTranslation": "这些都是用兵的方法。",
+        "freeTranslation": "这句话强调：本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“争夺主动权”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“争夺主动权”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zhi-ji-zhi-bi",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "startup-giant",
+          "team-alignment"
+        ],
+        "relatedTrainingIds": [
+          "t05",
+          "t12"
+        ],
+        "quoteLevel": "normal"
       }
     ],
     "coreSummary": "军争篇的核心不是记住名句，而是形成“争夺主动权”的判断能力。学习时要区分原文、字词、白话翻译和现代应用，避免把概念口号当成行动方案。",
@@ -6051,7 +7126,7 @@ export const chapters: Chapter[] = [
       "completeness": "完整",
       "proofreadingStatus": "初校",
       "variantNotes": [],
-      "note": "已按《孙子兵法.txt》补齐通行本完整原文；逐句译注为初校内容，建议结合原文继续复校。"
+      "note": "原文与白话译文参照《孙子兵法原文与译文.txt》整理；逐句应用与误读提示为学习辅助内容，后续可继续复校。"
     },
     "structure": [
       "说明因地因势选择",
@@ -6059,13 +7134,13 @@ export const chapters: Chapter[] = [
       "利害并观",
       "识别领导者五种危险偏向"
     ],
-    "fullOriginal": "凡用兵之法，将受命于君，合军聚合。泛地无舍，衢地合交，绝地无留，围地则谋，死地则战，途有所不由，军有所不击，城有所不攻，地有所不争，君命有所不受。\n\n故将通于九变之利者，知用兵矣；将不通九变之利，虽知地形，不能得地之利矣；治兵不知九变之术，虽知五利，不能得人之用矣。\n\n是故智者之虑，必杂于利害，杂于利而务可信也，杂于害而患可解也。是故屈诸侯者以害，役诸侯者以业，趋诸侯者以利。故用兵之法，无恃其不来，恃吾有以待之；无恃其不攻，恃吾有所不可攻也。\n\n故将有五危，必死可杀，必生可虏，忿速可侮，廉洁可辱，爱民可烦。凡此五者，将之过也，用兵之灾也。覆军杀将，必以五危，不可不察也。",
+    "fullOriginal": "孙子曰：凡用兵之法，将受命于君，合军聚众。\n圮地无舍，衢地交合，绝地无留，围地则谋，死地则战。\n途有所不由，军有所不击，城有所不攻，地有所不争，君命有所不受。\n故将通于九变之利者，知用兵矣。\n将不通于九变之利者，虽知地形，不能得地之利矣。\n治兵不知九变之术，虽知五利，不能得人之用矣。\n是故智者之虑，必杂于利害。\n杂于利而务可信也，杂于害而患可解也。\n是故屈诸侯者以害，役诸侯者以业，趋诸侯者以利。\n故用兵之法，无恃其不来，恃吾有以待也；无恃其不攻，恃吾有所不可攻也。\n故将有五危：必死，可杀也；必生，可虏也；忿速，可侮也；廉洁，可辱也；爱民，可烦也。\n凡此五者，将之过也，用兵之灾也。\n覆军杀将，必以五危，不可不察也。",
     "sentences": [
       {
         "id": "jiu-bian-1",
         "chapterId": "jiu-bian",
         "order": 1,
-        "original": "凡用兵之法，将受命于君，合军聚合。",
+        "original": "孙子曰：凡用兵之法，将受命于君，合军聚众。",
         "words": [
           {
             "word": "将",
@@ -6078,8 +7153,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "流程治理"
           }
         ],
-        "translation": "换成今天的话：凡是用兵的基本方制度，将领受命于君，合军队聚合。",
+        "translation": "孙子说：凡是用兵，将帅接受君主命令，集合军队，组织部众。",
+        "literalTranslation": "孙子说：凡是用兵，将帅接受君主命令，集合军队，组织部众。",
+        "freeTranslation": "这句话强调：本句服务于“灵活应变”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“灵活应变”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“灵活应变”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "xian-sheng-hou-zhan",
@@ -6099,7 +7178,7 @@ export const chapters: Chapter[] = [
         "id": "jiu-bian-2",
         "chapterId": "jiu-bian",
         "order": 2,
-        "original": "泛地无舍，衢地合交，绝地无留，围地则谋，死地则战，途有所不由，军有所不击，城有所不攻，地有所不争，君命有所不受。",
+        "original": "圮地无舍，衢地交合，绝地无留，围地则谋，死地则战。",
         "words": [
           {
             "word": "衢地",
@@ -6122,13 +7201,17 @@ export const chapters: Chapter[] = [
             "modernMapping": "资源环境"
           }
         ],
-        "translation": "这句在说：泛地利无舍，衢地利合交，绝地利无留，围地利则谋，死地利则作战，途有所不由，军队有所不击，城有所不进攻，地利有所不争，君命有所不受。",
+        "translation": "在难以通行的地区不要久留；在四通八达的地区要结交诸侯；进入绝地不要停留；陷入围地就要用计谋；进入死地就要拼死作战。",
+        "literalTranslation": "在难以通行的地区不要久留；在四通八达的地区要结交诸侯；进入绝地不要停留；陷入围地就要用计谋；进入死地就要拼死作战。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要轻易制造绝境来逼迫团队；这类手段代价极高，只能在条件清楚时谨慎使用。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "bu-ke-sheng-zai-ji",
           "zhi-tian-zhi-di",
-          "si-di-qiu-sheng"
+          "si-di-qiu-sheng",
+          "xian-sheng-hou-zhan"
         ],
         "relatedCaseIds": [
           "price-war",
@@ -6138,13 +7221,101 @@ export const chapters: Chapter[] = [
           "t10",
           "t17"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "jiu-bian-3",
         "chapterId": "jiu-bian",
         "order": 3,
-        "original": "故将通于九变之利者，知用兵矣；将不通九变之利，虽知地形，不能得地之利矣；治兵不知九变之术，虽知五利，不能得人之用矣。",
+        "original": "途有所不由，军有所不击，城有所不攻，地有所不争，君命有所不受。",
+        "words": [
+          {
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
+          {
+            "word": "途有所不",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "灵活应变"
+          },
+          {
+            "word": "军有所不",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "灵活应变"
+          }
+        ],
+        "translation": "有些道路不能走，有些敌军不能打，有些城池不能攻，有些土地不能争，有些君命也不能接受。",
+        "literalTranslation": "有些道路不能走，有些敌军不能打，有些城池不能攻，有些土地不能争，有些君命也不能接受。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“灵活应变”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "bu-ke-sheng-zai-ji",
+          "zhi-tian-zhi-di",
+          "xian-sheng-hou-zhan"
+        ],
+        "relatedCaseIds": [
+          "price-war",
+          "resource-fight"
+        ],
+        "relatedTrainingIds": [
+          "t11",
+          "t18"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jiu-bian-4",
+        "chapterId": "jiu-bian",
+        "order": 4,
+        "original": "故将通于九变之利者，知用兵矣。",
+        "words": [
+          {
+            "word": "九变",
+            "explanation": "因地、因势灵活调整的变化原则。",
+            "modernMapping": "适应性"
+          },
+          {
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
+          },
+          {
+            "word": "通",
+            "explanation": "双方都可往来的地形。",
+            "modernMapping": "开放市场"
+          }
+        ],
+        "translation": "所以，将帅如果通晓各种临机变化的利益，就懂得用兵了。",
+        "literalTranslation": "所以，将帅如果通晓各种临机变化的利益，就懂得用兵了。",
+        "freeTranslation": "这句话强调：真正的灵活不是随意变化，而是把收益、风险和领导偏差一起纳入判断。",
+        "coreMeaning": "真正的灵活不是随意变化，而是把收益、风险和领导偏差一起纳入判断。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要把灵活变通变成反复摇摆；变化必须受目标、成本和风险约束。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "li-hai-bing-guan",
+          "xian-sheng-hou-zhan",
+          "bu-ke-sheng-zai-ji"
+        ],
+        "relatedCaseIds": [
+          "price-war",
+          "resource-fight"
+        ],
+        "relatedTrainingIds": [
+          "t12",
+          "t19"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "jiu-bian-5",
+        "chapterId": "jiu-bian",
+        "order": 5,
+        "original": "将不通于九变之利者，虽知地形，不能得地之利矣。",
         "words": [
           {
             "word": "九变",
@@ -6167,91 +7338,17 @@ export const chapters: Chapter[] = [
             "modernMapping": "领导能力"
           }
         ],
-        "translation": "意思是：所以将领通于九变之利益，知用兵了；将领不通九变之利益，虽知地利形势能，不能得地利之利益了；治兵不知九变之术，虽知五利益，不能得人之用了。",
+        "translation": "如果不懂九变之利，即使知道地形，也不能真正获得地利。",
+        "literalTranslation": "如果不懂九变之利，即使知道地形，也不能真正获得地利。",
+        "freeTranslation": "这句话强调：判断必须同时覆盖自身、对手和环境，缺一面都会造成误判。",
+        "coreMeaning": "判断必须同时覆盖自身、对手和环境，缺一面都会造成误判。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要把灵活变通变成反复摇摆；变化必须受目标、成本和风险约束。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "li-hai-bing-guan",
           "zhi-tian-zhi-di",
           "xian-sheng-hou-zhan"
-        ],
-        "relatedCaseIds": [
-          "price-war",
-          "resource-fight"
-        ],
-        "relatedTrainingIds": [
-          "t11",
-          "t18"
-        ],
-        "quoteLevel": "important"
-      },
-      {
-        "id": "jiu-bian-4",
-        "chapterId": "jiu-bian",
-        "order": 4,
-        "original": "是故智者之虑，必杂于利害，杂于利而务可信也，杂于害而患可解也。",
-        "words": [
-          {
-            "word": "利害",
-            "explanation": "利益与风险必须同时纳入判断。",
-            "modernMapping": "风险收益"
-          },
-          {
-            "word": "是故智者",
-            "explanation": "本句实际出现的关键表达，需要放回“灵活应变”语境中理解。",
-            "modernMapping": "灵活应变"
-          },
-          {
-            "word": "之虑",
-            "explanation": "本句实际出现的关键表达，需要放回“灵活应变”语境中理解。",
-            "modernMapping": "灵活应变"
-          }
-        ],
-        "translation": "可以理解为：是所以智之虑，必杂于利益风险，杂于利益而务可信，杂于风险而患可解。",
-        "modernApplication": "风险管理不能只列机会，也要列最坏情况、领导者偏差和备用方案，把“对方不会来”改成“来了怎么办”。",
-        "relatedConceptIds": [
-          "li-hai-bing-guan",
-          "xian-sheng-hou-zhan",
-          "bu-ke-sheng-zai-ji"
-        ],
-        "relatedCaseIds": [
-          "price-war",
-          "resource-fight"
-        ],
-        "relatedTrainingIds": [
-          "t12",
-          "t19"
-        ],
-        "quoteLevel": "important"
-      },
-      {
-        "id": "jiu-bian-5",
-        "chapterId": "jiu-bian",
-        "order": 5,
-        "original": "是故屈诸侯者以害，役诸侯者以业，趋诸侯者以利。",
-        "words": [
-          {
-            "word": "是故屈诸",
-            "explanation": "本句实际出现的关键表达，需要放回“灵活应变”语境中理解。",
-            "modernMapping": "灵活应变"
-          },
-          {
-            "word": "侯者以害",
-            "explanation": "本句实际出现的关键表达，需要放回“灵活应变”语境中理解。",
-            "modernMapping": "灵活应变"
-          },
-          {
-            "word": "役诸侯者",
-            "explanation": "本句实际出现的关键表达，需要放回“灵活应变”语境中理解。",
-            "modernMapping": "灵活应变"
-          }
-        ],
-        "translation": "白话说就是：是所以屈诸侯以风险，役诸侯以业，趋诸侯以利益。",
-        "modernApplication": "用于灵活应变时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
-        "relatedConceptIds": [
-          "li-hai-bing-guan",
-          "xian-sheng-hou-zhan",
-          "bu-ke-sheng-zai-ji"
         ],
         "relatedCaseIds": [
           "price-war",
@@ -6267,7 +7364,179 @@ export const chapters: Chapter[] = [
         "id": "jiu-bian-6",
         "chapterId": "jiu-bian",
         "order": 6,
-        "original": "故用兵之法，无恃其不来，恃吾有以待之；无恃其不攻，恃吾有所不可攻也。",
+        "original": "治兵不知九变之术，虽知五利，不能得人之用矣。",
+        "words": [
+          {
+            "word": "九变",
+            "explanation": "因地、因势灵活调整的变化原则。",
+            "modernMapping": "适应性"
+          },
+          {
+            "word": "治兵不知",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "灵活应变"
+          },
+          {
+            "word": "九变之术",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "灵活应变"
+          }
+        ],
+        "translation": "治理军队而不懂临机变化的方法，即使知道五种有利条件，也不能充分发挥士兵作用。",
+        "literalTranslation": "治理军队而不懂临机变化的方法，即使知道五种有利条件，也不能充分发挥士兵作用。",
+        "freeTranslation": "这句话强调：真正的灵活不是随意变化，而是把收益、风险和领导偏差一起纳入判断。",
+        "coreMeaning": "真正的灵活不是随意变化，而是把收益、风险和领导偏差一起纳入判断。",
+        "modernApplication": "风险管理不能只列机会，也要列最坏情况、领导者偏差和备用方案，把“对方不会来”改成“来了怎么办”。",
+        "misunderstanding": "不要把灵活变通变成反复摇摆；变化必须受目标、成本和风险约束。",
+        "relatedConceptIds": [
+          "li-hai-bing-guan",
+          "xian-sheng-hou-zhan",
+          "bu-ke-sheng-zai-ji"
+        ],
+        "relatedCaseIds": [
+          "price-war",
+          "resource-fight"
+        ],
+        "relatedTrainingIds": [
+          "t14",
+          "t21"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "jiu-bian-7",
+        "chapterId": "jiu-bian",
+        "order": 7,
+        "original": "是故智者之虑，必杂于利害。",
+        "words": [
+          {
+            "word": "利害",
+            "explanation": "利益与风险必须同时纳入判断。",
+            "modernMapping": "风险收益"
+          },
+          {
+            "word": "是故智者",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "灵活应变"
+          },
+          {
+            "word": "之虑",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "灵活应变"
+          }
+        ],
+        "translation": "所以，智慧之人的考虑，一定要把利与害结合起来看。",
+        "literalTranslation": "所以，智慧之人的考虑，一定要把利与害结合起来看。",
+        "freeTranslation": "这句话强调：真正的灵活不是随意变化，而是把收益、风险和领导偏差一起纳入判断。",
+        "coreMeaning": "真正的灵活不是随意变化，而是把收益、风险和领导偏差一起纳入判断。",
+        "modernApplication": "风险管理不能只列机会，也要列最坏情况、领导者偏差和备用方案，把“对方不会来”改成“来了怎么办”。",
+        "misunderstanding": "不要把灵活变通变成反复摇摆；变化必须受目标、成本和风险约束。",
+        "relatedConceptIds": [
+          "li-hai-bing-guan",
+          "xian-sheng-hou-zhan",
+          "bu-ke-sheng-zai-ji"
+        ],
+        "relatedCaseIds": [
+          "price-war",
+          "resource-fight"
+        ],
+        "relatedTrainingIds": [
+          "t15",
+          "t22"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "jiu-bian-8",
+        "chapterId": "jiu-bian",
+        "order": 8,
+        "original": "杂于利而务可信也，杂于害而患可解也。",
+        "words": [
+          {
+            "word": "杂于利而",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "灵活应变"
+          },
+          {
+            "word": "务可信也",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "灵活应变"
+          },
+          {
+            "word": "杂于害而",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "灵活应变"
+          }
+        ],
+        "translation": "在有利中考虑不利，事情才可以顺利实现；在不利中看到有利，祸患才可以化解。",
+        "literalTranslation": "在有利中考虑不利，事情才可以顺利实现；在不利中看到有利，祸患才可以化解。",
+        "freeTranslation": "这句话强调：本句服务于“灵活应变”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“灵活应变”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于灵活应变时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“灵活应变”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "li-hai-bing-guan",
+          "xian-sheng-hou-zhan",
+          "bu-ke-sheng-zai-ji"
+        ],
+        "relatedCaseIds": [
+          "price-war",
+          "resource-fight"
+        ],
+        "relatedTrainingIds": [
+          "t16",
+          "t23"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "jiu-bian-9",
+        "chapterId": "jiu-bian",
+        "order": 9,
+        "original": "是故屈诸侯者以害，役诸侯者以业，趋诸侯者以利。",
+        "words": [
+          {
+            "word": "是故屈诸",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "灵活应变"
+          },
+          {
+            "word": "侯者以害",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "灵活应变"
+          },
+          {
+            "word": "役诸侯者",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "灵活应变"
+          }
+        ],
+        "translation": "所以，要使诸侯屈服，可以用危害威慑他；要役使诸侯，可以用事务牵制他；要驱使诸侯行动，可以用利益引诱他。",
+        "literalTranslation": "所以，要使诸侯屈服，可以用危害威慑他；要役使诸侯，可以用事务牵制他；要驱使诸侯行动，可以用利益引诱他。",
+        "freeTranslation": "这句话强调：本句服务于“灵活应变”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“灵活应变”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于灵活应变时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“灵活应变”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "li-hai-bing-guan",
+          "xian-sheng-hou-zhan",
+          "bu-ke-sheng-zai-ji"
+        ],
+        "relatedCaseIds": [
+          "price-war",
+          "resource-fight"
+        ],
+        "relatedTrainingIds": [
+          "t17",
+          "t24"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "jiu-bian-10",
+        "chapterId": "jiu-bian",
+        "order": 10,
+        "original": "故用兵之法，无恃其不来，恃吾有以待也；无恃其不攻，恃吾有所不可攻也。",
         "words": [
           {
             "word": "无恃",
@@ -6280,8 +7549,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "流程治理"
           }
         ],
-        "translation": "换成今天的话：所以用兵的基本方制度，无恃其不来，恃我方有以待之；无恃其不进攻，恃我方有所不可进攻。",
+        "translation": "用兵的原则是：不要寄希望于敌人不来，而要依靠我方已有准备来等待敌人；不要寄希望于敌人不攻，而要依靠我方有不可被攻破的条件。",
+        "literalTranslation": "用兵的原则是：不要寄希望于敌人不来，而要依靠我方已有准备来等待敌人；不要寄希望于敌人不攻，而要依靠我方有不可被攻破的条件。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要把灵活变通变成反复摇摆；变化必须受目标、成本和风险约束。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bu-ke-sheng-zai-ji",
@@ -6293,16 +7566,16 @@ export const chapters: Chapter[] = [
           "resource-fight"
         ],
         "relatedTrainingIds": [
-          "t14",
-          "t21"
+          "t18",
+          "t25"
         ],
         "quoteLevel": "normal"
       },
       {
-        "id": "jiu-bian-7",
+        "id": "jiu-bian-11",
         "chapterId": "jiu-bian",
-        "order": 7,
-        "original": "故将有五危，必死可杀，必生可虏，忿速可侮，廉洁可辱，爱民可烦。",
+        "order": 11,
+        "original": "故将有五危：必死，可杀也；必生，可虏也；忿速，可侮也；廉洁，可辱也；爱民，可烦也。",
         "words": [
           {
             "word": "五危",
@@ -6315,8 +7588,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "领导能力"
           }
         ],
-        "translation": "这句在说：所以将领有五危，必死可杀，必生可虏，忿速可侮，廉洁可辱，爱民众可烦。",
+        "translation": "将帅有五种危险性格：只知死拼的人，可能被杀；只求活命的人，可能被俘；急躁易怒的人，可能被侮辱激怒；过分爱惜名节的人，可能被羞辱牵动；过分爱民的人，可能被烦扰拖累。",
+        "literalTranslation": "将帅有五种危险性格：只知死拼的人，可能被杀；只求活命的人，可能被俘；急躁易怒的人，可能被侮辱激怒；过分爱惜名节的人，可能被羞辱牵动；过分爱民的人，可能被烦扰拖累。",
+        "freeTranslation": "这句话强调：真正的灵活不是随意变化，而是把收益、风险和领导偏差一起纳入判断。",
+        "coreMeaning": "真正的灵活不是随意变化，而是把收益、风险和领导偏差一起纳入判断。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“灵活应变”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "jiang-you-wu-wei",
@@ -6328,15 +7605,15 @@ export const chapters: Chapter[] = [
           "resource-fight"
         ],
         "relatedTrainingIds": [
-          "t15",
-          "t22"
+          "t19",
+          "t26"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
-        "id": "jiu-bian-8",
+        "id": "jiu-bian-12",
         "chapterId": "jiu-bian",
-        "order": 8,
+        "order": 12,
         "original": "凡此五者，将之过也，用兵之灾也。",
         "words": [
           {
@@ -6346,17 +7623,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "凡此五者",
-            "explanation": "本句实际出现的关键表达，需要放回“灵活应变”语境中理解。",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "灵活应变"
           },
           {
             "word": "将之过也",
-            "explanation": "本句实际出现的关键表达，需要放回“灵活应变”语境中理解。",
+            "explanation": "理解这个表达时，应结合“灵活应变”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "灵活应变"
           }
         ],
-        "translation": "意思是：凡是此五，将领之过，用兵之灾。",
+        "translation": "这五种，都是将帅的过失，是用兵的灾害。",
+        "literalTranslation": "这五种，都是将帅的过失，是用兵的灾害。",
+        "freeTranslation": "这句话强调：本句服务于“灵活应变”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“灵活应变”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“灵活应变”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "xian-sheng-hou-zhan",
@@ -6367,15 +7648,15 @@ export const chapters: Chapter[] = [
           "resource-fight"
         ],
         "relatedTrainingIds": [
-          "t16",
-          "t23"
+          "t20",
+          "t27"
         ],
         "quoteLevel": "normal"
       },
       {
-        "id": "jiu-bian-9",
+        "id": "jiu-bian-13",
         "chapterId": "jiu-bian",
-        "order": 9,
+        "order": 13,
         "original": "覆军杀将，必以五危，不可不察也。",
         "words": [
           {
@@ -6394,8 +7675,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "领导能力"
           }
         ],
-        "translation": "可以理解为：覆军队杀将领，必以五危，必须慎重考察。",
+        "translation": "军队覆灭、将帅被杀，必定与这五种危险有关，不能不认真考察。",
+        "literalTranslation": "军队覆灭、将帅被杀，必定与这五种危险有关，不能不认真考察。",
+        "freeTranslation": "凡是代价足以影响生死存亡的行动，都必须先审慎评估。",
+        "coreMeaning": "真正的灵活不是随意变化，而是把收益、风险和领导偏差一起纳入判断。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“灵活应变”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "jiang-you-wu-wei",
@@ -6407,8 +7692,8 @@ export const chapters: Chapter[] = [
           "resource-fight"
         ],
         "relatedTrainingIds": [
-          "t17",
-          "t24"
+          "t21",
+          "t28"
         ],
         "quoteLevel": "normal"
       }
@@ -6465,7 +7750,7 @@ export const chapters: Chapter[] = [
       "completeness": "完整",
       "proofreadingStatus": "初校",
       "variantNotes": [],
-      "note": "已按《孙子兵法.txt》补齐通行本完整原文；逐句译注为初校内容，建议结合原文继续复校。"
+      "note": "原文与白话译文参照《孙子兵法原文与译文.txt》整理；逐句应用与误读提示为学习辅助内容，后续可继续复校。"
     },
     "structure": [
       "说明行军处置原则",
@@ -6473,13 +7758,13 @@ export const chapters: Chapter[] = [
       "从言辞动作判断意图",
       "反对盲目增兵"
     ],
-    "fullOriginal": "凡处军相敌，绝山依谷，视生处高，战隆无登，此处山之军也。绝水必远水，客绝水而来，勿迎之于水内，令半渡而击之利，欲战者，无附于水而迎客，视生处高，无迎水流，此处水上之军也。绝斥泽，唯亟去无留，若交军于斥泽之中，必依水草而背众树，此处斥泽之军也。平陆处易，右背高，前死后生，此处平陆之军也。凡此四军之利，黄帝之所以胜四帝也。凡军好高而恶下，贵阳而贱阴，养生而处实，军无百疾，是谓必胜。丘陵堤防，必处其阳而右背之，此兵之利，地之助也。上雨水流至，欲涉者，待其定也。凡地有绝涧、天井、天牢、天罗、天陷、天隙，必亟去之，勿近也。吾远之，敌近之；吾迎之，敌背之。军旁有险阻、潢井、蒹葭、小林、蘙荟者，必谨覆索之，此伏奸之所处也。\n\n敌近而静者，恃其险也；远而挑战者，欲人之进也；其所居易者，利也；众树动者，来也；众草多障者，疑也；鸟起者，伏也；兽骇者，覆也；尘高而锐者，车来也；卑而广者，徒来也；散而条达者，樵采也；少而往来者，营军也；辞卑而备者，进也；辞强而进驱者，退也；轻车先出居其侧者，陈也；无约而请和者，谋也；奔走而陈兵者，期也；半进半退者，诱也；杖而立者，饥也；汲而先饮者，渴也；见利而不进者，劳也；鸟集者，虚也；夜呼者，恐也；军扰者，将不重也；旌旗动者，乱也；吏怒者，倦也；杀马肉食者，军无粮也；悬甀不返其舍者，穷寇也；谆谆𧬈𧬈，徐与人言者，失众也；数赏者，窘也；数罚者，困也；先暴而后畏其众者，不精之至也；来委谢者，欲休息也。兵怒而相迎，久而不合，又不相去，必谨察之。\n\n兵非贵益多也，惟无武进，足以并力料敌取人而已。夫惟无虑而易敌者，必擒于人。卒未亲而罚之，则不服，不服则难用。卒已亲附而罚不行，则不可用。故合之以文，齐之以武，是谓必取。令素行以教其民，则民服；令素不行以教其民，则民不服。令素行者，与众相得也。",
+    "fullOriginal": "孙子曰：凡处军相敌，绝山依谷，视生处高，战隆无登，此处山之军也。\n绝水必远水；客绝水而来，勿迎之于水内，令半济而击之，利。\n欲战者，无附于水而迎客；视生处高，无迎水流，此处水上之军也。\n绝斥泽，惟亟去无留；若交军于斥泽之中，必依水草而背众树，此处斥泽之军也。\n平陆处易，而右背高，前死后生，此处平陆之军也。\n凡此四军之利，黄帝之所以胜四帝也。\n凡军好高而恶下，贵阳而贱阴，养生而处实，军无百疾，是谓必胜。\n丘陵堤防，必处其阳，而右背之。此兵之利，地之助也。\n上雨，水沫至，欲涉者，待其定也。\n凡地有绝涧、天井、天牢、天罗、天陷、天隙，必亟去之，勿近也。\n吾远之，敌近之；吾迎之，敌背之。\n军行有险阻、潢井、葭苇、山林、翳荟者，必谨覆索之，此伏奸之所处也。\n敌近而静者，恃其险也。\n远而挑战者，欲人之进也。\n其所居易者，利也。\n众树动者，来也。\n众草多障者，疑也。\n鸟起者，伏也。\n兽骇者，覆也。\n尘高而锐者，车来也。\n卑而广者，徒来也。\n散而条达者，樵采也。\n少而往来者，营军也。\n辞卑而益备者，进也。\n辞强而进驱者，退也。\n轻车先出居其侧者，陈也。\n无约而请和者，谋也。\n奔走而陈兵者，期也。\n半进半退者，诱也。\n杖而立者，饥也。\n汲而先饮者，渴也。\n见利而不进者，劳也。\n鸟集者，虚也。\n夜呼者，恐也。\n军扰者，将不重也。\n旌旗动者，乱也。\n吏怒者，倦也。\n粟马肉食，军无悬缻，不返其舍者，穷寇也。\n谆谆翕翕，徐与人言者，失众也。\n数赏者，窘也。\n数罚者，困也。\n先暴而后畏其众者，不精之至也。\n来委谢者，欲休息也。\n兵怒而相迎，久而不合，又不相去，必谨察之。\n兵非贵益多也，惟无武进，足以并力、料敌、取人而已。\n夫惟无虑而易敌者，必擒于人。\n卒未亲附而罚之，则不服，不服则难用也。\n卒已亲附而罚不行，则不可用也。\n故令之以文，齐之以武，是谓必取。\n令素行以教其民，则民服。\n令不素行以教其民，则民不服。\n令素行者，与众相得也。",
     "sentences": [
       {
         "id": "xing-jun-1",
         "chapterId": "xing-jun",
         "order": 1,
-        "original": "凡处军相敌，绝山依谷，视生处高，战隆无登，此处山之军也。",
+        "original": "孙子曰：凡处军相敌，绝山依谷，视生处高，战隆无登，此处山之军也。",
         "words": [
           {
             "word": "处军",
@@ -6492,8 +7777,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "信号识别"
           }
         ],
-        "translation": "这句在说：凡是处军队相对手，绝山依谷，视生处高，作战隆无登，此处山之军队。",
+        "translation": "孙子说：凡是驻军并观察敌情，经过山地时要靠近谷地，选择向阳高处驻扎；如果敌人在高处，不要仰攻。这是山地用兵的方法。",
+        "literalTranslation": "孙子说：凡是驻军并观察敌情，经过山地时要靠近谷地，选择向阳高处驻扎；如果敌人在高处，不要仰攻。这是山地用兵的方法。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "运营监控、客户访谈和项目管理要重视弱信号：异常流量、措辞变化、迟迟不行动都可能指向真实状态。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "zhi-tian-zhi-di",
           "bu-ke-sheng-zai-ji",
@@ -6513,7 +7802,7 @@ export const chapters: Chapter[] = [
         "id": "xing-jun-2",
         "chapterId": "xing-jun",
         "order": 2,
-        "original": "绝水必远水，客绝水而来，勿迎之于水内，令半渡而击之利，欲战者，无附于水而迎客，视生处高，无迎水流，此处水上之军也。",
+        "original": "绝水必远水；客绝水而来，勿迎之于水内，令半济而击之，利。",
         "words": [
           {
             "word": "远",
@@ -6522,17 +7811,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "绝水必远",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
             "word": "客绝水而",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "意思是：绝水必远水，客绝水而来，勿迎之于水内，令半渡而击之利益，欲作战，无附于水而迎客，视生处高，无迎水流，此处水上之军队。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "渡过河流后，一定要远离水边驻扎；敌人渡水来战，不要在水中迎击，而要等他渡到一半时攻击，这样有利。",
+        "literalTranslation": "渡过河流后，一定要远离水边驻扎；敌人渡水来战，不要在水中迎击，而要等他渡到一半时攻击，这样有利。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "li-hai-bing-guan",
           "zhi-tian-zhi-di",
@@ -6553,26 +7846,30 @@ export const chapters: Chapter[] = [
         "id": "xing-jun-3",
         "chapterId": "xing-jun",
         "order": 3,
-        "original": "绝斥泽，唯亟去无留，若交军于斥泽之中，必依水草而背众树，此处斥泽之军也。",
+        "original": "欲战者，无附于水而迎客；视生处高，无迎水流，此处水上之军也。",
         "words": [
           {
-            "word": "绝斥泽",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "欲战者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "唯亟去无",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "无附于水",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "若交军于",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "而迎客",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "可以理解为：绝斥泽，唯亟去无留，若交军队于斥泽之中，必依水草而背兵众树，此处斥泽之军队。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "如果想与敌人作战，不要紧靠水边迎敌；要选择向阳高处，不要迎着水流方向作战。这是水边用兵的方法。",
+        "literalTranslation": "如果想与敌人作战，不要紧靠水边迎敌；要选择向阳高处，不要迎着水流方向作战。这是水边用兵的方法。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "zhi-tian-zhi-di",
           "bu-ke-sheng-zai-ji",
@@ -6586,33 +7883,38 @@ export const chapters: Chapter[] = [
           "t12",
           "t19"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "xing-jun-4",
         "chapterId": "xing-jun",
         "order": 4,
-        "original": "平陆处易，右背高，前死后生，此处平陆之军也。",
+        "original": "绝斥泽，惟亟去无留；若交军于斥泽之中，必依水草而背众树，此处斥泽之军也。",
         "words": [
           {
-            "word": "平陆处易",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "绝斥泽",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "右背高",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "惟亟去无",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "前死后生",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "若交军于",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "白话说就是：平陆处易，右背高，前死后生，此处平陆之军队。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "经过盐碱沼泽地，要尽快离开，不要停留；如果不得不在沼泽地与敌人交战，一定要靠近水草，背靠树林。这是沼泽地用兵的方法。",
+        "literalTranslation": "经过盐碱沼泽地，要尽快离开，不要停留；如果不得不在沼泽地与敌人交战，一定要靠近水草，背靠树林。这是沼泽地用兵的方法。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "zhi-tian-zhi-di",
           "bu-ke-sheng-zai-ji",
           "zheng-qi"
         ],
@@ -6624,35 +7926,37 @@ export const chapters: Chapter[] = [
           "t13",
           "t20"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "xing-jun-5",
         "chapterId": "xing-jun",
         "order": 5,
-        "original": "凡此四军之利，黄帝之所以胜四帝也。",
+        "original": "平陆处易，而右背高，前死后生，此处平陆之军也。",
         "words": [
           {
-            "word": "凡此四军",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "平陆处易",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "之利",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "而右背高",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "黄帝之所",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "前死后生",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "换成今天的话：凡是此四军队之利益，黄帝之所以取胜四帝。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "在平原上，要选择平坦便利之处，右后方依托高地，前方不利于敌、后方利于己。这是平原用兵的方法。",
+        "literalTranslation": "在平原上，要选择平坦便利之处，右后方依托高地，前方不利于敌、后方利于己。这是平原用兵的方法。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "li-hai-bing-guan",
           "bu-ke-sheng-zai-ji",
           "zheng-qi"
         ],
@@ -6664,35 +7968,39 @@ export const chapters: Chapter[] = [
           "t14",
           "t21"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "xing-jun-6",
         "chapterId": "xing-jun",
         "order": 6,
-        "original": "凡军好高而恶下，贵阳而贱阴，养生而处实，军无百疾，是谓必胜。",
+        "original": "凡此四军之利，黄帝之所以胜四帝也。",
         "words": [
           {
-            "word": "凡军好高",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "凡此四军",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "而恶下",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "之利",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "贵阳而贱",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "黄帝之所",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "这句在说：凡是军队好高而恶下，贵阳而贱阴，养生而处坚实处，军队无百疾，是谓必取胜。",
-        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "translation": "这四种处军之利，就是古代黄帝能够战胜四方帝王的原因。",
+        "literalTranslation": "这四种处军之利，就是古代黄帝能够战胜四方帝王的原因。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "bi-shi-ji-xu",
+          "li-hai-bing-guan",
           "bu-ke-sheng-zai-ji",
           "zheng-qi"
         ],
@@ -6710,31 +8018,35 @@ export const chapters: Chapter[] = [
         "id": "xing-jun-7",
         "chapterId": "xing-jun",
         "order": 7,
-        "original": "丘陵堤防，必处其阳而右背之，此兵之利，地之助也。",
+        "original": "凡军好高而恶下，贵阳而贱阴，养生而处实，军无百疾，是谓必胜。",
         "words": [
           {
-            "word": "地",
-            "explanation": "远近、险易、广狭等空间与环境条件。",
-            "modernMapping": "资源环境"
-          },
-          {
-            "word": "丘陵堤防",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "凡军好高",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "必处其阳",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "而恶下",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "贵阳而贱",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "意思是：丘陵堤防，必处其阳而右背之，此兵之利益，地利之助。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "凡是驻军，都喜欢高处而厌恶低处，重视向阳而轻视阴湿，靠近生养便利之地，驻扎在坚实之处，这样军队就不会发生多种疾病，这叫具备取胜条件。",
+        "literalTranslation": "凡是驻军，都喜欢高处而厌恶低处，重视向阳而轻视阴湿，靠近生养便利之地，驻扎在坚实之处，这样军队就不会发生多种疾病，这叫具备取胜条件。",
+        "freeTranslation": "这句话强调：争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "coreMeaning": "争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "misunderstanding": "不要把“击虚”理解成投机取巧；它要求准确识别对方真正薄弱且关键的节点。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "li-hai-bing-guan",
-          "zhi-tian-zhi-di",
-          "bu-ke-sheng-zai-ji"
+          "bi-shi-ji-xu",
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
         ],
         "relatedCaseIds": [
           "niche-product",
@@ -6750,30 +8062,35 @@ export const chapters: Chapter[] = [
         "id": "xing-jun-8",
         "chapterId": "xing-jun",
         "order": 8,
-        "original": "上雨水流至，欲涉者，待其定也。",
+        "original": "丘陵堤防，必处其阳，而右背之。此兵之利，地之助也。",
         "words": [
           {
-            "word": "上雨水流",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
+          {
+            "word": "丘陵堤防",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "欲涉者",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
-            "modernMapping": "环境判断"
-          },
-          {
-            "word": "待其定也",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "必处其阳",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "可以理解为：上雨水流至，欲涉，待其定。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "在丘陵堤防之地，一定要驻扎在向阳面，并让右后方有所依托。这是用兵的便利，也是地形的帮助。",
+        "literalTranslation": "在丘陵堤防之地，一定要驻扎在向阳面，并让右后方有所依托。这是用兵的便利，也是地形的帮助。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "li-hai-bing-guan",
           "zhi-tian-zhi-di",
-          "bu-ke-sheng-zai-ji",
-          "zheng-qi"
+          "bu-ke-sheng-zai-ji"
         ],
         "relatedCaseIds": [
           "niche-product",
@@ -6783,29 +8100,37 @@ export const chapters: Chapter[] = [
           "t17",
           "t24"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "xing-jun-9",
         "chapterId": "xing-jun",
         "order": 9,
-        "original": "凡地有绝涧、天井、天牢、天罗、天陷、天隙，必亟去之，勿近也。",
+        "original": "上雨，水沫至，欲涉者，待其定也。",
         "words": [
           {
-            "word": "天",
-            "explanation": "时令、气候与外部周期条件。",
-            "modernMapping": "时间窗口"
+            "word": "上雨",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
           },
           {
-            "word": "地",
-            "explanation": "远近、险易、广狭等空间与环境条件。",
-            "modernMapping": "资源环境"
+            "word": "水沫至",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "欲涉者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
           }
         ],
-        "translation": "白话说就是：凡是地利有绝涧、时机井、时机牢、时机罗、时机陷、时机隙，必亟去之，勿近。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "上游下雨，水流带着泡沫而来，如果要涉水，应等水势平稳后再渡。",
+        "literalTranslation": "上游下雨，水流带着泡沫而来，如果要涉水，应等水势平稳后再渡。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
           "bu-ke-sheng-zai-ji",
           "zheng-qi"
@@ -6824,27 +8149,27 @@ export const chapters: Chapter[] = [
         "id": "xing-jun-10",
         "chapterId": "xing-jun",
         "order": 10,
-        "original": "吾远之，敌近之；吾迎之，敌背之。",
+        "original": "凡地有绝涧、天井、天牢、天罗、天陷、天隙，必亟去之，勿近也。",
         "words": [
           {
-            "word": "远",
-            "explanation": "距离过远、挑战困难。",
-            "modernMapping": "高摩擦距离"
+            "word": "天",
+            "explanation": "时令、气候与外部周期条件。",
+            "modernMapping": "时间窗口"
           },
           {
-            "word": "吾远之",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
-            "modernMapping": "环境判断"
-          },
-          {
-            "word": "敌近之",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
-            "modernMapping": "环境判断"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           }
         ],
-        "translation": "换成今天的话：我方远之，对手近之；我方迎之，对手背之。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "凡是遇到绝涧、天井、天牢、天罗、天陷、天隙等险恶地形，必须迅速离开，不要靠近。",
+        "literalTranslation": "凡是遇到绝涧、天井、天牢、天罗、天陷、天隙等险恶地形，必须迅速离开，不要靠近。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
           "bu-ke-sheng-zai-ji",
           "zheng-qi"
@@ -6863,26 +8188,30 @@ export const chapters: Chapter[] = [
         "id": "xing-jun-11",
         "chapterId": "xing-jun",
         "order": 11,
-        "original": "军旁有险阻、潢井、蒹葭、小林、蘙荟者，必谨覆索之，此伏奸之所处也。",
+        "original": "吾远之，敌近之；吾迎之，敌背之。",
         "words": [
           {
-            "word": "险",
-            "explanation": "险要地形。",
-            "modernMapping": "高风险入口"
+            "word": "远",
+            "explanation": "距离过远、挑战困难。",
+            "modernMapping": "高摩擦距离"
           },
           {
-            "word": "军旁有险",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "吾远之",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "潢井",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "敌近之",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "这句在说：军队旁有险阻、潢井、蒹葭、小林、蘙荟，必谨覆索之，此伏奸之所处。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "我要远离这些地方，让敌人靠近；我要面对这些地形，使敌人背靠这些地形。",
+        "literalTranslation": "我要远离这些地方，让敌人靠近；我要面对这些地形，使敌人背靠这些地形。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "zhi-tian-zhi-di",
           "bu-ke-sheng-zai-ji",
@@ -6902,36 +8231,34 @@ export const chapters: Chapter[] = [
         "id": "xing-jun-12",
         "chapterId": "xing-jun",
         "order": 12,
-        "original": "敌近而静者，恃其险也；远而挑战者，欲人之进也；其所居易者，利也；众树动者，来也；众草多障者，疑也；鸟起者，伏也；兽骇者，覆也；尘高而锐者，车来也；卑而广者，徒来也；散而条达者，樵采也；少而往来者，营军也；辞卑而备者，进也；辞强而进驱者，退也；轻车先出居其侧者，陈也；无约而请和者，谋也；奔走而陈兵者，期也；半进半退者，诱也；杖而立者，饥也；汲而先饮者，渴也；见利而不进者，劳也；鸟集者，虚也；夜呼者，恐也；军扰者，将不重也；旌旗动者，乱也；吏怒者，倦也；杀马肉食者，军无粮也；悬甀不返其舍者，穷寇也；谆谆𧬈𧬈，徐与人言者，失众也；数赏者，窘也；数罚者，困也；先暴而后畏其众者，不精之至也；来委谢者，欲休息也。",
+        "original": "军行有险阻、潢井、葭苇、山林、翳荟者，必谨覆索之，此伏奸之所处也。",
         "words": [
-          {
-            "word": "旌旗",
-            "explanation": "古代传递军令的视觉信号。",
-            "modernMapping": "协同标识"
-          },
-          {
-            "word": "将",
-            "explanation": "负责人的智、信、仁、勇、严。",
-            "modernMapping": "领导能力"
-          },
           {
             "word": "险",
             "explanation": "险要地形。",
             "modernMapping": "高风险入口"
           },
           {
-            "word": "远",
-            "explanation": "距离过远、挑战困难。",
-            "modernMapping": "高摩擦距离"
+            "word": "军行有险",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "潢井",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
           }
         ],
-        "translation": "意思是：对手近而静，恃其险；远而挑作战，欲人之进；其所居易，利益；兵众树动，来；兵众草多障，疑；鸟起，伏；兽骇，覆；尘高而锐，车来；卑而广，徒来；散而条达，樵采；少而往来，营军队；辞卑而备，进；辞强而进驱，退；轻车先出居其侧，陈；无约而请和，谋；奔走而陈军队事行动，期；半进半退，诱；杖而立，饥；汲而先饮，渴；见利益而不进，劳；鸟集，薄弱处；夜呼，恐；军队扰，将领不重；旌旗动，乱；吏怒，倦；杀马肉粮食，军队无粮粮食；悬甀不返其舍，穷寇；谆谆𧬈𧬈，徐与人言，失兵众；数赏，窘；数罚，困；先暴而后畏其兵众，不精之至；来委谢，欲休息。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "行军时遇到险阻、池沼、芦苇、山林、草木茂密之处，必须谨慎反复搜索，因为这些地方容易隐藏伏兵和奸细。",
+        "literalTranslation": "行军时遇到险阻、池沼、芦苇、山林、草木茂密之处，必须谨慎反复搜索，因为这些地方容易隐藏伏兵和奸细。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "bing-gui-sheng",
-          "bi-shi-ji-xu",
-          "li-hai-bing-guan"
+          "zhi-tian-zhi-di",
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
         ],
         "relatedCaseIds": [
           "niche-product",
@@ -6941,34 +8268,38 @@ export const chapters: Chapter[] = [
           "t21",
           "t28"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "xing-jun-13",
         "chapterId": "xing-jun",
         "order": 13,
-        "original": "兵怒而相迎，久而不合，又不相去，必谨察之。",
+        "original": "敌近而静者，恃其险也。",
         "words": [
           {
-            "word": "兵怒而相",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "险",
+            "explanation": "险要地形。",
+            "modernMapping": "高风险入口"
+          },
+          {
+            "word": "敌近而静",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "久而不合",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
-            "modernMapping": "环境判断"
-          },
-          {
-            "word": "又不相去",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "恃其险也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "可以理解为：兵怒而相迎，久而不合，又不相去，必谨察之。",
-        "modernApplication": "长期延期项目、价格战或持续内耗要设置止损线，定期判断投入是否还会换来有效结果。",
+        "translation": "敌人距离很近却安静，是依仗险要地形。",
+        "literalTranslation": "敌人距离很近却安静，是依仗险要地形。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "bing-gui-sheng",
+          "zhi-tian-zhi-di",
           "bu-ke-sheng-zai-ji",
           "zheng-qi"
         ],
@@ -6986,27 +8317,32 @@ export const chapters: Chapter[] = [
         "id": "xing-jun-14",
         "chapterId": "xing-jun",
         "order": 14,
-        "original": "兵非贵益多也，惟无武进，足以并力料敌取人而已。",
+        "original": "远而挑战者，欲人之进也。",
         "words": [
           {
-            "word": "兵非贵益",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "远",
+            "explanation": "距离过远、挑战困难。",
+            "modernMapping": "高摩擦距离"
+          },
+          {
+            "word": "远而挑战",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "多也",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
-            "modernMapping": "环境判断"
-          },
-          {
-            "word": "惟无武进",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "欲人之进",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "白话说就是：兵非贵益多，惟无武进，足以并力料对手取人而已。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "敌人距离很远却挑战，是想诱使我前进。",
+        "literalTranslation": "敌人距离很远却挑战，是想诱使我前进。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "zhi-tian-zhi-di",
           "bu-ke-sheng-zai-ji",
           "zheng-qi"
         ],
@@ -7024,27 +8360,27 @@ export const chapters: Chapter[] = [
         "id": "xing-jun-15",
         "chapterId": "xing-jun",
         "order": 15,
-        "original": "夫惟无虑而易敌者，必擒于人。",
+        "original": "其所居易者，利也。",
         "words": [
           {
-            "word": "夫惟无虑",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "其所居易",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "而易敌者",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
-            "modernMapping": "环境判断"
-          },
-          {
-            "word": "必擒于人",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "利也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "换成今天的话：大凡是惟无虑而易对手，必擒于人。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "敌人驻扎在平坦便利的地方，是因为那里对他有利。",
+        "literalTranslation": "敌人驻扎在平坦便利的地方，是因为那里对他有利。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "li-hai-bing-guan",
           "bu-ke-sheng-zai-ji",
           "zheng-qi"
         ],
@@ -7056,32 +8392,31 @@ export const chapters: Chapter[] = [
           "t24",
           "t01"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "xing-jun-16",
         "chapterId": "xing-jun",
         "order": 16,
-        "original": "卒未亲而罚之，则不服，不服则难用。",
+        "original": "众树动者，来也。",
         "words": [
           {
-            "word": "卒未亲而",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "众树动者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "罚之",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
-            "modernMapping": "环境判断"
-          },
-          {
-            "word": "则不服",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "来也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "这句在说：士卒未亲而罚之，则不服，不服则难用。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "树林中许多树木摇动，是敌军来了。",
+        "literalTranslation": "树林中许多树木摇动，是敌军来了。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bu-ke-sheng-zai-ji",
           "zheng-qi"
@@ -7100,26 +8435,25 @@ export const chapters: Chapter[] = [
         "id": "xing-jun-17",
         "chapterId": "xing-jun",
         "order": 17,
-        "original": "卒已亲附而罚不行，则不可用。",
+        "original": "众草多障者，疑也。",
         "words": [
           {
-            "word": "卒已亲附",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "众草多障",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "而罚不行",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
-            "modernMapping": "环境判断"
-          },
-          {
-            "word": "则不可用",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "疑也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "意思是：士卒已亲附而罚不行，则不可用。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "草丛中有许多遮障，是敌人在设置疑兵。",
+        "literalTranslation": "草丛中有许多遮障，是敌人在设置疑兵。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bu-ke-sheng-zai-ji",
           "zheng-qi"
@@ -7138,26 +8472,25 @@ export const chapters: Chapter[] = [
         "id": "xing-jun-18",
         "chapterId": "xing-jun",
         "order": 18,
-        "original": "故合之以文，齐之以武，是谓必取。",
+        "original": "鸟起者，伏也。",
         "words": [
           {
-            "word": "故合之以",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "鸟起者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "齐之以武",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
-            "modernMapping": "环境判断"
-          },
-          {
-            "word": "是谓必取",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "伏也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "可以理解为：所以合之以文，齐之以武，是谓必取。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "鸟突然飞起，是下面有伏兵。",
+        "literalTranslation": "鸟突然飞起，是下面有伏兵。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "运营监控、客户访谈和项目管理要重视弱信号：异常流量、措辞变化、迟迟不行动都可能指向真实状态。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bu-ke-sheng-zai-ji",
           "zheng-qi"
@@ -7176,26 +8509,25 @@ export const chapters: Chapter[] = [
         "id": "xing-jun-19",
         "chapterId": "xing-jun",
         "order": 19,
-        "original": "令素行以教其民，则民服；令素不行以教其民，则民不服。",
+        "original": "兽骇者，覆也。",
         "words": [
           {
-            "word": "令素行以",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "兽骇者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "教其民",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
-            "modernMapping": "环境判断"
-          },
-          {
-            "word": "则民服",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "覆也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "白话说就是：令素行以教其民众，则民众服；令素不行以教其民众，则民众不服。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "野兽受惊奔逃，是敌人大举突袭。",
+        "literalTranslation": "野兽受惊奔逃，是敌人大举突袭。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bu-ke-sheng-zai-ji",
           "zheng-qi"
@@ -7214,21 +8546,25 @@ export const chapters: Chapter[] = [
         "id": "xing-jun-20",
         "chapterId": "xing-jun",
         "order": 20,
-        "original": "令素行者，与众相得也。",
+        "original": "尘高而锐者，车来也。",
         "words": [
           {
-            "word": "令素行者",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "尘高而锐",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           },
           {
-            "word": "与众相得",
-            "explanation": "本句实际出现的关键表达，需要放回“环境判断”语境中理解。",
+            "word": "车来也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "环境判断"
           }
         ],
-        "translation": "换成今天的话：令素行，与兵众相得。",
-        "modernApplication": "用于环境判断时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "尘土高而尖，是战车来了。",
+        "literalTranslation": "尘土高而尖，是战车来了。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "运营监控、客户访谈和项目管理要重视弱信号：异常流量、措辞变化、迟迟不行动都可能指向真实状态。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bu-ke-sheng-zai-ji",
           "zheng-qi"
@@ -7240,6 +8576,1289 @@ export const chapters: Chapter[] = [
         "relatedTrainingIds": [
           "t29",
           "t06"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-21",
+        "chapterId": "xing-jun",
+        "order": 21,
+        "original": "卑而广者，徒来也。",
+        "words": [
+          {
+            "word": "卑而广者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "徒来也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "尘土低而宽，是步兵来了。",
+        "literalTranslation": "尘土低而宽，是步兵来了。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t30",
+          "t07"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-22",
+        "chapterId": "xing-jun",
+        "order": 22,
+        "original": "散而条达者，樵采也。",
+        "words": [
+          {
+            "word": "散而条达",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "樵采也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "尘土分散而细长，是砍柴采草的人。",
+        "literalTranslation": "尘土分散而细长，是砍柴采草的人。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t01",
+          "t08"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-23",
+        "chapterId": "xing-jun",
+        "order": 23,
+        "original": "少而往来者，营军也。",
+        "words": [
+          {
+            "word": "少而往来",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "营军也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "尘土少而来往不定，是敌人在扎营。",
+        "literalTranslation": "尘土少而来往不定，是敌人在扎营。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t02",
+          "t09"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-24",
+        "chapterId": "xing-jun",
+        "order": 24,
+        "original": "辞卑而益备者，进也。",
+        "words": [
+          {
+            "word": "辞卑而益",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "备者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "进也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "敌人言辞谦卑却加强戒备，是准备进攻。",
+        "literalTranslation": "敌人言辞谦卑却加强戒备，是准备进攻。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "运营监控、客户访谈和项目管理要重视弱信号：异常流量、措辞变化、迟迟不行动都可能指向真实状态。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t03",
+          "t10"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-25",
+        "chapterId": "xing-jun",
+        "order": 25,
+        "original": "辞强而进驱者，退也。",
+        "words": [
+          {
+            "word": "辞强而进",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "驱者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "退也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "敌人言辞强硬且做出前进姿态，是准备退却。",
+        "literalTranslation": "敌人言辞强硬且做出前进姿态，是准备退却。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "运营监控、客户访谈和项目管理要重视弱信号：异常流量、措辞变化、迟迟不行动都可能指向真实状态。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t04",
+          "t11"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-26",
+        "chapterId": "xing-jun",
+        "order": 26,
+        "original": "轻车先出居其侧者，陈也。",
+        "words": [
+          {
+            "word": "轻车先出",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "居其侧者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "陈也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "轻车先出并停在两侧，是在列阵。",
+        "literalTranslation": "轻车先出并停在两侧，是在列阵。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t05",
+          "t12"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-27",
+        "chapterId": "xing-jun",
+        "order": 27,
+        "original": "无约而请和者，谋也。",
+        "words": [
+          {
+            "word": "无约而请",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "和者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "谋也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "没有约定却请求讲和，是另有阴谋。",
+        "literalTranslation": "没有约定却请求讲和，是另有阴谋。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t06",
+          "t13"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-28",
+        "chapterId": "xing-jun",
+        "order": 28,
+        "original": "奔走而陈兵者，期也。",
+        "words": [
+          {
+            "word": "奔走而陈",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "兵者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "期也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "敌人奔走忙乱而陈兵列阵，是约期决战。",
+        "literalTranslation": "敌人奔走忙乱而陈兵列阵，是约期决战。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t07",
+          "t14"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-29",
+        "chapterId": "xing-jun",
+        "order": 29,
+        "original": "半进半退者，诱也。",
+        "words": [
+          {
+            "word": "半进半退",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "诱也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "敌人半进半退，是诱我上钩。",
+        "literalTranslation": "敌人半进半退，是诱我上钩。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t08",
+          "t15"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-30",
+        "chapterId": "xing-jun",
+        "order": 30,
+        "original": "杖而立者，饥也。",
+        "words": [
+          {
+            "word": "杖而立者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "饥也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "士兵倚杖而立，是饥饿。",
+        "literalTranslation": "士兵倚杖而立，是饥饿。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t09",
+          "t16"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-31",
+        "chapterId": "xing-jun",
+        "order": 31,
+        "original": "汲而先饮者，渴也。",
+        "words": [
+          {
+            "word": "汲而先饮",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "渴也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "打水的人自己先喝，是口渴。",
+        "literalTranslation": "打水的人自己先喝，是口渴。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t10",
+          "t17"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-32",
+        "chapterId": "xing-jun",
+        "order": 32,
+        "original": "见利而不进者，劳也。",
+        "words": [
+          {
+            "word": "见利而不",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "进者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "劳也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "看见利益却不前进，是疲劳。",
+        "literalTranslation": "看见利益却不前进，是疲劳。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "li-hai-bing-guan",
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t11",
+          "t18"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "xing-jun-33",
+        "chapterId": "xing-jun",
+        "order": 33,
+        "original": "鸟集者，虚也。",
+        "words": [
+          {
+            "word": "鸟集者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "虚也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "鸟群聚集，是敌营空虚。",
+        "literalTranslation": "鸟群聚集，是敌营空虚。",
+        "freeTranslation": "这句话强调：争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "coreMeaning": "争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "misunderstanding": "不要把“击虚”理解成投机取巧；它要求准确识别对方真正薄弱且关键的节点。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t12",
+          "t19"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "xing-jun-34",
+        "chapterId": "xing-jun",
+        "order": 34,
+        "original": "夜呼者，恐也。",
+        "words": [
+          {
+            "word": "夜呼者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "恐也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "夜间惊呼，是恐惧。",
+        "literalTranslation": "夜间惊呼，是恐惧。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t13",
+          "t20"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-35",
+        "chapterId": "xing-jun",
+        "order": 35,
+        "original": "军扰者，将不重也。",
+        "words": [
+          {
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
+          },
+          {
+            "word": "军扰者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "将不重也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "军营扰乱，是将帅不稳重。",
+        "literalTranslation": "军营扰乱，是将帅不稳重。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t14",
+          "t21"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-36",
+        "chapterId": "xing-jun",
+        "order": 36,
+        "original": "旌旗动者，乱也。",
+        "words": [
+          {
+            "word": "旌旗",
+            "explanation": "古代传递军令的视觉信号。",
+            "modernMapping": "协同标识"
+          },
+          {
+            "word": "旌旗动者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "乱也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "旌旗摇动混乱，是队伍混乱。",
+        "literalTranslation": "旌旗摇动混乱，是队伍混乱。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "多人协作要建立统一信号，例如里程碑、状态面板和升级机制，避免勇者冒进、谨慎者掉队。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t15",
+          "t22"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-37",
+        "chapterId": "xing-jun",
+        "order": 37,
+        "original": "吏怒者，倦也。",
+        "words": [
+          {
+            "word": "吏怒者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "倦也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "军吏发怒，是士卒疲倦。",
+        "literalTranslation": "军吏发怒，是士卒疲倦。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "危机决策中先问是否有明确收益、能否达成目标、是否真正危险，避免被愤怒或焦虑驱动。",
+        "misunderstanding": "不要把高风险手段当成情绪出口；时机、条件和后果边界必须先确认。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t16",
+          "t23"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-38",
+        "chapterId": "xing-jun",
+        "order": 38,
+        "original": "粟马肉食，军无悬缻，不返其舍者，穷寇也。",
+        "words": [
+          {
+            "word": "粟马肉食",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "军无悬缻",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "不返其舍",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "用粮食喂马、杀牲畜吃肉，军中不再悬挂炊具，士兵不返回营舍，这是敌人准备拼死一战。",
+        "literalTranslation": "用粮食喂马、杀牲畜吃肉，军中不再悬挂炊具，士兵不返回营舍，这是敌人准备拼死一战。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t17",
+          "t24"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-39",
+        "chapterId": "xing-jun",
+        "order": 39,
+        "original": "谆谆翕翕，徐与人言者，失众也。",
+        "words": [
+          {
+            "word": "谆谆翕翕",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "徐与人言",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "失众也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "低声下气、反复与士卒说话，是将帅失去众心。",
+        "literalTranslation": "低声下气、反复与士卒说话，是将帅失去众心。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t18",
+          "t25"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-40",
+        "chapterId": "xing-jun",
+        "order": 40,
+        "original": "数赏者，窘也。",
+        "words": [
+          {
+            "word": "数赏者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "窘也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "频繁赏赐，是处境困窘。",
+        "literalTranslation": "频繁赏赐，是处境困窘。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t19",
+          "t26"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-41",
+        "chapterId": "xing-jun",
+        "order": 41,
+        "original": "数罚者，困也。",
+        "words": [
+          {
+            "word": "数罚者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "困也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "频繁惩罚，是军队困难。",
+        "literalTranslation": "频繁惩罚，是军队困难。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t20",
+          "t27"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-42",
+        "chapterId": "xing-jun",
+        "order": 42,
+        "original": "先暴而后畏其众者，不精之至也。",
+        "words": [
+          {
+            "word": "先暴而后",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "畏其众者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "不精之至",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "先粗暴对待士卒，后来又害怕士卒，这是最不精明的表现。",
+        "literalTranslation": "先粗暴对待士卒，后来又害怕士卒，这是最不精明的表现。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t21",
+          "t28"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-43",
+        "chapterId": "xing-jun",
+        "order": 43,
+        "original": "来委谢者，欲休息也。",
+        "words": [
+          {
+            "word": "来委谢者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "欲休息也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "派人送礼谢罪，是想休兵喘息。",
+        "literalTranslation": "派人送礼谢罪，是想休兵喘息。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t22",
+          "t29"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-44",
+        "chapterId": "xing-jun",
+        "order": 44,
+        "original": "兵怒而相迎，久而不合，又不相去，必谨察之。",
+        "words": [
+          {
+            "word": "兵怒而相",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "久而不合",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "又不相去",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "敌军愤怒地迎来，却久久不交战，又不离去，必须谨慎观察。",
+        "literalTranslation": "敌军愤怒地迎来，却久久不交战，又不离去，必须谨慎观察。",
+        "freeTranslation": "这句话强调：长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
+        "coreMeaning": "长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
+        "modernApplication": "长期延期项目、价格战或持续内耗要设置止损线，定期判断投入是否还会换来有效结果。",
+        "misunderstanding": "不要把高风险手段当成情绪出口；时机、条件和后果边界必须先确认。",
+        "relatedConceptIds": [
+          "bing-gui-sheng",
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t23",
+          "t30"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-45",
+        "chapterId": "xing-jun",
+        "order": 45,
+        "original": "兵非贵益多也，惟无武进，足以并力、料敌、取人而已。",
+        "words": [
+          {
+            "word": "兵非贵益",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "多也",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "惟无武进",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "兵力并不是越多越好，只要不轻率冒进，能够集中力量、判断敌情、取得人心就可以。",
+        "literalTranslation": "兵力并不是越多越好，只要不轻率冒进，能够集中力量、判断敌情、取得人心就可以。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t24",
+          "t01"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-46",
+        "chapterId": "xing-jun",
+        "order": 46,
+        "original": "夫惟无虑而易敌者，必擒于人。",
+        "words": [
+          {
+            "word": "夫惟无虑",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "而易敌者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "必擒于人",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "那些没有深思熟虑而轻敌的人，必定被敌人擒获。",
+        "literalTranslation": "那些没有深思熟虑而轻敌的人，必定被敌人擒获。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t25",
+          "t02"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-47",
+        "chapterId": "xing-jun",
+        "order": 47,
+        "original": "卒未亲附而罚之，则不服，不服则难用也。",
+        "words": [
+          {
+            "word": "卒未亲附",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "而罚之",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "则不服",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "士卒还没有亲近归附就惩罚他们，他们就不会服从；不服从，就难以使用。",
+        "literalTranslation": "士卒还没有亲近归附就惩罚他们，他们就不会服从；不服从，就难以使用。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t26",
+          "t03"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-48",
+        "chapterId": "xing-jun",
+        "order": 48,
+        "original": "卒已亲附而罚不行，则不可用也。",
+        "words": [
+          {
+            "word": "卒已亲附",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "而罚不行",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "则不可用",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "士卒已经亲近归附，而惩罚不能执行，也不能使用。",
+        "literalTranslation": "士卒已经亲近归附，而惩罚不能执行，也不能使用。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t27",
+          "t04"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-49",
+        "chapterId": "xing-jun",
+        "order": 49,
+        "original": "故令之以文，齐之以武，是谓必取。",
+        "words": [
+          {
+            "word": "故令之以",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "齐之以武",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "是谓必取",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "所以，要用文德教化他们，用军法整齐他们，这样才能必定取胜。",
+        "literalTranslation": "所以，要用文德教化他们，用军法整齐他们，这样才能必定取胜。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t28",
+          "t05"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-50",
+        "chapterId": "xing-jun",
+        "order": 50,
+        "original": "令素行以教其民，则民服。",
+        "words": [
+          {
+            "word": "令素行以",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "教其民",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "则民服",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "平时命令一贯执行，再用来教导士卒，士卒就服从。",
+        "literalTranslation": "平时命令一贯执行，再用来教导士卒，士卒就服从。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t29",
+          "t06"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-51",
+        "chapterId": "xing-jun",
+        "order": 51,
+        "original": "令不素行以教其民，则民不服。",
+        "words": [
+          {
+            "word": "令不素行",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "以教其民",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "则民不服",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "平时命令不能执行，再用来教导士卒，士卒就不服。",
+        "literalTranslation": "平时命令不能执行，再用来教导士卒，士卒就不服。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t30",
+          "t07"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "xing-jun-52",
+        "chapterId": "xing-jun",
+        "order": 52,
+        "original": "令素行者，与众相得也。",
+        "words": [
+          {
+            "word": "令素行者",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          },
+          {
+            "word": "与众相得",
+            "explanation": "理解这个表达时，应结合“环境判断”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "环境判断"
+          }
+        ],
+        "translation": "命令一贯能够执行，说明将帅与众人相处得当。",
+        "literalTranslation": "命令一贯能够执行，说明将帅与众人相处得当。",
+        "freeTranslation": "这句话强调：本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“环境判断”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于环境判断时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“环境判断”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "niche-product",
+          "real-decision-maker"
+        ],
+        "relatedTrainingIds": [
+          "t01",
+          "t08"
         ],
         "quoteLevel": "normal"
       }
@@ -7294,7 +9913,7 @@ export const chapters: Chapter[] = [
       "completeness": "完整",
       "proofreadingStatus": "初校",
       "variantNotes": [],
-      "note": "已按《孙子兵法.txt》补齐通行本完整原文；逐句译注为初校内容，建议结合原文继续复校。"
+      "note": "原文与白话译文参照《孙子兵法原文与译文.txt》整理；逐句应用与误读提示为学习辅助内容，后续可继续复校。"
     },
     "structure": [
       "分类地形",
@@ -7302,13 +9921,13 @@ export const chapters: Chapter[] = [
       "地形是辅助条件",
       "知天知地才能持续取胜"
     ],
-    "fullOriginal": "地形有通者、有挂者、有支者、有隘者、有险者、有远者。我可以往，彼可以来，曰通。通形者，先居高阳，利粮道，以战则利。可以往，难以返，曰挂。挂形者，敌无备，出而胜之，敌若有备，出而不胜，难以返，不利。我出而不利，彼出而不利，曰支。支形者，敌虽利我，我无出也，引而去之，令敌半出而击之利。隘形者，我先居之，必盈之以待敌。若敌先居之，盈而勿从，不盈而从之。险形者，我先居之，必居高阳以待敌；若敌先居之，引而去之，勿从也。远形者，势均难以挑战，战而不利。凡此六者，地之道也，将之至任，不可不察也。\n\n凡兵有走者、有驰者、有陷者、有崩者、有乱者、有北者。凡此六者，非天地之灾，将之过也。夫势均，以一击十，曰走；卒强吏弱，曰驰；吏强卒弱，曰陷；大吏怒而不服，遇敌怼而自战，将不知其能，曰崩；将弱不严，教道不明，吏卒无常，陈兵纵横，曰乱；将不能料敌，以少合众，以弱击强，兵无选锋，曰北。凡此六者，败之道也，将之至任，不可不察也。\n\n夫地形者，兵之助也。料敌制胜，计险隘远近，上将之道也。知此而用战者必胜，不知此而用战者必败。故战道必胜，主曰无战，必战可也；战道不胜，主曰必战，无战可也。故进不求名，退不避罪，唯民是保，而利于主，国之宝也。\n\n视卒如婴儿，故可以与之赴深溪；视卒如爱子，故可与之俱死。厚而不能使，爱而不能令，乱而不能治，譬若骄子，不可用也。\n\n知吾卒之可以击，而不知敌之不可击，胜之半也；知敌之可击，而不知吾卒之不可以击，胜之半也；知敌之可击，知吾卒之可以击，而不知地形之不可以战，胜之半也。故知兵者，动而不迷，举而不穷。故曰：知彼知己，胜乃不殆；知天知地，胜乃可全。",
+    "fullOriginal": "孙子曰：地形有通者，有挂者，有支者，有隘者，有险者，有远者。\n我可以往，彼可以来，曰通。\n通形者，先居高阳，利粮道，以战则利。\n可以往，难以返，曰挂。\n挂形者，敌无备，出而胜之；敌若有备，出而不胜，难以返，不利。\n我出而不利，彼出而不利，曰支。\n支形者，敌虽利我，我无出也；引而去之，令敌半出而击之，利。\n隘形者，我先居之，必盈之以待敌。\n若敌先居之，盈而勿从，不盈而从之。\n险形者，我先居之，必居高阳以待敌。\n若敌先居之，引而去之，勿从也。\n远形者，势均，难以挑战，战而不利。\n凡此六者，地之道也，将之至任，不可不察也。\n故兵有走者，有弛者，有陷者，有崩者，有乱者，有北者。\n凡此六者，非天之灾，将之过也。\n夫势均，以一击十，曰走。\n卒强吏弱，曰弛。\n吏强卒弱，曰陷。\n大吏怒而不服，遇敌怼而自战，将不知其能，曰崩。\n将弱不严，教道不明，吏卒无常，陈兵纵横，曰乱。\n将不能料敌，以少合众，以弱击强，兵无选锋，曰北。\n凡此六者，败之道也，将之至任，不可不察也。\n夫地形者，兵之助也。\n料敌制胜，计险阨远近，上将之道也。\n知此而用战者必胜，不知此而用战者必败。\n故战道必胜，主曰无战，必战可也；战道不胜，主曰必战，无战可也。\n故进不求名，退不避罪，唯人是保，而利合于主，国之宝也。\n视卒如婴儿，故可与之赴深溪。\n视卒如爱子，故可与之俱死。\n厚而不能使，爱而不能令，乱而不能治，譬若骄子，不可用也。\n知吾卒之可以击，而不知敌之不可击，胜之半也。\n知敌之可击，而不知吾卒之不可以击，胜之半也。\n知敌之可击，知吾卒之可以击，而不知地形之不可以战，胜之半也。\n故知兵者，动而不迷，举而不穷。\n故曰：知彼知己，胜乃不殆；知天知地，胜乃可全。",
     "sentences": [
       {
         "id": "di-xing-1",
         "chapterId": "di-xing",
         "order": 1,
-        "original": "地形有通者、有挂者、有支者、有隘者、有险者、有远者。",
+        "original": "孙子曰：地形有通者，有挂者，有支者，有隘者，有险者，有远者。",
         "words": [
           {
             "word": "地形",
@@ -7331,8 +9950,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "退出成本"
           }
         ],
-        "translation": "意思是：地利形势能有通、有挂、有支、有隘、有险、有远。",
+        "translation": "孙子说：地形有六种：通地、挂地、支地、隘地、险地、远地。",
+        "literalTranslation": "孙子说：地形有六种：通地、挂地、支地、隘地、险地、远地。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
@@ -7362,17 +9985,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "我可以往",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           },
           {
             "word": "彼可以来",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           }
         ],
-        "translation": "可以理解为：我可以往，对方可以来，曰通。",
-        "modernApplication": "用于地形与组织时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "我可以去，敌人也可以来，叫通地。",
+        "literalTranslation": "我可以去，敌人也可以来，叫通地。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "zheng-qi",
           "shi-neng"
@@ -7404,8 +10031,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "开放市场"
           }
         ],
-        "translation": "白话说就是：通形势能，先居高阳，利益粮粮食共同目标，以作战则利益。",
+        "translation": "在通地作战，应先占据向阳高地，并保持粮道畅通，这样作战就有利。",
+        "literalTranslation": "在通地作战，应先占据向阳高地，并保持粮道畅通，这样作战就有利。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
@@ -7435,17 +10066,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "可以往",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           },
           {
             "word": "难以返",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           }
         ],
-        "translation": "换成今天的话：可以往，难以返，曰挂。",
-        "modernApplication": "用于地形与组织时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "可以前进，但难以返回，叫挂地。",
+        "literalTranslation": "可以前进，但难以返回，叫挂地。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "zheng-qi",
           "shi-neng"
@@ -7464,7 +10099,7 @@ export const chapters: Chapter[] = [
         "id": "di-xing-5",
         "chapterId": "di-xing",
         "order": 5,
-        "original": "挂形者，敌无备，出而胜之，敌若有备，出而不胜，难以返，不利。",
+        "original": "挂形者，敌无备，出而胜之；敌若有备，出而不胜，难以返，不利。",
         "words": [
           {
             "word": "挂",
@@ -7473,17 +10108,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "挂形者",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           },
           {
             "word": "敌无备",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           }
         ],
-        "translation": "这句在说：挂形势能，对手无备，出而取胜之，对手若有备，出而不取胜，难以返，不利益。",
+        "translation": "在挂地作战，如果敌人没有防备，就可以出击取胜；如果敌人有防备，出击不能胜，又难以退回，就不利。",
+        "literalTranslation": "在挂地作战，如果敌人没有防备，就可以出击取胜；如果敌人有防备，出击不能胜，又难以退回，就不利。",
+        "freeTranslation": "这句话强调：虚实变化的重点是保护主动权，并根据对方反应选择时机。",
+        "coreMeaning": "虚实变化的重点是保护主动权，并根据对方反应选择时机。",
         "modernApplication": "做渠道、市场或组织设计时，先识别进入难度、退出成本、瓶颈和距离摩擦，再决定打法。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bi-shi-ji-xu",
@@ -7513,17 +10152,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "我出而不",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           },
           {
             "word": "彼出而不",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           }
         ],
-        "translation": "意思是：我出而不利益，对方出而不利益，曰支。",
-        "modernApplication": "用于地形与组织时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "我出击不利，敌人出击也不利，叫支地。",
+        "literalTranslation": "我出击不利，敌人出击也不利，叫支地。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "li-hai-bing-guan",
           "zheng-qi",
@@ -7543,7 +10186,7 @@ export const chapters: Chapter[] = [
         "id": "di-xing-7",
         "chapterId": "di-xing",
         "order": 7,
-        "original": "支形者，敌虽利我，我无出也，引而去之，令敌半出而击之利。",
+        "original": "支形者，敌虽利我，我无出也；引而去之，令敌半出而击之，利。",
         "words": [
           {
             "word": "支",
@@ -7552,17 +10195,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "支形者",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           },
           {
             "word": "敌虽利我",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           }
         ],
-        "translation": "可以理解为：支形势能，对手虽利益我，我无出，引而去之，令对手半出而击之利益。",
+        "translation": "在支地作战，敌人即使用利益引诱我，我也不要出击；应引兵离开，诱使敌人出到一半再攻击，这样有利。",
+        "literalTranslation": "在支地作战，敌人即使用利益引诱我，我也不要出击；应引兵离开，诱使敌人出到一半再攻击，这样有利。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "做渠道、市场或组织设计时，先识别进入难度、退出成本、瓶颈和距离摩擦，再决定打法。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "li-hai-bing-guan",
           "zheng-qi",
@@ -7591,17 +10238,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "隘形者",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           },
           {
             "word": "我先居之",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           }
         ],
-        "translation": "白话说就是：隘形势能，我先居之，必盈之以待对手。",
+        "translation": "在隘地，如果我先占据，一定要用兵力充满隘口来等待敌人。",
+        "literalTranslation": "在隘地，如果我先占据，一定要用兵力充满隘口来等待敌人。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "做渠道、市场或组织设计时，先识别进入难度、退出成本、瓶颈和距离摩擦，再决定打法。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "zheng-qi",
           "shi-neng"
@@ -7624,22 +10275,26 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "若敌先居",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           },
           {
             "word": "盈而勿从",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           },
           {
             "word": "不盈而从",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           }
         ],
-        "translation": "换成今天的话：若对手先居之，盈而勿从，不盈而从之。",
-        "modernApplication": "用于地形与组织时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "如果敌人先占据隘口，并且已经充满兵力，就不要跟进；如果敌人没有充满隘口，可以进攻。",
+        "literalTranslation": "如果敌人先占据隘口，并且已经充满兵力，就不要跟进；如果敌人没有充满隘口，可以进攻。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "zheng-qi",
           "shi-neng"
@@ -7658,7 +10313,7 @@ export const chapters: Chapter[] = [
         "id": "di-xing-10",
         "chapterId": "di-xing",
         "order": 10,
-        "original": "险形者，我先居之，必居高阳以待敌；若敌先居之，引而去之，勿从也。",
+        "original": "险形者，我先居之，必居高阳以待敌。",
         "words": [
           {
             "word": "险",
@@ -7667,17 +10322,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "险形者",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           },
           {
             "word": "我先居之",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           }
         ],
-        "translation": "这句在说：险形势能，我先居之，必居高阳以待对手；若对手先居之，引而去之，勿从。",
+        "translation": "在险地，如果我先占据，一定要占据高处向阳之地等待敌人。",
+        "literalTranslation": "在险地，如果我先占据，一定要占据高处向阳之地等待敌人。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "做渠道、市场或组织设计时，先识别进入难度、退出成本、瓶颈和距离摩擦，再决定打法。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "zhi-tian-zhi-di",
           "zheng-qi",
@@ -7697,7 +10356,49 @@ export const chapters: Chapter[] = [
         "id": "di-xing-11",
         "chapterId": "di-xing",
         "order": 11,
-        "original": "远形者，势均难以挑战，战而不利。",
+        "original": "若敌先居之，引而去之，勿从也。",
+        "words": [
+          {
+            "word": "若敌先居",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "引而去之",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "勿从也",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "如果敌人先占据险地，就要引兵离开，不要跟随进攻。",
+        "literalTranslation": "如果敌人先占据险地，就要引兵离开，不要跟随进攻。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t21",
+          "t28"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "di-xing-12",
+        "chapterId": "di-xing",
+        "order": 12,
+        "original": "远形者，势均，难以挑战，战而不利。",
         "words": [
           {
             "word": "势",
@@ -7710,8 +10411,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "高摩擦距离"
           }
         ],
-        "translation": "意思是：远形势能，势能均难以挑作战，作战而不利益。",
+        "translation": "在远地，如果双方势均力敌，远道挑战困难，勉强作战不利。",
+        "literalTranslation": "在远地，如果双方势均力敌，远道挑战困难，勉强作战不利。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
         "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shi-neng",
           "li-hai-bing-guan",
@@ -7723,15 +10428,15 @@ export const chapters: Chapter[] = [
           "avoid-internal-friction"
         ],
         "relatedTrainingIds": [
-          "t21",
-          "t28"
+          "t22",
+          "t29"
         ],
         "quoteLevel": "important"
       },
       {
-        "id": "di-xing-12",
+        "id": "di-xing-13",
         "chapterId": "di-xing",
-        "order": 12,
+        "order": 13,
         "original": "凡此六者，地之道也，将之至任，不可不察也。",
         "words": [
           {
@@ -7755,49 +10460,15 @@ export const chapters: Chapter[] = [
             "modernMapping": "领导能力"
           }
         ],
-        "translation": "可以理解为：凡是此六，地利之共同目标，将领之至任，必须慎重考察。",
+        "translation": "这六种，是地形的基本规律，是将帅最重要的责任，不能不认真考察。",
+        "literalTranslation": "这六种，是地形的基本规律，是将帅最重要的责任，不能不认真考察。",
+        "freeTranslation": "凡是代价足以影响生死存亡的行动，都必须先审慎评估。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
-          "zheng-qi",
-          "shi-neng"
-        ],
-        "relatedCaseIds": [
-          "network-effect",
-          "avoid-internal-friction"
-        ],
-        "relatedTrainingIds": [
-          "t22",
-          "t29"
-        ],
-        "quoteLevel": "normal"
-      },
-      {
-        "id": "di-xing-13",
-        "chapterId": "di-xing",
-        "order": 13,
-        "original": "凡兵有走者、有驰者、有陷者、有崩者、有乱者、有北者。",
-        "words": [
-          {
-            "word": "凡兵有走",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          },
-          {
-            "word": "有驰者",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          },
-          {
-            "word": "有陷者",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          }
-        ],
-        "translation": "白话说就是：凡是兵有走、有驰、有陷、有崩、有乱、有北。",
-        "modernApplication": "复盘失败时不要只怪外部环境，要检查资源比例、管理强弱、指挥清晰度和执行队形。",
-        "relatedConceptIds": [
           "zheng-qi",
           "shi-neng"
         ],
@@ -7815,29 +10486,31 @@ export const chapters: Chapter[] = [
         "id": "di-xing-14",
         "chapterId": "di-xing",
         "order": 14,
-        "original": "凡此六者，非天地之灾，将之过也。",
+        "original": "故兵有走者，有弛者，有陷者，有崩者，有乱者，有北者。",
         "words": [
           {
-            "word": "天",
-            "explanation": "时令、气候与外部周期条件。",
-            "modernMapping": "时间窗口"
+            "word": "故兵有走",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
           },
           {
-            "word": "地",
-            "explanation": "远近、险易、广狭等空间与环境条件。",
-            "modernMapping": "资源环境"
+            "word": "有弛者",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
           },
           {
-            "word": "将",
-            "explanation": "负责人的智、信、仁、勇、严。",
-            "modernMapping": "领导能力"
+            "word": "有陷者",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
           }
         ],
-        "translation": "换成今天的话：凡是此六，非时机地利之灾，将领之过。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "军队失败有六种情况：走、弛、陷、崩、乱、北。",
+        "literalTranslation": "军队失败有六种情况：走、弛、陷、崩、乱、北。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "zhi-tian-zhi-di",
           "zheng-qi",
           "shi-neng"
         ],
@@ -7855,7 +10528,205 @@ export const chapters: Chapter[] = [
         "id": "di-xing-15",
         "chapterId": "di-xing",
         "order": 15,
-        "original": "夫势均，以一击十，曰走；卒强吏弱，曰驰；吏强卒弱，曰陷；大吏怒而不服，遇敌怼而自战，将不知其能，曰崩；将弱不严，教道不明，吏卒无常，陈兵纵横，曰乱；将不能料敌，以少合众，以弱击强，兵无选锋，曰北。",
+        "original": "凡此六者，非天之灾，将之过也。",
+        "words": [
+          {
+            "word": "天",
+            "explanation": "时令、气候与外部周期条件。",
+            "modernMapping": "时间窗口"
+          },
+          {
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
+          }
+        ],
+        "translation": "这六种不是天灾，都是将帅的过失。",
+        "literalTranslation": "这六种不是天灾，都是将帅的过失。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t25",
+          "t02"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "di-xing-16",
+        "chapterId": "di-xing",
+        "order": 16,
+        "original": "夫势均，以一击十，曰走。",
+        "words": [
+          {
+            "word": "势",
+            "explanation": "结构、节奏和位置共同形成的力量。",
+            "modernMapping": "系统势能"
+          },
+          {
+            "word": "夫势均",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "以一击十",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "双方实力相当，却用一分兵力攻击十分敌人，叫“走”，也就是溃逃。",
+        "literalTranslation": "双方实力相当，却用一分兵力攻击十分敌人，叫“走”，也就是溃逃。",
+        "freeTranslation": "这句话强调：常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "coreMeaning": "常规能力负责稳定，变化手段负责突破，二者要在节奏中配合。",
+        "modernApplication": "管理团队时优先设计流程、激励和节奏，让正确行为顺势发生，而不是只靠个人意志反复推动。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "shi-neng",
+          "zheng-qi"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t26",
+          "t03"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "di-xing-17",
+        "chapterId": "di-xing",
+        "order": 17,
+        "original": "卒强吏弱，曰弛。",
+        "words": [
+          {
+            "word": "卒强吏弱",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "曰弛",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "士卒强悍而军官软弱，叫“弛”，也就是纪律松弛。",
+        "literalTranslation": "士卒强悍而军官软弱，叫“弛”，也就是纪律松弛。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t27",
+          "t04"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "di-xing-18",
+        "chapterId": "di-xing",
+        "order": 18,
+        "original": "吏强卒弱，曰陷。",
+        "words": [
+          {
+            "word": "吏强卒弱",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "曰陷",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "军官强悍而士卒软弱，叫“陷”，也就是力量脱节而陷入困境。",
+        "literalTranslation": "军官强悍而士卒软弱，叫“陷”，也就是力量脱节而陷入困境。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t28",
+          "t05"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "di-xing-19",
+        "chapterId": "di-xing",
+        "order": 19,
+        "original": "大吏怒而不服，遇敌怼而自战，将不知其能，曰崩。",
+        "words": [
+          {
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
+          },
+          {
+            "word": "大吏怒而",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "不服",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "高级军官愤怒不服从命令，遇敌后怨恨而擅自作战，将帅又不了解他们的能力，叫“崩”，也就是系统崩坏。",
+        "literalTranslation": "高级军官愤怒不服从命令，遇敌后怨恨而擅自作战，将帅又不了解他们的能力，叫“崩”，也就是系统崩坏。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要把高风险手段当成情绪出口；时机、条件和后果边界必须先确认。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t29",
+          "t06"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "di-xing-20",
+        "chapterId": "di-xing",
+        "order": 20,
+        "original": "将弱不严，教道不明，吏卒无常，陈兵纵横，曰乱。",
         "words": [
           {
             "word": "道",
@@ -7866,34 +10737,76 @@ export const chapters: Chapter[] = [
             "word": "将",
             "explanation": "负责人的智、信、仁、勇、严。",
             "modernMapping": "领导能力"
-          },
-          {
-            "word": "势",
-            "explanation": "结构、节奏和位置共同形成的力量。",
-            "modernMapping": "系统势能"
           }
         ],
-        "translation": "这句在说：大凡是势能均，以一击十，曰走；士卒强吏弱，曰驰；吏强士卒弱，曰陷；大吏怒而不服，遇对手怼而自作战，将领不知其能，曰崩；将领弱不严，教共同目标不明，吏士卒无常，陈兵纵横，曰乱；将领不能料对手，以少合兵众，以弱击强，兵无选锋，曰北。",
+        "translation": "将帅软弱不严，教令不明，官兵行为无常，布阵杂乱，叫“乱”。",
+        "literalTranslation": "将帅软弱不严，教令不明，官兵行为无常，布阵杂乱，叫“乱”。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "shi-neng",
-          "zheng-qi"
+          "zheng-qi",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "network-effect",
           "avoid-internal-friction"
         ],
         "relatedTrainingIds": [
-          "t25",
-          "t02"
+          "t30",
+          "t07"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
-        "id": "di-xing-16",
+        "id": "di-xing-21",
         "chapterId": "di-xing",
-        "order": 16,
+        "order": 21,
+        "original": "将不能料敌，以少合众，以弱击强，兵无选锋，曰北。",
+        "words": [
+          {
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
+          },
+          {
+            "word": "将不能料",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "以少合众",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "将帅不能判断敌情，用少数兵力迎击多数敌人，以弱击强，又没有选拔精锐先锋，叫“北”，也就是败逃。",
+        "literalTranslation": "将帅不能判断敌情，用少数兵力迎击多数敌人，以弱击强，又没有选拔精锐先锋，叫“北”，也就是败逃。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t01",
+          "t08"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "di-xing-22",
+        "chapterId": "di-xing",
+        "order": 22,
         "original": "凡此六者，败之道也，将之至任，不可不察也。",
         "words": [
           {
@@ -7912,8 +10825,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "领导能力"
           }
         ],
-        "translation": "意思是：凡是此六，失败之共同目标，将领之至任，必须慎重考察。",
+        "translation": "这六种，是失败的道路，是将帅最重要的责任，不能不认真考察。",
+        "literalTranslation": "这六种，是失败的道路，是将帅最重要的责任，不能不认真考察。",
+        "freeTranslation": "凡是代价足以影响生死存亡的行动，都必须先审慎评估。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zheng-qi",
@@ -7924,15 +10841,15 @@ export const chapters: Chapter[] = [
           "avoid-internal-friction"
         ],
         "relatedTrainingIds": [
-          "t26",
-          "t03"
+          "t02",
+          "t09"
         ],
         "quoteLevel": "important"
       },
       {
-        "id": "di-xing-17",
+        "id": "di-xing-23",
         "chapterId": "di-xing",
-        "order": 17,
+        "order": 23,
         "original": "夫地形者，兵之助也。",
         "words": [
           {
@@ -7946,249 +10863,15 @@ export const chapters: Chapter[] = [
             "modernMapping": "资源环境"
           }
         ],
-        "translation": "地形是用兵的重要辅助条件。",
+        "translation": "地形，是用兵的辅助条件。",
+        "literalTranslation": "地形，是用兵的辅助条件。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
-          "zheng-qi",
-          "shi-neng"
-        ],
-        "relatedCaseIds": [
-          "network-effect",
-          "avoid-internal-friction"
-        ],
-        "relatedTrainingIds": [
-          "t27",
-          "t04"
-        ],
-        "quoteLevel": "normal"
-      },
-      {
-        "id": "di-xing-18",
-        "chapterId": "di-xing",
-        "order": 18,
-        "original": "料敌制胜，计险隘远近，上将之道也。",
-        "words": [
-          {
-            "word": "道",
-            "explanation": "上下同欲、目标一致的组织状态。",
-            "modernMapping": "组织共识"
-          },
-          {
-            "word": "将",
-            "explanation": "负责人的智、信、仁、勇、严。",
-            "modernMapping": "领导能力"
-          },
-          {
-            "word": "隘",
-            "explanation": "狭窄关口。",
-            "modernMapping": "瓶颈资源"
-          },
-          {
-            "word": "险",
-            "explanation": "险要地形。",
-            "modernMapping": "高风险入口"
-          }
-        ],
-        "translation": "白话说就是：料对手制取胜，计算和比较险隘远近，上将领之共同目标。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
-        "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "miao-suan",
-          "zhi-tian-zhi-di",
-          "zheng-qi"
-        ],
-        "relatedCaseIds": [
-          "network-effect",
-          "avoid-internal-friction"
-        ],
-        "relatedTrainingIds": [
-          "t28",
-          "t05"
-        ],
-        "quoteLevel": "important"
-      },
-      {
-        "id": "di-xing-19",
-        "chapterId": "di-xing",
-        "order": 19,
-        "original": "知此而用战者必胜，不知此而用战者必败。",
-        "words": [
-          {
-            "word": "知此而用",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          },
-          {
-            "word": "战者必胜",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          },
-          {
-            "word": "不知此而",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          }
-        ],
-        "translation": "换成今天的话：知此而用作战必取胜，不知此而用作战必失败。",
-        "modernApplication": "用于地形与组织时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
-        "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "zheng-qi",
-          "shi-neng"
-        ],
-        "relatedCaseIds": [
-          "network-effect",
-          "avoid-internal-friction"
-        ],
-        "relatedTrainingIds": [
-          "t29",
-          "t06"
-        ],
-        "quoteLevel": "important"
-      },
-      {
-        "id": "di-xing-20",
-        "chapterId": "di-xing",
-        "order": 20,
-        "original": "故战道必胜，主曰无战，必战可也；战道不胜，主曰必战，无战可也。",
-        "words": [
-          {
-            "word": "道",
-            "explanation": "上下同欲、目标一致的组织状态。",
-            "modernMapping": "组织共识"
-          },
-          {
-            "word": "故战道必",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          },
-          {
-            "word": "主曰无战",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          }
-        ],
-        "translation": "这句在说：所以作战共同目标必取胜，君主曰无作战，必作战可；作战共同目标不取胜，君主曰必作战，无作战可。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
-        "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "zheng-qi",
-          "shi-neng"
-        ],
-        "relatedCaseIds": [
-          "network-effect",
-          "avoid-internal-friction"
-        ],
-        "relatedTrainingIds": [
-          "t30",
-          "t07"
-        ],
-        "quoteLevel": "important"
-      },
-      {
-        "id": "di-xing-21",
-        "chapterId": "di-xing",
-        "order": 21,
-        "original": "故进不求名，退不避罪，唯民是保，而利于主，国之宝也。",
-        "words": [
-          {
-            "word": "故进不求",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          },
-          {
-            "word": "退不避罪",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          },
-          {
-            "word": "唯民是保",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          }
-        ],
-        "translation": "意思是：所以进不求名，退不避罪，唯民众是保，而利益于君主，国家之宝。",
-        "modernApplication": "用于地形与组织时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
-        "relatedConceptIds": [
-          "li-hai-bing-guan",
-          "zheng-qi",
-          "shi-neng"
-        ],
-        "relatedCaseIds": [
-          "network-effect",
-          "avoid-internal-friction"
-        ],
-        "relatedTrainingIds": [
-          "t01",
-          "t08"
-        ],
-        "quoteLevel": "important"
-      },
-      {
-        "id": "di-xing-22",
-        "chapterId": "di-xing",
-        "order": 22,
-        "original": "视卒如婴儿，故可以与之赴深溪；视卒如爱子，故可与之俱死。",
-        "words": [
-          {
-            "word": "视卒如婴",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          },
-          {
-            "word": "故可以与",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          },
-          {
-            "word": "之赴深溪",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          }
-        ],
-        "translation": "可以理解为：视士卒如婴儿，所以可以与之赴深溪；视士卒如爱子，所以可与之俱死。",
-        "modernApplication": "用于地形与组织时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
-        "relatedConceptIds": [
-          "zheng-qi",
-          "shi-neng"
-        ],
-        "relatedCaseIds": [
-          "network-effect",
-          "avoid-internal-friction"
-        ],
-        "relatedTrainingIds": [
-          "t02",
-          "t09"
-        ],
-        "quoteLevel": "normal"
-      },
-      {
-        "id": "di-xing-23",
-        "chapterId": "di-xing",
-        "order": 23,
-        "original": "厚而不能使，爱而不能令，乱而不能治，譬若骄子，不可用也。",
-        "words": [
-          {
-            "word": "厚而不能",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          },
-          {
-            "word": "爱而不能",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          },
-          {
-            "word": "乱而不能",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
-            "modernMapping": "地形与组织"
-          }
-        ],
-        "translation": "白话说就是：厚而不能使，爱而不能令，乱而不能治，譬若骄子，不可用。",
-        "modernApplication": "复盘失败时不要只怪外部环境，要检查资源比例、管理强弱、指挥清晰度和执行队形。",
-        "relatedConceptIds": [
           "zheng-qi",
           "shi-neng"
         ],
@@ -8206,26 +10889,40 @@ export const chapters: Chapter[] = [
         "id": "di-xing-24",
         "chapterId": "di-xing",
         "order": 24,
-        "original": "知吾卒之可以击，而不知敌之不可击，胜之半也；知敌之可击，而不知吾卒之不可以击，胜之半也；知敌之可击，知吾卒之可以击，而不知地形之不可以战，胜之半也。",
+        "original": "料敌制胜，计险阨远近，上将之道也。",
         "words": [
           {
-            "word": "地形",
-            "explanation": "地势条件及其对行动的帮助或限制。",
-            "modernMapping": "环境结构"
+            "word": "道",
+            "explanation": "上下同欲、目标一致的组织状态。",
+            "modernMapping": "组织共识"
           },
           {
-            "word": "地",
-            "explanation": "远近、险易、广狭等空间与环境条件。",
-            "modernMapping": "资源环境"
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
+          },
+          {
+            "word": "险",
+            "explanation": "险要地形。",
+            "modernMapping": "高风险入口"
+          },
+          {
+            "word": "远",
+            "explanation": "距离过远、挑战困难。",
+            "modernMapping": "高摩擦距离"
           }
         ],
-        "translation": "换成今天的话：知我方士卒之可以击，而不知对手之不可击，取胜之半；知对手之可击，而不知我方士卒之不可以击，取胜之半；知对手之可击，知我方士卒之可以击，而不知地利形势能之不可以作战，取胜之半。",
+        "translation": "判断敌情而制胜，计算险阻、远近、利害，是上等将帅的方法。",
+        "literalTranslation": "判断敌情而制胜，计算险阻、远近、利害，是上等将帅的方法。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
+          "miao-suan",
           "zhi-tian-zhi-di",
-          "zheng-qi",
-          "shi-neng"
+          "zheng-qi"
         ],
         "relatedCaseIds": [
           "network-effect",
@@ -8241,27 +10938,32 @@ export const chapters: Chapter[] = [
         "id": "di-xing-25",
         "chapterId": "di-xing",
         "order": 25,
-        "original": "故知兵者，动而不迷，举而不穷。",
+        "original": "知此而用战者必胜，不知此而用战者必败。",
         "words": [
           {
-            "word": "故知兵者",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "word": "知此而用",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           },
           {
-            "word": "动而不迷",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "word": "战者必胜",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           },
           {
-            "word": "举而不穷",
-            "explanation": "本句实际出现的关键表达，需要放回“地形与组织”语境中理解。",
+            "word": "不知此而",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "地形与组织"
           }
         ],
-        "translation": "这句在说：所以知军队事行动，动而不迷，举而不穷。",
-        "modernApplication": "用于地形与组织时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "懂得这些而用兵作战的必胜，不懂这些而用兵作战的必败。",
+        "literalTranslation": "懂得这些而用兵作战的必胜，不懂这些而用兵作战的必败。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
           "zheng-qi",
           "shi-neng"
         ],
@@ -8273,12 +10975,391 @@ export const chapters: Chapter[] = [
           "t05",
           "t12"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "di-xing-26",
         "chapterId": "di-xing",
         "order": 26,
+        "original": "故战道必胜，主曰无战，必战可也；战道不胜，主曰必战，无战可也。",
+        "words": [
+          {
+            "word": "道",
+            "explanation": "上下同欲、目标一致的组织状态。",
+            "modernMapping": "组织共识"
+          },
+          {
+            "word": "故战道必",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "主曰无战",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "所以，如果根据战争规律必定能胜，即使君主说不要战，也可以坚持作战；如果根据战争规律不能取胜，即使君主命令一定要战，也可以不战。",
+        "literalTranslation": "所以，如果根据战争规律必定能胜，即使君主说不要战，也可以坚持作战；如果根据战争规律不能取胜，即使君主命令一定要战，也可以不战。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t06",
+          "t13"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "di-xing-27",
+        "chapterId": "di-xing",
+        "order": 27,
+        "original": "故进不求名，退不避罪，唯人是保，而利合于主，国之宝也。",
+        "words": [
+          {
+            "word": "故进不求",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "退不避罪",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "唯人是保",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "所以，进攻不是为了求名，退却不是为了逃避罪责，而是一切以保全人民、符合国家利益为准。这样的将帅，是国家的珍宝。",
+        "literalTranslation": "所以，进攻不是为了求名，退却不是为了逃避罪责，而是一切以保全人民、符合国家利益为准。这样的将帅，是国家的珍宝。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "li-hai-bing-guan",
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t07",
+          "t14"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "di-xing-28",
+        "chapterId": "di-xing",
+        "order": 28,
+        "original": "视卒如婴儿，故可与之赴深溪。",
+        "words": [
+          {
+            "word": "视卒如婴",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "故可与之",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "赴深溪",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "把士卒看作婴儿一样爱护，士卒就可以与他共赴深溪。",
+        "literalTranslation": "把士卒看作婴儿一样爱护，士卒就可以与他共赴深溪。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t08",
+          "t15"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "di-xing-29",
+        "chapterId": "di-xing",
+        "order": 29,
+        "original": "视卒如爱子，故可与之俱死。",
+        "words": [
+          {
+            "word": "视卒如爱",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "故可与之",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "俱死",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "把士卒看作爱子一样对待，士卒就可以与他同生共死。",
+        "literalTranslation": "把士卒看作爱子一样对待，士卒就可以与他同生共死。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t09",
+          "t16"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "di-xing-30",
+        "chapterId": "di-xing",
+        "order": 30,
+        "original": "厚而不能使，爱而不能令，乱而不能治，譬若骄子，不可用也。",
+        "words": [
+          {
+            "word": "厚而不能",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "爱而不能",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "乱而不能",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "但如果只厚爱而不能使用，只爱护而不能命令，混乱而不能治理，就像骄纵的孩子一样，不能使用。",
+        "literalTranslation": "但如果只厚爱而不能使用，只爱护而不能命令，混乱而不能治理，就像骄纵的孩子一样，不能使用。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t10",
+          "t17"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "di-xing-31",
+        "chapterId": "di-xing",
+        "order": 31,
+        "original": "知吾卒之可以击，而不知敌之不可击，胜之半也。",
+        "words": [
+          {
+            "word": "知吾卒之",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "可以击",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "而不知敌",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "只知道我方士卒可以攻击，却不知道敌人不可攻击，胜利只有一半把握。",
+        "literalTranslation": "只知道我方士卒可以攻击，却不知道敌人不可攻击，胜利只有一半把握。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t11",
+          "t18"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "di-xing-32",
+        "chapterId": "di-xing",
+        "order": 32,
+        "original": "知敌之可击，而不知吾卒之不可以击，胜之半也。",
+        "words": [
+          {
+            "word": "知敌之可",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "而不知吾",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "卒之不可",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "只知道敌人可以攻击，却不知道我方士卒不能攻击，胜利也只有一半把握。",
+        "literalTranslation": "只知道敌人可以攻击，却不知道我方士卒不能攻击，胜利也只有一半把握。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t12",
+          "t19"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "di-xing-33",
+        "chapterId": "di-xing",
+        "order": 33,
+        "original": "知敌之可击，知吾卒之可以击，而不知地形之不可以战，胜之半也。",
+        "words": [
+          {
+            "word": "地形",
+            "explanation": "地势条件及其对行动的帮助或限制。",
+            "modernMapping": "环境结构"
+          },
+          {
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          }
+        ],
+        "translation": "知道敌人可以攻击，也知道我方士卒可以攻击，却不知道地形不适合作战，胜利仍然只有一半把握。",
+        "literalTranslation": "知道敌人可以攻击，也知道我方士卒可以攻击，却不知道地形不适合作战，胜利仍然只有一半把握。",
+        "freeTranslation": "这句话强调：判断必须同时覆盖自身、对手和环境，缺一面都会造成误判。",
+        "coreMeaning": "判断必须同时覆盖自身、对手和环境，缺一面都会造成误判。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t13",
+          "t20"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "di-xing-34",
+        "chapterId": "di-xing",
+        "order": 34,
+        "original": "故知兵者，动而不迷，举而不穷。",
+        "words": [
+          {
+            "word": "故知兵者",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "动而不迷",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          },
+          {
+            "word": "举而不穷",
+            "explanation": "理解这个表达时，应结合“地形与组织”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "地形与组织"
+          }
+        ],
+        "translation": "所以，懂兵法的人，行动不会迷惑，举兵不会陷入困境。",
+        "literalTranslation": "所以，懂兵法的人，行动不会迷惑，举兵不会陷入困境。",
+        "freeTranslation": "这句话强调：本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“地形与组织”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于地形与组织时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“地形与组织”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "zheng-qi",
+          "shi-neng"
+        ],
+        "relatedCaseIds": [
+          "network-effect",
+          "avoid-internal-friction"
+        ],
+        "relatedTrainingIds": [
+          "t14",
+          "t21"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "di-xing-35",
+        "chapterId": "di-xing",
+        "order": 35,
         "original": "故曰：知彼知己，胜乃不殆；知天知地，胜乃可全。",
         "words": [
           {
@@ -8292,8 +11373,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "资源环境"
           }
         ],
-        "translation": "所以说：了解对方也了解自己，取胜就不会危险；了解天时和地利，胜利才更完整。",
+        "translation": "所以说：了解敌人，了解自己，胜利就不会危险；了解天时，了解地利，胜利才可以完全。",
+        "literalTranslation": "所以说：了解敌人，了解自己，胜利就不会危险；了解天时，了解地利，胜利才可以完全。",
+        "freeTranslation": "这句话强调：判断必须同时覆盖自身、对手和环境，缺一面都会造成误判。",
+        "coreMeaning": "判断必须同时覆盖自身、对手和环境，缺一面都会造成误判。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要只搜集对手信息，却忽略自己的资源、能力和承受边界。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bu-zhan-er-qu-ren",
@@ -8305,8 +11390,8 @@ export const chapters: Chapter[] = [
           "avoid-internal-friction"
         ],
         "relatedTrainingIds": [
-          "t06",
-          "t13"
+          "t15",
+          "t22"
         ],
         "quoteLevel": "important"
       }
@@ -8361,7 +11446,7 @@ export const chapters: Chapter[] = [
       "completeness": "完整",
       "proofreadingStatus": "初校",
       "variantNotes": [],
-      "note": "已按《孙子兵法.txt》补齐通行本完整原文；逐句译注为初校内容，建议结合原文继续复校。"
+      "note": "原文与白话译文参照《孙子兵法原文与译文.txt》整理；逐句应用与误读提示为学习辅助内容，后续可继续复校。"
     },
     "structure": [
       "定义九种处境",
@@ -8369,13 +11454,13 @@ export const chapters: Chapter[] = [
       "说明死地求生边界",
       "强调组织联动和速度"
     ],
-    "fullOriginal": "用兵之法，有散地，有轻地，有争地，有交地，有衢地，有重地，有泛地，有围地，有死地。诸侯自战其地者，为散地；入人之地不深者，为轻地；我得亦利，彼得亦利者，为争地；我可以往，彼可以来者，为交地；诸侯之地三属，先至而得天下众者，为衢地；入人之地深，背城邑多者，为重地；山林、险阻、沮泽，凡难行之道者，为泛地；所由入者隘，所从归者迂，彼寡可以击吾之众者，为围地；疾战则存，不疾战则亡者，为死地。是故散地则无战，轻地则无止，争地则无攻，交地则无绝，衢地则合交，重地则掠，泛地则行，围地则谋，死地则战。\n\n古之善用兵者，能使敌人前后不相及，众寡不相恃，贵贱不相救，上下不相收，卒离而不集，兵合而不齐。合于利而动，不合于利而止。敢问敌众而整将来，待之若何曰：先夺其所爱则听矣。兵之情主速，乘人之不及。由不虞之道，攻其所不戒也。\n\n凡为客之道，深入则专。主人不克，掠于饶野，三军足食。谨养而勿劳，并气积力，运兵计谋，为不可测。\n\n投之无所往，死且不北。死焉不得，士人尽力。兵士甚陷则不惧，无所往则固，深入则拘，不得已则斗。是故其兵不修而戒，不求而得，不约而亲，不令而信，禁祥去疑，至死无所之。\n\n吾士无余财，非恶货也；无余命，非恶寿也。令发之日，士卒坐者涕沾襟，偃卧者涕交颐，投之无所往，诸、刿之勇也。故善用兵者，譬如率然。率然者，常山之蛇也。击其首则尾至，击其尾则首至，击其中则首尾俱至。敢问兵可使如率然乎？曰可。夫吴人与越人相恶也，当其同舟而济而遇风，其相救也如左右手。是故方马埋轮，未足恃也；齐勇如一，政之道也；刚柔皆得，地之理也。故善用兵者，携手若使一人，不得已也。\n\n将军之事，静以幽，正以治，能愚士卒之耳目，使之无知；易其事，革其谋，使人无识；易其居，迂其途，使民不得虑。帅与之期，如登高而去其梯；帅与之深入诸侯之地，而发其机。若驱群羊，驱而往，驱而来，莫知所之。聚三军之众，投之于险，此谓将军之事也。\n\n九地之变，屈伸之力，人情之理，不可不察也。\n\n凡为客之道，深则专，浅则散。去国越境而师者，绝地也；四彻者，衢地也；入深者，重地也；入浅者，轻地也；背固前隘者，围地也；无所往者，死地也。\n\n是故散地吾将一其志，轻地吾将使之属，争地吾将趋其后，交地吾将谨其守，交地吾将固其结，衢地吾将谨其恃，重地吾将继其食，泛地吾将进其途，围地吾将塞其阙，死地吾将示之以不活。\n\n故兵之情：围则御，不得已则斗，过则从。\n\n是故不知诸侯之谋者，不能预交；不知山林、险阻、沮泽之形者，不能行军；不用乡导，不能得地利。四五者，一不知，非霸王之兵也。夫霸王之兵，伐大国，则其众不得聚；威加于敌，则其交不得合。是故不争天下之交，不养天下之权，信己之私，威加于敌，则其城可拔，其国可隳。\n\n施无法之赏，悬无政之令。犯三军之众，若使一人。犯之以事，勿告以言；犯之以害，勿告以利。投之亡地然后存，陷之死地然后生。夫众陷于害，然后能为胜败。\n\n故为兵之事，在顺详敌之意，并敌一向，千里杀将，是谓巧能成事。是故政举之日，夷关折符，无通其使，厉于廊庙之上，以诛其事。敌人开阖，必亟入之，先其所爱，微与之期，践墨随敌，以决战事。是故始如处女，敌人开户；后如脱兔，敌不及拒。",
+    "fullOriginal": "孙子曰：用兵之法，有散地，有轻地，有争地，有交地，有衢地，有重地，有圮地，有围地，有死地。\n诸侯自战其地者，为散地。\n入人之地不深者，为轻地。\n我得则利，彼得亦利者，为争地。\n我可以往，彼可以来者，为交地。\n诸侯之地三属，先至而得天下之众者，为衢地。\n入人之地深，背城邑多者，为重地。\n山林、险阻、沮泽，凡难行之道者，为圮地。\n所由入者隘，所从归者迂，彼寡可以击吾之众者，为围地。\n疾战则存，不疾战则亡者，为死地。\n是故散地则无战，轻地则无止，争地则无攻，交地则无绝，衢地则合交，重地则掠，圮地则行，围地则谋，死地则战。\n所谓古之善用兵者，能使敌人前后不相及，众寡不相恃，贵贱不相救，上下不相收，卒离而不集，兵合而不齐。\n合于利而动，不合于利而止。\n敢问：敌众整而将来，待之若何？\n曰：先夺其所爱，则听矣。\n兵之情主速，乘人之不及，由不虞之道，攻其所不戒也。\n凡为客之道，深则专，浅则散。\n去国越境而师者，绝地也。\n四达者，衢地也。\n入深者，重地也。\n入浅者，轻地也。\n背固前隘者，围地也。\n无所往者，死地也。\n是故散地，吾将一其志。\n轻地，吾将使之属。\n争地，吾将趋其后。\n交地，吾将谨其守。\n衢地，吾将固其结。\n重地，吾将继其食。\n圮地，吾将进其途。\n围地，吾将塞其阙。\n死地，吾将示之以不活。\n故兵之情，围则御，不得已则斗，过则从。\n是故不知诸侯之谋者，不能预交。\n不知山林、险阻、沮泽之形者，不能行军。\n不用乡导者，不能得地利。\n凡此四五者，一不知，非霸王之兵也。\n夫霸王之兵，伐大国，则其众不得聚；威加于敌，则其交不得合。\n是故不争天下之交，不养天下之权，信己之私，威加于敌，故其城可拔，其国可隳。\n施无法之赏，悬无政之令，犯三军之众，若使一人。\n犯之以事，勿告以言；犯之以利，勿告以害。\n投之亡地然后存，陷之死地然后生。\n夫众陷于害，然后能为胜败。\n故为兵之事，在顺详敌之意，并敌一向，千里杀将，是谓巧能成事。\n是故政举之日，夷关折符，无通其使。\n厉于廊庙之上，以诛其事。\n敌人开阖，必亟入之。\n先其所爱，微与之期。\n践墨随敌，以决战事。\n是故始如处女，敌人开户；后如脱兔，敌不及拒。",
     "sentences": [
       {
         "id": "jiu-di-1",
         "chapterId": "jiu-di",
         "order": 1,
-        "original": "用兵之法，有散地，有轻地，有争地，有交地，有衢地，有重地，有泛地，有围地，有死地。",
+        "original": "孙子曰：用兵之法，有散地，有轻地，有争地，有交地，有衢地，有重地，有圮地，有围地，有死地。",
         "words": [
           {
             "word": "散地",
@@ -8398,8 +11483,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "枢纽网络"
           }
         ],
-        "translation": "可以理解为：用兵的基本方制度，有散地利，有轻地利，有争地利，有交地利，有衢地利，有重地利，有泛地利，有围地利，有死地利。",
+        "translation": "孙子说：用兵的地势有九种：散地、轻地、争地、交地、衢地、重地、圮地、围地、死地。",
+        "literalTranslation": "孙子说：用兵的地势有九种：散地、轻地、争地、交地、衢地、重地、圮地、围地、死地。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要轻易制造绝境来逼迫团队；这类手段代价极高，只能在条件清楚时谨慎使用。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
@@ -8420,7 +11509,7 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-2",
         "chapterId": "jiu-di",
         "order": 2,
-        "original": "诸侯自战其地者，为散地；入人之地不深者，为轻地；我得亦利，彼得亦利者，为争地；我可以往，彼可以来者，为交地；诸侯之地三属，先至而得天下众者，为衢地；入人之地深，背城邑多者，为重地；山林、险阻、沮泽，凡难行之道者，为泛地；所由入者隘，所从归者迂，彼寡可以击吾之众者，为围地；疾战则存，不疾战则亡者，为死地。",
+        "original": "诸侯自战其地者，为散地。",
         "words": [
           {
             "word": "散地",
@@ -8428,28 +11517,22 @@ export const chapters: Chapter[] = [
             "modernMapping": "低承诺场景"
           },
           {
-            "word": "轻地",
-            "explanation": "进入不深、容易退却的处境。",
-            "modernMapping": "浅层投入"
-          },
-          {
-            "word": "争地",
-            "explanation": "双方都想夺取的要点。",
-            "modernMapping": "关键资源"
-          },
-          {
-            "word": "衢地",
-            "explanation": "四通八达、适合结交的地区。",
-            "modernMapping": "枢纽网络"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           }
         ],
-        "translation": "白话说就是：诸侯自作战其地利，为散地利；入人之地利不深，为轻地利；我得亦利益，对方得亦利益，为争地利；我可以往，对方可以来，为交地利；诸侯之地利三属，先至而得时机下兵众，为衢地利；入人之地利深，背城邑多，为重地利；山林、险阻、沮泽，凡是难行之共同目标，为泛地利；所由入隘，所从归迂，对方寡可以击我方之兵众，为围地利；疾作战则存，不疾作战则亡，为死地利。",
+        "translation": "诸侯在自己国土上作战，叫散地。因为士卒容易各恋家乡，人心分散。",
+        "literalTranslation": "诸侯在自己国土上作战，叫散地。因为士卒容易各恋家乡，人心分散。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "yi-yu-wei-zhi",
-          "li-hai-bing-guan",
-          "zhi-tian-zhi-di"
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -8459,42 +11542,36 @@ export const chapters: Chapter[] = [
           "t13",
           "t20"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "jiu-di-3",
         "chapterId": "jiu-di",
         "order": 3,
-        "original": "是故散地则无战，轻地则无止，争地则无攻，交地则无绝，衢地则合交，重地则掠，泛地则行，围地则谋，死地则战。",
+        "original": "入人之地不深者，为轻地。",
         "words": [
-          {
-            "word": "散地",
-            "explanation": "人心易散的本土处境。",
-            "modernMapping": "低承诺场景"
-          },
           {
             "word": "轻地",
             "explanation": "进入不深、容易退却的处境。",
             "modernMapping": "浅层投入"
           },
           {
-            "word": "争地",
-            "explanation": "双方都想夺取的要点。",
-            "modernMapping": "关键资源"
-          },
-          {
-            "word": "衢地",
-            "explanation": "四通八达、适合结交的地区。",
-            "modernMapping": "枢纽网络"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           }
         ],
-        "translation": "换成今天的话：是所以散地利则无作战，轻地利则无止，争地利则无进攻，交地利则无绝，衢地利则合交，重地利则掠，泛地利则行，围地利则谋，死地利则作战。",
+        "translation": "进入敌国不深，叫轻地。因为士卒还容易回头，军心不够专一。",
+        "literalTranslation": "进入敌国不深，叫轻地。因为士卒还容易回头，军心不够专一。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "bu-ke-sheng-zai-ji",
           "zhi-tian-zhi-di",
-          "si-di-qiu-sheng"
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -8504,35 +11581,36 @@ export const chapters: Chapter[] = [
           "t14",
           "t21"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "jiu-di-4",
         "chapterId": "jiu-di",
         "order": 4,
-        "original": "古之善用兵者，能使敌人前后不相及，众寡不相恃，贵贱不相救，上下不相收，卒离而不集，兵合而不齐。",
+        "original": "我得则利，彼得亦利者，为争地。",
         "words": [
           {
-            "word": "古之善用",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "争地",
+            "explanation": "双方都想夺取的要点。",
+            "modernMapping": "关键资源"
           },
           {
-            "word": "兵者",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "能使敌人",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           }
         ],
-        "translation": "这句在说：古之善用军队事行动，能使对手人前后不相及，兵众寡不相恃，贵贱不相救，上下不相收，士卒离而不集，兵合而不齐。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "我方取得有利，敌方取得也有利，叫争地。",
+        "literalTranslation": "我方取得有利，敌方取得也有利，叫争地。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "dao-tian-di-jiang-fa",
+          "li-hai-bing-guan",
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -8548,30 +11626,35 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-5",
         "chapterId": "jiu-di",
         "order": 5,
-        "original": "合于利而动，不合于利而止。",
+        "original": "我可以往，彼可以来者，为交地。",
         "words": [
           {
-            "word": "合于利而",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
+          {
+            "word": "我可以往",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "不合于利",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "而止",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "彼可以来",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "意思是：合于利益而动，不合于利益而止。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "我方可以去，敌方也可以来，叫交地。",
+        "literalTranslation": "我方可以去，敌方也可以来，叫交地。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "li-hai-bing-guan",
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -8581,36 +11664,41 @@ export const chapters: Chapter[] = [
           "t16",
           "t23"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "jiu-di-6",
         "chapterId": "jiu-di",
         "order": 6,
-        "original": "敢问敌众而整将来，待之若何曰：先夺其所爱则听矣。",
+        "original": "诸侯之地三属，先至而得天下之众者，为衢地。",
         "words": [
           {
-            "word": "将",
-            "explanation": "负责人的智、信、仁、勇、严。",
-            "modernMapping": "领导能力"
+            "word": "衢地",
+            "explanation": "四通八达、适合结交的地区。",
+            "modernMapping": "枢纽网络"
           },
           {
-            "word": "敢问敌众",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "天",
+            "explanation": "时令、气候与外部周期条件。",
+            "modernMapping": "时间窗口"
           },
           {
-            "word": "而整将来",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           }
         ],
-        "translation": "可以理解为：敢问对手兵众而整将领来，待之若何曰：先夺其所爱则听了。",
+        "translation": "处于多国交界、四通八达之处，谁先到达就可以取得诸侯支持，叫衢地。",
+        "literalTranslation": "处于多国交界、四通八达之处，谁先到达就可以取得诸侯支持，叫衢地。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -8626,24 +11714,30 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-7",
         "chapterId": "jiu-di",
         "order": 7,
-        "original": "兵之情主速，乘人之不及。",
+        "original": "入人之地深，背城邑多者，为重地。",
         "words": [
           {
-            "word": "兵之情主",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "重地",
+            "explanation": "深入敌境、资源依赖增强的地区。",
+            "modernMapping": "深度投入"
           },
           {
-            "word": "乘人之不",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           }
         ],
-        "translation": "白话说就是：兵之情君主速，乘人之不及。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "深入敌国，背后经过许多敌方城邑，叫重地。",
+        "literalTranslation": "深入敌国，背后经过许多敌方城邑，叫重地。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -8659,7 +11753,7 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-8",
         "chapterId": "jiu-di",
         "order": 8,
-        "original": "由不虞之道，攻其所不戒也。",
+        "original": "山林、险阻、沮泽，凡难行之道者，为圮地。",
         "words": [
           {
             "word": "道",
@@ -8667,21 +11761,25 @@ export const chapters: Chapter[] = [
             "modernMapping": "组织共识"
           },
           {
-            "word": "由不虞之",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           },
           {
-            "word": "攻其所不",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "险",
+            "explanation": "险要地形。",
+            "modernMapping": "高风险入口"
           }
         ],
-        "translation": "换成今天的话：由不虞之共同目标，进攻其所不戒。",
+        "translation": "山林、险阻、沼泽等难以通行的地方，叫圮地。",
+        "literalTranslation": "山林、险阻、沼泽等难以通行的地方，叫圮地。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "bu-ke-sheng-zai-ji",
+          "zhi-tian-zhi-di",
           "shi-neng",
           "bi-shi-ji-xu"
         ],
@@ -8699,30 +11797,35 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-9",
         "chapterId": "jiu-di",
         "order": 9,
-        "original": "凡为客之道，深入则专。",
+        "original": "所由入者隘，所从归者迂，彼寡可以击吾之众者，为围地。",
         "words": [
           {
-            "word": "道",
-            "explanation": "上下同欲、目标一致的组织状态。",
-            "modernMapping": "组织共识"
+            "word": "围地",
+            "explanation": "进出受限的危险处境。",
+            "modernMapping": "受限局面"
           },
           {
-            "word": "凡为客之",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           },
           {
-            "word": "深入则专",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "隘",
+            "explanation": "狭窄关口。",
+            "modernMapping": "瓶颈资源"
           }
         ],
-        "translation": "这句在说：凡是为客之共同目标，深入则专。",
+        "translation": "进入的道路狭窄，退回的道路迂远，敌人用少数兵力就可以攻击我方多数兵力，叫围地。",
+        "literalTranslation": "进入的道路狭窄，退回的道路迂远，敌人用少数兵力就可以攻击我方多数兵力，叫围地。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要轻易制造绝境来逼迫团队；这类手段代价极高，只能在条件清楚时谨慎使用。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "yi-yu-wei-zhi",
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -8738,29 +11841,30 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-10",
         "chapterId": "jiu-di",
         "order": 10,
-        "original": "主人不克，掠于饶野，三军足食。",
+        "original": "疾战则存，不疾战则亡者，为死地。",
         "words": [
           {
-            "word": "主人不克",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "死地",
+            "explanation": "不战则亡的处境。",
+            "modernMapping": "背水节点"
           },
           {
-            "word": "掠于饶野",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "三军足食",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           }
         ],
-        "translation": "意思是：君主人不克，掠于饶野，三军队足粮食。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "快速决战就能生存，不快速决战就会灭亡，叫死地。",
+        "literalTranslation": "快速决战就能生存，不快速决战就会灭亡，叫死地。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要轻易制造绝境来逼迫团队；这类手段代价极高，只能在条件清楚时谨慎使用。",
         "relatedConceptIds": [
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -8776,31 +11880,40 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-11",
         "chapterId": "jiu-di",
         "order": 11,
-        "original": "谨养而勿劳，并气积力，运兵计谋，为不可测。",
+        "original": "是故散地则无战，轻地则无止，争地则无攻，交地则无绝，衢地则合交，重地则掠，圮地则行，围地则谋，死地则战。",
         "words": [
           {
-            "word": "谨养而勿",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "散地",
+            "explanation": "人心易散的本土处境。",
+            "modernMapping": "低承诺场景"
           },
           {
-            "word": "并气积力",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "轻地",
+            "explanation": "进入不深、容易退却的处境。",
+            "modernMapping": "浅层投入"
           },
           {
-            "word": "运兵计谋",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "争地",
+            "explanation": "双方都想夺取的要点。",
+            "modernMapping": "关键资源"
+          },
+          {
+            "word": "衢地",
+            "explanation": "四通八达、适合结交的地区。",
+            "modernMapping": "枢纽网络"
           }
         ],
-        "translation": "可以理解为：谨养而勿劳，并气积力，运兵计算和比较谋，为不可测。",
-        "modernApplication": "做产品、投资或组织变革前，先列出可验证的有利条件和不利条件，用证据数量决定是否推进。",
+        "translation": "所以，在散地不要作战；在轻地不要停留；在争地不要强攻；在交地不要断绝联络；在衢地要结交诸侯；在重地要夺取粮食；在圮地要迅速通过；在围地要运用谋略；在死地要拼死作战。",
+        "literalTranslation": "所以，在散地不要作战；在轻地不要停留；在争地不要强攻；在交地不要断绝联络；在衢地要结交诸侯；在重地要夺取粮食；在圮地要迅速通过；在围地要运用谋略；在死地要拼死作战。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要轻易制造绝境来逼迫团队；这类手段代价极高，只能在条件清楚时谨慎使用。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "miao-suan",
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "bu-ke-sheng-zai-ji",
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -8810,27 +11923,36 @@ export const chapters: Chapter[] = [
           "t22",
           "t29"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "jiu-di-12",
         "chapterId": "jiu-di",
         "order": 12,
-        "original": "投之无所往，死且不北。",
+        "original": "所谓古之善用兵者，能使敌人前后不相及，众寡不相恃，贵贱不相救，上下不相收，卒离而不集，兵合而不齐。",
         "words": [
           {
-            "word": "投之无所",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "所谓古之",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "死且不北",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "善用兵者",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
+          },
+          {
+            "word": "能使敌人",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "白话说就是：投之无所往，死且不北。",
-        "modernApplication": "复盘失败时不要只怪外部环境，要检查资源比例、管理强弱、指挥清晰度和执行队形。",
+        "translation": "古代善于用兵的人，能够使敌人前后不能相互接应，多数与少数不能相互依靠，贵族与平民不能相互救援，上级与下级不能相互收拢，士卒分散而不能集合，兵力聚合而不能整齐。",
+        "literalTranslation": "古代善于用兵的人，能够使敌人前后不能相互接应，多数与少数不能相互依靠，贵族与平民不能相互救援，上级与下级不能相互收拢，士卒分散而不能集合，兵力聚合而不能整齐。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shi-neng",
           "bi-shi-ji-xu"
@@ -8843,28 +11965,38 @@ export const chapters: Chapter[] = [
           "t23",
           "t30"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "jiu-di-13",
         "chapterId": "jiu-di",
         "order": 13,
-        "original": "死焉不得，士人尽力。",
+        "original": "合于利而动，不合于利而止。",
         "words": [
           {
-            "word": "死焉不得",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "合于利而",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "士人尽力",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "不合于利",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
+          },
+          {
+            "word": "而止",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "换成今天的话：死焉不得，士人尽力。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "符合利益就行动，不符合利益就停止。",
+        "literalTranslation": "符合利益就行动，不符合利益就停止。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "li-hai-bing-guan",
           "shi-neng",
           "bi-shi-ji-xu"
         ],
@@ -8876,33 +12008,38 @@ export const chapters: Chapter[] = [
           "t24",
           "t01"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "jiu-di-14",
         "chapterId": "jiu-di",
         "order": 14,
-        "original": "兵士甚陷则不惧，无所往则固，深入则拘，不得已则斗。",
+        "original": "敢问：敌众整而将来，待之若何？",
         "words": [
           {
-            "word": "兵士甚陷",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
+          },
+          {
+            "word": "敢问",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "则不惧",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "无所往则",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "敌众整而",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "这句在说：兵士甚陷则不惧，无所往则固，深入则拘，不得已则斗。",
-        "modernApplication": "复盘失败时不要只怪外部环境，要检查资源比例、管理强弱、指挥清晰度和执行队形。",
+        "translation": "有人问：敌人人多而且阵势严整，正要向我进攻，该怎么办？",
+        "literalTranslation": "有人问：敌人人多而且阵势严整，正要向我进攻，该怎么办？",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
           "shi-neng",
           "bi-shi-ji-xu"
         ],
@@ -8920,26 +12057,25 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-15",
         "chapterId": "jiu-di",
         "order": 15,
-        "original": "是故其兵不修而戒，不求而得，不约而亲，不令而信，禁祥去疑，至死无所之。",
+        "original": "曰：先夺其所爱，则听矣。",
         "words": [
           {
-            "word": "是故其兵",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "先夺其所",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "不修而戒",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "不求而得",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "则听矣",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "意思是：是所以其兵不修而戒，不求而得，不约而亲，不令而信，禁祥去疑，至死无所之。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "回答说：先夺取敌人最重视、最必救的地方，敌人就会听从我的调动。",
+        "literalTranslation": "回答说：先夺取敌人最重视、最必救的地方，敌人就会听从我的调动。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shi-neng",
           "bi-shi-ji-xu"
@@ -8958,27 +12094,33 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-16",
         "chapterId": "jiu-di",
         "order": 16,
-        "original": "吾士无余财，非恶货也；无余命，非恶寿也。",
+        "original": "兵之情主速，乘人之不及，由不虞之道，攻其所不戒也。",
         "words": [
           {
-            "word": "吾士无余",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "道",
+            "explanation": "上下同欲、目标一致的组织状态。",
+            "modernMapping": "组织共识"
+          },
+          {
+            "word": "兵之情主",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "非恶货也",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "无余命",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "乘人之不",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "可以理解为：我方士无余财，非恶货；无余命，非恶寿。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "用兵的规律，重在迅速。要趁敌人来不及防备，走敌人意料不到的道路，攻击敌人没有戒备的地方。",
+        "literalTranslation": "用兵的规律，重在迅速。要趁敌人来不及防备，走敌人意料不到的道路，攻击敌人没有戒备的地方。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "bu-ke-sheng-zai-ji",
           "shi-neng",
           "bi-shi-ji-xu"
         ],
@@ -8996,27 +12138,32 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-17",
         "chapterId": "jiu-di",
         "order": 17,
-        "original": "令发之日，士卒坐者涕沾襟，偃卧者涕交颐，投之无所往，诸、刿之勇也。",
+        "original": "凡为客之道，深则专，浅则散。",
         "words": [
           {
-            "word": "令发之日",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "道",
+            "explanation": "上下同欲、目标一致的组织状态。",
+            "modernMapping": "组织共识"
+          },
+          {
+            "word": "凡为客之",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "士卒坐者",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "涕沾襟",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "深则专",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "白话说就是：令发之日，士士卒坐涕沾襟，偃卧涕交颐，投之无所往，诸、刿之勇。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "凡是进入敌国作战，深入则军心专一，浅入则军心分散。",
+        "literalTranslation": "凡是进入敌国作战，深入则军心专一，浅入则军心分散。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
           "shi-neng",
           "bi-shi-ji-xu"
         ],
@@ -9034,22 +12181,33 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-18",
         "chapterId": "jiu-di",
         "order": 18,
-        "original": "故善用兵者，譬如率然。",
+        "original": "去国越境而师者，绝地也。",
         "words": [
           {
-            "word": "故善用兵",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
+          {
+            "word": "去国越境",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "譬如率然",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "而师者",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "换成今天的话：所以善用军队事行动，譬如率然。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "离开本国越过边境作战，叫绝地。",
+        "literalTranslation": "离开本国越过边境作战，叫绝地。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
           "shi-neng",
           "bi-shi-ji-xu"
         ],
@@ -9067,25 +12225,30 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-19",
         "chapterId": "jiu-di",
         "order": 19,
-        "original": "率然者，常山之蛇也。",
+        "original": "四达者，衢地也。",
         "words": [
           {
-            "word": "率然者",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "衢地",
+            "explanation": "四通八达、适合结交的地区。",
+            "modernMapping": "枢纽网络"
           },
           {
-            "word": "常山之蛇",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           }
         ],
-        "translation": "这句在说：率然，常山之蛇。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "四通八达的地方，叫衢地。",
+        "literalTranslation": "四通八达的地方，叫衢地。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -9101,29 +12264,30 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-20",
         "chapterId": "jiu-di",
         "order": 20,
-        "original": "击其首则尾至，击其尾则首至，击其中则首尾俱至。",
+        "original": "入深者，重地也。",
         "words": [
           {
-            "word": "击其首则",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "重地",
+            "explanation": "深入敌境、资源依赖增强的地区。",
+            "modernMapping": "深度投入"
           },
           {
-            "word": "尾至",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "击其尾则",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           }
         ],
-        "translation": "意思是：击其首则尾至，击其尾则首至，击其中则首尾俱至。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "深入敌境，叫重地。",
+        "literalTranslation": "深入敌境，叫重地。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -9139,24 +12303,30 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-21",
         "chapterId": "jiu-di",
         "order": 21,
-        "original": "敢问兵可使如率然乎？",
+        "original": "入浅者，轻地也。",
         "words": [
           {
-            "word": "敢问兵可",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "轻地",
+            "explanation": "进入不深、容易退却的处境。",
+            "modernMapping": "浅层投入"
           },
           {
-            "word": "使如率然",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           }
         ],
-        "translation": "可以理解为：敢问兵可使如率然乎？",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "进入敌境不深，叫轻地。",
+        "literalTranslation": "进入敌境不深，叫轻地。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -9172,19 +12342,35 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-22",
         "chapterId": "jiu-di",
         "order": 22,
-        "original": "曰可。",
+        "original": "背固前隘者，围地也。",
         "words": [
           {
-            "word": "曰可",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "围地",
+            "explanation": "进出受限的危险处境。",
+            "modernMapping": "受限局面"
+          },
+          {
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
+          {
+            "word": "隘",
+            "explanation": "狭窄关口。",
+            "modernMapping": "瓶颈资源"
           }
         ],
-        "translation": "白话说就是：曰可。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "背后坚固、前方狭隘，叫围地。",
+        "literalTranslation": "背后坚固、前方狭隘，叫围地。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要轻易制造绝境来逼迫团队；这类手段代价极高，只能在条件清楚时谨慎使用。",
         "relatedConceptIds": [
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -9200,29 +12386,30 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-23",
         "chapterId": "jiu-di",
         "order": 23,
-        "original": "夫吴人与越人相恶也，当其同舟而济而遇风，其相救也如左右手。",
+        "original": "无所往者，死地也。",
         "words": [
           {
-            "word": "夫吴人与",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "死地",
+            "explanation": "不战则亡的处境。",
+            "modernMapping": "背水节点"
           },
           {
-            "word": "越人相恶",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "当其同舟",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           }
         ],
-        "translation": "换成今天的话：大凡是吴人与越人相恶，当其同舟而济而遇风，其相救如左右手。",
-        "modernApplication": "使用高风险手段前要确认条件、时机和后果边界，例如降价、舆论、迁移、封禁或系统切换。",
+        "translation": "没有退路，叫死地。",
+        "literalTranslation": "没有退路，叫死地。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要轻易制造绝境来逼迫团队；这类手段代价极高，只能在条件清楚时谨慎使用。",
         "relatedConceptIds": [
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -9238,26 +12425,35 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-24",
         "chapterId": "jiu-di",
         "order": 24,
-        "original": "是故方马埋轮，未足恃也；齐勇如一，政之道也；刚柔皆得，地之理也。",
+        "original": "是故散地，吾将一其志。",
         "words": [
           {
-            "word": "道",
-            "explanation": "上下同欲、目标一致的组织状态。",
-            "modernMapping": "组织共识"
+            "word": "散地",
+            "explanation": "人心易散的本土处境。",
+            "modernMapping": "低承诺场景"
           },
           {
             "word": "地",
             "explanation": "远近、险易、广狭等空间与环境条件。",
             "modernMapping": "资源环境"
+          },
+          {
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
           }
         ],
-        "translation": "这句在说：是所以方马埋轮，未足恃；齐勇如一，政之共同目标；刚柔皆得，地利之理。",
+        "translation": "所以，在散地，我要统一士卒意志。",
+        "literalTranslation": "所以，在散地，我要统一士卒意志。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -9273,29 +12469,35 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-25",
         "chapterId": "jiu-di",
         "order": 25,
-        "original": "故善用兵者，携手若使一人，不得已也。",
+        "original": "轻地，吾将使之属。",
         "words": [
           {
-            "word": "故善用兵",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "轻地",
+            "explanation": "进入不深、容易退却的处境。",
+            "modernMapping": "浅层投入"
           },
           {
-            "word": "携手若使",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           },
           {
-            "word": "一人",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
           }
         ],
-        "translation": "意思是：所以善用军队事行动，携手若使一人，不得已。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "在轻地，我要使部队互相连接，不可离散。",
+        "literalTranslation": "在轻地，我要使部队互相连接，不可离散。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -9311,30 +12513,34 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-26",
         "chapterId": "jiu-di",
         "order": 26,
-        "original": "将军之事，静以幽，正以治，能愚士卒之耳目，使之无知；易其事，革其谋，使人无识；易其居，迂其途，使民不得虑。",
+        "original": "争地，吾将趋其后。",
         "words": [
+          {
+            "word": "争地",
+            "explanation": "双方都想夺取的要点。",
+            "modernMapping": "关键资源"
+          },
+          {
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
           {
             "word": "将",
             "explanation": "负责人的智、信、仁、勇、严。",
             "modernMapping": "领导能力"
-          },
-          {
-            "word": "将军之事",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "静以幽",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
           }
         ],
-        "translation": "可以理解为：将领军队之事，静以幽，正兵以治，能愚士士卒之耳目，使之无知；易其事，革其谋，使人无识；易其居，迂其途，使民众不得虑。",
+        "translation": "在争地，我要快速趋向敌人后方。",
+        "literalTranslation": "在争地，我要快速趋向敌人后方。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "zheng-qi",
-          "yi-yu-wei-zhi",
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng",
           "shi-neng"
         ],
         "relatedCaseIds": [
@@ -9345,13 +12551,13 @@ export const chapters: Chapter[] = [
           "t07",
           "t14"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "jiu-di-27",
         "chapterId": "jiu-di",
         "order": 27,
-        "original": "帅与之期，如登高而去其梯；帅与之深入诸侯之地，而发其机。",
+        "original": "交地，吾将谨其守。",
         "words": [
           {
             "word": "地",
@@ -9359,23 +12565,22 @@ export const chapters: Chapter[] = [
             "modernMapping": "资源环境"
           },
           {
-            "word": "帅与之期",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "如登高而",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
           }
         ],
-        "translation": "白话说就是：帅与之期，如登高而去其梯；帅与之深入诸侯之地利，而发其机。",
+        "translation": "在交地，我要谨慎防守。",
+        "literalTranslation": "在交地，我要谨慎防守。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
+          "bu-ke-sheng-zai-ji",
           "zhi-tian-zhi-di",
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "si-di-qiu-sheng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -9391,29 +12596,35 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-28",
         "chapterId": "jiu-di",
         "order": 28,
-        "original": "若驱群羊，驱而往，驱而来，莫知所之。",
+        "original": "衢地，吾将固其结。",
         "words": [
           {
-            "word": "若驱群羊",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "衢地",
+            "explanation": "四通八达、适合结交的地区。",
+            "modernMapping": "枢纽网络"
           },
           {
-            "word": "驱而往",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           },
           {
-            "word": "驱而来",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
           }
         ],
-        "translation": "换成今天的话：若驱群羊，驱而往，驱而来，没有谁知所之。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "在衢地，我要巩固外交联盟。",
+        "literalTranslation": "在衢地，我要巩固外交联盟。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -9429,26 +12640,35 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-29",
         "chapterId": "jiu-di",
         "order": 29,
-        "original": "聚三军之众，投之于险，此谓将军之事也。",
+        "original": "重地，吾将继其食。",
         "words": [
+          {
+            "word": "重地",
+            "explanation": "深入敌境、资源依赖增强的地区。",
+            "modernMapping": "深度投入"
+          },
+          {
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
           {
             "word": "将",
             "explanation": "负责人的智、信、仁、勇、严。",
             "modernMapping": "领导能力"
-          },
-          {
-            "word": "险",
-            "explanation": "险要地形。",
-            "modernMapping": "高风险入口"
           }
         ],
-        "translation": "这句在说：聚三军队之兵众，投之于险，此谓将领军队之事。",
+        "translation": "在重地，我要保障粮食供应。",
+        "literalTranslation": "在重地，我要保障粮食供应。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -9464,26 +12684,25 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-30",
         "chapterId": "jiu-di",
         "order": 30,
-        "original": "九地之变，屈伸之力，人情之理，不可不察也。",
+        "original": "圮地，吾将进其途。",
         "words": [
-          {
-            "word": "不可不察",
-            "explanation": "不能不慎重考察，强调重大行动前必须先判断利害。",
-            "modernMapping": "决策审查"
-          },
-          {
-            "word": "九地",
-            "explanation": "九种作战处境。",
-            "modernMapping": "处境分类"
-          },
           {
             "word": "地",
             "explanation": "远近、险易、广狭等空间与环境条件。",
             "modernMapping": "资源环境"
+          },
+          {
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
           }
         ],
-        "translation": "意思是：九地利之变，屈伸之力，人情之理，必须慎重考察。",
+        "translation": "在圮地，我要迅速通过道路。",
+        "literalTranslation": "在圮地，我要迅速通过道路。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
@@ -9504,30 +12723,35 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-31",
         "chapterId": "jiu-di",
         "order": 31,
-        "original": "凡为客之道，深则专，浅则散。",
+        "original": "围地，吾将塞其阙。",
         "words": [
           {
-            "word": "道",
-            "explanation": "上下同欲、目标一致的组织状态。",
-            "modernMapping": "组织共识"
+            "word": "围地",
+            "explanation": "进出受限的危险处境。",
+            "modernMapping": "受限局面"
           },
           {
-            "word": "凡为客之",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           },
           {
-            "word": "深则专",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
           }
         ],
-        "translation": "可以理解为：凡是为客之共同目标，深则专，浅则散。",
+        "translation": "在围地，我要堵塞退路，使士卒专心应敌。",
+        "literalTranslation": "在围地，我要堵塞退路，使士卒专心应敌。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要轻易制造绝境来逼迫团队；这类手段代价极高，只能在条件清楚时谨慎使用。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
-          "shi-neng",
-          "bi-shi-ji-xu"
+          "zhi-tian-zhi-di",
+          "si-di-qiu-sheng",
+          "shi-neng"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -9543,31 +12767,30 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-32",
         "chapterId": "jiu-di",
         "order": 32,
-        "original": "去国越境而师者，绝地也；四彻者，衢地也；入深者，重地也；入浅者，轻地也；背固前隘者，围地也；无所往者，死地也。",
+        "original": "死地，吾将示之以不活。",
         "words": [
           {
-            "word": "轻地",
-            "explanation": "进入不深、容易退却的处境。",
-            "modernMapping": "浅层投入"
+            "word": "死地",
+            "explanation": "不战则亡的处境。",
+            "modernMapping": "背水节点"
           },
           {
-            "word": "衢地",
-            "explanation": "四通八达、适合结交的地区。",
-            "modernMapping": "枢纽网络"
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
           },
           {
-            "word": "重地",
-            "explanation": "深入敌境、资源依赖增强的地区。",
-            "modernMapping": "深度投入"
-          },
-          {
-            "word": "围地",
-            "explanation": "进出受限的危险处境。",
-            "modernMapping": "受限局面"
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
           }
         ],
-        "translation": "白话说就是：去国家越境而军队，绝地利；四彻，衢地利；入深，重地利；入浅，轻地利；背固前隘，围地利；无所往，死地利。",
+        "translation": "在死地，我要让士卒明白没有生路可退。",
+        "literalTranslation": "在死地，我要让士卒明白没有生路可退。",
+        "freeTranslation": "这句话强调：虚实变化的重点是保护主动权，并根据对方反应选择时机。",
+        "coreMeaning": "虚实变化的重点是保护主动权，并根据对方反应选择时机。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要把“诡道”理解成无底线欺骗；它强调的是信息控制、虚实变化和因势制权，不能突破法律与伦理边界。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
@@ -9582,42 +12805,39 @@ export const chapters: Chapter[] = [
           "t13",
           "t20"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "jiu-di-33",
         "chapterId": "jiu-di",
         "order": 33,
-        "original": "是故散地吾将一其志，轻地吾将使之属，争地吾将趋其后，交地吾将谨其守，交地吾将固其结，衢地吾将谨其恃，重地吾将继其食，泛地吾将进其途，围地吾将塞其阙，死地吾将示之以不活。",
+        "original": "故兵之情，围则御，不得已则斗，过则从。",
         "words": [
           {
-            "word": "散地",
-            "explanation": "人心易散的本土处境。",
-            "modernMapping": "低承诺场景"
+            "word": "故兵之情",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
           },
           {
-            "word": "轻地",
-            "explanation": "进入不深、容易退却的处境。",
-            "modernMapping": "浅层投入"
+            "word": "围则御",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
           },
           {
-            "word": "争地",
-            "explanation": "双方都想夺取的要点。",
-            "modernMapping": "关键资源"
-          },
-          {
-            "word": "衢地",
-            "explanation": "四通八达、适合结交的地区。",
-            "modernMapping": "枢纽网络"
+            "word": "不得已则",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
           }
         ],
-        "translation": "换成今天的话：是所以散地利我方将领一其志，轻地利我方将领使之属，争地利我方将领趋其后，交地利我方将领谨其防守，交地利我方将领固其结，衢地利我方将领谨其恃，重地利我方将领继其粮食，泛地利我方将领进其途，围地利我方将领塞其阙，死地利我方将领示之以不活。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "士卒的心理是：被包围就会抵御，不得已就会战斗，陷入极端危险就会服从指挥。",
+        "literalTranslation": "士卒的心理是：被包围就会抵御，不得已就会战斗，陷入极端危险就会服从指挥。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "bu-ke-sheng-zai-ji",
-          "zhi-tian-zhi-di",
-          "si-di-qiu-sheng"
+          "shi-neng",
+          "bi-shi-ji-xu"
         ],
         "relatedCaseIds": [
           "brand-position",
@@ -9627,32 +12847,36 @@ export const chapters: Chapter[] = [
           "t14",
           "t21"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "jiu-di-34",
         "chapterId": "jiu-di",
         "order": 34,
-        "original": "故兵之情：围则御，不得已则斗，过则从。",
+        "original": "是故不知诸侯之谋者，不能预交。",
         "words": [
           {
-            "word": "故兵之情",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "是故不知",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "围则御",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "诸侯之谋",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "不得已则",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "不能预交",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "这句在说：所以兵之情：围则御，不得已则斗，过则从。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，不了解诸侯的谋划，就不能预先外交结盟。",
+        "literalTranslation": "所以，不了解诸侯的谋划，就不能预先外交结盟。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shi-neng",
           "bi-shi-ji-xu"
@@ -9671,7 +12895,7 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-35",
         "chapterId": "jiu-di",
         "order": 35,
-        "original": "是故不知诸侯之谋者，不能预交；不知山林、险阻、沮泽之形者，不能行军；不用乡导，不能得地利。",
+        "original": "不知山林、险阻、沮泽之形者，不能行军。",
         "words": [
           {
             "word": "行军",
@@ -9679,18 +12903,60 @@ export const chapters: Chapter[] = [
             "modernMapping": "现场判断"
           },
           {
-            "word": "地",
-            "explanation": "远近、险易、广狭等空间与环境条件。",
-            "modernMapping": "资源环境"
-          },
-          {
             "word": "险",
             "explanation": "险要地形。",
             "modernMapping": "高风险入口"
           }
         ],
-        "translation": "意思是：是所以不知诸侯之谋，不能预交；不知山林、险阻、沮泽之形势能，不能行军队；不用乡导，不能得地利利益。",
+        "translation": "不了解山林、险阻、沼泽地形，就不能行军。",
+        "literalTranslation": "不了解山林、险阻、沼泽地形，就不能行军。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "运营监控、客户访谈和项目管理要重视弱信号：异常流量、措辞变化、迟迟不行动都可能指向真实状态。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "zhi-tian-zhi-di",
+          "shi-neng",
+          "bi-shi-ji-xu"
+        ],
+        "relatedCaseIds": [
+          "brand-position",
+          "system-refactor"
+        ],
+        "relatedTrainingIds": [
+          "t16",
+          "t23"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jiu-di-36",
+        "chapterId": "jiu-di",
+        "order": 36,
+        "original": "不用乡导者，不能得地利。",
+        "words": [
+          {
+            "word": "地",
+            "explanation": "远近、险易、广狭等空间与环境条件。",
+            "modernMapping": "资源环境"
+          },
+          {
+            "word": "不用乡导",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
+          },
+          {
+            "word": "不能得地",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
+          }
+        ],
+        "translation": "不用当地向导，就不能获得地利。",
+        "literalTranslation": "不用当地向导，就不能获得地利。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "li-hai-bing-guan",
@@ -9702,73 +12968,39 @@ export const chapters: Chapter[] = [
           "system-refactor"
         ],
         "relatedTrainingIds": [
-          "t16",
-          "t23"
-        ],
-        "quoteLevel": "important"
-      },
-      {
-        "id": "jiu-di-36",
-        "chapterId": "jiu-di",
-        "order": 36,
-        "original": "四五者，一不知，非霸王之兵也。",
-        "words": [
-          {
-            "word": "四五者",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "一不知",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "非霸王之",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          }
-        ],
-        "translation": "可以理解为：四五，一不知，非霸王之兵。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
-        "relatedConceptIds": [
-          "shi-neng",
-          "bi-shi-ji-xu"
-        ],
-        "relatedCaseIds": [
-          "brand-position",
-          "system-refactor"
-        ],
-        "relatedTrainingIds": [
           "t17",
           "t24"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "jiu-di-37",
         "chapterId": "jiu-di",
         "order": 37,
-        "original": "夫霸王之兵，伐大国，则其众不得聚；威加于敌，则其交不得合。",
+        "original": "凡此四五者，一不知，非霸王之兵也。",
         "words": [
           {
-            "word": "夫霸王之",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "凡此四五",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "伐大国",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "一不知",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "则其众不",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "非霸王之",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "白话说就是：大凡是霸王之兵，伐大国家，则其兵众不得聚；威加于对手，则其交不得合。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "这些方面，只要有一项不知道，就不是能够称霸天下的军队。",
+        "literalTranslation": "这些方面，只要有一项不知道，就不是能够称霸天下的军队。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shi-neng",
           "bi-shi-ji-xu"
@@ -9787,29 +13019,31 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-38",
         "chapterId": "jiu-di",
         "order": 38,
-        "original": "是故不争天下之交，不养天下之权，信己之私，威加于敌，则其城可拔，其国可隳。",
+        "original": "夫霸王之兵，伐大国，则其众不得聚；威加于敌，则其交不得合。",
         "words": [
           {
-            "word": "天",
-            "explanation": "时令、气候与外部周期条件。",
-            "modernMapping": "时间窗口"
-          },
-          {
-            "word": "是故不争",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "夫霸王之",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "天下之交",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "伐大国",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
+          },
+          {
+            "word": "则其众不",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "换成今天的话：是所以不争时机下之交，不养时机下之权，信己之私，威加于对手，则其城可拔，其国家可隳。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "称霸者的军队，进攻大国时，能使敌人大军无法聚集；威势加在敌人身上，能使敌人的盟国无法联合。",
+        "literalTranslation": "称霸者的军队，进攻大国时，能使敌人大军无法聚集；威势加在敌人身上，能使敌人的盟国无法联合。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "zhi-tian-zhi-di",
           "shi-neng",
           "bi-shi-ji-xu"
         ],
@@ -9821,34 +13055,39 @@ export const chapters: Chapter[] = [
           "t19",
           "t26"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "jiu-di-39",
         "chapterId": "jiu-di",
         "order": 39,
-        "original": "施无法之赏，悬无政之令。",
+        "original": "是故不争天下之交，不养天下之权，信己之私，威加于敌，故其城可拔，其国可隳。",
         "words": [
           {
-            "word": "法",
-            "explanation": "制度、编制、职责和资源使用规则。",
-            "modernMapping": "流程治理"
+            "word": "天",
+            "explanation": "时令、气候与外部周期条件。",
+            "modernMapping": "时间窗口"
           },
           {
-            "word": "施无法之",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "是故不争",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "悬无政之",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "天下之交",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "这句在说：施无制度之赏，悬无政之令。",
+        "translation": "所以，不一定要争取天下所有外交关系，也不一定要培养天下所有权势，而是依靠自己的战略主动，将威势加于敌人。这样，敌城可以攻下，敌国可以摧毁。",
+        "literalTranslation": "所以，不一定要争取天下所有外交关系，也不一定要培养天下所有权势，而是依靠自己的战略主动，将威势加于敌人。这样，敌城可以攻下，敌国可以摧毁。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
+          "zhi-tian-zhi-di",
           "shi-neng",
           "bi-shi-ji-xu"
         ],
@@ -9860,28 +13099,38 @@ export const chapters: Chapter[] = [
           "t20",
           "t27"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "jiu-di-40",
         "chapterId": "jiu-di",
         "order": 40,
-        "original": "犯三军之众，若使一人。",
+        "original": "施无法之赏，悬无政之令，犯三军之众，若使一人。",
         "words": [
           {
-            "word": "犯三军之",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "法",
+            "explanation": "制度、编制、职责和资源使用规则。",
+            "modernMapping": "流程治理"
+          },
+          {
+            "word": "施无法之",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "若使一人",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "悬无政之",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "意思是：犯三军队之兵众，若使一人。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "实行超出常规的奖赏，发布特殊时期的命令，驱使三军士众，就像指挥一个人一样。",
+        "literalTranslation": "实行超出常规的奖赏，发布特殊时期的命令，驱使三军士众，就像指挥一个人一样。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
           "shi-neng",
           "bi-shi-ji-xu"
         ],
@@ -9899,26 +13148,30 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-41",
         "chapterId": "jiu-di",
         "order": 41,
-        "original": "犯之以事，勿告以言；犯之以害，勿告以利。",
+        "original": "犯之以事，勿告以言；犯之以利，勿告以害。",
         "words": [
           {
             "word": "犯之以事",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
             "word": "勿告以言",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "犯之以害",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "犯之以利",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "可以理解为：犯之以事，勿告以言；犯之以风险，勿告以利益。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "让士卒承担任务，不必事先把所有道理都说尽；用利益驱使他们，不必把所有危险都讲明。",
+        "literalTranslation": "让士卒承担任务，不必事先把所有道理都说尽；用利益驱使他们，不必把所有危险都讲明。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "li-hai-bing-guan",
           "shi-neng",
@@ -9951,8 +13204,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "资源环境"
           }
         ],
-        "translation": "白话说就是：投之亡地利然后存，陷之死地利然后生。",
+        "translation": "把军队投置在亡地，然后才能保存；把军队陷入死地，然后才能求生。",
+        "literalTranslation": "把军队投置在亡地，然后才能保存；把军队陷入死地，然后才能求生。",
+        "freeTranslation": "这句话强调：处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
+        "coreMeaning": "处境不同，打法就必须不同；先识别位置和约束，再谈行动。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要轻易制造绝境来逼迫团队；这类手段代价极高，只能在条件清楚时谨慎使用。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
@@ -9977,22 +13234,26 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "夫众陷于",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
             "word": "然后能为",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
             "word": "胜败",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "换成今天的话：大凡是兵众陷于风险，然后能为取胜失败。",
-        "modernApplication": "复盘失败时不要只怪外部环境，要检查资源比例、管理强弱、指挥清晰度和执行队形。",
+        "translation": "士卒陷入危险之后，才可能真正发挥决定胜败的力量。",
+        "literalTranslation": "士卒陷入危险之后，才可能真正发挥决定胜败的力量。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "li-hai-bing-guan",
@@ -10022,17 +13283,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "故为兵之",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
             "word": "在顺详敌",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "这句在说：所以为兵之事，在顺详对手之意，并对手一向，千里杀将领，是谓巧能成事。",
+        "translation": "所以，用兵之事，在于顺着敌人的意图仔细判断，然后集中兵力指向一个方向，即使千里之外也能擒杀敌将，这叫巧妙地成就大事。",
+        "literalTranslation": "所以，用兵之事，在于顺着敌人的意图仔细判断，然后集中兵力指向一个方向，即使千里之外也能擒杀敌将，这叫巧妙地成就大事。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "shi-neng",
@@ -10052,7 +13317,7 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-45",
         "chapterId": "jiu-di",
         "order": 45,
-        "original": "是故政举之日，夷关折符，无通其使，厉于廊庙之上，以诛其事。",
+        "original": "是故政举之日，夷关折符，无通其使。",
         "words": [
           {
             "word": "通",
@@ -10061,17 +13326,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "是故政举",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
             "word": "之日",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "意思是：是所以政举之日，夷关折符，无通其使，厉于廊庙之上，以诛其事。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，在决定出兵行动之日，要封锁关口，废除通行符信，不让敌使往来。",
+        "literalTranslation": "所以，在决定出兵行动之日，要封锁关口，废除通行符信，不让敌使往来。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shi-neng",
           "bi-shi-ji-xu"
@@ -10090,26 +13359,30 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-46",
         "chapterId": "jiu-di",
         "order": 46,
-        "original": "敌人开阖，必亟入之，先其所爱，微与之期，践墨随敌，以决战事。",
+        "original": "厉于廊庙之上，以诛其事。",
         "words": [
           {
-            "word": "敌人开阖",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "厉于廊庙",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "必亟入之",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "之上",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "先其所爱",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "以诛其事",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "可以理解为：对手人开阖，必亟入之，先其所爱，微与之期，践墨随对手，以决作战事。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "在庙堂上严密谋划，以决定作战大事。",
+        "literalTranslation": "在庙堂上严密谋划，以决定作战大事。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shi-neng",
           "bi-shi-ji-xu"
@@ -10128,26 +13401,25 @@ export const chapters: Chapter[] = [
         "id": "jiu-di-47",
         "chapterId": "jiu-di",
         "order": 47,
-        "original": "是故始如处女，敌人开户；后如脱兔，敌不及拒。",
+        "original": "敌人开阖，必亟入之。",
         "words": [
           {
-            "word": "是故始如",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "敌人开阖",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           },
           {
-            "word": "处女",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
-            "modernMapping": "处境管理"
-          },
-          {
-            "word": "敌人开户",
-            "explanation": "本句实际出现的关键表达，需要放回“处境管理”语境中理解。",
+            "word": "必亟入之",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "处境管理"
           }
         ],
-        "translation": "白话说就是：是所以始如处女，对手人开户；后如脱兔，对手不及拒。",
-        "modernApplication": "用于处境管理时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "敌人一旦出现空隙，必须迅速进入。",
+        "literalTranslation": "敌人一旦出现空隙，必须迅速进入。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "shi-neng",
           "bi-shi-ji-xu"
@@ -10159,6 +13431,122 @@ export const chapters: Chapter[] = [
         "relatedTrainingIds": [
           "t28",
           "t05"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jiu-di-48",
+        "chapterId": "jiu-di",
+        "order": 48,
+        "original": "先其所爱，微与之期。",
+        "words": [
+          {
+            "word": "先其所爱",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
+          },
+          {
+            "word": "微与之期",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
+          }
+        ],
+        "translation": "先夺取敌人所重视的地方，暗中掌握作战时机。",
+        "literalTranslation": "先夺取敌人所重视的地方，暗中掌握作战时机。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "shi-neng",
+          "bi-shi-ji-xu"
+        ],
+        "relatedCaseIds": [
+          "brand-position",
+          "system-refactor"
+        ],
+        "relatedTrainingIds": [
+          "t29",
+          "t06"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jiu-di-49",
+        "chapterId": "jiu-di",
+        "order": 49,
+        "original": "践墨随敌，以决战事。",
+        "words": [
+          {
+            "word": "践墨随敌",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
+          },
+          {
+            "word": "以决战事",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
+          }
+        ],
+        "translation": "按照法度和计划，根据敌情变化而行动，以决定战争大事。",
+        "literalTranslation": "按照法度和计划，根据敌情变化而行动，以决定战争大事。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "shi-neng",
+          "bi-shi-ji-xu"
+        ],
+        "relatedCaseIds": [
+          "brand-position",
+          "system-refactor"
+        ],
+        "relatedTrainingIds": [
+          "t30",
+          "t07"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "jiu-di-50",
+        "chapterId": "jiu-di",
+        "order": 50,
+        "original": "是故始如处女，敌人开户；后如脱兔，敌不及拒。",
+        "words": [
+          {
+            "word": "是故始如",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
+          },
+          {
+            "word": "处女",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
+          },
+          {
+            "word": "敌人开户",
+            "explanation": "理解这个表达时，应结合“处境管理”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "处境管理"
+          }
+        ],
+        "translation": "所以，开始时要像处女一样沉静柔弱，使敌人放松门户；行动时要像脱逃的兔子一样迅速，使敌人来不及抵抗。",
+        "literalTranslation": "所以，开始时要像处女一样沉静柔弱，使敌人放松门户；行动时要像脱逃的兔子一样迅速，使敌人来不及抵抗。",
+        "freeTranslation": "这句话强调：本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“处境管理”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于处境管理时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“处境管理”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "shi-neng",
+          "bi-shi-ji-xu"
+        ],
+        "relatedCaseIds": [
+          "brand-position",
+          "system-refactor"
+        ],
+        "relatedTrainingIds": [
+          "t01",
+          "t08"
         ],
         "quoteLevel": "normal"
       }
@@ -10215,7 +13603,7 @@ export const chapters: Chapter[] = [
       "completeness": "完整",
       "proofreadingStatus": "初校",
       "variantNotes": [],
-      "note": "已按《孙子兵法.txt》补齐通行本完整原文；逐句译注为初校内容，建议结合原文继续复校。"
+      "note": "原文与白话译文参照《孙子兵法原文与译文.txt》整理；逐句应用与误读提示为学习辅助内容，后续可继续复校。"
     },
     "structure": [
       "列出火攻类型",
@@ -10223,13 +13611,13 @@ export const chapters: Chapter[] = [
       "强调时机配合",
       "警惕情绪化行动"
     ],
-    "fullOriginal": "凡火攻有五：一曰火人，二曰火积，三曰火辎，四曰火库，五曰火队。\n\n行火必有因，因必素具。发火有时，起火有日。时者，天之燥也。日者，月在箕、壁、翼、轸也。凡此四宿者，风起之日也。凡火攻，必因五火之变而应之：火发于内，则早应之于外；火发而其兵静者，待而勿攻，极其火力，可从而从之，不可从则上。火可发于外，无待于内，以时发之，火发上风，无攻下风，昼风久，夜风止。凡军必知五火之变，以数守之。\n\n故以火佐攻者明，以水佐攻者强。水可以绝，不可以夺。\n\n夫战胜攻取而不惰其功者凶，命曰“费留”。故曰：明主虑之，良将惰之，非利不动，非得不用，非危不战。主不可以怒而兴师，将不可以愠而攻战。合于利而动，不合于利而上。怒可以复喜，愠可以复说，亡国不可以复存，死者不可以复生。故明主慎之，良将警之。此安国全军之道也。",
+    "fullOriginal": "孙子曰：凡火攻有五：一曰火人，二曰火积，三曰火辎，四曰火库，五曰火队。\n行火必有因，烟火必素具。\n发火有时，起火有日。\n时者，天之燥也；日者，月在箕、壁、翼、轸也。\n凡此四宿者，风起之日也。\n凡火攻，必因五火之变而应之。\n火发于内，则早应之于外。\n火发而其兵静者，待而勿攻。\n极其火力，可从而从之，不可从则止。\n火可发于外，无待于内，以时发之。\n火发上风，无攻下风。\n昼风久，夜风止。\n凡军必知有五火之变，以数守之。\n故以火佐攻者明，以水佐攻者强。\n水可以绝，不可以夺。\n夫战胜攻取，而不修其功者凶，命曰费留。\n故曰：明主虑之，良将修之。\n非利不动，非得不用，非危不战。\n主不可以怒而兴师，将不可以愠而致战。\n合于利而动，不合于利而止。\n怒可以复喜，愠可以复悦；亡国不可以复存，死者不可以复生。\n故明主慎之，良将警之。此安国全军之道也。",
     "sentences": [
       {
         "id": "huo-gong-1",
         "chapterId": "huo-gong",
         "order": 1,
-        "original": "凡火攻有五：一曰火人，二曰火积，三曰火辎，四曰火库，五曰火队。",
+        "original": "孙子曰：凡火攻有五：一曰火人，二曰火积，三曰火辎，四曰火库，五曰火队。",
         "words": [
           {
             "word": "火攻",
@@ -10237,18 +13625,22 @@ export const chapters: Chapter[] = [
             "modernMapping": "高风险手段"
           },
           {
-            "word": "凡火攻有",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "孙子曰",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "一曰火人",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "凡火攻有",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "火攻有五类：烧人员、烧积储、烧辎重、烧仓库、烧队伍。",
+        "translation": "孙子说：火攻有五种：一是焚烧敌人营兵，二是焚烧敌人积储，三是焚烧敌人辎重，四是焚烧敌人仓库，五是焚烧敌人队伍和运输设施。",
+        "literalTranslation": "孙子说：火攻有五种：一是焚烧敌人营兵，二是焚烧敌人积储，三是焚烧敌人辎重，四是焚烧敌人仓库，五是焚烧敌人队伍和运输设施。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "使用高风险手段前要确认条件、时机和后果边界，例如降价、舆论、迁移、封禁或系统切换。",
+        "misunderstanding": "不要把高风险手段当成情绪出口；时机、条件和后果边界必须先确认。",
         "relatedConceptIds": [
           "bu-ke-sheng-zai-ji",
           "bi-shi-ji-xu",
@@ -10268,21 +13660,25 @@ export const chapters: Chapter[] = [
         "id": "huo-gong-2",
         "chapterId": "huo-gong",
         "order": 2,
-        "original": "行火必有因，因必素具。",
+        "original": "行火必有因，烟火必素具。",
         "words": [
           {
             "word": "行火必有",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "因必素具",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "烟火必素",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "换成今天的话：行火必有因，因必素具。",
-        "modernApplication": "用于风险与时机时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "实施火攻必须具备条件，放火器材必须平时准备好。",
+        "literalTranslation": "实施火攻必须具备条件，放火器材必须平时准备好。",
+        "freeTranslation": "这句话强调：本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于风险与时机时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bi-shi-ji-xu",
           "zhi-ren-bu-zhi-yu-ren"
@@ -10305,17 +13701,21 @@ export const chapters: Chapter[] = [
         "words": [
           {
             "word": "发火有时",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
             "word": "起火有日",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "这句在说：发火有时，起火有日。",
+        "translation": "发火要选择适当时机，起火要选择适当日期。",
+        "literalTranslation": "发火要选择适当时机，起火要选择适当日期。",
+        "freeTranslation": "这句话强调：本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "使用高风险手段前要确认条件、时机和后果边界，例如降价、舆论、迁移、封禁或系统切换。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bi-shi-ji-xu",
           "zhi-ren-bu-zhi-yu-ren"
@@ -10334,7 +13734,7 @@ export const chapters: Chapter[] = [
         "id": "huo-gong-4",
         "chapterId": "huo-gong",
         "order": 4,
-        "original": "时者，天之燥也。",
+        "original": "时者，天之燥也；日者，月在箕、壁、翼、轸也。",
         "words": [
           {
             "word": "天",
@@ -10343,17 +13743,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "时者",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
             "word": "天之燥也",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "意思是：时，时机之燥。",
+        "translation": "所谓时机，是指天气干燥；所谓日期，是指月亮运行到箕、壁、翼、轸四宿的时候。",
+        "literalTranslation": "所谓时机，是指天气干燥；所谓日期，是指月亮运行到箕、壁、翼、轸四宿的时候。",
+        "freeTranslation": "这句话强调：本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-tian-zhi-di",
@@ -10374,26 +13778,25 @@ export const chapters: Chapter[] = [
         "id": "huo-gong-5",
         "chapterId": "huo-gong",
         "order": 5,
-        "original": "日者，月在箕、壁、翼、轸也。",
+        "original": "凡此四宿者，风起之日也。",
         "words": [
           {
-            "word": "日者",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "凡此四宿",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "月在箕",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
-            "modernMapping": "风险与时机"
-          },
-          {
-            "word": "轸也",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "风起之日",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "可以理解为：日，月在箕、壁、翼、轸。",
-        "modernApplication": "用于风险与时机时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "这四个星宿所在之日，通常是起风的时候。",
+        "literalTranslation": "这四个星宿所在之日，通常是起风的时候。",
+        "freeTranslation": "这句话强调：本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "使用高风险手段前要确认条件、时机和后果边界，例如降价、舆论、迁移、封禁或系统切换。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "bi-shi-ji-xu",
           "zhi-ren-bu-zhi-yu-ren"
@@ -10412,22 +13815,32 @@ export const chapters: Chapter[] = [
         "id": "huo-gong-6",
         "chapterId": "huo-gong",
         "order": 6,
-        "original": "凡此四宿者，风起之日也。",
+        "original": "凡火攻，必因五火之变而应之。",
         "words": [
           {
-            "word": "凡此四宿",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "火攻",
+            "explanation": "以火作为辅助攻击手段。",
+            "modernMapping": "高风险手段"
+          },
+          {
+            "word": "凡火攻",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "风起之日",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "必因五火",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "白话说就是：凡是此四宿，风起之日。",
+        "translation": "凡是火攻，必须根据五种火攻造成的变化而相应行动。",
+        "literalTranslation": "凡是火攻，必须根据五种火攻造成的变化而相应行动。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "使用高风险手段前要确认条件、时机和后果边界，例如降价、舆论、迁移、封禁或系统切换。",
+        "misunderstanding": "不要把高风险手段当成情绪出口；时机、条件和后果边界必须先确认。",
         "relatedConceptIds": [
+          "bu-ke-sheng-zai-ji",
           "bi-shi-ji-xu",
           "zhi-ren-bu-zhi-yu-ren"
         ],
@@ -10445,28 +13858,31 @@ export const chapters: Chapter[] = [
         "id": "huo-gong-7",
         "chapterId": "huo-gong",
         "order": 7,
-        "original": "凡火攻，必因五火之变而应之：火发于内，则早应之于外；火发而其兵静者，待而勿攻，极其火力，可从而从之，不可从则上。",
+        "original": "火发于内，则早应之于外。",
         "words": [
           {
-            "word": "火攻",
-            "explanation": "以火作为辅助攻击手段。",
-            "modernMapping": "高风险手段"
-          },
-          {
-            "word": "凡火攻",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "火发于内",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "必因五火",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "则早应之",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "风险与时机"
+          },
+          {
+            "word": "于外",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "换成今天的话：凡是火进攻，必因五火之变而应之：火发于内，则早应之于外；火发而其兵静，待而勿进攻，极其火力，可从而从之，不可从则上。",
-        "modernApplication": "使用高风险手段前要确认条件、时机和后果边界，例如降价、舆论、迁移、封禁或系统切换。",
+        "translation": "火从敌营内部烧起，我方要及早从外部配合。",
+        "literalTranslation": "火从敌营内部烧起，我方要及早从外部配合。",
+        "freeTranslation": "这句话强调：本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于风险与时机时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "bu-ke-sheng-zai-ji",
           "bi-shi-ji-xu",
           "zhi-ren-bu-zhi-yu-ren"
         ],
@@ -10478,34 +13894,37 @@ export const chapters: Chapter[] = [
           "t19",
           "t26"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "huo-gong-8",
         "chapterId": "huo-gong",
         "order": 8,
-        "original": "火可发于外，无待于内，以时发之，火发上风，无攻下风，昼风久，夜风止。",
+        "original": "火发而其兵静者，待而勿攻。",
         "words": [
           {
-            "word": "火可发于",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "火发而其",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "无待于内",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "兵静者",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "以时发之",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "待而勿攻",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "这句在说：火可发于外，无待于内，以时发之，火发上风，无进攻下风，昼风久，夜风止。",
-        "modernApplication": "长期延期项目、价格战或持续内耗要设置止损线，定期判断投入是否还会换来有效结果。",
+        "translation": "火已经烧起，但敌军仍然安静，就要等待，不可贸然进攻。",
+        "literalTranslation": "火已经烧起，但敌军仍然安静，就要等待，不可贸然进攻。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "用于风险与时机时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "bing-gui-sheng",
           "bu-ke-sheng-zai-ji",
           "bi-shi-ji-xu",
           "zhi-ren-bu-zhi-yu-ren"
@@ -10524,28 +13943,31 @@ export const chapters: Chapter[] = [
         "id": "huo-gong-9",
         "chapterId": "huo-gong",
         "order": 9,
-        "original": "凡军必知五火之变，以数守之。",
+        "original": "极其火力，可从而从之，不可从则止。",
         "words": [
           {
-            "word": "凡军必知",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "极其火力",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "五火之变",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "可从而从",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "以数守之",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "不可从则",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "意思是：凡是军队必知五火之变，以数防守之。",
-        "modernApplication": "用于风险与时机时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "等火势达到极盛，如果可以跟进就跟进；如果不能跟进就停止。",
+        "literalTranslation": "等火势达到极盛，如果可以跟进就跟进；如果不能跟进就停止。",
+        "freeTranslation": "这句话强调：本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于风险与时机时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "bu-ke-sheng-zai-ji",
           "bi-shi-ji-xu",
           "zhi-ren-bu-zhi-yu-ren"
         ],
@@ -10563,29 +13985,31 @@ export const chapters: Chapter[] = [
         "id": "huo-gong-10",
         "chapterId": "huo-gong",
         "order": 10,
-        "original": "故以火佐攻者明，以水佐攻者强。",
+        "original": "火可发于外，无待于内，以时发之。",
         "words": [
           {
-            "word": "故以火佐",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "火可发于",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "攻者明",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "无待于内",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "以水佐攻",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "以时发之",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "可以理解为：所以以火佐进攻明，以水佐进攻强。",
-        "modernApplication": "用于风险与时机时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "火也可以从外部放起，不必一定等待内部响应，只要时机合适就可以发动。",
+        "literalTranslation": "火也可以从外部放起，不必一定等待内部响应，只要时机合适就可以发动。",
+        "freeTranslation": "这句话强调：本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于风险与时机时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "bu-ke-sheng-zai-ji",
-          "zhi-tian-zhi-di",
           "bi-shi-ji-xu",
           "zhi-ren-bu-zhi-yu-ren"
         ],
@@ -10603,23 +14027,27 @@ export const chapters: Chapter[] = [
         "id": "huo-gong-11",
         "chapterId": "huo-gong",
         "order": 11,
-        "original": "水可以绝，不可以夺。",
+        "original": "火发上风，无攻下风。",
         "words": [
           {
-            "word": "水可以绝",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "火发上风",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "不可以夺",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "无攻下风",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "白话说就是：水可以绝，不可以夺。",
-        "modernApplication": "用于风险与时机时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "火从上风处烧起时，不要从下风处进攻。",
+        "literalTranslation": "火从上风处烧起时，不要从下风处进攻。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "使用高风险手段前要确认条件、时机和后果边界，例如降价、舆论、迁移、封禁或系统切换。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "zhi-tian-zhi-di",
+          "bu-ke-sheng-zai-ji",
           "bi-shi-ji-xu",
           "zhi-ren-bu-zhi-yu-ren"
         ],
@@ -10637,31 +14065,29 @@ export const chapters: Chapter[] = [
         "id": "huo-gong-12",
         "chapterId": "huo-gong",
         "order": 12,
-        "original": "夫战胜攻取而不惰其功者凶，命曰“费留”。",
+        "original": "昼风久，夜风止。",
         "words": [
           {
-            "word": "夫战胜攻",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "昼风久",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "取而不惰",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
-            "modernMapping": "风险与时机"
-          },
-          {
-            "word": "其功者凶",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "夜风止",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "换成今天的话：大凡是作战取胜进攻取而不惰其功凶，命曰“费留”。",
-        "modernApplication": "用于风险与时机时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "白天风吹得久，夜晚往往会停止。",
+        "literalTranslation": "白天风吹得久，夜晚往往会停止。",
+        "freeTranslation": "这句话强调：长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
+        "coreMeaning": "长期消耗会吞掉资源和士气，胜利必须同时计算成本。",
+        "modernApplication": "长期延期项目、价格战或持续内耗要设置止损线，定期判断投入是否还会换来有效结果。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
-          "bu-ke-sheng-zai-ji",
-          "bi-shi-ji-xu"
+          "bi-shi-ji-xu",
+          "zhi-ren-bu-zhi-yu-ren"
         ],
         "relatedCaseIds": [
           "project-kickoff",
@@ -10671,35 +14097,38 @@ export const chapters: Chapter[] = [
           "t24",
           "t01"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "huo-gong-13",
         "chapterId": "huo-gong",
         "order": 13,
-        "original": "故曰：明主虑之，良将惰之，非利不动，非得不用，非危不战。",
+        "original": "凡军必知有五火之变，以数守之。",
         "words": [
           {
-            "word": "非利不动",
-            "explanation": "没有明确收益就不行动。",
-            "modernMapping": "行动门槛"
+            "word": "凡军必知",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "风险与时机"
           },
           {
-            "word": "非危不战",
-            "explanation": "不到真正危急不发动战争。",
-            "modernMapping": "冲突克制"
+            "word": "有五火之",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "风险与时机"
           },
           {
-            "word": "将",
-            "explanation": "负责人的智、信、仁、勇、严。",
-            "modernMapping": "领导能力"
+            "word": "以数守之",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "风险与时机"
           }
         ],
-        "translation": "这句在说：所以曰：明君主虑之，良将领惰之，非利益不动，非得不用，非危不作战。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "凡是军队，必须懂得五种火攻的变化，并用规律来把握它。",
+        "literalTranslation": "凡是军队，必须懂得五种火攻的变化，并用规律来把握它。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "用于风险与时机时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
-          "li-hai-bing-guan",
+          "bu-ke-sheng-zai-ji",
           "bi-shi-ji-xu",
           "zhi-ren-bu-zhi-yu-ren"
         ],
@@ -10711,35 +14140,39 @@ export const chapters: Chapter[] = [
           "t25",
           "t02"
         ],
-        "quoteLevel": "classic"
+        "quoteLevel": "normal"
       },
       {
         "id": "huo-gong-14",
         "chapterId": "huo-gong",
         "order": 14,
-        "original": "主不可以怒而兴师，将不可以愠而攻战。",
+        "original": "故以火佐攻者明，以水佐攻者强。",
         "words": [
           {
-            "word": "将",
-            "explanation": "负责人的智、信、仁、勇、严。",
-            "modernMapping": "领导能力"
-          },
-          {
-            "word": "主不可以",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "故以火佐",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "怒而兴师",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "攻者明",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "风险与时机"
+          },
+          {
+            "word": "以水佐攻",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "君主不能因为愤怒而兴兵，将领不能因为怨怒而作战。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "所以，用火辅助进攻，是明智；用水辅助进攻，是强有力。",
+        "literalTranslation": "所以，用火辅助进攻，是明智；用水辅助进攻，是强有力。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "用于风险与时机时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
           "bu-ke-sheng-zai-ji",
+          "zhi-tian-zhi-di",
           "bi-shi-ji-xu",
           "zhi-ren-bu-zhi-yu-ren"
         ],
@@ -10757,28 +14190,27 @@ export const chapters: Chapter[] = [
         "id": "huo-gong-15",
         "chapterId": "huo-gong",
         "order": 15,
-        "original": "合于利而动，不合于利而上。",
+        "original": "水可以绝，不可以夺。",
         "words": [
           {
-            "word": "合于利而",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "水可以绝",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "不合于利",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
-            "modernMapping": "风险与时机"
-          },
-          {
-            "word": "而上",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "不可以夺",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "可以理解为：合于利益而动，不合于利益而上。",
-        "modernApplication": "用于风险与时机时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "水可以隔绝敌人，却不能像火那样夺取和摧毁敌人的物资。",
+        "literalTranslation": "水可以隔绝敌人，却不能像火那样夺取和摧毁敌人的物资。",
+        "freeTranslation": "这句话强调：本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于风险与时机时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "li-hai-bing-guan",
+          "zhi-tian-zhi-di",
           "bi-shi-ji-xu",
           "zhi-ren-bu-zhi-yu-ren"
         ],
@@ -10790,35 +14222,41 @@ export const chapters: Chapter[] = [
           "t27",
           "t04"
         ],
-        "quoteLevel": "important"
+        "quoteLevel": "normal"
       },
       {
         "id": "huo-gong-16",
         "chapterId": "huo-gong",
         "order": 16,
-        "original": "怒可以复喜，愠可以复说，亡国不可以复存，死者不可以复生。",
+        "original": "夫战胜攻取，而不修其功者凶，命曰费留。",
         "words": [
           {
-            "word": "怒可以复",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "夫战胜攻",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "愠可以复",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "而不修其",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "亡国不可",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "功者凶",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "白话说就是：怒可以复喜，愠可以复说，亡国家不可以复存，死不可以复生。",
-        "modernApplication": "危机决策中先问是否有明确收益、能否达成目标、是否真正危险，避免被愤怒或焦虑驱动。",
+        "translation": "如果战胜攻取之后，却不能巩固战果，这是凶险的，叫“费留”，也就是耗费巨大却停滞无功。",
+        "literalTranslation": "如果战胜攻取之后，却不能巩固战果，这是凶险的，叫“费留”，也就是耗费巨大却停滞无功。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
+        "modernApplication": "用于风险与时机时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
-          "bi-shi-ji-xu",
-          "zhi-ren-bu-zhi-yu-ren"
+          "dao-tian-di-jiang-fa",
+          "bing-gui-sheng",
+          "bu-ke-sheng-zai-ji",
+          "bi-shi-ji-xu"
         ],
         "relatedCaseIds": [
           "project-kickoff",
@@ -10828,13 +14266,13 @@ export const chapters: Chapter[] = [
           "t28",
           "t05"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "huo-gong-17",
         "chapterId": "huo-gong",
         "order": 17,
-        "original": "故明主慎之，良将警之。",
+        "original": "故曰：明主虑之，良将修之。",
         "words": [
           {
             "word": "将",
@@ -10842,18 +14280,22 @@ export const chapters: Chapter[] = [
             "modernMapping": "领导能力"
           },
           {
-            "word": "故明主慎",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "故曰",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           },
           {
-            "word": "良将警之",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
+            "word": "明主虑之",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "风险与时机"
           }
         ],
-        "translation": "换成今天的话：所以明君主慎之，良将领警之。",
+        "translation": "所以说：明智的君主要慎重考虑，优秀的将帅要妥善处理。",
+        "literalTranslation": "所以说：明智的君主要慎重考虑，优秀的将帅要妥善处理。",
+        "freeTranslation": "这句话强调：本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bi-shi-ji-xu",
@@ -10873,7 +14315,173 @@ export const chapters: Chapter[] = [
         "id": "huo-gong-18",
         "chapterId": "huo-gong",
         "order": 18,
-        "original": "此安国全军之道也。",
+        "original": "非利不动，非得不用，非危不战。",
+        "words": [
+          {
+            "word": "非利不动",
+            "explanation": "没有明确收益就不行动。",
+            "modernMapping": "行动门槛"
+          },
+          {
+            "word": "非危不战",
+            "explanation": "不到真正危急不发动战争。",
+            "modernMapping": "冲突克制"
+          }
+        ],
+        "translation": "没有利益不要行动，没有把握不要用兵，不到危急时不要开战。",
+        "literalTranslation": "没有利益不要行动，没有把握不要用兵，不到危急时不要开战。",
+        "freeTranslation": "没有明确收益或真正必要性时，不要被情绪推着行动。",
+        "coreMeaning": "高风险手段必须受条件约束，不能由情绪驱动。",
+        "modernApplication": "危机决策中先问是否有明确收益、能否达成目标、是否真正危险，避免被愤怒或焦虑驱动。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "li-hai-bing-guan",
+          "bi-shi-ji-xu",
+          "zhi-ren-bu-zhi-yu-ren"
+        ],
+        "relatedCaseIds": [
+          "project-kickoff",
+          "tech-debt"
+        ],
+        "relatedTrainingIds": [
+          "t30",
+          "t07"
+        ],
+        "quoteLevel": "classic"
+      },
+      {
+        "id": "huo-gong-19",
+        "chapterId": "huo-gong",
+        "order": 19,
+        "original": "主不可以怒而兴师，将不可以愠而致战。",
+        "words": [
+          {
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
+          },
+          {
+            "word": "主不可以",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "风险与时机"
+          },
+          {
+            "word": "怒而兴师",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "风险与时机"
+          }
+        ],
+        "translation": "君主不能因为愤怒而兴兵，将帅不能因为怨愤而求战。",
+        "literalTranslation": "君主不能因为愤怒而兴兵，将帅不能因为怨愤而求战。",
+        "freeTranslation": "这句话强调：高风险手段必须受条件约束，不能由情绪驱动。",
+        "coreMeaning": "高风险手段必须受条件约束，不能由情绪驱动。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要把高风险手段当成情绪出口；时机、条件和后果边界必须先确认。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "bi-shi-ji-xu",
+          "zhi-ren-bu-zhi-yu-ren"
+        ],
+        "relatedCaseIds": [
+          "project-kickoff",
+          "tech-debt"
+        ],
+        "relatedTrainingIds": [
+          "t01",
+          "t08"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "huo-gong-20",
+        "chapterId": "huo-gong",
+        "order": 20,
+        "original": "合于利而动，不合于利而止。",
+        "words": [
+          {
+            "word": "合于利而",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "风险与时机"
+          },
+          {
+            "word": "不合于利",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "风险与时机"
+          },
+          {
+            "word": "而止",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "风险与时机"
+          }
+        ],
+        "translation": "符合利益就行动，不符合利益就停止。",
+        "literalTranslation": "符合利益就行动，不符合利益就停止。",
+        "freeTranslation": "这句话强调：本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于风险与时机时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "li-hai-bing-guan",
+          "bi-shi-ji-xu",
+          "zhi-ren-bu-zhi-yu-ren"
+        ],
+        "relatedCaseIds": [
+          "project-kickoff",
+          "tech-debt"
+        ],
+        "relatedTrainingIds": [
+          "t02",
+          "t09"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "huo-gong-21",
+        "chapterId": "huo-gong",
+        "order": 21,
+        "original": "怒可以复喜，愠可以复悦；亡国不可以复存，死者不可以复生。",
+        "words": [
+          {
+            "word": "怒可以复",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "风险与时机"
+          },
+          {
+            "word": "愠可以复",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "风险与时机"
+          },
+          {
+            "word": "亡国不可",
+            "explanation": "理解这个表达时，应结合“风险与时机”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "风险与时机"
+          }
+        ],
+        "translation": "愤怒可以重新变成喜悦，怨愤可以重新变成高兴；但亡国不能重新复存，死人不能重新复生。",
+        "literalTranslation": "愤怒可以重新变成喜悦，怨愤可以重新变成高兴；但亡国不能重新复存，死人不能重新复生。",
+        "freeTranslation": "这句话强调：本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "危机决策中先问是否有明确收益、能否达成目标、是否真正危险，避免被愤怒或焦虑驱动。",
+        "misunderstanding": "不要把高风险手段当成情绪出口；时机、条件和后果边界必须先确认。",
+        "relatedConceptIds": [
+          "bi-shi-ji-xu",
+          "zhi-ren-bu-zhi-yu-ren"
+        ],
+        "relatedCaseIds": [
+          "project-kickoff",
+          "tech-debt"
+        ],
+        "relatedTrainingIds": [
+          "t03",
+          "t10"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "huo-gong-22",
+        "chapterId": "huo-gong",
+        "order": 22,
+        "original": "故明主慎之，良将警之。此安国全军之道也。",
         "words": [
           {
             "word": "道",
@@ -10881,18 +14489,17 @@ export const chapters: Chapter[] = [
             "modernMapping": "组织共识"
           },
           {
-            "word": "此安国全",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
-            "modernMapping": "风险与时机"
-          },
-          {
-            "word": "军之道也",
-            "explanation": "本句实际出现的关键表达，需要放回“风险与时机”语境中理解。",
-            "modernMapping": "风险与时机"
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
           }
         ],
-        "translation": "这句在说：此安国家全军队之共同目标。",
+        "translation": "所以，明智的君主要慎重，优秀的将帅要警惕。这才是安定国家、保全军队的道路。",
+        "literalTranslation": "所以，明智的君主要慎重，优秀的将帅要警惕。这才是安定国家、保全军队的道路。",
+        "freeTranslation": "这句话强调：本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“风险与时机”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“风险与时机”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bu-zhan-er-qu-ren",
@@ -10904,8 +14511,8 @@ export const chapters: Chapter[] = [
           "tech-debt"
         ],
         "relatedTrainingIds": [
-          "t30",
-          "t07"
+          "t04",
+          "t11"
         ],
         "quoteLevel": "normal"
       }
@@ -10960,7 +14567,7 @@ export const chapters: Chapter[] = [
       "completeness": "完整",
       "proofreadingStatus": "初校",
       "variantNotes": [],
-      "note": "已按《孙子兵法.txt》补齐通行本完整原文；逐句译注为初校内容，建议结合原文继续复校。"
+      "note": "原文与白话译文参照《孙子兵法原文与译文.txt》整理；逐句应用与误读提示为学习辅助内容，后续可继续复校。"
     },
     "structure": [
       "信息决定成本与胜算",
@@ -10968,13 +14575,13 @@ export const chapters: Chapter[] = [
       "提出五间体系",
       "强调保密与激励"
     ],
-    "fullOriginal": "凡兴师十万，出征千里，百姓之费，公家之奉，日费千金，内外骚动，怠于道路，不得操事者，七十万家。相守数年，以争一日之胜，而爱爵禄百金，不知敌之情者，不仁之至也，非民之将也，非主之佐也，非胜之主也。故明君贤将所以动而胜人，成功出于众者，先知也。先知者，不可取于鬼神，不可象于事，不可验于度，必取于人，知敌之情者也。\n\n故用间有五：有因间，有内间，有反间，有死间，有生间。五间俱起，莫知其道，是谓神纪，人君之宝也。乡间者，因其乡人而用之；内间者，因其官人而用之；反间者，因其敌间而用之；死间者，为诳事于外，令吾闻知之而传于敌间也；生间者，反报也。故三军之事，莫亲于间，赏莫厚于间，事莫密于间，非圣贤不能用间，非仁义不能使间，非微妙不能得间之实。微哉微哉！无所不用间也。间事未发而先闻者，间与所告者兼死。凡军之所欲击，城之所欲攻，人之所欲杀，必先知其守将、左右、谒者、门者、舍人之姓名，令吾间必索知之。敌间之来间我者，因而利之，导而舍之，故反间可得而用也；因是而知之，故乡间、内间可得而使也；因是而知之，故死间为诳事，可使告敌；因是而知之，故生间可使如期。五间之事，主必知之，知之必在于反间，故反间不可不厚也。\n\n昔殷之兴也，伊挚在夏；周之兴也，吕牙在殷。故明君贤将，能以上智为间者，必成大功。此兵之要，三军之所恃而动也。",
+    "fullOriginal": "孙子曰：凡兴师十万，出征千里，百姓之费、公家之奉，日费千金；内外骚动，怠于道路，不得操事者，七十万家。\n相守数年，以争一日之胜，而爱爵禄百金，不知敌之情者，不仁之至也，非人之将也，非主之佐也，非胜之主也。\n故明君贤将所以动而胜人，成功出于众者，先知也。\n先知者，不可取于鬼神，不可象于事，不可验于度，必取于人，知敌之情者也。\n故用间有五：有因间，有内间，有反间，有死间，有生间。\n因间者，因其乡人而用之。\n内间者，因其官人而用之。\n反间者，因其敌间而用之。\n死间者，为诳事于外，令吾间知之，而传于敌间也。\n生间者，反报也。\n故三军之事，莫亲于间，赏莫厚于间，事莫密于间。\n非圣智不能用间，非仁义不能使间，非微妙不能得间之实。\n微哉微哉！无所不用间也。\n间事未发，而先闻者，间与所告者皆死。\n凡军之所欲击，城之所欲攻，人之所欲杀，必先知其守将、左右、谒者、门者、舍人之姓名，令吾间必索知之。\n必索敌人之间来间我者，因而利之，导而舍之，故反间可得而用也。\n因是而知之，故乡间、内间可得而使也。\n因是而知之，故死间为诳事，可使告敌。\n因是而知之，故生间可使如期。\n五间之事，主必知之，知之必在于反间，故反间不可不厚也。\n昔殷之兴也，伊挚在夏；周之兴也，吕牙在殷。\n故惟明君贤将，能以上智为间者，必成大功。\n此兵之要，三军之所恃而动也。",
     "sentences": [
       {
         "id": "yong-jian-1",
         "chapterId": "yong-jian",
         "order": 1,
-        "original": "凡兴师十万，出征千里，百姓之费，公家之奉，日费千金，内外骚动，怠于道路，不得操事者，七十万家。",
+        "original": "孙子曰：凡兴师十万，出征千里，百姓之费、公家之奉，日费千金；内外骚动，怠于道路，不得操事者，七十万家。",
         "words": [
           {
             "word": "道",
@@ -10982,18 +14589,22 @@ export const chapters: Chapter[] = [
             "modernMapping": "组织共识"
           },
           {
-            "word": "凡兴师十",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "孙子曰",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           },
           {
-            "word": "出征千里",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "凡兴师十",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           }
         ],
-        "translation": "换成今天的话：凡是兴军队十万，出征千里，百姓之费，公家之奉，日费千金，内外骚动，怠于共同目标路，不得操事，七十万家。",
+        "translation": "孙子说：凡是兴兵十万，出征千里，百姓的耗费、国家的供给，每天都要花费大量钱财；国内国外都会骚动，百姓疲于道路运输，不能正常从事生产的，可能涉及几十万家。",
+        "literalTranslation": "孙子说：凡是兴兵十万，出征千里，百姓的耗费、国家的供给，每天都要花费大量钱财；国内国外都会骚动，百姓疲于道路运输，不能正常从事生产的，可能涉及几十万家。",
+        "freeTranslation": "这句话强调：本句服务于“信息优势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“信息优势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“信息优势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bing-gui-sheng",
@@ -11014,7 +14625,7 @@ export const chapters: Chapter[] = [
         "id": "yong-jian-2",
         "chapterId": "yong-jian",
         "order": 2,
-        "original": "相守数年，以争一日之胜，而爱爵禄百金，不知敌之情者，不仁之至也，非民之将也，非主之佐也，非胜之主也。",
+        "original": "相守数年，以争一日之胜，而爱爵禄百金，不知敌之情者，不仁之至也，非人之将也，非主之佐也，非胜之主也。",
         "words": [
           {
             "word": "将",
@@ -11023,17 +14634,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "相守数年",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           },
           {
             "word": "以争一日",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           }
         ],
-        "translation": "这句在说：相防守数年，以争一日之取胜，而爱爵禄百金，不知对手之情，不仁之至，非民众之将领，非君主之佐，非取胜之君主。",
+        "translation": "两军相持数年，只为争取一日的胜利，却吝惜爵位、俸禄和少量钱财，不肯用来获取敌情，这是极端不仁。这样的人，不配做军队的将帅，不配做君主的辅佐，也不是能够取胜的主事者。",
+        "literalTranslation": "两军相持数年，只为争取一日的胜利，却吝惜爵位、俸禄和少量钱财，不肯用来获取敌情，这是极端不仁。这样的人，不配做军队的将帅，不配做君主的辅佐，也不是能够取胜的主事者。",
+        "freeTranslation": "这句话强调：先建立不败条件，再等待或制造可胜窗口。",
+        "coreMeaning": "先建立不败条件，再等待或制造可胜窗口。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要脱离“信息优势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "bu-ke-sheng-zai-ji",
@@ -11067,8 +14682,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "领导能力"
           }
         ],
-        "translation": "明君贤将之所以一行动就能胜过别人、功业超出众人，是因为先掌握真实情况。",
+        "translation": "所以，明智的君主、贤能的将帅之所以一行动就能战胜别人，功业超过众人，是因为他们能预先知道敌情。",
+        "literalTranslation": "所以，明智的君主、贤能的将帅之所以一行动就能战胜别人，功业超过众人，是因为他们能预先知道敌情。",
+        "freeTranslation": "关键决策前要取得真实可靠的信息来源。",
+        "coreMeaning": "判断必须同时覆盖自身、对手和环境，缺一面都会造成误判。",
         "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
           "dao-tian-di-jiang-fa",
           "zhi-ji-zhi-bi",
@@ -11098,17 +14717,21 @@ export const chapters: Chapter[] = [
           },
           {
             "word": "先知者",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           },
           {
             "word": "不可取于",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           }
         ],
-        "translation": "预先知道敌情，不能靠鬼神、类比或空泛推算，必须依靠真正了解敌情的人。",
+        "translation": "预先知道敌情，不能依靠鬼神，不能只靠类比推测，不能只靠星占历法验证，必须从人那里取得，也就是从了解敌情的人那里取得。",
+        "literalTranslation": "预先知道敌情，不能依靠鬼神，不能只靠类比推测，不能只靠星占历法验证，必须从人那里取得，也就是从了解敌情的人那里取得。",
+        "freeTranslation": "关键决策前要取得真实可靠的信息来源。",
+        "coreMeaning": "判断必须同时覆盖自身、对手和环境，缺一面都会造成误判。",
         "modernApplication": "调研、情报和用户反馈要来自真实一线，既要保护信息源，也要防止被错误信息反向影响。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
           "zhi-ji-zhi-bi",
           "yong-jian",
@@ -11147,8 +14770,12 @@ export const chapters: Chapter[] = [
             "modernMapping": "一手反馈"
           }
         ],
-        "translation": "白话说就是：所以用情报人员有五：有因情报人员，有内情报人员，有反情报人员，有死情报人员，有生情报人员。",
+        "translation": "所以，使用间谍有五种：因间、内间、反间、死间、生间。",
+        "literalTranslation": "所以，使用间谍有五种：因间、内间、反间、死间、生间。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
         "modernApplication": "调研、情报和用户反馈要来自真实一线，既要保护信息源，也要防止被错误信息反向影响。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
           "zhi-ji-zhi-bi",
           "yong-jian",
@@ -11169,31 +14796,35 @@ export const chapters: Chapter[] = [
         "id": "yong-jian-6",
         "chapterId": "yong-jian",
         "order": 6,
-        "original": "五间俱起，莫知其道，是谓神纪，人君之宝也。",
+        "original": "因间者，因其乡人而用之。",
         "words": [
           {
-            "word": "道",
-            "explanation": "上下同欲、目标一致的组织状态。",
-            "modernMapping": "组织共识"
-          },
-          {
-            "word": "五间俱起",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "因间者",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           },
           {
-            "word": "莫知其道",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "因其乡人",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "而用之",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           }
         ],
-        "translation": "换成今天的话：五情报人员俱起，没有谁知其共同目标，是谓神纪，人君之宝。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "因间，是利用敌国当地人做间谍。",
+        "literalTranslation": "因间，是利用敌国当地人做间谍。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "modernApplication": "用于信息优势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
           "zhi-ji-zhi-bi",
           "yong-jian",
-          "zhi-ren-bu-zhi-yu-ren"
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
         ],
         "relatedCaseIds": [
           "team-alignment",
@@ -11209,21 +14840,30 @@ export const chapters: Chapter[] = [
         "id": "yong-jian-7",
         "chapterId": "yong-jian",
         "order": 7,
-        "original": "乡间者，因其乡人而用之；内间者，因其官人而用之；反间者，因其敌间而用之；死间者，为诳事于外，令吾闻知之而传于敌间也；生间者，反报也。",
+        "original": "内间者，因其官人而用之。",
         "words": [
           {
-            "word": "反间",
-            "explanation": "利用对方间谍反向取得信息或传递信息。",
-            "modernMapping": "反向情报"
+            "word": "内间者",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
           },
           {
-            "word": "生间",
-            "explanation": "能够返回报告的间谍。",
-            "modernMapping": "一手反馈"
+            "word": "因其官人",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "而用之",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
           }
         ],
-        "translation": "这句在说：乡情报人员，因其乡人而用之；内情报人员，因其官人而用之；反情报人员，因其对手情报人员而用之；死情报人员，为诳事于外，令我方闻知之而传于对手情报人员；生情报人员，反报。",
-        "modernApplication": "调研、情报和用户反馈要来自真实一线，既要保护信息源，也要防止被错误信息反向影响。",
+        "translation": "内间，是利用敌国内部官员做间谍。",
+        "literalTranslation": "内间，是利用敌国内部官员做间谍。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "modernApplication": "用于信息优势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
           "zhi-ji-zhi-bi",
           "yong-jian",
@@ -11244,31 +14884,35 @@ export const chapters: Chapter[] = [
         "id": "yong-jian-8",
         "chapterId": "yong-jian",
         "order": 8,
-        "original": "故三军之事，莫亲于间，赏莫厚于间，事莫密于间，非圣贤不能用间，非仁义不能使间，非微妙不能得间之实。",
+        "original": "反间者，因其敌间而用之。",
         "words": [
           {
-            "word": "用间",
-            "explanation": "使用间谍与情报网络。",
-            "modernMapping": "情报体系"
+            "word": "反间",
+            "explanation": "利用对方间谍反向取得信息或传递信息。",
+            "modernMapping": "反向情报"
           },
           {
-            "word": "故三军之",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "反间者",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           },
           {
-            "word": "莫亲于间",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "因其敌间",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           }
         ],
-        "translation": "意思是：所以三军队之事，没有谁亲于情报人员，赏没有谁厚于情报人员，事没有谁密于情报人员，非圣贤不能用情报人员，非仁义不能使情报人员，非微妙不能得情报人员之坚实处。",
-        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "translation": "反间，是利用敌方派来的间谍反过来为我所用。",
+        "literalTranslation": "反间，是利用敌方派来的间谍反过来为我所用。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "modernApplication": "调研、情报和用户反馈要来自真实一线，既要保护信息源，也要防止被错误信息反向影响。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
           "zhi-ji-zhi-bi",
-          "bi-shi-ji-xu",
           "yong-jian",
-          "zhi-ren-bu-zhi-yu-ren"
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
         ],
         "relatedCaseIds": [
           "team-alignment",
@@ -11284,17 +14928,33 @@ export const chapters: Chapter[] = [
         "id": "yong-jian-9",
         "chapterId": "yong-jian",
         "order": 9,
-        "original": "微哉微哉！",
+        "original": "死间者，为诳事于外，令吾间知之，而传于敌间也。",
         "words": [
           {
-            "word": "微哉微哉",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "死间者",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "为诳事于",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "令吾间知",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           }
         ],
-        "translation": "可以理解为：微哉微哉！",
-        "modernApplication": "用于信息优势时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "死间，是在外制造虚假情报，让我方间谍知道后传给敌方间谍；一旦真相败露，此间谍往往难以活命，所以叫死间。",
+        "literalTranslation": "死间，是在外制造虚假情报，让我方间谍知道后传给敌方间谍；一旦真相败露，此间谍往往难以活命，所以叫死间。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "modernApplication": "用于信息优势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
+          "zhi-ji-zhi-bi",
+          "yong-jian",
           "zhi-ren-bu-zhi-yu-ren",
           "gong-qi-suo-bi-jiu"
         ],
@@ -11306,32 +14966,36 @@ export const chapters: Chapter[] = [
           "t22",
           "t29"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "important"
       },
       {
         "id": "yong-jian-10",
         "chapterId": "yong-jian",
         "order": 10,
-        "original": "无所不用间也。",
+        "original": "生间者，反报也。",
         "words": [
           {
-            "word": "用间",
-            "explanation": "使用间谍与情报网络。",
-            "modernMapping": "情报体系"
+            "word": "生间",
+            "explanation": "能够返回报告的间谍。",
+            "modernMapping": "一手反馈"
           },
           {
-            "word": "无所不用",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "生间者",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           },
           {
-            "word": "间也",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "反报也",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           }
         ],
-        "translation": "白话说就是：无所不用情报人员。",
+        "translation": "生间，是派出去后能够回来报告情报的间谍。",
+        "literalTranslation": "生间，是派出去后能够回来报告情报的间谍。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
         "modernApplication": "调研、情报和用户反馈要来自真实一线，既要保护信息源，也要防止被错误信息反向影响。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
           "zhi-ji-zhi-bi",
           "yong-jian",
@@ -11352,26 +15016,30 @@ export const chapters: Chapter[] = [
         "id": "yong-jian-11",
         "chapterId": "yong-jian",
         "order": 11,
-        "original": "间事未发而先闻者，间与所告者兼死。",
+        "original": "故三军之事，莫亲于间，赏莫厚于间，事莫密于间。",
         "words": [
           {
-            "word": "间事未发",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "故三军之",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           },
           {
-            "word": "而先闻者",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "莫亲于间",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           },
           {
-            "word": "间与所告",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "赏莫厚于",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           }
         ],
-        "translation": "换成今天的话：情报人员事未发而先闻，情报人员与所告兼死。",
-        "modernApplication": "用于信息优势时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "所以，军队事务中，没有比间谍更亲近机密的；赏赐没有比间谍更丰厚的；事情没有比间谍工作更秘密的。",
+        "literalTranslation": "所以，军队事务中，没有比间谍更亲近机密的；赏赐没有比间谍更丰厚的；事情没有比间谍工作更秘密的。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "modernApplication": "用于信息优势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
           "zhi-ji-zhi-bi",
           "yong-jian",
@@ -11392,26 +15060,35 @@ export const chapters: Chapter[] = [
         "id": "yong-jian-12",
         "chapterId": "yong-jian",
         "order": 12,
-        "original": "凡军之所欲击，城之所欲攻，人之所欲杀，必先知其守将、左右、谒者、门者、舍人之姓名，令吾间必索知之。",
+        "original": "非圣智不能用间，非仁义不能使间，非微妙不能得间之实。",
         "words": [
           {
-            "word": "先知",
-            "explanation": "行动前先掌握对方真实情况。",
-            "modernMapping": "前置调研"
+            "word": "用间",
+            "explanation": "使用间谍与情报网络。",
+            "modernMapping": "情报体系"
           },
           {
-            "word": "将",
-            "explanation": "负责人的智、信、仁、勇、严。",
-            "modernMapping": "领导能力"
+            "word": "非圣智不",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "能用间",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
           }
         ],
-        "translation": "这句在说：凡是军队之所欲击，城之所欲进攻，人之所欲杀，必先知其防守将领、左右、谒、门、舍人之姓名，令我方情报人员必索知之。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "不是具有高明智慧的人，不能使用间谍；不是仁义而能得人心的人，不能指使间谍；不是精微细致的人，不能取得间谍情报的真实内容。",
+        "literalTranslation": "不是具有高明智慧的人，不能使用间谍；不是仁义而能得人心的人，不能指使间谍；不是精微细致的人，不能取得间谍情报的真实内容。",
+        "freeTranslation": "这句话强调：争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "coreMeaning": "争取主动权的办法，是避开坚实处，牵动对方必须响应的薄弱点。",
+        "modernApplication": "小团队面对强对手时，选择对方服务不到、反应慢或必须保护的薄弱点切入，避免在主战场拼规模。",
+        "misunderstanding": "不要把“击虚”理解成投机取巧；它要求准确识别对方真正薄弱且关键的节点。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
           "zhi-ji-zhi-bi",
-          "bu-ke-sheng-zai-ji",
-          "yong-jian"
+          "bi-shi-ji-xu",
+          "yong-jian",
+          "zhi-ren-bu-zhi-yu-ren"
         ],
         "relatedCaseIds": [
           "team-alignment",
@@ -11421,32 +15098,41 @@ export const chapters: Chapter[] = [
           "t25",
           "t02"
         ],
-        "quoteLevel": "classic"
+        "quoteLevel": "important"
       },
       {
         "id": "yong-jian-13",
         "chapterId": "yong-jian",
         "order": 13,
-        "original": "敌间之来间我者，因而利之，导而舍之，故反间可得而用也；因是而知之，故乡间、内间可得而使也；因是而知之，故死间为诳事，可使告敌；因是而知之，故生间可使如期。",
+        "original": "微哉微哉！无所不用间也。",
         "words": [
           {
-            "word": "反间",
-            "explanation": "利用对方间谍反向取得信息或传递信息。",
-            "modernMapping": "反向情报"
+            "word": "用间",
+            "explanation": "使用间谍与情报网络。",
+            "modernMapping": "情报体系"
           },
           {
-            "word": "生间",
-            "explanation": "能够返回报告的间谍。",
-            "modernMapping": "一手反馈"
+            "word": "微哉微哉",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "无所不用",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
           }
         ],
-        "translation": "意思是：对手情报人员之来情报人员我，因而利益之，导而舍之，所以反情报人员可得而用；因是而知之，所以乡情报人员、内情报人员可得而使；因是而知之，所以死情报人员为诳事，可使告对手；因是而知之，所以生情报人员可使如期。",
+        "translation": "微妙啊，微妙啊！没有什么地方不能使用间谍。",
+        "literalTranslation": "微妙啊，微妙啊！没有什么地方不能使用间谍。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
         "modernApplication": "调研、情报和用户反馈要来自真实一线，既要保护信息源，也要防止被错误信息反向影响。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
           "zhi-ji-zhi-bi",
-          "li-hai-bing-guan",
           "yong-jian",
-          "zhi-ren-bu-zhi-yu-ren"
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
         ],
         "relatedCaseIds": [
           "team-alignment",
@@ -11462,26 +15148,30 @@ export const chapters: Chapter[] = [
         "id": "yong-jian-14",
         "chapterId": "yong-jian",
         "order": 14,
-        "original": "五间之事，主必知之，知之必在于反间，故反间不可不厚也。",
+        "original": "间事未发，而先闻者，间与所告者皆死。",
         "words": [
           {
-            "word": "反间",
-            "explanation": "利用对方间谍反向取得信息或传递信息。",
-            "modernMapping": "反向情报"
-          },
-          {
-            "word": "五间之事",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "间事未发",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           },
           {
-            "word": "主必知之",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "而先闻者",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "间与所告",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           }
         ],
-        "translation": "可以理解为：五情报人员之事，君主必知之，知之必在于反情报人员，所以反情报人员不可不厚。",
-        "modernApplication": "调研、情报和用户反馈要来自真实一线，既要保护信息源，也要防止被错误信息反向影响。",
+        "translation": "间谍之事还没有发动，就已经泄露消息的，间谍和泄露者都要处死。",
+        "literalTranslation": "间谍之事还没有发动，就已经泄露消息的，间谍和泄露者都要处死。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "modernApplication": "用于信息优势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
           "zhi-ji-zhi-bi",
           "yong-jian",
@@ -11502,29 +15192,30 @@ export const chapters: Chapter[] = [
         "id": "yong-jian-15",
         "chapterId": "yong-jian",
         "order": 15,
-        "original": "昔殷之兴也，伊挚在夏；周之兴也，吕牙在殷。",
+        "original": "凡军之所欲击，城之所欲攻，人之所欲杀，必先知其守将、左右、谒者、门者、舍人之姓名，令吾间必索知之。",
         "words": [
           {
-            "word": "昔殷之兴",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
-            "modernMapping": "信息优势"
+            "word": "先知",
+            "explanation": "行动前先掌握对方真实情况。",
+            "modernMapping": "前置调研"
           },
           {
-            "word": "伊挚在夏",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
-            "modernMapping": "信息优势"
-          },
-          {
-            "word": "周之兴也",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
-            "modernMapping": "信息优势"
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
           }
         ],
-        "translation": "白话说就是：昔殷之兴，伊挚在夏；周之兴，吕牙在殷。",
-        "modernApplication": "用于信息优势时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "凡是军队想要攻击的对象、城池想要攻取的对象、人物想要除掉的对象，必须先知道其守将、左右亲信、传达宾客、守门人、门客舍人的姓名，并命令我方间谍一定要搜索了解清楚。",
+        "literalTranslation": "凡是军队想要攻击的对象、城池想要攻取的对象、人物想要除掉的对象，必须先知道其守将、左右亲信、传达宾客、守门人、门客舍人的姓名，并命令我方间谍一定要搜索了解清楚。",
+        "freeTranslation": "关键决策前要取得真实可靠的信息来源。",
+        "coreMeaning": "判断必须同时覆盖自身、对手和环境，缺一面都会造成误判。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
-          "zhi-ren-bu-zhi-yu-ren",
-          "gong-qi-suo-bi-jiu"
+          "dao-tian-di-jiang-fa",
+          "zhi-ji-zhi-bi",
+          "bu-ke-sheng-zai-ji",
+          "yong-jian"
         ],
         "relatedCaseIds": [
           "team-alignment",
@@ -11534,35 +15225,39 @@ export const chapters: Chapter[] = [
           "t28",
           "t05"
         ],
-        "quoteLevel": "normal"
+        "quoteLevel": "classic"
       },
       {
         "id": "yong-jian-16",
         "chapterId": "yong-jian",
         "order": 16,
-        "original": "故明君贤将，能以上智为间者，必成大功。",
+        "original": "必索敌人之间来间我者，因而利之，导而舍之，故反间可得而用也。",
         "words": [
           {
-            "word": "将",
-            "explanation": "负责人的智、信、仁、勇、严。",
-            "modernMapping": "领导能力"
+            "word": "反间",
+            "explanation": "利用对方间谍反向取得信息或传递信息。",
+            "modernMapping": "反向情报"
           },
           {
-            "word": "故明君贤",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "必索敌人",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           },
           {
-            "word": "能以上智",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "之间来间",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           }
         ],
-        "translation": "换成今天的话：所以明君贤将领，能以上智为情报人员，必成大功。",
-        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "translation": "一定要查出敌人派来侦察我的间谍，然后用利益收买他，引导他、安置他，于是反间就可以被我使用。",
+        "literalTranslation": "一定要查出敌人派来侦察我的间谍，然后用利益收买他，引导他、安置他，于是反间就可以被我使用。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "modernApplication": "调研、情报和用户反馈要来自真实一线，既要保护信息源，也要防止被错误信息反向影响。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
-          "dao-tian-di-jiang-fa",
           "zhi-ji-zhi-bi",
+          "li-hai-bing-guan",
           "yong-jian",
           "zhi-ren-bu-zhi-yu-ren"
         ],
@@ -11580,27 +15275,33 @@ export const chapters: Chapter[] = [
         "id": "yong-jian-17",
         "chapterId": "yong-jian",
         "order": 17,
-        "original": "此兵之要，三军之所恃而动也。",
+        "original": "因是而知之，故乡间、内间可得而使也。",
         "words": [
           {
-            "word": "此兵之要",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "因是而知",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           },
           {
-            "word": "三军之所",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "故乡间",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           },
           {
-            "word": "恃而动也",
-            "explanation": "本句实际出现的关键表达，需要放回“信息优势”语境中理解。",
+            "word": "内间可得",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
             "modernMapping": "信息优势"
           }
         ],
-        "translation": "这句在说：此兵之要，三军队之所恃而动。",
-        "modernApplication": "用于信息优势时，可把本句转成一个检查问题：当前行动的目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "translation": "通过反间取得情报，所以乡间、内间也可以使用。",
+        "literalTranslation": "通过反间取得情报，所以乡间、内间也可以使用。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "modernApplication": "用于信息优势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
         "relatedConceptIds": [
+          "zhi-ji-zhi-bi",
+          "yong-jian",
           "zhi-ren-bu-zhi-yu-ren",
           "gong-qi-suo-bi-jiu"
         ],
@@ -11611,6 +15312,266 @@ export const chapters: Chapter[] = [
         "relatedTrainingIds": [
           "t30",
           "t07"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "yong-jian-18",
+        "chapterId": "yong-jian",
+        "order": 18,
+        "original": "因是而知之，故死间为诳事，可使告敌。",
+        "words": [
+          {
+            "word": "因是而知",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "故死间为",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "诳事",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          }
+        ],
+        "translation": "通过反间取得情报，所以死间制造的虚假信息可以让敌人相信。",
+        "literalTranslation": "通过反间取得情报，所以死间制造的虚假信息可以让敌人相信。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "modernApplication": "用于信息优势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi",
+          "yong-jian",
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
+        ],
+        "relatedCaseIds": [
+          "team-alignment",
+          "architecture-pilot"
+        ],
+        "relatedTrainingIds": [
+          "t01",
+          "t08"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "yong-jian-19",
+        "chapterId": "yong-jian",
+        "order": 19,
+        "original": "因是而知之，故生间可使如期。",
+        "words": [
+          {
+            "word": "生间",
+            "explanation": "能够返回报告的间谍。",
+            "modernMapping": "一手反馈"
+          },
+          {
+            "word": "因是而知",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "故生间可",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          }
+        ],
+        "translation": "通过反间取得情报，所以生间也可以按预定计划回来报告。",
+        "literalTranslation": "通过反间取得情报，所以生间也可以按预定计划回来报告。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "modernApplication": "调研、情报和用户反馈要来自真实一线，既要保护信息源，也要防止被错误信息反向影响。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi",
+          "yong-jian",
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
+        ],
+        "relatedCaseIds": [
+          "team-alignment",
+          "architecture-pilot"
+        ],
+        "relatedTrainingIds": [
+          "t02",
+          "t09"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "yong-jian-20",
+        "chapterId": "yong-jian",
+        "order": 20,
+        "original": "五间之事，主必知之，知之必在于反间，故反间不可不厚也。",
+        "words": [
+          {
+            "word": "反间",
+            "explanation": "利用对方间谍反向取得信息或传递信息。",
+            "modernMapping": "反向情报"
+          },
+          {
+            "word": "五间之事",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "主必知之",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          }
+        ],
+        "translation": "五种间谍的运用，君主必须了解；而了解五间的关键在于反间，所以对反间不可不给予厚待。",
+        "literalTranslation": "五种间谍的运用，君主必须了解；而了解五间的关键在于反间，所以对反间不可不给予厚待。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "modernApplication": "调研、情报和用户反馈要来自真实一线，既要保护信息源，也要防止被错误信息反向影响。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
+        "relatedConceptIds": [
+          "zhi-ji-zhi-bi",
+          "yong-jian",
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
+        ],
+        "relatedCaseIds": [
+          "team-alignment",
+          "architecture-pilot"
+        ],
+        "relatedTrainingIds": [
+          "t03",
+          "t10"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "yong-jian-21",
+        "chapterId": "yong-jian",
+        "order": 21,
+        "original": "昔殷之兴也，伊挚在夏；周之兴也，吕牙在殷。",
+        "words": [
+          {
+            "word": "昔殷之兴",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "伊挚在夏",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "周之兴也",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          }
+        ],
+        "translation": "从前商朝兴起，是因为伊尹曾在夏朝了解情况；周朝兴起，是因为姜太公曾在殷商了解情况。",
+        "literalTranslation": "从前商朝兴起，是因为伊尹曾在夏朝了解情况；周朝兴起，是因为姜太公曾在殷商了解情况。",
+        "freeTranslation": "这句话强调：本句服务于“信息优势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“信息优势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于信息优势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“信息优势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
+        ],
+        "relatedCaseIds": [
+          "team-alignment",
+          "architecture-pilot"
+        ],
+        "relatedTrainingIds": [
+          "t04",
+          "t11"
+        ],
+        "quoteLevel": "normal"
+      },
+      {
+        "id": "yong-jian-22",
+        "chapterId": "yong-jian",
+        "order": 22,
+        "original": "故惟明君贤将，能以上智为间者，必成大功。",
+        "words": [
+          {
+            "word": "将",
+            "explanation": "负责人的智、信、仁、勇、严。",
+            "modernMapping": "领导能力"
+          },
+          {
+            "word": "故惟明君",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "贤将",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          }
+        ],
+        "translation": "所以，只有明智的君主、贤能的将帅，能够用最高智慧的人做间谍，才一定能成就大功。",
+        "literalTranslation": "所以，只有明智的君主、贤能的将帅，能够用最高智慧的人做间谍，才一定能成就大功。",
+        "freeTranslation": "这句话强调：可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "coreMeaning": "可靠情报要来自真实的人和现场，而不是迷信、猜测或空泛推演。",
+        "modernApplication": "重大项目立项时，把目标共识、外部窗口、资源位置、负责人能力和流程制度逐项列清，缺一项就降低投入强度。",
+        "misunderstanding": "不要把情报工作等同于猜测或窥私；现代应用应转化为合法合规的一线调研和事实核验。",
+        "relatedConceptIds": [
+          "dao-tian-di-jiang-fa",
+          "zhi-ji-zhi-bi",
+          "yong-jian",
+          "zhi-ren-bu-zhi-yu-ren"
+        ],
+        "relatedCaseIds": [
+          "team-alignment",
+          "architecture-pilot"
+        ],
+        "relatedTrainingIds": [
+          "t05",
+          "t12"
+        ],
+        "quoteLevel": "important"
+      },
+      {
+        "id": "yong-jian-23",
+        "chapterId": "yong-jian",
+        "order": 23,
+        "original": "此兵之要，三军之所恃而动也。",
+        "words": [
+          {
+            "word": "此兵之要",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "三军之所",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          },
+          {
+            "word": "恃而动也",
+            "explanation": "理解这个表达时，应结合“信息优势”的上下文，看它指向条件、代价还是行动顺序。",
+            "modernMapping": "信息优势"
+          }
+        ],
+        "translation": "这是用兵的关键，是三军行动所依靠的基础。",
+        "literalTranslation": "这是用兵的关键，是三军行动所依靠的基础。",
+        "freeTranslation": "这句话强调：本句服务于“信息优势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "coreMeaning": "本句服务于“信息优势”这一主题，重点是把判断条件落实到行动顺序，而不是停留在口号。",
+        "modernApplication": "用于信息优势时，先把本句转成一个检查问题：目标、资源、风险、时机和执行条件是否已经被具体说明。",
+        "misunderstanding": "不要脱离“信息优势”孤立引用本句；它更适合作为判断工具，而不是直接套用的结论。",
+        "relatedConceptIds": [
+          "zhi-ren-bu-zhi-yu-ren",
+          "gong-qi-suo-bi-jiu"
+        ],
+        "relatedCaseIds": [
+          "team-alignment",
+          "architecture-pilot"
+        ],
+        "relatedTrainingIds": [
+          "t06",
+          "t13"
         ],
         "quoteLevel": "normal"
       }
@@ -11660,7 +15621,7 @@ export const concepts: DeepConcept[] = [
       {
         "name": "道",
         "ancientMeaning": "上下同欲，目标一致。",
-        "modernMapping": "组织共识、共同目标。",
+        "modernMapping": "组织共识、目标一致。",
         "example": "项目启动前确认业务、技术、管理层是否目标一致。"
       },
       {

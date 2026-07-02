@@ -30,7 +30,11 @@ export interface ChapterSentence {
   original: string;
   words: WordAnnotation[];
   translation: string;
+  literalTranslation?: string;
+  freeTranslation?: string;
+  coreMeaning?: string;
   modernApplication: string;
+  misunderstanding?: string;
   relatedConceptIds: string[];
   relatedCaseIds: string[];
   relatedTrainingIds: string[];
